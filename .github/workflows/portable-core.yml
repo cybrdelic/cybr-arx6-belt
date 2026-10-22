@@ -61,4 +61,5 @@ jobs:
         with:
           name: viewer-${{ matrix.os }}
           path: ARX-6-P5-Shader/.local/viewer-smoke.*
-          if-no-files-found: ignore
+          include-hidden-files: true
+          if-no-files-found: error
