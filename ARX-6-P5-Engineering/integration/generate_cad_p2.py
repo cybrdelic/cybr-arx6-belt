@@ -6,7 +6,7 @@ Vendor gear/motor internals, thread helices, bearing balls and connector details
 are intentionally absent. See engineering-report.md for fits and release gates.
 """
 from pathlib import Path
-import json, math
+import json, math, os, sys
 import cadquery as cq
 import numpy as np
 
@@ -14,7 +14,7 @@ ROOT=Path(__file__).resolve().parent
 SPEC=json.loads((ROOT/"spec.json").read_text())
 MESHES=[]
 PLACED_NATIVE=[]
-OUT=ROOT/'cad'; OUT.mkdir(exist_ok=True)
+OUT=Path(os.environ.get('ARX_CAD_OUTPUT',ROOT/'cad')); OUT.mkdir(parents=True,exist_ok=True)
 PLACED_OUT=OUT/'placed'; PLACED_OUT.mkdir(exist_ok=True)
 for old in OUT.glob('*'):
     if old.suffix.lower() in ['.step','.stl']: old.unlink()
@@ -98,6 +98,11 @@ def build_support(size):
     return {'d':d,'D':D,'B':B,'sep':sep,'rear':rear,'front':front}
 
 SUP={k:build_support(k) for k in ['large','small']}
+if '--smoke' in sys.argv:
+    assert len(META)==10 and all(v['volume_mm3']>0 for v in META.values())
+    print(json.dumps({'scope':'Ten native bearing-support solids; not full CAD or hardware qualification','parts':META,'output':str(OUT)},indent=2))
+    raise SystemExit(0)
+
 
 # DIN471 installed envelopes: ring s=1.2 (A20), 1.0 (A12), not free-state IDs.
 # 0.10mm is a nominal shim only. Select thickness after measuring the complete

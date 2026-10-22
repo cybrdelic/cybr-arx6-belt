@@ -10,3 +10,8 @@ action/ARX-6-P5-In-Action-1080p.mp4
 # Restored byte-exact cache; the compressed original is tracked.
 ARX-6-P5-Engineering/integration/geometry-meshes.json
 ARX-6-P5-Engineering/integration/geometry-meshes.json.restoring
+
+.venv*/
+.local/
+
+ARX-6-P5-Shader/node_modules/

@@ -1,0 +1,66 @@
+name: Portable ARX core
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  core:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install native CAD and render dependencies
+        run: python -m pip install -r ARX-6-P5-Engineering/integration/requirements-p5.txt -r ARX-6-P5-Shader/requirements.txt
+      - name: Build real native CAD and run fresh dynamics
+        run: |
+          python tools/portable.py cad-smoke
+          python tools/portable.py physics-smoke
+      - name: Build portable WebGL2 viewer
+        run: |
+          python tools/portable.py viewer-build
+          python ARX-6-P5-Shader/tools/check_webgl_accessor_contract.py
+          node ARX-6-P5-Shader/tools/test_renderer_cleanup.cjs
+      - name: Install browser test runtime
+        working-directory: ARX-6-P5-Shader
+        run: |
+          npm ci --ignore-scripts
+          npx playwright install chromium
+      - name: Install Linux software OpenGL display
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0 mesa-utils
+      - name: Render exact procedural robot with Linux Mesa
+        if: runner.os == 'Linux'
+        working-directory: ARX-6-P5-Shader
+        env:
+          ARX_VIEWER_TIMEOUT_MS: '600000'
+          ARX_HEADLESS: '0'
+          ARX_ANGLE: gl
+          LIBGL_ALWAYS_SOFTWARE: 'true'
+        run: xvfb-run -a node tools/smoke_viewer.cjs
+      - name: Render exact procedural robot in WebGL2
+        if: runner.os != 'Linux'
+        working-directory: ARX-6-P5-Shader
+        env:
+          ARX_VIEWER_TIMEOUT_MS: '600000'
+        run: node tools/smoke_viewer.cjs
+      - name: Save actual viewer frame and backend receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: viewer-${{ matrix.os }}
+          path: ARX-6-P5-Shader/.local/viewer-smoke.*
+          include-hidden-files: true
+          if-no-files-found: error

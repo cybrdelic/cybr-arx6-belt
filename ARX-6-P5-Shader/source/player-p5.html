@@ -20,7 +20,7 @@ const mobile=/Android|iPhone|iPad/i.test(navigator.userAgent)||matchMedia('(poin
 const pauseRAF=()=>new Promise(r=>requestAnimationFrame(r)), sleep=ms=>new Promise(r=>setTimeout(r,ms));
 let mode='film',requestedMode='film',lastShaderMode='replay',running=false,time=2.5,dirty=true;
 let canvas=$('canvas'),gl=null,program=null,vao=null,fbo=null,colorTarget=null,U={};
-let renderReady=false,compilePromise=null,renderPromise=null,modeSerial=0,contextSerial=0;
+let renderReady=false,compilePromise=null,renderPromise=null,modeSerial=0,contextSerial=0,rendererResources=null;
 let width=0,height=0,drag=[0,0],zoom=0,sim=null,mj=null,Controller=null,physicsPromise=null;
 let lastClock=0,acc=0,loopPending=false,lossCount=0,restoreCount=0,buildCount=0,completedFrames=0,drawCalls=0,probeCount=0;
 let manualQuality=false;
@@ -71,6 +71,7 @@ async function gpuWait(serial,timeoutMs=15000){
  }}finally{if(gl&&!gl.isContextLost()&&serial===contextSerial)gl.deleteSync(fence);}
 }
 function handleLost(e){
+ disposeRenderer();
  e.preventDefault();lossCount++;contextSerial++;renderReady=false;program=null;vao=null;fbo=null;colorTarget=null;width=0;height=0;compilePromise=null;lastClock=0;
  lastLossState=sim?Array.from(sim.frame()):null;lastShaderMode=mode==='live'?'live':'replay';
  $('resolution').value='256';$('samples').value='1';maxPixelsPerSubmission=4096;
@@ -78,6 +79,7 @@ function handleLost(e){
  // Recovery of GPU resources is deferred until the user resumes the shader.
 }
 async function handleRestored(){
+ disposeRenderer();
  restoreCount++;renderReady=false;program=null;vao=null;fbo=null;colorTarget=null;width=0;height=0;compilePromise=null;
  restoredState=sim?Array.from(sim.frame()):null;
  $('notice').textContent='Graphics context restored. Retry shader starts at 256 px / one sample; the live physical state is preserved.';
@@ -97,6 +99,7 @@ function bindCanvas(){
 }
 bindCanvas();
 function replaceCanvas(){
+ disposeRenderer();
  const old=canvas;old.removeEventListener('webglcontextlost',handleLost);old.removeEventListener('webglcontextrestored',handleRestored);
  canvas=document.createElement('canvas');canvas.id='canvas';canvas.hidden=mode==='film';canvas.setAttribute('aria-label',old.getAttribute('aria-label'));old.replaceWith(canvas);bindCanvas();
  gl=null;contextSerial++;program=null;vao=null;fbo=null;colorTarget=null;renderReady=false;compilePromise=null;width=0;height=0;pointerMap.clear();
@@ -108,6 +111,27 @@ function createContext(){
   gl=canvas.getContext('webgl2',{alpha:false,antialias:false,depth:false,stencil:false,preserveDrawingBuffer:false,powerPreference:'default'});
   if(!gl)throw Error('This browser did not provide WebGL 2. Use the embedded film.');
   lossExtension=gl.getExtension('WEBGL_lose_context');contextSerial++;
+ }
+}
+function resetRendererMetadata(){selectedNumericTables=null;numericTableBuffers=[];numericTableReadbackVerified=false;}
+function disposeRenderer(resources=rendererResources){
+ if(!resources)return;
+ const current=rendererResources===resources,ctx=resources.context;
+ // A restored context invalidates its old handles, even if the JS context object
+ // is the same. Stale asynchronous attempts must never clear a newer renderer.
+ const usable=ctx===gl&&resources.serial===contextSerial&&!ctx.isContextLost();
+ if(usable){
+  if(current){ctx.useProgram(null);ctx.bindVertexArray(null);}
+  for(const buffer of resources.buffers)ctx.deleteBuffer(buffer);
+  if(resources.vao)ctx.deleteVertexArray(resources.vao);
+  if(resources.program)ctx.deleteProgram(resources.program);
+  for(const shader of resources.shaders)ctx.deleteShader(shader);
+ }
+ resources.buffers=[];resources.shaders=[];resources.vao=null;resources.program=null;
+ if(current){
+  if(usable)dropTarget();else{fbo=null;colorTarget=null;}
+  program=null;vao=null;U={};width=0;height=0;renderReady=false;
+  rendererResources=null;resetRendererMetadata();
  }
 }
 function dropTarget(){if(gl&&!gl.isContextLost()){if(fbo)gl.deleteFramebuffer(fbo);if(colorTarget)gl.deleteTexture(colorTarget);}fbo=null;colorTarget=null;}
@@ -126,16 +150,15 @@ function selectNumericShader(){
  selectedNumericTables=A.webglNumeric.variants.find(v=>v.maximum_block_bytes<=blockSize&&v.block_count<=blockCount)||null;
  return selectedNumericTables?selectedNumericTables.source:A.shader;
 }
-function uploadNumericTables(){
- numericTableBuffers=[];numericTableReadbackVerified=false;
+function uploadNumericTables(resources){
+ numericTableBuffers=resources.buffers;numericTableReadbackVerified=false;
  if(!selectedNumericTables)return;
  for(const block of selectedNumericTables.blocks){
   const index=gl.getUniformBlockIndex(program,block.name);if(index===gl.INVALID_INDEX)continue;
   const bytes=bytes64(block.base64),required=gl.getActiveUniformBlockParameter(program,index,gl.UNIFORM_BLOCK_DATA_SIZE);
   if(required!==bytes.byteLength)throw Error('Numeric table layout differs: '+block.name+' '+required+' / '+bytes.byteLength);
-  const buffer=gl.createBuffer();gl.bindBuffer(gl.UNIFORM_BUFFER,buffer);gl.bufferData(gl.UNIFORM_BUFFER,bytes,gl.STATIC_DRAW);gl.uniformBlockBinding(program,index,block.binding);gl.bindBufferBase(gl.UNIFORM_BUFFER,block.binding,buffer);
+  const buffer=gl.createBuffer();if(!buffer)throw Error('Could not allocate numeric table buffer.');resources.buffers.push(buffer);gl.bindBuffer(gl.UNIFORM_BUFFER,buffer);gl.bufferData(gl.UNIFORM_BUFFER,bytes,gl.STATIC_DRAW);gl.uniformBlockBinding(program,index,block.binding);gl.bindBufferBase(gl.UNIFORM_BUFFER,block.binding,buffer);
   const copy=new Uint8Array(bytes.length);gl.getBufferSubData(gl.UNIFORM_BUFFER,0,copy);for(let i=0;i<bytes.length;i++)if(copy[i]!==bytes[i])throw Error('Numeric table upload differs: '+block.name);
-  numericTableBuffers.push(buffer);
  }
  numericTableReadbackVerified=true;
 }
@@ -143,26 +166,33 @@ function uploadNumericTables(){
 async function compile(){
  if(renderReady)return;
  if(compilePromise)return compilePromise;
- compilePromise=(async()=>{
-  createContext();const serial=contextSerial;await pauseRAF();
+ const pending=(async()=>{
+  let resources=null;
+  try{
+  createContext();const ctx=gl,serial=contextSerial;await pauseRAF();abortIfChanged(serial);
+  disposeRenderer();
+  resources={context:ctx,serial,program:null,vao:null,shaders:[],buffers:[]};rendererResources=resources;
   const vs='#version 300 es\nprecision highp float;void main(){vec2 p=vec2(float((gl_VertexID<<1)&2),float(gl_VertexID&2));gl_Position=vec4(p*2.-1.,0.,1.);}';
   const fs='#version 300 es\nprecision highp float;precision highp int;\n#define AA 1\n#define P3_QUALITY 1\n#define P5_SHADOW_SAMPLES 1\nuniform vec2 u_resolution;uniform float u_time;uniform int u_frame;uniform vec2 u_drag;uniform float u_scroll;out vec4 fragColor;\n'+selectNumericShader();
-  const make=(type,text)=>{const s=gl.createShader(type);gl.shaderSource(s,text);gl.compileShader(s);return s;};
-  const v=make(gl.VERTEX_SHADER,vs),f=make(gl.FRAGMENT_SHADER,fs),p=gl.createProgram();gl.attachShader(p,v);gl.attachShader(p,f);gl.linkProgram(p);
-  const ext=gl.getExtension('KHR_parallel_shader_compile'),start=performance.now();
-  if(ext)while(!gl.getProgramParameter(p,ext.COMPLETION_STATUS_KHR)){abortIfChanged(serial);if(performance.now()-start>300000)throw Error('Shader compilation timed out.');await sleep(30);}
+  const make=(type,text)=>{const s=ctx.createShader(type);if(!s)throw Error('Could not allocate shader.');resources.shaders.push(s);ctx.shaderSource(s,text);ctx.compileShader(s);return s;};
+  const v=make(ctx.VERTEX_SHADER,vs),f=make(ctx.FRAGMENT_SHADER,fs),p=ctx.createProgram();
+  if(!p)throw Error('Could not allocate shader program.');resources.program=p;ctx.attachShader(p,v);ctx.attachShader(p,f);ctx.linkProgram(p);
+  const ext=ctx.getExtension('KHR_parallel_shader_compile'),start=performance.now();
+  if(ext)for(;;){abortIfChanged(serial);if(ctx.getProgramParameter(p,ext.COMPLETION_STATUS_KHR))break;if(performance.now()-start>300000)throw Error('Shader compilation timed out.');await sleep(30);}
   abortIfChanged(serial);
-  if(!gl.getProgramParameter(p,gl.LINK_STATUS)){
-   const log=gl.getProgramInfoLog(p)+'\n'+gl.getShaderInfoLog(v)+'\n'+gl.getShaderInfoLog(f);gl.deleteShader(v);gl.deleteShader(f);gl.deleteProgram(p);throw Error(log);
+  if(!ctx.getProgramParameter(p,ctx.LINK_STATUS)){
+   throw Error(ctx.getProgramInfoLog(p)+'\n'+ctx.getShaderInfoLog(v)+'\n'+ctx.getShaderInfoLog(f));
   }
-  gl.deleteShader(v);gl.deleteShader(f);program=p;gl.useProgram(program);uploadNumericTables();buildCount++;
-  vao=gl.createVertexArray();gl.bindVertexArray(vao);gl.disable(gl.DEPTH_TEST);gl.disable(gl.BLEND);gl.disable(gl.CULL_FACE);
+  ctx.deleteShader(v);ctx.deleteShader(f);resources.shaders=[];program=p;gl.useProgram(program);uploadNumericTables(resources);buildCount++;
+  vao=resources.vao=ctx.createVertexArray();if(!vao)throw Error('Could not allocate vertex array.');ctx.bindVertexArray(vao);ctx.disable(ctx.DEPTH_TEST);ctx.disable(ctx.BLEND);ctx.disable(ctx.CULL_FACE);
   U={};for(const name of ['u_resolution','u_time','u_frame','u_drag','u_scroll','u_joint012','u_joint345','u_jawsSI','u_puck_positionSI','u_puck_quaternionWXYZ','u_camera_detail','u_cutaway','u_explode','u_inspect','u_part','u_mechanism','u_camera_override','u_camera_origin','u_camera_target','u_camera_focal','u_aperture','u_samples','u_reflections','u_exposure'])U[name]=gl.getUniformLocation(p,name);
   // Probe just 256 pixels before a real frame. No full-resolution first draw.
   allocateTarget(16,16);uploadState(recordedState(2.5),2.5,16,16,1);gl.bindFramebuffer(gl.FRAMEBUFFER,fbo);gl.viewport(0,0,16,16);gl.disable(gl.SCISSOR_TEST);gl.drawArrays(gl.TRIANGLES,0,3);drawCalls++;probeCount++;
   await gpuWait(serial,300000);abortIfChanged(serial);renderReady=true;dirty=true;window.ARX_ERROR=null;
+  }catch(error){disposeRenderer(resources);throw error;}
  })();
- try{await compilePromise;}finally{compilePromise=null;}
+ compilePromise=pending;
+ try{await pending;}finally{if(compilePromise===pending)compilePromise=null;}
 }
 function recordedState(t){
  const frames=A.frames;let lo=0,hi=frames.length-1;

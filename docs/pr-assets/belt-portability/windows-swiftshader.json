@@ -1,0 +1,68 @@
+{
+  "platform": "win32",
+  "backend": {
+    "devices": [
+      {
+        "vendorId": 65535,
+        "deviceId": 65535,
+        "subSysId": 0,
+        "revision": 0,
+        "vendorString": "Google Inc. (Google)",
+        "deviceString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+        "driverVendor": "SwANGLE",
+        "driverVersion": "5.0.0"
+      }
+    ],
+    "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver-5.0.0)",
+    "glVersion": "OpenGL ES 3.0 (ANGLE 2.1.28222 git hash: 6dab7c7e742b)",
+    "displayType": "ANGLE_SWIFTSHADER"
+  },
+  "diagnostics": {
+    "mode": "replay",
+    "requestedMode": "replay",
+    "rendererReady": true,
+    "webglAllocated": true,
+    "contextLost": false,
+    "mobile": false,
+    "width": 256,
+    "height": 144,
+    "longEdge": 256,
+    "pixels": 36864,
+    "samples": 1,
+    "maxPixelsPerSubmission": 16384,
+    "completedFrames": 1,
+    "drawCalls": 11,
+    "probeCount": 1,
+    "buildCount": 1,
+    "lossCount": 0,
+    "restoreCount": 0,
+    "lastFrameMs": 5839.400000035763,
+    "adaptiveDrops": 0,
+    "physicsStepped": 0,
+    "lastLossState": null,
+    "restoredState": null,
+    "shaderSHA": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+    "physicsSHA": {
+      "ARX-6-P5.xml": "cc9e9294dfdbd022027704beef9df1158aa84fbd58995091d2f8b18b804145aa",
+      "parameters.json": "0da3126e257dcffa653c28ec1f26d9b4aba9bffc63e564f60e98f2f4da5c168f",
+      "controller.mjs": "6c4bf36dfc8cbc034a81eef2930d5287b1cd09650e55b2f86dae04a44e8aa9de",
+      "safety.mjs": "10e967f2efd33ccb3ad547d18dfea57548aed2ebb7b0f4eebcc426f68eff06c5",
+      "mass_properties.json": "bb90fb8f104b3503ed999305f90c9fd681e3d5e2e4bbf26b646f37224f77fe11",
+      "p5_collision_proxies.json": "db5eff64aa0281a98a703e5b3b7db4a99abd6a4515d84de35c31a03b596dc64a"
+    },
+    "sceneTriangles": 0,
+    "sceneTextures": 0,
+    "numericTables": {
+      "blocks": 4,
+      "bytes": 244896,
+      "literalTablesRemaining": 0,
+      "shaderSHA": "a7b2586124c13058c19579c10dbe767a8b028c32d648e0e8f6bb52267a3cf58a",
+      "dataSHA": "714797b47f6e7718ca1c9798a240ceb3bdcc41cef2dcd11f0bb9ab751990c10b",
+      "readbackVerified": true
+    },
+    "internalRenderTargets": 1,
+    "filmEmbedded": false,
+    "lastError": null
+  },
+  "scope": "One fresh WebGL2 robot frame with verified geometry table bytes; no full film or hardware qualification"
+}

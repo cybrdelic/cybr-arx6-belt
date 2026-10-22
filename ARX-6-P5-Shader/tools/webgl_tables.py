@@ -64,18 +64,34 @@ def variant(source,all_tables,block_bytes,max_blocks=12):
         chunks.append(table['raw']);offset+=len(table['raw'])
     raw=b''.join(chunks)
     blocks=[raw[i:i+block_bytes] for i in range(0,len(raw),block_bytes)]
-    declarations=[];branches=[];block_meta=[]
+    declarations=[];block_meta=[]
     for i,data in enumerate(blocks):
         count=len(data)//16;base=i*block_bytes//16
         declarations.append(f'layout(std140) uniform ARXNumericBlock{i} {{ highp uvec4 arxData{i}[{count}]; }};')
-        branches.append(f'    if(i<{base+count}) return arxData{i}[i-{base}];')
         block_meta.append({'name':f'ARXNumericBlock{i}','binding':i,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'base64':base64.b64encode(data).decode()})
-    helper='\n'.join(declarations)+'\nhighp uvec4 ARXTableWords(int i) {\n'+'\n'.join(branches)+'\n    return uvec4(0);\n}\n'
+    helper='\n'.join(declarations)+'\n'
     functions=[]
     for row in rows:
         w=row['width'];typ=row['type'];base=row['offset_bytes']//16
         index=f'{base}+i' if w>=3 else f'{base}+(i>>{1 if w==2 else 2})'
-        body=f'uvec4 words=ARXTableWords({index}); '
+        # A table can address only the blocks containing its immutable words.
+        # Avoid a generic all-block dispatch in every geometry lookup: some
+        # software compilers expand those irrelevant branches at the first draw.
+        words_per_block=block_bytes//16
+        first_block=base//words_per_block
+        last_block=(base+row['bytes']//16-1)//words_per_block
+        if first_block==last_block:
+            body=f'uvec4 words=arxData{first_block}[({index})-{first_block*words_per_block}]; '
+        else:
+            body=f'int wordIndex={index}; uvec4 words; '
+            for block in range(first_block,last_block+1):
+                read=f'arxData{block}[wordIndex-{block*words_per_block}]'
+                if block==last_block:
+                    body+=f'else words={read}; '
+                else:
+                    prefix='if' if block==first_block else 'else if'
+                    body+=f'{prefix}(wordIndex<{(block+1)*words_per_block}) words={read}; '
+
         if w>=3:
             words='words.xyz' if w==3 else 'words'
             expression=f'{typ}({words})' if typ.startswith('ivec') else f'uintBitsToFloat({words})'
