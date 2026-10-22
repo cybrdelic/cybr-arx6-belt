@@ -30,6 +30,7 @@ ENGINEERING = SOURCE / "ARX-6-P5-Engineering"
 OUTPUT = ACTION / "render"
 os.environ.setdefault("MESA_SHADER_CACHE_DIR", str(ACTION / ".mesa-action-cache"))
 sys.path.insert(0, str(SHADER_ROOT / "tools"))
+from portable_fonts import load_font
 from egl_render import EGLRenderer, physical_state, apply, aces
 from film_p5 import Director as InspectionDirector
 
@@ -230,8 +231,8 @@ def caption(pixels: np.ndarray, t: float):
     scale = width / 1920
     over = Image.new("RGBA", im.size)
     draw = ImageDraw.Draw(over)
-    title = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", max(12, round(34 * scale)))
-    mono = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf", max(8, round(17 * scale)))
+    title = load_font(max(12, round(34 * scale)), bold=True)
+    mono = load_font(max(8, round(17 * scale)), mono=True)
     for row in range(round(126 * scale)):
         opacity = round(170 * (1 - row / max(1, 126 * scale)) ** 1.8)
         draw.line((0, row, width, row), fill=(9, 12, 15, opacity))

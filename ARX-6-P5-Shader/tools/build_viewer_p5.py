@@ -14,26 +14,26 @@ def replace(text,old,new):
  return text.replace(old,new)
 
 def build():
- A=json.loads((ROOT/'assets/mujoco-runtime.json').read_text())
- A['xml']=(ENG/'integration/ARX-6-P5.xml').read_text()
- A['p']=json.loads((ENG/'integration/parameters.json').read_text())
- trace=json.loads((ENG/'integration/results/nominal.json').read_text())
+ A=json.loads((ROOT/'assets/mujoco-runtime.json').read_text(encoding='utf-8'))
+ A['xml']=(ENG/'integration/ARX-6-P5.xml').read_text(encoding='utf-8')
+ A['p']=json.loads((ENG/'integration/parameters.json').read_text(encoding='utf-8'))
+ trace=json.loads((ENG/'integration/results/nominal.json').read_text(encoding='utf-8'))
  A['api']=trace['interface'];A['frames']=[f[:22] for f in trace['frames']]
- controller=(ENG/'integration/controller.mjs').read_text()
+ controller=(ENG/'integration/controller.mjs').read_text(encoding='utf-8')
  controller=re.sub(r"^import \{[^\n]+\} from './safety.mjs';\n",'',controller)
- A['controllerJS']=(ENG/'integration/safety.mjs').read_text()+'\n'+controller
+ A['controllerJS']=(ENG/'integration/safety.mjs').read_text(encoding='utf-8')+'\n'+controller
  A['physicsSHA']={p.name:sha(p) for p in [ENG/'integration/ARX-6-P5.xml',ENG/'integration/parameters.json',ENG/'integration/controller.mjs',ENG/'integration/safety.mjs',ENG/'integration/mass_properties.json',ENG/'integration/p5_collision_proxies.json']}
- A['shader']=(ROOT/'ARX-6-P5-Live.glsl').read_text();A['shaderSHA']=hashlib.sha256(A['shader'].encode()).hexdigest()
+ A['shader']=(ROOT/'ARX-6-P5-Live.glsl').read_text(encoding='utf-8');A['shaderSHA']=hashlib.sha256(A['shader'].encode()).hexdigest()
  A['webglNumeric']=build_webgl_tables(A['shader'])
- A['inspection']=json.loads((ROOT/'reports/inspection-parts.json').read_text())
+ A['inspection']=json.loads((ROOT/'reports/inspection-parts.json').read_text(encoding='utf-8'))
  film=ROOT/'ARX-6-P5-Inspection-1080p.mp4'
  A['film']=base64.b64encode(film.read_bytes()).decode() if film.exists() else ''
- A['filmMetadata']=json.loads((ROOT/'reports/film-build.json').read_text()) if film.exists() else {'duration_seconds':72}
+ A['filmMetadata']=json.loads((ROOT/'reports/film-build.json').read_text(encoding='utf-8')) if film.exists() else {'duration_seconds':72}
  poster=ROOT/'ARX-6-P5-1080p.png'
  if not poster.exists():poster=ROOT/'film/01-operation-preview.png'
  im=Image.open(poster);im.thumbnail((1920,1080));(ROOT/'assets').mkdir(exist_ok=True);im.save(ROOT/'assets/poster.jpg',quality=94)
  poster64='data:image/jpeg;base64,'+base64.b64encode((ROOT/'assets/poster.jpg').read_bytes()).decode()
- h=(ROOT/'source/player-base.html').read_text().replace('P4','P5')
+ h=(ROOT/'source/player-base.html').read_text(encoding='utf-8').replace('P4','P5')
  h=h.replace('Save MP5','Save MP4')
  h=replace(h,'Recorded nominal physics · 10 seconds · The film does not use WebGL.','72 seconds · Physical operation, exploded assemblies and mechanism inspection.')
  h=replace(h,'<details id="detail" hidden>','''<details id="inspection" hidden><summary>Inspect components</summary><label>Assembly<select id="assembly"><option value="0">Complete robot</option></select></label><label>Individual part<select id="part"><option value="0">All parts in assembly</option></select></label><label>Explode<input id="explode" type="range" min="0" max="1" step=".01" value="0"></label><label><input id="cut" type="checkbox"> Section modeled housings</label><label><input id="mechanism" type="checkbox"> Rotate transmission for inspection</label><p id="partnote">The physical model stays assembled. These controls separate the rendered parts for inspection.</p></details><details id="detail" hidden>''')
@@ -118,9 +118,9 @@ function uploadNumericTables(){
  h=replace(h,'window.ARX={ready:true,','''window.ARX={ready:true,
  readPixels:()=>{if(!gl||!fbo)throw Error('No completed shader frame');gl.bindFramebuffer(gl.FRAMEBUFFER,fbo);const p=new Uint8Array(width*height*4);gl.readPixels(0,0,width,height,gl.RGBA,gl.UNSIGNED_BYTE,p);let text='';for(const v of p)text+=String.fromCharCode(v);return{width,height,rgbaBottomUp:btoa(text)};},
  inspect:async(group=0,part=0,explode=0,cut=false)=>{$('assembly').value=String(group);populateParts();$('part').value=String(part);$('explode').value=String(explode);$('cut').checked=cut;drag=[0,0];zoom=0;dirty=true;await draw();},''')
- (ROOT/'source/player-p5.html').write_text(h)
+ (ROOT/'source/player-p5.html').write_text(h,encoding='utf-8')
  h=h.replace('__POSTER__',poster64).replace('__ASSETS__',json.dumps(A,separators=(',',':')).replace('</','<\\/'))
- (ROOT/'ARX-6-P5.html').write_text(h)
+ (ROOT/'ARX-6-P5.html').write_text(h,encoding='utf-8')
  report={'revision':'P5','shader_sha256':A['shaderSHA'],'physics_sha256':A['physicsSHA'],'film_embedded':bool(A['film']),'poster_sha256':sha(poster),'html_bytes':len(h.encode()),'trajectory_sha256':sha(ENG/'integration/results/nominal.json'),'recorded_states':len(A['frames']),'rigid_records':len(A['inspection']['parts']),'inspection_groups':len(A['inspection']['groups']),'offline':True,'numeric_table_transport':{'method':A['webglNumeric']['method'],'variants':[{k:v for k,v in item.items() if k not in ('source','blocks','tables')} for item in A['webglNumeric']['variants']]}}
  (ROOT/'reports/viewer-build.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))
 

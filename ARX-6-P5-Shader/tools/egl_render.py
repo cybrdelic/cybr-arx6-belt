@@ -21,26 +21,9 @@ class EGLRenderer:
         if geometry_buffers:
             from shader_tables import convert
             source,table_bytes,self.table_info=convert(source)
-        self.egl=C.CDLL(ctypes.util.find_library('EGL') or 'libEGL.so.1')
-        def ep(n,ret,*a):
-            f=getattr(self.egl,n); f.restype=ret;f.argtypes=list(a);return f
-        self.gpa=ep('eglGetProcAddress',V,P)
-        self.terminate=ep('eglTerminate',U,V)
-        self.destroy=ep('eglDestroyContext',U,V,V)
-        platform=self.gpa(b'eglGetPlatformDisplayEXT')
-        getPlatform=C.CFUNCTYPE(V,U,V,C.POINTER(I))(platform)
-        self.display=getPlatform(0x31DD,None,None)
-        major,minor=I(),I()
-        if not ep('eglInitialize',U,V,C.POINTER(I),C.POINTER(I))(self.display,C.byref(major),C.byref(minor)):
-            raise RuntimeError('Cannot initialize surfaceless EGL')
-        if not ep('eglBindAPI',U,U)(0x30A2):raise RuntimeError('Cannot bind OpenGL API')
-        attrs=(I*13)(0x3033,1,0x3040,8,0x3024,8,0x3023,8,0x3022,8,0x3021,8,0x3038)
-        config=V();n=I()
-        if not ep('eglChooseConfig',U,V,C.POINTER(I),C.POINTER(V),I,C.POINTER(I))(self.display,attrs,C.byref(config),1,C.byref(n)) or n.value<1:raise RuntimeError('No EGL config')
-        ca=(I*7)(0x3098,3,0x30FB,3,0x30FD,1,0x3038)
-        self.context=ep('eglCreateContext',V,V,V,V,C.POINTER(I))(self.display,config,None,ca)
-        if not self.context:raise RuntimeError('OpenGL 3.3 context unavailable')
-        if not ep('eglMakeCurrent',U,V,V,V,V)(self.display,None,None,self.context):raise RuntimeError('EGL make-current failed')
+        from portable_context import create_context
+        self.context,self.backend=create_context(430 if geometry_buffers else 330)
+        self.gpa=lambda name: self.context.load(name.decode())
         def gp(n,ret,*a):
             ptr=self.gpa(n.encode())
             if not ptr:raise RuntimeError('Missing '+n)
@@ -132,9 +115,8 @@ class EGLRenderer:
 
     def close(self):
         if getattr(self,"context",None):
-            self.egl.eglMakeCurrent(self.display,None,None,None)
-            self.destroy(self.display,self.context)
-            self.terminate(self.display)
+            self.context.__exit__(None,None,None)
+            self.context.release()
             self.context=None
 
 def aces(x):

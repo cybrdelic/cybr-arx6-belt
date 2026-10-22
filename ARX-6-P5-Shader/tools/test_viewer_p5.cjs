@@ -2,11 +2,11 @@
 const {chromium}=require('playwright');
 const fs=require('fs'),path=require('path'),crypto=require('crypto');
 const ROOT=path.resolve(__dirname,'..');
-const executable=process.env.ARX_CHROME||path.resolve(ROOT,'../../arx_browser_cache/chrome-headless-shell-linux64/chrome-headless-shell');
+const {browserOptions}=require('./browser_options.cjs');
 const functionalOnly=process.argv.includes('--functional-only');
 let browser,page,phase='launch',phaseStarted=Date.now();
 const errors=[],consoleErrors=[];
-const report={revision:'P5',checks:[],environment:'Headless Chromium with ANGLE on Mesa EGL/llvmpipe software WebGL. This checks desktop rendering and an emulated mobile viewport, not a physical Android GPU. The SwiftShader driver exceeded this workspace resource budget during startup.'};
+const report={revision:'P5',checks:[],environment:'Playwright Chromium on '+process.platform+'; driver and actual browser results are captured below. This is not physical-device or hardware qualification.'};
 function check(name,ok,detail){report.checks.push({name,passed:!!ok,detail});console.log(name,!!ok);fs.writeFileSync(path.join(ROOT,'reports/viewer-tests-p5.json'),JSON.stringify(report,null,2));}
 function setPhase(name){phase=name;phaseStarted=Date.now();report.phase=name;report.phase_started_at=new Date().toISOString();console.log('Phase:',name,report.phase_started_at);}
 async function failureDiagnostics(){
@@ -18,7 +18,7 @@ async function failureDiagnostics(){
  ]);}finally{clearTimeout(timer);}
 }
 (async()=>{
- browser=await chromium.launch({executablePath:executable,headless:true,args:['--no-sandbox','--disable-dev-shm-usage','--enable-gpu','--use-gl=angle','--use-angle=gl-egl','--enable-webgl','--ignore-gpu-blocklist','--disable-gpu-sandbox','--disable-web-security'],env:{...process.env,LP_NUM_THREADS:'2',LIBGL_ALWAYS_SOFTWARE:'1',EGL_PLATFORM:'surfaceless'}});
+ browser=await chromium.launch(browserOptions());
  page=await browser.newPage({viewport:{width:1280,height:720}});page.setDefaultTimeout(180000);page.on('pageerror',e=>errors.push(String(e)));page.on('console',m=>{if(m.type()==='error'){consoleErrors.push(m.text());if(consoleErrors.length>50)consoleErrors.shift();}});
  const html=fs.readFileSync(path.join(ROOT,'ARX-6-P5.html'),'utf8');report.html_sha256=crypto.createHash('sha256').update(html).digest('hex');
  const embedded=JSON.parse(html.match(/<script type="application\/json" id="assets">([\s\S]*?)<\/script>/)[1]);

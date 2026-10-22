@@ -10,6 +10,7 @@ import argparse, hashlib, itertools, json, math, os, subprocess, sys, time
 from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
+from portable_fonts import load_font
 from egl_render import EGLRenderer, physical_state, apply, aces
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -169,8 +170,7 @@ def uniforms(r,d,frame):
 def caption(pixels,d,total_time,total_duration):
  im=Image.fromarray(pixels,'RGB');w,h=im.size;scale=w/1920
  overlay=Image.new('RGBA',im.size);dr=ImageDraw.Draw(overlay)
- regular='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';bold='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf';mono='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf'
- ft=ImageFont.truetype(bold,max(12,round(40*scale)));fs=ImageFont.truetype(regular,max(9,round(22*scale)));fn=ImageFont.truetype(mono,max(8,round(16*scale)))
+ ft=load_font(max(12,round(40*scale)),bold=True);fs=load_font(max(9,round(22*scale)));fn=load_font(max(8,round(16*scale)),mono=True)
  for y in range(round(170*scale)):
   alpha=round(190*(1-y/max(1,170*scale))**1.4);dr.line((0,y,w,y),fill=(9,12,15,alpha))
  for y in range(round(135*scale)):

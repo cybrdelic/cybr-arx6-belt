@@ -60,7 +60,7 @@ python3 -m venv .venv
 . .venv/bin/activate
 python3 -m pip install -r ARX-6-P5-Engineering/integration/requirements-p5.txt
 cd ARX-6-P5-Engineering
-bash integration/rebuild_p5.sh --physics-only
+python integration/rebuild_p5.py --physics-only
 ```
 
 The bundled current model, proxy, geometry and mass records make the physics-only path independent of regenerated STEP files. The validation command intentionally retains a nonzero exit status for known failed ordinary criteria.
@@ -68,7 +68,7 @@ The bundled current model, proxy, geometry and mass records make the physics-onl
 For native CAD regeneration and the complete engineering workflow:
 
 ```bash
-bash integration/rebuild_p5.sh
+python integration/rebuild_p5.py
 ```
 
 This recreates STEP/STL files under `integration/cad/`, reruns the physical suite, and exports the posed assembly when fresh nominal provenance is valid. Run it in a working clone: the generator removes prior top-level STEP/STL outputs before rebuilding.
@@ -94,7 +94,7 @@ python3 production/action_film.py --join
 python3 production/verify_action_film.py
 ```
 
-Rendering requires Linux EGL/OpenGL 4.3 with shader-storage-buffer support, NumPy/Pillow, FFmpeg with libx264, ffprobe, and DejaVu fonts at the documented system paths. Software rendering can be slow. No real-time or mobile-GPU guarantee is made.
+Rendering uses platform OpenGL backends where OpenGL 4.3 shader-storage buffers are supported, NumPy/Pillow, FFmpeg with libx264 and ffprobe. macOS uses the WebGL2 viewer for portable robot visualization; native SSBO film rendering remains unsupported there. Fonts are discovered per platform. See [PORTABILITY.md](PORTABILITY.md) for Windows/Linux/macOS setup, bounded CAD/physics/render checks and the exact backend limits. Software rendering can be slow. No real-time or mobile-GPU guarantee is made.
 
 For the complete constructive-shader regeneration, 14-chapter inspection film and offline viewer, follow [P5-SHADER-README.md](ARX-6-P5-Shader/P5-SHADER-README.md) and [RELEASE-ENVIRONMENT.md](ARX-6-P5-Shader/RELEASE-ENVIRONMENT.md). Run the full native CAD regeneration first if recapturing geometry; the pinion-refinement step reads a generated native STEP section. `tools/build_viewer_p5.py` can build a film-free page, but it is not a completed film delivery until the film has been regenerated and embedded.
 
