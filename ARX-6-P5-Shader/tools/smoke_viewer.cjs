@@ -25,6 +25,10 @@ const timeout=setTimeout(()=>{console.error(`Robot viewer exceeded ${budget/1000
 (async()=>{
  server=await chromium.launchServer(browserOptions());
  browser=await chromium.connect(server.wsEndpoint());
+ const cdp=await browser.newBrowserCDPSession();
+ const {gpu}=await cdp.send('SystemInfo.getInfo');
+ const backend={devices:gpu.devices,glRenderer:gpu.auxAttributes?.glRenderer,glVersion:gpu.auxAttributes?.glVersion,displayType:gpu.auxAttributes?.displayType};
+ console.log('Browser graphics backend: '+JSON.stringify(backend));await cdp.detach();
  if(process.argv.includes('--context-only')){console.log('Browser launch and bounded cleanup only; shader not exercised');return;}
  const page=await browser.newPage({viewport:{width:640,height:360}});
  page.setDefaultTimeout(budget-500);
@@ -42,6 +46,6 @@ const timeout=setTimeout(()=>{console.error(`Robot viewer exceeded ${budget/1000
  if(!raw.length||high===low)throw Error('Blank render readback');
  const out=process.env.ARX_VIEWER_OUTPUT||path.join(root,'.local');fs.mkdirSync(out,{recursive:true});
  await page.locator('#canvas').screenshot({path:path.join(out,'viewer-smoke.png')});
- fs.writeFileSync(path.join(out,'viewer-smoke.json'),JSON.stringify({platform:process.platform,diagnostics,scope:'One fresh WebGL2 robot frame with verified geometry table bytes; no full film or hardware qualification'},null,2));
+ fs.writeFileSync(path.join(out,'viewer-smoke.json'),JSON.stringify({platform:process.platform,backend,diagnostics,scope:'One fresh WebGL2 robot frame with verified geometry table bytes; no full film or hardware qualification'},null,2));
  console.log(JSON.stringify(diagnostics));
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(async()=>{try{await cleanup();}catch(e){console.error('Browser cleanup failed',e);process.exitCode=1;}finally{clearTimeout(timeout);}});

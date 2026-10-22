@@ -1,5 +1,9 @@
 name: Portable ARX core
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
@@ -31,8 +35,28 @@ jobs:
         run: |
           npm ci --ignore-scripts
           npx playwright install chromium
+      - name: Install Linux software OpenGL display
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0 mesa-utils
+      - name: Render exact procedural robot with Linux Mesa
+        if: runner.os == 'Linux'
+        working-directory: ARX-6-P5-Shader
+        env:
+          ARX_VIEWER_TIMEOUT_MS: '600000'
+          ARX_HEADLESS: '0'
+          ARX_ANGLE: gl
+          LIBGL_ALWAYS_SOFTWARE: 'true'
+        run: xvfb-run -a node tools/smoke_viewer.cjs
       - name: Render exact procedural robot in WebGL2
+        if: runner.os != 'Linux'
         working-directory: ARX-6-P5-Shader
         env:
           ARX_VIEWER_TIMEOUT_MS: '600000'
         run: node tools/smoke_viewer.cjs
+      - name: Save actual viewer frame and backend receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: viewer-${{ matrix.os }}
+          path: ARX-6-P5-Shader/.local/viewer-smoke.*
+          if-no-files-found: ignore
