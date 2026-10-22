@@ -1,0 +1,145 @@
+{
+  "revision": "P5",
+  "created_utc": "2026-10-22T04:44:42.491075+00:00",
+  "scope": "Completed deliverable identity and evidence consistency; not a new physical qualification.",
+  "checks": [
+    {
+      "name": "All ten frozen physical inputs match",
+      "passed": true,
+      "detail": {
+        "generate_cad_p2.py": "0c8474173cc5ec70164cae5050a9aa7decbf6e30f14cb7f67564e9fbdaad58f7",
+        "spec.json": "606e09b482d4c5f838ee49daced4b574f8260450dd350735e95422c2d666a8ac",
+        "geometry-meshes.json": "838768d0473b4ba2ed25be1e1b0d5c34c3ac643dce99e140bb415d99f2103208",
+        "mass_properties.json": "98f98c0a6dd1b39dac65f967fb0ebe682beb003aa29052f2924337fb07f8e024",
+        "ARX-6-P5.xml": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+        "controller.mjs": "e8fbe68be5a83f02f6e0b194c573b69bcf34f098de31358fd0e236ad4795107d",
+        "parameters.json": "7127b02dc62029a39f58b5e69e97aa932867d560282f98e5aa62b05f0d558c70",
+        "safety.mjs": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+        "p5_collision_proxies.json": "f351530da734766721dfd95582d764552d0f92f291a62ad07080dcbd888b528f",
+        "results/nominal.json": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66"
+      }
+    },
+    {
+      "name": "Final procedural shader matches the accepted source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "The same fresh nominal trace has 1201 samples and 10 seconds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Three adverse failures remain explicitly unresolved",
+      "passed": true,
+      "detail": [
+        "power_loss_3.2",
+        "weak_spring_double_delay_3.2",
+        "weak_spring_double_delay_7.2"
+      ]
+    },
+    {
+      "name": "All four deliberate failure controls retain their expected outcomes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "52 native interface, 8 stop and 26 posed checks pass",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Native overall STEP is the verified posed assembly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rendered geometry derives from the frozen CAD and specification",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Portable replay embeds the final shader and physical trace",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Native 1080p still matches final source and four-sample settings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Joined film has current provenance and complete independent verification",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Offline viewer embeds the final actual model, controller, trace and shader",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser functional checks pass for the verified source baseline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Final embedded media and unchanged executable sources pass",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Browser and native renderer agree at the captured physical state",
+      "passed": true,
+      "detail": {
+        "width": 256,
+        "height": 144,
+        "mean_absolute_RGB8_error": 0.0,
+        "maximum_RGB8_error": 0
+      }
+    },
+    {
+      "name": "Current browser capture retains the actual compared framebuffer evidence",
+      "passed": true,
+      "detail": {
+        "browser_capture_sha256": "b7564c214ccb06f54fd2e431bf9760d339ddba6e1e98f501feaffc8ff1075898",
+        "browser_image_sha256": "7d870acbd0ee166e91904f9758da8a7a6ad2a38d4dad9dce611eb78d0892ff06",
+        "native_image_sha256": "7d870acbd0ee166e91904f9758da8a7a6ad2a38d4dad9dce611eb78d0892ff06"
+      }
+    }
+  ],
+  "passed": true,
+  "engineering_acceptance": {
+    "ordinary_scenarios_passed": 21,
+    "ordinary_scenarios_total": 24,
+    "all_ordinary_scenarios_pass": false,
+    "unresolved_ordinary_cases": [
+      "power_loss_3.2",
+      "weak_spring_double_delay_3.2",
+      "weak_spring_double_delay_7.2"
+    ],
+    "status": "Nominal operation verified; adverse-case envelope incomplete"
+  },
+  "deliverables": {
+    "ARX-6-P5-Live.glsl": {
+      "sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+      "bytes": 494799
+    },
+    "ARX-6-P5-Replay.glsl": {
+      "sha256": "3998db9eddaea3eceb328cd7f44dfa2b447360237d70cadf435549d8f0dbc0f3",
+      "bytes": 757942
+    },
+    "ARX-6-P5-1080p.png": {
+      "sha256": "d7fee5f76cfac6f5fa1d9ca7bc499129fdabc46ed60503f26b7f69f07dee925f",
+      "bytes": 357179
+    },
+    "ARX-6-P5-Inspection-1080p.mp4": {
+      "sha256": "f08fee0296f0a67525a127685de9cc322e7a98fc925fec643f681dccd8678dbc",
+      "bytes": 15374957
+    },
+    "ARX-6-P5.html": {
+      "sha256": "de246f8caefe9be178c1e528782fc3635da398989fc818f83ea1ddff67047816",
+      "bytes": 39315759
+    }
+  }
+}

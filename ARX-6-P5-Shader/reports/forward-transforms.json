@@ -1,0 +1,47 @@
+{
+  "comparisons": 10809,
+  "times": 1201,
+  "max_position_error_m": 3.251669631848525e-16,
+  "max_rotation_entry_error": 2.1094237467877974e-15,
+  "passed": true,
+  "by_body": {
+    "turret": {
+      "max_position_error_m": 0.0,
+      "max_rotation_entry_error": 2.220446049250313e-16
+    },
+    "upper": {
+      "max_position_error_m": 2.7755575615628914e-17,
+      "max_rotation_entry_error": 4.440892098500626e-16
+    },
+    "fore": {
+      "max_position_error_m": 1.6711069443220838e-16,
+      "max_rotation_entry_error": 5.551115123125783e-16
+    },
+    "roll": {
+      "max_position_error_m": 2.3592239273284576e-16,
+      "max_rotation_entry_error": 6.661338147750939e-16
+    },
+    "bend": {
+      "max_position_error_m": 2.3592239273284576e-16,
+      "max_rotation_entry_error": 7.771561172376096e-16
+    },
+    "tool": {
+      "max_position_error_m": 2.3592239273284576e-16,
+      "max_rotation_entry_error": 8.881784197001252e-16
+    },
+    "jaw_left": {
+      "max_position_error_m": 3.1155556357914184e-16,
+      "max_rotation_entry_error": 8.881784197001252e-16
+    },
+    "jaw_right": {
+      "max_position_error_m": 3.251669631848525e-16,
+      "max_rotation_entry_error": 8.881784197001252e-16
+    },
+    "puck": {
+      "max_position_error_m": 0.0,
+      "max_rotation_entry_error": 2.1094237467877974e-15
+    }
+  },
+  "scope": "Double-precision implementation of the GLSL transform equations compared with the independent stored MuJoCo body transforms; excludes GPU float roundoff.",
+  "trajectory_sha256": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66"
+}

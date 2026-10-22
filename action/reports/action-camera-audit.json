@@ -1,0 +1,18 @@
+[
+  {
+    "shot": 1,
+    "sampled_times": 81,
+    "maximum_abs_ndc_x": 0.38639217320697733,
+    "maximum_abs_ndc_y": 0.7885012496230379,
+    "minimum_depth": 6.176587384393481,
+    "passed": true
+  },
+  {
+    "shot": 2,
+    "sampled_times": 81,
+    "maximum_abs_ndc_x": 0.4356618020212707,
+    "maximum_abs_ndc_y": 0.7871757494296143,
+    "minimum_depth": 5.613823616402852,
+    "passed": true
+  }
+]

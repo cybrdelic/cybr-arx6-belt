@@ -1,0 +1,14 @@
+{
+  "radial_sets": 106,
+  "individual_cylinders": 778,
+  "closed_belts": 6,
+  "individual_belt_teeth": 465,
+  "linear_tooth_rows": 2,
+  "individual_rack_teeth": 100,
+  "randomized_comparisons": 18000,
+  "maximum_abs_distance_difference_mm": 2.55351295663786e-14,
+  "preserves": "Exact union of equally spaced identical cylindrical cutters; no decimation.",
+  "closed_belt_distance_comparisons": 7000,
+  "closed_belt_max_abs_difference_mm": 7.105427357601002e-15,
+  "belt_animation": "Inspection tooth transport along exact closed pitch path; static phase reproduces CAD; backing remains fixed."
+}

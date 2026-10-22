@@ -1,0 +1,9 @@
+{
+  "source_step_sha256": "a86ae46699a7932c40c34add49f6b2230ed8d79dcec55990ec808ea9e8d9cdfd",
+  "section_z_mm": 0,
+  "sampling_deflection_mm": 0.00015,
+  "outline_vertices": 1000,
+  "replaced_profiles": 1,
+  "source_root_fillet_mm": 0.06,
+  "geometry": "2-D boundary of native gear section, procedural extrusion and socket cuts preserved"
+}

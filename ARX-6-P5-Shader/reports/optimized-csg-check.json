@@ -1,0 +1,2712 @@
+{
+  "raw_objects": 385,
+  "compiled_objects": 385,
+  "matched_objects": 385,
+  "randomized_distance_comparisons": 98560,
+  "maximum_abs_distance_difference_mm": 1.1963763313360687e-12,
+  "passed_objects": 385,
+  "polygon_edge_bvh_comparisons": 2308,
+  "polygon_edge_bvh_max_abs_difference_mm": 1.7763568394002505e-15,
+  "captured_recipe_sha256": "3d26522dd8a764ca067cf444500530dfc63f22c5d6dbee8d1e9e22edbbfd454b",
+  "compiled_csg_sha256": "ca91a0664d1d3193bac02906d8142723a638908917549c4baf01f02596a8c73a",
+  "constants_sha256": "06bef35c14fd41f58a5c86429d7c3df68204e377d4f295791c660b0013b6dbd9",
+  "runtime_sha256": "4be10a46a93ed959627aa0d994e5e43eb1fdb0f328de73714ba10255e8dd00af",
+  "scope": "Numerical comparisons of compiled exact periodic cylinder/rack/belt reductions and instruction tapes with original captured CSG; serialized polygon BVH distance and point-inside parity compared with explicit full edge scan. Not an exhaustive mathematical proof.",
+  "records": [
+    {
+      "name": "large_bearing_housing_0",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 3.552713678800501e-15,
+      "pass": true
+    },
+    {
+      "name": "large_rear_bearing_cover_1",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "name": "large_front_bearing_cover_2",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 3.552713678800501e-15,
+      "pass": true
+    },
+    {
+      "name": "large_inner_race_spacer_0",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_DIN471_installed_retainer_1",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_selective_inner_race_shim_2",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_output_shaft",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_bearing_0",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_bearing_-34",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_brake_front_adapter_5",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 7.105427357601002e-15,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_strut_0",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_strut_1",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_strut_2",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_strut_3",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_stator",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_armature",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.5543122344752192e-15,
+      "pass": true
+    },
+    {
+      "name": "large_brake_keyed_hub_5",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "name": "large_brake_shaft_key_6",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_integral_stop_target",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_stop_pin_0",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_stop_pin_1",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_back_adapter",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 2.9665159217984183e-13,
+      "pass": true
+    },
+    {
+      "name": "J1_index_sensor",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_sensor_mount",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_spacer_0",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_spacer_1",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_spacer_2",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_spacer_3",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_spacer_4",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_brake_spacer_5",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_gearhead",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_motor",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_carrier_deck",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 2.6645352591003757e-15,
+      "pass": true
+    },
+    {
+      "name": "J1_housing_rails",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_front_cover",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_tension_block",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_tension_screw",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_timing_belt",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 5.421219029244639e-13,
+      "pass": true
+    },
+    {
+      "name": "J1_drive_pulley",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 7.744915819785092e-13,
+      "pass": true
+    },
+    {
+      "name": "J1_input_support_bearing",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_input_shaft",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_driven_pulley",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 7.8026474170656e-13,
+      "pass": true
+    },
+    {
+      "name": "J1_pulley_output_key",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_pulley_input_key",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_gear_mount_screw_0",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_gear_mount_screw_1",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_gear_mount_screw_2",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_gear_mount_screw_3",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_carrier_screw_0",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_carrier_screw_1",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_carrier_screw_2",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J1_carrier_screw_3",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_bearing_housing_10",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 3.552713678800501e-15,
+      "pass": true
+    },
+    {
+      "name": "large_rear_bearing_cover_11",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 3.552713678800501e-15,
+      "pass": true
+    },
+    {
+      "name": "large_front_bearing_cover_12",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 3.552713678800501e-15,
+      "pass": true
+    },
+    {
+      "name": "large_inner_race_spacer_0",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_DIN471_installed_retainer_1",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_selective_inner_race_shim_2",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_output_shaft",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_bearing_0",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_bearing_-34",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_brake_front_adapter_15",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 6.217248937900877e-15,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_strut_0",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_strut_1",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_strut_2",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_strut_3",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_stator",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_armature",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.3322676295501878e-15,
+      "pass": true
+    },
+    {
+      "name": "large_brake_keyed_hub_5",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_brake_shaft_key_6",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_integral_stop_target",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_stop_pin_0",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_stop_pin_1",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_back_adapter",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 2.4291679778798425e-13,
+      "pass": true
+    },
+    {
+      "name": "J2_index_sensor",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_sensor_mount",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_spacer_0",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_spacer_1",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_spacer_2",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_spacer_3",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_spacer_4",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_brake_spacer_5",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_gearhead",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_motor",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_carrier_deck",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_housing_rails",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_front_cover",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_tension_block",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_tension_screw",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_timing_belt",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 4.027889133340068e-13,
+      "pass": true
+    },
+    {
+      "name": "J2_drive_pulley",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 7.7982065249671e-13,
+      "pass": true
+    },
+    {
+      "name": "J2_input_support_bearing",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_input_shaft",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_driven_pulley",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 7.895906151134113e-13,
+      "pass": true
+    },
+    {
+      "name": "J2_pulley_output_key",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_pulley_input_key",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_gear_mount_screw_0",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_gear_mount_screw_1",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_gear_mount_screw_2",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_gear_mount_screw_3",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_carrier_screw_0",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_carrier_screw_1",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_carrier_screw_2",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J2_carrier_screw_3",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_bearing_housing_10",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 2.6645352591003757e-15,
+      "pass": true
+    },
+    {
+      "name": "large_rear_bearing_cover_11",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 3.3306690738754696e-15,
+      "pass": true
+    },
+    {
+      "name": "large_front_bearing_cover_12",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 3.552713678800501e-15,
+      "pass": true
+    },
+    {
+      "name": "large_inner_race_spacer_0",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_DIN471_installed_retainer_1",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_selective_inner_race_shim_2",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_output_shaft",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_bearing_0",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_bearing_-34",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_brake_front_adapter_15",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 5.329070518200751e-15,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_strut_0",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_strut_1",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_strut_2",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_strut_3",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_stator",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_armature",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.3322676295501878e-15,
+      "pass": true
+    },
+    {
+      "name": "large_brake_keyed_hub_5",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "large_brake_shaft_key_6",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_integral_stop_target",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_stop_pin_0",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_stop_pin_1",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_back_adapter",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 2.2515322939398175e-13,
+      "pass": true
+    },
+    {
+      "name": "J3_index_sensor",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_sensor_mount",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_spacer_0",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_spacer_1",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_spacer_2",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_spacer_3",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_spacer_4",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_brake_spacer_5",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_gearhead",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_motor",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_carrier_deck",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 6.8833827526759706e-15,
+      "pass": true
+    },
+    {
+      "name": "J3_housing_rails",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_front_cover",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_tension_block",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_tension_screw",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_timing_belt",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 4.560796185160143e-13,
+      "pass": true
+    },
+    {
+      "name": "J3_drive_pulley",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 7.922551503725117e-13,
+      "pass": true
+    },
+    {
+      "name": "J3_input_support_bearing",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_input_shaft",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_driven_pulley",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 7.909228827429615e-13,
+      "pass": true
+    },
+    {
+      "name": "J3_pulley_output_key",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_pulley_input_key",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_gear_mount_screw_0",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_gear_mount_screw_1",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_gear_mount_screw_2",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_gear_mount_screw_3",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_carrier_screw_0",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_carrier_screw_1",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_carrier_screw_2",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J3_carrier_screw_3",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_bearing_housing_10",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "name": "small_rear_bearing_cover_11",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 6.754596881819452e-13,
+      "pass": true
+    },
+    {
+      "name": "small_front_bearing_cover_12",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "name": "small_inner_race_spacer_0",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_DIN471_installed_retainer_1",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_selective_inner_race_shim_2",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_output_shaft",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_bearing_0",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_bearing_-20",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_brake_front_adapter_15",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 7.056577544517495e-13,
+      "pass": true
+    },
+    {
+      "name": "J4_brake_strut_0",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_brake_strut_1",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_brake_strut_2",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_brake_strut_3",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_brake_stator",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_brake_armature",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_brake_keyed_hub_5",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_brake_shaft_key_6",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_integral_stop_target",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_stop_pin_0",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_stop_pin_1",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_brake_back_adapter",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 6.887823644774471e-13,
+      "pass": true
+    },
+    {
+      "name": "J4_index_sensor",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_sensor_mount",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_brake_spacer_0",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_brake_spacer_1",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_brake_spacer_2",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_gearhead",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_motor",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_carrier_deck",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_housing_rails",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_front_cover",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_tension_block",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_tension_screw",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_timing_belt",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 4.53859172466764e-13,
+      "pass": true
+    },
+    {
+      "name": "J4_drive_pulley",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 9.670042544485113e-13,
+      "pass": true
+    },
+    {
+      "name": "J4_input_support_bearing",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_input_shaft",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_driven_pulley",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 5.492273302820649e-13,
+      "pass": true
+    },
+    {
+      "name": "J4_pulley_output_key",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_pulley_input_key",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_gear_mount_screw_0",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_gear_mount_screw_1",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_gear_mount_screw_2",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_gear_mount_screw_3",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_gear_mount_screw_4",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_gear_mount_screw_5",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_carrier_screw_0",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_carrier_screw_1",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_carrier_screw_2",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J4_carrier_screw_3",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_bearing_housing_10",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.887379141862766e-15,
+      "pass": true
+    },
+    {
+      "name": "small_rear_bearing_cover_11",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 6.692424392440444e-13,
+      "pass": true
+    },
+    {
+      "name": "small_front_bearing_cover_12",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 2.220446049250313e-15,
+      "pass": true
+    },
+    {
+      "name": "small_inner_race_spacer_0",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_DIN471_installed_retainer_1",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_selective_inner_race_shim_2",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_output_shaft",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "name": "J5_bearing_0",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_bearing_-20",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_brake_front_adapter_15",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 4.4786396813378815e-13,
+      "pass": true
+    },
+    {
+      "name": "J5_brake_strut_0",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_brake_strut_1",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_brake_strut_2",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_brake_strut_3",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_brake_stator",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_brake_armature",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_brake_keyed_hub_5",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_brake_shaft_key_6",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_integral_stop_target",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_stop_pin_0",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_stop_pin_1",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_brake_back_adapter",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 7.029932191926491e-13,
+      "pass": true
+    },
+    {
+      "name": "J5_index_sensor",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_sensor_mount",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_brake_spacer_0",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_brake_spacer_1",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_brake_spacer_2",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_gearhead",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_motor",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_carrier_deck",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_housing_rails",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_front_cover",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_tension_block",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_tension_screw",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_timing_belt",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 5.81312775693732e-13,
+      "pass": true
+    },
+    {
+      "name": "J5_drive_pulley",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.0955680807001045e-12,
+      "pass": true
+    },
+    {
+      "name": "J5_input_support_bearing",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_input_shaft",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_driven_pulley",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 5.924150059399835e-13,
+      "pass": true
+    },
+    {
+      "name": "J5_pulley_output_key",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_pulley_input_key",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_gear_mount_screw_0",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_gear_mount_screw_1",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_gear_mount_screw_2",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_gear_mount_screw_3",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_gear_mount_screw_4",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_gear_mount_screw_5",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_carrier_screw_0",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_carrier_screw_1",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_carrier_screw_2",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J5_carrier_screw_3",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_bearing_housing_10",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "name": "small_rear_bearing_cover_11",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 7.048805983345119e-13,
+      "pass": true
+    },
+    {
+      "name": "small_front_bearing_cover_12",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "name": "small_inner_race_spacer_0",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_DIN471_installed_retainer_1",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_selective_inner_race_shim_2",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_output_shaft",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "name": "J6_bearing_0",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_bearing_-20",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_brake_front_adapter_15",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 7.063238882665246e-13,
+      "pass": true
+    },
+    {
+      "name": "J6_brake_strut_0",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_brake_strut_1",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_brake_strut_2",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_brake_strut_3",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_brake_stator",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_brake_armature",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_brake_keyed_hub_5",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "small_brake_shaft_key_6",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_integral_stop_target",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_stop_pin_0",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_stop_pin_1",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_brake_back_adapter",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 4.949374243778948e-13,
+      "pass": true
+    },
+    {
+      "name": "J6_index_sensor",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_sensor_mount",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_brake_spacer_0",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_brake_spacer_1",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_brake_spacer_2",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_gearhead",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_motor",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_carrier_deck",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_housing_rails",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_front_cover",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_tension_block",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_tension_screw",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_timing_belt",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 5.943023850818463e-13,
+      "pass": true
+    },
+    {
+      "name": "J6_drive_pulley",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.1963763313360687e-12,
+      "pass": true
+    },
+    {
+      "name": "J6_input_support_bearing",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_input_shaft",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_driven_pulley",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 6.965539256498232e-13,
+      "pass": true
+    },
+    {
+      "name": "J6_pulley_output_key",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_pulley_input_key",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_gear_mount_screw_0",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_gear_mount_screw_1",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_gear_mount_screw_2",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_gear_mount_screw_3",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_gear_mount_screw_4",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_gear_mount_screw_5",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_carrier_screw_0",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_carrier_screw_1",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_carrier_screw_2",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "J6_carrier_screw_3",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_plate_42",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 6.217248937900877e-15,
+      "pass": true
+    },
+    {
+      "name": "pedestal_sleeve_43",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_backing_washer_44",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_bolt_45",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_nut_46",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_backing_washer_47",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_bolt_48",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_nut_49",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_backing_washer_50",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_bolt_51",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_nut_52",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_backing_washer_53",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_bolt_54",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_nut_55",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_backing_washer_56",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_bolt_57",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_nut_58",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_backing_washer_59",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_bolt_60",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "bench_mount_nut_61",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "turret_yoke_52",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "upper_link_tube_52",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "upper_root_ear_53",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.3322676295501878e-15,
+      "pass": true
+    },
+    {
+      "name": "upper_nut_strip_54",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "fore_link_tube_51",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.4210854715202004e-14,
+      "pass": true
+    },
+    {
+      "name": "fore_root_ear_52",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "name": "fore_nut_strip_53",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "upper_elbow_housing_clamp_55",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "fore_roll_housing_clamp_54",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "fore_clamp_side_shims_55",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "wrist_roll_fork_51",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "idle_bearing_inner_cover_52",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "name": "idle_bearing_outer_cover_53",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "name": "J5_idle_bearing",
+      "body": "roll",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "wrist_bend_cradle_51",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "wrist_idle_trunnion_52",
+      "body": "bend",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gripper_bridge_10",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gripper_motor",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gripper_pinion_m0p3_z20_12",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "pinion_front_bushing_13",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "guide_rod_-10",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "guide_rod_10",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "right_jaw_carriage_0",
+      "body": "jaw_left",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "finger_pad_1",
+      "body": "jaw_left",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "jaw_guide_bushing_2",
+      "body": "jaw_left",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "jaw_guide_bushing_3",
+      "body": "jaw_left",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "upper_rack",
+      "body": "jaw_left",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 6.494804694057166e-15,
+      "pass": true
+    },
+    {
+      "name": "gripper_cable_clamp_mount_16",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gripper_cable_clamp_base_17",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gripper_cable_clamp_cap_18",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gripper_cable_clamp_liner_19",
+      "body": "tool",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "shoulder_spring_fixed_clevis_53",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "shoulder_spring_moving_clevis_56",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "shoulder_spring_nut_plate_57",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "spring_eye_pin_54",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "spring_eye_pin_58",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "spring_eye_pin_55",
+      "body": "turret",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "spring_eye_pin_59",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "elbow_spring_fixed_clevis_62",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "elbow_fixed_anchor_nut_strips_63",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "elbow_spring_moving_clevis_56",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "name": "elbow_moving_anchor_nut_plate_57",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "spring_eye_pin_64",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "spring_eye_pin_58",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "spring_eye_pin_65",
+      "body": "upper",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "spring_eye_pin_59",
+      "body": "fore",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "left_carriage",
+      "body": "jaw_right",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "left_pad",
+      "body": "jaw_right",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "left_lower_rack",
+      "body": "jaw_right",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 6.3629657098829284e-15,
+      "pass": true
+    },
+    {
+      "name": "left_guide_bushing_-10",
+      "body": "jaw_right",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "left_guide_bushing_10",
+      "body": "jaw_right",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "workpiece",
+      "body": "puck",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nest_A_base",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nest_A_seat",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nest_B_base",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nest_B_seat",
+      "body": "fixed",
+      "comparisons": 256,
+      "maximum_abs_distance_difference_mm": 0.0,
+      "pass": true
+    }
+  ]
+}

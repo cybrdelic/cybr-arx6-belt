@@ -1,0 +1,662 @@
+{
+  "revision": "P5",
+  "date_utc": "2026-10-22T03:55:32.427916+00:00",
+  "status": "Nominal operation verified; three adverse-case criteria remain failed",
+  "frozen_model_provenance": {
+    "xml_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+    "controller_sha256": "e8fbe68be5a83f02f6e0b194c573b69bcf34f098de31358fd0e236ad4795107d",
+    "safety_sha256": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+    "parameters_sha256": "7127b02dc62029a39f58b5e69e97aa932867d560282f98e5aa62b05f0d558c70",
+    "geometry_sha256": "838768d0473b4ba2ed25be1e1b0d5c34c3ac643dce99e140bb415d99f2103208",
+    "collision_proxies_sha256": "f351530da734766721dfd95582d764552d0f92f291a62ad07080dcbd888b528f",
+    "cad_mass_properties_sha256": "98f98c0a6dd1b39dac65f967fb0ebe682beb003aa29052f2924337fb07f8e024"
+  },
+  "nominal_trace_sha256": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+  "ordinary_scenarios_passed": 21,
+  "ordinary_scenario_count": 24,
+  "negative_controls_pass": true,
+  "conclusion": "Retain the exact frozen 10 s nominal design as an engineering prototype. 21 of 24 configured ordinary scenarios pass; all four deliberate failure controls produce their expected consequences. Two moving-descent power-loss cases fail the belt service allowance, including a combined weak-spring/doubled-delay case that exceeds the raw catalog screen. A third weak-spring/doubled-delay case stops after the specified settling deadline. The original controller, brakes, acceptance thresholds, geometry and nominal trace remain unchanged. Fail-safe payload retention, fixture clearance and engineered impact compliance require a separate hardware design and qualification; this model does not establish emergency-safe operation.",
+  "failed_scenarios": [
+    {
+      "name": "power_loss_3.2",
+      "failed_checks": [
+        {
+          "name": "estimated belt torque including rotor deceleration within service allowance",
+          "passed": false,
+          "detail": {
+            "peak_estimated_transmitted_torque_Nm": [
+              3.6429902287562643,
+              10.856646488105243,
+              9.78191344198293,
+              3.184195772225105,
+              1.1970311849737847,
+              0.027020326891734017
+            ],
+            "allowance_Nm": [
+              12.798933333333332,
+              12.798933333333332,
+              12.798933333333332,
+              2.4948,
+              2.4948,
+              2.4948
+            ],
+            "method": "Motor-generated output torque minus equivalent upstream armature times actual angular acceleration. Ideal rigid lumped transmission; no tooth impact or compliance."
+          }
+        }
+      ]
+    },
+    {
+      "name": "weak_spring_double_delay_3.2",
+      "failed_checks": [
+        {
+          "name": "estimated belt torque including rotor deceleration within service allowance",
+          "passed": false,
+          "detail": {
+            "peak_estimated_transmitted_torque_Nm": [
+              3.6558350817927256,
+              15.67763187273424,
+              32.192145388700816,
+              1.2560297790538768,
+              6.993917145124087,
+              0.026930084809151114
+            ],
+            "allowance_Nm": [
+              12.798933333333332,
+              12.798933333333332,
+              12.798933333333332,
+              2.4948,
+              2.4948,
+              2.4948
+            ],
+            "method": "Motor-generated output torque minus equivalent upstream armature times actual angular acceleration. Ideal rigid lumped transmission; no tooth impact or compliance."
+          }
+        }
+      ]
+    },
+    {
+      "name": "weak_spring_double_delay_7.2",
+      "failed_checks": [
+        {
+          "name": "all joints settle below 0.002 rad/s",
+          "passed": false,
+          "detail": 0.15329183599540838
+        }
+      ]
+    }
+  ],
+  "belt_load_comparison": [
+    {
+      "case": "power_loss_3.2",
+      "joint": "J4",
+      "peak_estimated_torque_Nm": 3.184195772225105,
+      "service_allowance_Nm": 2.4948,
+      "corrected_catalog_capacity_Nm": 3.7422,
+      "catalog_capacity_to_peak_ratio": 1.1752418091381873,
+      "exceeds_service_allowance": true,
+      "exceeds_catalog_screen": false,
+      "separate_diagnostic_repeat": {
+        "timestep_s": 0.0004166666666666667,
+        "note": "Original XML timestep is 0.000416666666667 s. This initial diagnostic used exact 1/2400 s; the contact peak changes modestly. The frozen suite peak above remains authoritative.",
+        "peak_torque_Nm": 3.408070391340596,
+        "peak_time_s": 3.2920833333333337,
+        "time_over_allowance_ms": 0.4166666666666667,
+        "time_over_catalog_screen_ms": 0
+      }
+    },
+    {
+      "case": "weak_spring_double_delay_3.2",
+      "joint": "J2",
+      "peak_estimated_torque_Nm": 15.67763187273424,
+      "service_allowance_Nm": 12.798933333333332,
+      "corrected_catalog_capacity_Nm": 19.1984,
+      "catalog_capacity_to_peak_ratio": 1.2245727005102667,
+      "exceeds_service_allowance": true,
+      "exceeds_catalog_screen": false,
+      "peak_time_s": 3.2679166666692807,
+      "total_time_over_allowance_ms": 0.416666666667,
+      "total_time_over_catalog_screen_ms": 0,
+      "events_over_allowance": [
+        {
+          "start_s": 3.2675000000026135,
+          "end_s": 3.2679166666692807,
+          "steps": 1,
+          "peak_Nm": 15.67763187273424
+        }
+      ]
+    },
+    {
+      "case": "weak_spring_double_delay_3.2",
+      "joint": "J3",
+      "peak_estimated_torque_Nm": 32.192145388700816,
+      "service_allowance_Nm": 12.798933333333332,
+      "corrected_catalog_capacity_Nm": 19.1984,
+      "catalog_capacity_to_peak_ratio": 0.596369076002573,
+      "exceeds_service_allowance": true,
+      "exceeds_catalog_screen": true,
+      "peak_time_s": 3.2679166666692807,
+      "total_time_over_allowance_ms": 1.2500000000009999,
+      "total_time_over_catalog_screen_ms": 0.833333333334,
+      "events_over_allowance": [
+        {
+          "start_s": 3.2675000000026135,
+          "end_s": 3.2687500000026146,
+          "steps": 3,
+          "peak_Nm": 32.192145388700816
+        }
+      ]
+    },
+    {
+      "case": "weak_spring_double_delay_3.2",
+      "joint": "J5",
+      "peak_estimated_torque_Nm": 6.993917145124087,
+      "service_allowance_Nm": 2.4948,
+      "corrected_catalog_capacity_Nm": 3.7422,
+      "catalog_capacity_to_peak_ratio": 0.5350649603575773,
+      "exceeds_service_allowance": true,
+      "exceeds_catalog_screen": true,
+      "peak_time_s": 3.2679166666692807,
+      "total_time_over_allowance_ms": 2.5000000000019997,
+      "total_time_over_catalog_screen_ms": 2.083333333335,
+      "events_over_allowance": [
+        {
+          "start_s": 3.2675000000026135,
+          "end_s": 3.2700000000026157,
+          "steps": 6,
+          "peak_Nm": 6.993917145124087
+        }
+      ]
+    }
+  ],
+  "settling_failure": {
+    "case": "weak_spring_double_delay_7.2",
+    "required_maximum_speed_rad_s": 0.002,
+    "required_settled_after_fault_s": 0.5,
+    "measured_maximum_speed_after_deadline_rad_s": 0.15329183599540838,
+    "joint_with_residual_motion": "J4",
+    "last_saved_state_exceeding_threshold_s": 7.766666666672879,
+    "next_saved_state_all_joints_below_threshold_s": 7.775000000006219,
+    "approximate_time_to_settle_s": [
+      0.5666666666728792,
+      0.5750000000062192
+    ],
+    "maximum_J4_fault_travel_deg": 11.885111190757316,
+    "final_joint_speed_rad_s": [
+      3.011086711536999e-16,
+      -1.4170565974428364e-06,
+      1.8018261219867422e-05,
+      -3.830474015060226e-05,
+      2.9569786870357428e-06,
+      3.799782657730935e-08
+    ],
+    "interpretation": "The brake eventually stops the arm, but the unchanged 0.5 s acceptance deadline is missed. No settling tolerance was relaxed."
+  },
+  "load_estimation": {
+    "formula": "T_belt_est = T_motor_output - J_upstream_equivalent * (qvel_after - qvel_before) / dt",
+    "meaning": "The belt carries upstream rotor inertia during a stop even though the full output-brake holding torque does not flow through the belt.",
+    "limits": "Rigid lumped transmission, compliant numerical contact, and finite brake delay/ramp assumptions. No explicit belt tooth elasticity, skip, breakage or calibrated impact impulse rating. Millisecond overload duration is not permission to exceed the catalog screen. Post-overload simulated motion is not a prediction that real hardware remains intact."
+  },
+  "cause": {
+    "sequence": [
+      "Power loss removes arm and gripper electrical torque.",
+      "The independent puck drops toward the placement nest while finite brake engagement allows further arm descent.",
+      "The puck contacts the nest and the descending gripper front wall/motor-clamp proxies.",
+      "Contact force changes link velocity rapidly and loads the belt through upstream drive inertia."
+    ],
+    "exact_weak_case_event_time_s": 3.2679166666692807,
+    "exact_weak_case_contact_records": [
+      {
+        "pair": [
+          "nest_B_seat",
+          "puck"
+        ],
+        "distance_m": -0.00014071029726239403,
+        "local_force_N_Nm": [
+          822.2000655063373,
+          -36.74354112509925,
+          46.264338712173114,
+          -0.020135311349614115,
+          0,
+          0
+        ]
+      },
+      {
+        "pair": [
+          "nest_B_seat",
+          "puck"
+        ],
+        "distance_m": -7.380413156866766e-05,
+        "local_force_N_Nm": [
+          349.8174919018214,
+          -26.19773988956824,
+          33.13756814798507,
+          -0.012927004531768977,
+          0,
+          0
+        ]
+      },
+      {
+        "pair": [
+          "nest_B_seat",
+          "puck"
+        ],
+        "distance_m": -8.839554237610738e-07,
+        "local_force_N_Nm": [
+          47.2616277152776,
+          -9.029531458879132,
+          9.983739713728777,
+          -0.003864861296363024,
+          0,
+          0
+        ]
+      },
+      {
+        "pair": [
+          "nest_B_seat",
+          "puck"
+        ],
+        "distance_m": -6.59389772494027e-05,
+        "local_force_N_Nm": [
+          266.2445798984002,
+          -24.253525834888954,
+          17.69982197567515,
+          -0.010345059550691241,
+          0,
+          0
+        ]
+      },
+      {
+        "pair": [
+          "puck",
+          "structure_gripper_front_wall"
+        ],
+        "distance_m": -0.00014621308168786732,
+        "local_force_N_Nm": [
+          507.6962080295717,
+          -26.992633607232722,
+          14.984368303534271,
+          -0.03947527483966785,
+          0,
+          0
+        ]
+      },
+      {
+        "pair": [
+          "puck",
+          "structure_gripper_front_wall"
+        ],
+        "distance_m": -0.0001267593421054548,
+        "local_force_N_Nm": [
+          476.851749067196,
+          -27.69586643710136,
+          15.871543022044445,
+          -0.03947527483968406,
+          0,
+          0
+        ]
+      },
+      {
+        "pair": [
+          "puck",
+          "structure_gripper_front_wall"
+        ],
+        "distance_m": -5.460343496905951e-05,
+        "local_force_N_Nm": [
+          130.08374547322572,
+          -11.153462830652328,
+          6.315971538361234,
+          -0.014655565267198668,
+          0,
+          0
+        ]
+      },
+      {
+        "pair": [
+          "puck",
+          "structure_gripper_motor_clamp_side_11.5375"
+        ],
+        "distance_m": -0.0001331587953007895,
+        "local_force_N_Nm": [
+          357.3584380820515,
+          -24.148367010766925,
+          -11.632706948180303,
+          -0.03947527483969093,
+          0,
+          0
+        ]
+      }
+    ],
+    "no_structural_link_overlap": true,
+    "structural_check_scope": "The structural-link check excludes the independent puck. Zero link overlap does not imply no puck/fixture/gripper impact.",
+    "brake_model": {
+      "large": {
+        "family": "Kendrion PM Line size 09",
+        "proposed_part": "86 61109H00-0050",
+        "source": "https://www.kendrion.com/en/productfinder/group/product/brakes/86-61109h00-0050",
+        "holding_torque_Nm": 22.0,
+        "screening_dynamic_torque_Nm": 13.2,
+        "dynamic_torque_status": "Engineering derating to 60% of M4; not a vendor-certified M1 value",
+        "max_single_stop_energy_J": 550.0,
+        "max_estops": 500,
+        "max_estop_speed_rpm": 3000.0,
+        "mass_kg": 1.1,
+        "coil_voltage_V": 24.0,
+        "coil_power_W": 17.0,
+        "OD_mm": 90.0,
+        "ID_mm": 40.0,
+        "length_mm": 37.6,
+        "coupling_time_s": 0.025,
+        "delay_s": 0.02,
+        "ramp_s": 0.015,
+        "delay_status": "Conservative model delay/ramp; exact installation switching time must be measured",
+        "stack_extension_mm": 60.0,
+        "mount_pcd_mm": 75.0,
+        "mount_count": 6,
+        "mount_clearance_mm": 3.3,
+        "mount_status": "Nominal PM size09 pattern; configured 0050 drawing and hub interface require vendor confirmation"
+      },
+      "small": {
+        "family": "Kendrion PM Line size 04 compact stator",
+        "proposed_part": "86 61104H00 configured shaft/hub",
+        "source": "https://www.kendrion.com/fileadmin/user_upload/Downloads/Datasheets_Operating_instructions/Industrial_Brakes/Operating-Instructions-permanent-magnet-brake-pm-line-BA-86-621..H00-2021.09.pdf",
+        "holding_torque_Nm": 2.2,
+        "screening_dynamic_torque_Nm": 1.32,
+        "dynamic_torque_status": "Engineering derating to 60% of M4; not a vendor-certified M1 value",
+        "max_single_stop_energy_J": 200.0,
+        "max_estops": 500,
+        "max_estop_speed_rpm": 3000.0,
+        "mass_kg": 0.19,
+        "coil_voltage_V": 24.0,
+        "coil_power_W": 8.2,
+        "OD_mm": 39.5,
+        "ID_mm": 13.0,
+        "length_mm": 25.7,
+        "coupling_time_s": 0.014,
+        "delay_s": 0.012,
+        "ramp_s": 0.012,
+        "delay_status": "Conservative model delay/ramp; exact installation switching time must be measured",
+        "stack_extension_mm": 46.0,
+        "mount_pcd_mm": 32.5,
+        "mount_count": 3,
+        "mount_clearance_mm": 2.2,
+        "mount_status": "Compact 611 envelope, NOT the 62.5mm flange envelope of 62104-0018. Configured drawing and hub remain procurement gates"
+      }
+    },
+    "brake_switching_note": "The existing speed-based dynamic/holding transition is abrupt at 0.01 rad/s. It is not the sole cause: the overload coincides with resolved puck/fixture/gripper contact and persists at half the timestep. No smoother or weaker brake law was adopted."
+  },
+  "timestep_refinement": {
+    "original_exact_summary": "diagnostics/brake-events/weak_spring_double_delay_3.2-baseline-rate1-2400-summary.json",
+    "original_summary_sha256": "6e69d7704e3b49512105f1c9e9b10fa3ff5b21a6a1f7b1f78e3cb013113373bc",
+    "refined_summary": "diagnostics/brake-events/weak_spring_double_delay_3.2-baseline-rate1-4800-summary.json",
+    "refined_summary_sha256": "1f569ed296ea39990f07ccd09e59e82df7c5ce070ed03fff41afbfcc566cdb86",
+    "refined_timestep_s": 0.00020833333333333335,
+    "refined_peaks_Nm": [
+      3.6585902683151947,
+      13.288457487043946,
+      26.813762410535034,
+      2.337874668346031,
+      8.401567482110753,
+      0.45131202522711256
+    ],
+    "refined_time_above_catalog_screen_ms": [
+      0,
+      0,
+      0.8333333333333334,
+      0,
+      2.0833333333333335,
+      0
+    ],
+    "interpretation": "The numerical impact peak is timestep sensitive; both resolutions flag raw-capacity exceedance at J3 and J5. This establishes the model limitation, not a precise hardware impact load."
+  },
+  "diagnostic_appendix": [
+    {
+      "file": "diagnostics/brake-events/power_loss_3.2-baseline-rate0.7-2400-summary.json",
+      "sha256": "0c2fba1c902f4587a755825090ffd78b132c08afed0c475a8bc64c66656c7ef1",
+      "case": "power_loss_3.2",
+      "reference_rate": 0.7,
+      "cycle_duration_if_adopted_s": 14.285714285714286,
+      "physical_fault_time_s": 4.571428571428572,
+      "peak_estimated_belt_torque_Nm": [
+        1.8162949379664282,
+        9.518437235725766,
+        3.9513953993015956,
+        1.1378216048660186,
+        0.7317616526406325,
+        0.021269796876498305
+      ],
+      "time_over_allowance_ms": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "time_over_catalog_screen_ms": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_speed_after_fault_plus_half_second_rad_s": 2.7170516794919737e-05,
+      "adopted": false
+    },
+    {
+      "file": "diagnostics/brake-events/weak_spring_double_delay_3.2-baseline-rate0.7-2400-summary.json",
+      "sha256": "1dc596c1365424e5a8219fada76e39015f8ffa672aa07f69f6af8dcd8a0e80d8",
+      "case": "weak_spring_double_delay_3.2",
+      "reference_rate": 0.7,
+      "cycle_duration_if_adopted_s": 14.285714285714286,
+      "physical_fault_time_s": 4.571428571428572,
+      "peak_estimated_belt_torque_Nm": [
+        1.821295006600781,
+        10.394549960887833,
+        13.889764810015102,
+        4.659977299567602,
+        6.932302281738601,
+        0.021188956053313893
+      ],
+      "time_over_allowance_ms": [
+        0,
+        0,
+        0.416666666667,
+        0.833333333334,
+        2.083333333335,
+        0
+      ],
+      "time_over_catalog_screen_ms": [
+        0,
+        0,
+        0,
+        0.416666666667,
+        1.2500000000009999,
+        0
+      ],
+      "max_speed_after_fault_plus_half_second_rad_s": 2.9742101629616812e-05,
+      "adopted": false
+    },
+    {
+      "file": "diagnostics/brake-events/weak_spring_double_delay_7.2-baseline-rate0.7-2400-summary.json",
+      "sha256": "3c828083c7f94fabe910d663410cc812a6701f77e817e7b0924cd7bcc48c4a3a",
+      "case": "weak_spring_double_delay_7.2",
+      "reference_rate": 0.7,
+      "cycle_duration_if_adopted_s": 14.285714285714286,
+      "physical_fault_time_s": 10.285714285714286,
+      "peak_estimated_belt_torque_Nm": [
+        2.211331759374019,
+        12.117593818539287,
+        4.39599656925872,
+        1.4249225877895884,
+        0.6535892211968474,
+        0.8263010432676543
+      ],
+      "time_over_allowance_ms": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "time_over_catalog_screen_ms": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_speed_after_fault_plus_half_second_rad_s": 3.6433236775449875e-05,
+      "adopted": false
+    },
+    {
+      "file": "diagnostics/brake-events/weak_spring_double_delay_3.2-baseline-rate0.4-2400-summary.json",
+      "sha256": "0a59a77d9a8d93af29f9b793d71a457e0d28e6db803e23e493b9038d0324a575",
+      "case": "weak_spring_double_delay_3.2",
+      "reference_rate": 0.4,
+      "cycle_duration_if_adopted_s": 25.0,
+      "physical_fault_time_s": 8,
+      "peak_estimated_belt_torque_Nm": [
+        0.6390402986572715,
+        9.517703236251375,
+        10.341857708025545,
+        3.5930237057615386,
+        2.4144482476973637,
+        0.015710290497520533
+      ],
+      "time_over_allowance_ms": [
+        0,
+        0,
+        0,
+        0.833333333334,
+        0,
+        0
+      ],
+      "time_over_catalog_screen_ms": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_speed_after_fault_plus_half_second_rad_s": 2.6631855300424126e-05,
+      "adopted": false
+    },
+    {
+      "file": "diagnostics/brake-events/stationary_placement_power_loss-baseline-rate1-2400-summary.json",
+      "sha256": "19bfeb6e5eada81a4e15ff3daee42c4efb34fdd7d08a5818f13970f6116d0c47",
+      "case": "stationary_placement_power_loss",
+      "reference_rate": 1,
+      "cycle_duration_if_adopted_s": 10.0,
+      "physical_fault_time_s": 3.6,
+      "peak_estimated_belt_torque_Nm": [
+        3.6558350817927256,
+        12.711064450544798,
+        4.377582764677838,
+        2.0454368256930664,
+        1.5752487011446434,
+        0.19535991042144318
+      ],
+      "time_over_allowance_ms": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "time_over_catalog_screen_ms": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "max_speed_after_fault_plus_half_second_rad_s": 3.5353804497513954e-05,
+      "adopted": false
+    }
+  ],
+  "rejected_slowdown_decision": "70% and 40% reference-rate candidates were tested only in isolated in-memory controller variants with fault times moved to the same trajectory phase. The 40% candidate would make a 25 s cycle yet still exceeds J4 service allowance. Neither candidate was adopted, and neither received an all-phase acceptance claim.",
+  "stationary_diagnostic_scope": "A separate power loss during stationary placement at 3.6 s, with weaker springs and doubled brake delay, passes the assessed belt/settling criteria. It completed before a stop request arrived. Thus the evidence does not prove impact unavoidable for every placement pose or every possible retiming.",
+  "negative_control_outcomes": [
+    {
+      "name": "friction_loss independently simulated payload fails the transfer",
+      "passed": true,
+      "placement_B_error_mm": 78.1589790303881,
+      "minimum_visible_failure_mm": 10.0
+    },
+    {
+      "name": "weak_grip independently simulated payload fails the transfer",
+      "passed": true,
+      "placement_B_error_mm": 251.20508357261522,
+      "minimum_visible_failure_mm": 10.0
+    },
+    {
+      "name": "removing both springs materially increases drive burden or loses placement",
+      "passed": true,
+      "placement_B_error_mm": 204.44080889679861,
+      "shoulder_rms_current_ratio": 0.6792976624612416
+    },
+    {
+      "name": "power removal without brakes causes substantially larger free motion",
+      "passed": true,
+      "unbraked_maximum_travel_deg": 30.306984200516776,
+      "braked_emergency_maximum_travel_deg": 6.8342659965049375,
+      "comparison": "Both failures begin at 2.0 s of the same nominal motion; unbraked travel bounds are intentionally unenforced."
+    }
+  ],
+  "catalog_source": {
+    "source": "https://sdp-si.com/D820/PDFS/Technical-Section.pdf",
+    "publisher": "Stock Drive Products / Sterling Instrument (SDP/SI)",
+    "title": "Timing Belts, Pulleys, Chains and Sprockets: Technical Section",
+    "reviewed": "2026-10-21",
+    "large": {
+      "pdf_page_one_based": 81,
+      "printed_page": "T-78",
+      "table": 38,
+      "profile": "5 mm PowerGrip HTD",
+      "pulley_teeth": 36,
+      "base_width_mm": 9,
+      "base_rating_Nm_at_10_to_200_rpm": 7.1,
+      "selected_width_mm": 25,
+      "width_multiplier": 3.38,
+      "belt_length_mm": 400,
+      "length_correction": 0.8,
+      "corrected_catalog_torque_Nm": 19.1984,
+      "nominal_service_factor_target": 1.5,
+      "rejected_width_mm": 15,
+      "rejected_corrected_torque_Nm": 10.7352,
+      "baseline_shoulder_peak_Nm": 11.116115006617749
+    },
+    "small": {
+      "pdf_page_one_based": 79,
+      "printed_page": "T-76",
+      "table": 37,
+      "profile": "3 mm PowerGrip HTD",
+      "pulley_teeth": 30,
+      "base_width_mm": 6,
+      "base_rating_Nm_at_10_to_200_rpm": 1.4,
+      "selected_width_mm": 15,
+      "width_multiplier": 2.97,
+      "belt_length_mm": 225,
+      "length_correction": 0.9,
+      "corrected_catalog_torque_Nm": 3.7422,
+      "nominal_service_factor_target": 1.5
+    },
+    "scope": "Catalog torque selection screen. Rates below the tabulated 10 rpm minimum, reversing duty, installed pretension, tooth-profile manufacture, bearing loads, elastic positioning error and life still require qualification. Brake holding torque acts on the output shaft and is not assigned to the belt. Do not apply long-length open belt tensile ratings to the selected endless belts."
+  },
+  "retained_failed_suite": "diagnostics/freeze2-original-brake",
+  "reproduction": [
+    "node integration/validate_p5.mjs",
+    "python3 integration/analyze_p5_results.py",
+    "node integration/diagnose_p5_brakes.mjs weak_spring_double_delay_3.2",
+    "ARX_BRAKE_DIAG_HZ=4800 node integration/diagnose_p5_brakes.mjs weak_spring_double_delay_3.2",
+    "ARX_BRAKE_DIAG_REFERENCE_RATE=0.7 node integration/diagnose_p5_brakes.mjs weak_spring_double_delay_3.2",
+    "ARX_BRAKE_DIAG_REFERENCE_RATE=0.4 node integration/diagnose_p5_brakes.mjs weak_spring_double_delay_3.2",
+    "python3 integration/write_p5_fault_review.py"
+  ],
+  "expected_validation_exit_status": "Nonzero: the three ordinary failures remain unresolved. Do not reclassify them as deliberate negative controls."
+}

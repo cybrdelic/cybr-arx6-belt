@@ -1,0 +1,102 @@
+{
+  "scope": "Minimal authorized source-path correction for standalone sibling-layout shader rebuilding; no geometry capture or render was rerun.",
+  "authorization": "Root authorized replacement of the two nest-model input references on 2026-10-22.",
+  "before": {
+    "files": {
+      "tools/capture_csg.py": {
+        "before_sha256": "21baa5b7eef68ef5746353134b65dfee0a6840823ca5e9869727a28085e9b22c",
+        "replacement_occurrences": 1
+      },
+      "tools/check_csg.py": {
+        "before_sha256": "0e5aa78f2d333a7594a6297f68a3fdb35eb7061a36329ecfe0efc4c27d6a69b3",
+        "replacement_occurrences": 1
+      }
+    },
+    "nest_records": [
+      {
+        "name": "nest_A_base",
+        "attributes_identical": true,
+        "attributes": {
+          "name": "nest_A_base",
+          "type": "cylinder",
+          "pos": "0.29 0.0038 -0.124",
+          "quat": "0.7071067811865476 -0.7071067811865476 0 0",
+          "size": ".0366 .0036",
+          "rgba": ".12 .12 .12 1"
+        }
+      },
+      {
+        "name": "nest_A_seat",
+        "attributes_identical": true,
+        "attributes": {
+          "name": "nest_A_seat",
+          "type": "cylinder",
+          "pos": "0.29 0.0104 -0.124",
+          "quat": "0.7071067811865476 -0.7071067811865476 0 0",
+          "size": ".015 .0036",
+          "rgba": ".6 .6 .6 1"
+        }
+      },
+      {
+        "name": "nest_B_base",
+        "attributes_identical": true,
+        "attributes": {
+          "name": "nest_B_base",
+          "type": "cylinder",
+          "pos": "0.33 0.0038 0.124",
+          "quat": "0.7071067811865476 -0.7071067811865476 0 0",
+          "size": ".0366 .0036",
+          "rgba": ".12 .12 .12 1"
+        }
+      },
+      {
+        "name": "nest_B_seat",
+        "attributes_identical": true,
+        "attributes": {
+          "name": "nest_B_seat",
+          "type": "cylinder",
+          "pos": "0.33 0.0104 0.124",
+          "quat": "0.7071067811865476 -0.7071067811865476 0 0",
+          "size": ".015 .0036",
+          "rgba": ".6 .6 .6 1"
+        }
+      }
+    ],
+    "model_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5"
+  },
+  "after": {
+    "files": {
+      "tools/capture_csg.py": {
+        "after_sha256": "9cecc0c3845f8f738ba9a4921f3c6c69a72afc5410932d7f924b8627fa4e3846",
+        "old_alias_references": 0,
+        "current_model_references": 1
+      },
+      "tools/check_csg.py": {
+        "after_sha256": "abe1c9cb843bc23eb269ec41c73b308ec2c4b30b86f58b2d2c32368457548dde",
+        "old_alias_references": 0,
+        "current_model_references": 1
+      }
+    },
+    "python_environment": {
+      "numpy": "2.3.5",
+      "Pillow": "12.3.0",
+      "cadquery": "2.7.0",
+      "cadquery-ocp": "7.8.1.1.post1",
+      "playwright": "not installed in this Python environment"
+    }
+  },
+  "geometry_unchanged_reason": "All attributes of all four consumed nest geoms are identical between the previously read model and the current frozen P5 model.",
+  "unchanged": [
+    "engineering model, generator, specification, CAD and nominal trace",
+    "captured recipe, compiled CSG, shader sources used by film",
+    "film director, EGL renderer, numeric table packer and active media tools"
+  ],
+  "replacement": "ROOT/'ARX-6-P2.xml' \u2192 ROOT/'ARX-6-P5.xml'",
+  "documentation_only_path_note": {
+    "file": "tools/paths.py",
+    "before_sha256": "9ee9c39ea9e634636f396ba3b1355ff05545e9664f327939c7ea3f9ed7938a14",
+    "after_sha256": "2501531ab559d27654926a5acba026f508218f903f8842683190077ae9a2a2aa",
+    "scope": "Root-authorized docstring update to the current P5 sibling layout. Imports, variable names, defaults and legacy environment overrides are unchanged.",
+    "executable_AST_unchanged": true
+  }
+}

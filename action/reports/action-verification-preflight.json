@@ -1,0 +1,104 @@
+{
+  "revision": "P5",
+  "checked_utc": "2026-10-22T12:11:35.989323+00:00",
+  "verifier_sha256": "10e7344c00e534d4d1169a85bc7189af988c8438a5d69cc2cd5a78b81b774f97",
+  "passed": true,
+  "final_film_verified": false,
+  "expected": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 30,
+    "frames": 720
+  },
+  "scope": "Computational verification of a nominal action film. The three existing adverse stop failures remain unresolved.",
+  "source_hashes": {
+    "shader": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+    "trace_10s": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+    "trace_30s": "b7a2358597ee4735affc3a9baff7bffcdc3644cd0bca8dc52eb0d25d0dd5e2b7",
+    "original_video": "2a657d5dc7fdd89b05054aae1a0c5212af07f4699de5127a945fcb5adecda084",
+    "original_report": "911544f39e838d504ef6a1b7a0c0e574eb0f1ac60bc9624394258f76f18f8338",
+    "original_audit": "c677f5196ad4d5c2965cc455105b66f3c0c2c6962f92eb249420ae3c54643dae",
+    "original_director": "222f6f8e9e5dfc335fd2312fa5dfd57dd1b061d4f101e25668b5b82ba39b2923",
+    "renderer": "bbc289ca2c5661f63a43c3efeef5b3165a1704cba874082f53895f6562b4885b",
+    "table_packer": "2a1ca8becd51c12d84a0fc9b57b1af5707d2635b43bbe03f089891ebd41ba88c",
+    "action_director": "957b9e36957716c8509c63bd0af34ff23a3253f846591db3f4afaefec66555ad",
+    "inspection": "a556c371e7671c1cc3e006dc95cce1d801798f7920a8cfc499e45eb647521304"
+  },
+  "physical_input_hashes": {
+    "xml_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+    "controller_sha256": "e8fbe68be5a83f02f6e0b194c573b69bcf34f098de31358fd0e236ad4795107d",
+    "safety_sha256": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+    "parameters_sha256": "7127b02dc62029a39f58b5e69e97aa932867d560282f98e5aa62b05f0d558c70",
+    "geometry_sha256": "838768d0473b4ba2ed25be1e1b0d5c34c3ac643dce99e140bb415d99f2103208",
+    "collision_proxies_sha256": "f351530da734766721dfd95582d764552d0f92f291a62ad07080dcbd888b528f",
+    "cad_mass_properties_sha256": "98f98c0a6dd1b39dac65f967fb0ebe682beb003aa29052f2924337fb07f8e024"
+  },
+  "checks": [
+    {
+      "name": "All accepted source and original operation hashes match",
+      "passed": true,
+      "detail": {
+        "shader": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+        "trace_10s": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+        "trace_30s": "b7a2358597ee4735affc3a9baff7bffcdc3644cd0bca8dc52eb0d25d0dd5e2b7",
+        "original_video": "2a657d5dc7fdd89b05054aae1a0c5212af07f4699de5127a945fcb5adecda084",
+        "original_report": "911544f39e838d504ef6a1b7a0c0e574eb0f1ac60bc9624394258f76f18f8338",
+        "original_audit": "c677f5196ad4d5c2965cc455105b66f3c0c2c6962f92eb249420ae3c54643dae",
+        "original_director": "222f6f8e9e5dfc335fd2312fa5dfd57dd1b061d4f101e25668b5b82ba39b2923",
+        "renderer": "bbc289ca2c5661f63a43c3efeef5b3165a1704cba874082f53895f6562b4885b",
+        "table_packer": "2a1ca8becd51c12d84a0fc9b57b1af5707d2635b43bbe03f089891ebd41ba88c",
+        "action_director": "957b9e36957716c8509c63bd0af34ff23a3253f846591db3f4afaefec66555ad",
+        "inspection": "a556c371e7671c1cc3e006dc95cce1d801798f7920a8cfc499e45eb647521304"
+      }
+    },
+    {
+      "name": "The continuous trace has 3601 finite states with 47 fields",
+      "passed": true
+    },
+    {
+      "name": "The saved physical timeline is continuous at 120 Hz through 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "All first-10-second state fields exactly match the accepted original",
+      "passed": true
+    },
+    {
+      "name": "All seven physical input hashes match the continuous solve",
+      "passed": true,
+      "detail": {
+        "xml_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+        "controller_sha256": "e8fbe68be5a83f02f6e0b194c573b69bcf34f098de31358fd0e236ad4795107d",
+        "safety_sha256": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+        "parameters_sha256": "7127b02dc62029a39f58b5e69e97aa932867d560282f98e5aa62b05f0d558c70",
+        "geometry_sha256": "838768d0473b4ba2ed25be1e1b0d5c34c3ac643dce99e140bb415d99f2103208",
+        "collision_proxies_sha256": "f351530da734766721dfd95582d764552d0f92f291a62ad07080dcbd888b528f",
+        "cad_mass_properties_sha256": "98f98c0a6dd1b39dac65f967fb0ebe682beb003aa29052f2924337fb07f8e024"
+      }
+    },
+    {
+      "name": "Later cycles contain freshly integrated state rather than repeated rows",
+      "passed": true,
+      "detail": [
+        {
+          "cycle_start_seconds": 10.0,
+          "exact_repeated_state_rows": 0
+        },
+        {
+          "cycle_start_seconds": 20.0,
+          "exact_repeated_state_rows": 0
+        }
+      ]
+    },
+    {
+      "name": "Director state mapping agrees with independent interpolation across all three shots",
+      "passed": true,
+      "detail": {
+        "maximum_error": 3.552713678800501e-15
+      }
+    }
+  ],
+  "error": null,
+  "failed_checks": []
+}

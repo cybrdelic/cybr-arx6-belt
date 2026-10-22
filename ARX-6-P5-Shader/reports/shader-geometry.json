@@ -1,0 +1,13 @@
+{
+  "generator_sha256": "0c8474173cc5ec70164cae5050a9aa7decbf6e30f14cb7f67564e9fbdaad58f7",
+  "spec_sha256": "606e09b482d4c5f838ee49daced4b574f8260450dd350735e95422c2d666a8ac",
+  "objects": 385,
+  "unique_constructive_shapes": 129,
+  "analytic_primitives": 612,
+  "boolean_tape_instructions": 1301,
+  "polygon_vertices": 1028,
+  "threaded_bvh_nodes": 760,
+  "maximum_boolean_stack": 3,
+  "constants_source_bytes": 453811,
+  "input_csg_sha256": "3d26522dd8a764ca067cf444500530dfc63f22c5d6dbee8d1e9e22edbbfd454b"
+}

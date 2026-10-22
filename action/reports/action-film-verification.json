@@ -1,0 +1,540 @@
+{
+  "revision": "P5",
+  "checked_utc": "2026-10-22T12:26:05.400918+00:00",
+  "verifier_sha256": "10e7344c00e534d4d1169a85bc7189af988c8438a5d69cc2cd5a78b81b774f97",
+  "passed": true,
+  "final_film_verified": true,
+  "expected": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 30,
+    "frames": 720
+  },
+  "scope": "Computational verification of a nominal action film. The three existing adverse stop failures remain unresolved.",
+  "source_hashes": {
+    "shader": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+    "trace_10s": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+    "trace_30s": "b7a2358597ee4735affc3a9baff7bffcdc3644cd0bca8dc52eb0d25d0dd5e2b7",
+    "original_video": "2a657d5dc7fdd89b05054aae1a0c5212af07f4699de5127a945fcb5adecda084",
+    "original_report": "911544f39e838d504ef6a1b7a0c0e574eb0f1ac60bc9624394258f76f18f8338",
+    "original_audit": "c677f5196ad4d5c2965cc455105b66f3c0c2c6962f92eb249420ae3c54643dae",
+    "original_director": "222f6f8e9e5dfc335fd2312fa5dfd57dd1b061d4f101e25668b5b82ba39b2923",
+    "renderer": "bbc289ca2c5661f63a43c3efeef5b3165a1704cba874082f53895f6562b4885b",
+    "table_packer": "2a1ca8becd51c12d84a0fc9b57b1af5707d2635b43bbe03f089891ebd41ba88c",
+    "action_director": "957b9e36957716c8509c63bd0af34ff23a3253f846591db3f4afaefec66555ad",
+    "inspection": "a556c371e7671c1cc3e006dc95cce1d801798f7920a8cfc499e45eb647521304"
+  },
+  "physical_input_hashes": {
+    "xml_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+    "controller_sha256": "e8fbe68be5a83f02f6e0b194c573b69bcf34f098de31358fd0e236ad4795107d",
+    "safety_sha256": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+    "parameters_sha256": "7127b02dc62029a39f58b5e69e97aa932867d560282f98e5aa62b05f0d558c70",
+    "geometry_sha256": "838768d0473b4ba2ed25be1e1b0d5c34c3ac643dce99e140bb415d99f2103208",
+    "collision_proxies_sha256": "f351530da734766721dfd95582d764552d0f92f291a62ad07080dcbd888b528f",
+    "cad_mass_properties_sha256": "98f98c0a6dd1b39dac65f967fb0ebe682beb003aa29052f2924337fb07f8e024"
+  },
+  "file": "action/ARX-6-P5-In-Action-1080p.mp4",
+  "sha256": "c92e0443619af3ad4a167cb4113345641c8c641bba8b7cf341429d8a6c220467",
+  "bytes": 8890212,
+  "build_report_sha256": "9f5875a705406991206210ec8d976da3ab22aa4dc5fa01968d57f93cd7e6d1c2",
+  "combined_audit_sha256": "8a0c8bfef57e6cb623c14eac31fb00dd7a0cfecadedca1d068f462b027383708",
+  "media": {
+    "width": 1920,
+    "height": 1080,
+    "fps": "24",
+    "nominal_fps": "24",
+    "frames_declared": 720,
+    "duration_seconds": 30.0,
+    "container_duration_seconds": 30.0,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "chapters": [
+      {
+        "id": 0,
+        "time_base": "1/1000",
+        "start": 0,
+        "start_time": "0.000000",
+        "end": 10000,
+        "end_time": "10.000000",
+        "tags": {
+          "title": "Whole arm \u2014 transfers 1 and 2"
+        }
+      },
+      {
+        "id": 1,
+        "time_base": "1/1000",
+        "start": 10000,
+        "start_time": "10.000000",
+        "end": 20000,
+        "end_time": "20.000000",
+        "tags": {
+          "title": "Elevated view \u2014 transfers 3 and 4"
+        }
+      },
+      {
+        "id": 2,
+        "time_base": "1/1000",
+        "start": 20000,
+        "start_time": "20.000000",
+        "end": 30000,
+        "end_time": "30.000000",
+        "tags": {
+          "title": "Front view \u2014 transfers 5 and 6"
+        }
+      }
+    ]
+  },
+  "decode": {
+    "decoded_frames": 720,
+    "decode_seconds": 10.33927840799879,
+    "timebase": "1/24",
+    "frame_hashes_sha256": "3315f19243db5e197adafd2f413da02d0fa4c5f3c8be615ee7b5bd9e6e89da13"
+  },
+  "segments": [
+    {
+      "shot": 0,
+      "file": "ARX-6-P5-Shader/film/01-operation.mp4",
+      "sha256": "2a657d5dc7fdd89b05054aae1a0c5212af07f4699de5127a945fcb5adecda084",
+      "report_sha256": "911544f39e838d504ef6a1b7a0c0e574eb0f1ac60bc9624394258f76f18f8338",
+      "audit_sha256": "c677f5196ad4d5c2965cc455105b66f3c0c2c6962f92eb249420ae3c54643dae",
+      "audit": {
+        "frames": 240,
+        "unique_raw_shader_frames": 240,
+        "camera_records_sha256": "5bc434ad9bee72e96bc18d1fbd7b48b4d6baf7b5ef9f8cacb747406be7595ebc",
+        "maximum_full_state_error": 0.0,
+        "maximum_render_state_error": 0.0,
+        "maximum_camera_error": 0.0,
+        "maximum_time_error_seconds": 0.0
+      },
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "frames_declared": 240,
+        "duration_seconds": 10.0,
+        "container_duration_seconds": 10.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p",
+        "chapters": []
+      },
+      "decode": {
+        "decoded_frames": 240,
+        "decode_seconds": 3.957440829999541,
+        "timebase": "1/24",
+        "frame_hashes_sha256": "cc479673aeaf23e425088dcd6bd64599bc5e20ba9c9d3d44a7d2ee0164f35df7"
+      }
+    },
+    {
+      "shot": 1,
+      "file": "action/render/02-elevated.mp4",
+      "sha256": "d0468a92d7512e8fad9a31580afcf01144da041a59859e553646fb14604cb425",
+      "report_sha256": "fc0aa0bf9aef958f662f44789106d58c2c3b88c952044e916dcbf713144d94d3",
+      "audit_sha256": "1ba5bc489ec28d9b5009b0f1dde1d196c3f66f1a37231fa0d1aaf8ac4b50ed38",
+      "audit": {
+        "frames": 240,
+        "unique_raw_shader_frames": 240,
+        "camera_records_sha256": "15c85144000c6b71bcdbf539618e6bcdcb1fb947a38ebcdd1d6511938c501b20",
+        "maximum_full_state_error": 3.552713678800501e-15,
+        "maximum_render_state_error": 4.440892098500626e-16,
+        "maximum_camera_error": 0.0,
+        "maximum_time_error_seconds": 0.0
+      },
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "frames_declared": 240,
+        "duration_seconds": 10.0,
+        "container_duration_seconds": 10.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p",
+        "chapters": []
+      },
+      "decode": {
+        "decoded_frames": 240,
+        "decode_seconds": 4.924303427000268,
+        "timebase": "1/24",
+        "frame_hashes_sha256": "e8e3d56f0fda0fd55d686b5284337bff5351ae41ef8eecc0cd40cc707e7275e0"
+      }
+    },
+    {
+      "shot": 2,
+      "file": "action/render/03-front.mp4",
+      "sha256": "d597268e4792354e972d3141efe43707c3194fe67d1856ebe9847ee4002de268",
+      "report_sha256": "0ec85e1795293901d5b071725e7b7c80b12f11a1247b63c1f7c1ccad06f3bda9",
+      "audit_sha256": "26e02cf5da0c13955b38a90033c86ce9bfd64125bd044f67d0cf1d182202a227",
+      "audit": {
+        "frames": 240,
+        "unique_raw_shader_frames": 240,
+        "camera_records_sha256": "ce144bbc15ad96d262d7e81d582dc4a2fc59dbdacfa9874aba1b46fb762c5da0",
+        "maximum_full_state_error": 3.552713678800501e-15,
+        "maximum_render_state_error": 4.440892098500626e-16,
+        "maximum_camera_error": 0.0,
+        "maximum_time_error_seconds": 0.0
+      },
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "frames_declared": 240,
+        "duration_seconds": 10.0,
+        "container_duration_seconds": 10.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p",
+        "chapters": []
+      },
+      "decode": {
+        "decoded_frames": 240,
+        "decode_seconds": 3.705166490999545,
+        "timebase": "1/24",
+        "frame_hashes_sha256": "5ef7b0c14da6f90d25fed76de64a5ae7e115ad33efc1ce548d1ecc3615e054ba"
+      }
+    }
+  ],
+  "contact_sheet": {
+    "file": "action/reports/action-contact-sheet.jpg",
+    "sha256": "cea27b9a34d0c68f73149e6d868cc26c4905697a7c1ab4e45be6e23130f88432",
+    "size": [
+      1600,
+      1112
+    ],
+    "samples": [
+      {
+        "frame": 12,
+        "time_seconds": 0.5,
+        "decoded_rgb_sha256": "6cb35b8c2d693a28029af44218c0578a676bb434b0cfca2cd11261fa4dad0274"
+      },
+      {
+        "frame": 48,
+        "time_seconds": 2.0,
+        "decoded_rgb_sha256": "7bd53d760de7e7a068ec98eca2fe48218117db6b2ea0a17d1d486ad912712405"
+      },
+      {
+        "frame": 87,
+        "time_seconds": 3.625,
+        "decoded_rgb_sha256": "48b4daad100415786354a7b6da9755a1ee4aa8c1e05e21cb673e852d7074a513"
+      },
+      {
+        "frame": 252,
+        "time_seconds": 10.5,
+        "decoded_rgb_sha256": "aa5c2e01986976a5f75aeaaac34ce3fc9424d52ec7ec5ca7e05049b847604382"
+      },
+      {
+        "frame": 288,
+        "time_seconds": 12.0,
+        "decoded_rgb_sha256": "4f7903fcfcf7643cf3588c074b046f86cf88cdf59eb4cf8c8da22f84423265e8"
+      },
+      {
+        "frame": 327,
+        "time_seconds": 13.625,
+        "decoded_rgb_sha256": "5e242272c4c4b90d577c1863f25eb0a253b4769a79b645aa9acbcf22896ea0fd"
+      },
+      {
+        "frame": 492,
+        "time_seconds": 20.5,
+        "decoded_rgb_sha256": "c7c4d5b10307bd413cb9275899207120c6bda09b54a00f23b5e7ecd49588c0f6"
+      },
+      {
+        "frame": 528,
+        "time_seconds": 22.0,
+        "decoded_rgb_sha256": "095eda3c5cbffea0ebb74c0fb493b8b5ecd94eead0594545924fccf3d08d141c"
+      },
+      {
+        "frame": 567,
+        "time_seconds": 23.625,
+        "decoded_rgb_sha256": "08f5ea2c454bbf82b1ee9243e7176b7d12296908cc0ca77f9aecf46dbff0d515"
+      }
+    ],
+    "source": "Decoded directly from the final joined MP4, without shader rerendering."
+  },
+  "raw_frame_statistics": {
+    "frames": 720,
+    "unique": 720,
+    "duplicate_frames": 0,
+    "largest_identical_frame_group": 1,
+    "repeated_ten_second_blocks": [],
+    "policy": "Identical stationary RGB8 frames are counted, not automatically failed. A repeated whole ten-second block fails."
+  },
+  "checks": [
+    {
+      "name": "All accepted source and original operation hashes match",
+      "passed": true,
+      "detail": {
+        "shader": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+        "trace_10s": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+        "trace_30s": "b7a2358597ee4735affc3a9baff7bffcdc3644cd0bca8dc52eb0d25d0dd5e2b7",
+        "original_video": "2a657d5dc7fdd89b05054aae1a0c5212af07f4699de5127a945fcb5adecda084",
+        "original_report": "911544f39e838d504ef6a1b7a0c0e574eb0f1ac60bc9624394258f76f18f8338",
+        "original_audit": "c677f5196ad4d5c2965cc455105b66f3c0c2c6962f92eb249420ae3c54643dae",
+        "original_director": "222f6f8e9e5dfc335fd2312fa5dfd57dd1b061d4f101e25668b5b82ba39b2923",
+        "renderer": "bbc289ca2c5661f63a43c3efeef5b3165a1704cba874082f53895f6562b4885b",
+        "table_packer": "2a1ca8becd51c12d84a0fc9b57b1af5707d2635b43bbe03f089891ebd41ba88c",
+        "action_director": "957b9e36957716c8509c63bd0af34ff23a3253f846591db3f4afaefec66555ad",
+        "inspection": "a556c371e7671c1cc3e006dc95cce1d801798f7920a8cfc499e45eb647521304"
+      }
+    },
+    {
+      "name": "The continuous trace has 3601 finite states with 47 fields",
+      "passed": true
+    },
+    {
+      "name": "The saved physical timeline is continuous at 120 Hz through 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "All first-10-second state fields exactly match the accepted original",
+      "passed": true
+    },
+    {
+      "name": "All seven physical input hashes match the continuous solve",
+      "passed": true,
+      "detail": {
+        "xml_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+        "controller_sha256": "e8fbe68be5a83f02f6e0b194c573b69bcf34f098de31358fd0e236ad4795107d",
+        "safety_sha256": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+        "parameters_sha256": "7127b02dc62029a39f58b5e69e97aa932867d560282f98e5aa62b05f0d558c70",
+        "geometry_sha256": "838768d0473b4ba2ed25be1e1b0d5c34c3ac643dce99e140bb415d99f2103208",
+        "collision_proxies_sha256": "f351530da734766721dfd95582d764552d0f92f291a62ad07080dcbd888b528f",
+        "cad_mass_properties_sha256": "98f98c0a6dd1b39dac65f967fb0ebe682beb003aa29052f2924337fb07f8e024"
+      }
+    },
+    {
+      "name": "Later cycles contain freshly integrated state rather than repeated rows",
+      "passed": true,
+      "detail": [
+        {
+          "cycle_start_seconds": 10.0,
+          "exact_repeated_state_rows": 0
+        },
+        {
+          "cycle_start_seconds": 20.0,
+          "exact_repeated_state_rows": 0
+        }
+      ]
+    },
+    {
+      "name": "Final film: source hashes, settings and shot plan match the frozen director",
+      "passed": true,
+      "detail": {
+        "mismatched_fields": []
+      }
+    },
+    {
+      "name": "Joined file and combined audit match the final build identities",
+      "passed": true
+    },
+    {
+      "name": "All 720 physical frame times advance from 0 to 29.958333 seconds without resets",
+      "passed": true
+    },
+    {
+      "name": "Reused operation report binds the accepted helpers, shader, trace and settings",
+      "passed": true
+    },
+    {
+      "name": "Original operation chapter: exact geometry table bytes and driver layout match the frozen shader",
+      "passed": true
+    },
+    {
+      "name": "Shot 0: every audit frame matches absolute time, physical state and camera",
+      "passed": true,
+      "detail": {
+        "frame_count": 240,
+        "maximum_time_error_seconds": 0.0,
+        "maximum_full_state_error": 0.0,
+        "maximum_render_state_error": 0.0,
+        "maximum_camera_error": 0.0,
+        "errors": []
+      }
+    },
+    {
+      "name": "Shot 0: sidecar unique raw-frame count agrees with actual audit",
+      "passed": true
+    },
+    {
+      "name": "Shot 0: native 1920\u00d71080, 24 fps, expected duration and frame count",
+      "passed": true
+    },
+    {
+      "name": "Shot 0: complete error-free decode of every video frame",
+      "passed": true,
+      "detail": {
+        "exit_code": 0,
+        "decoded_frames": 240,
+        "errors": ""
+      }
+    },
+    {
+      "name": "Shot 0: decoded presentation timestamps advance without gaps or resets",
+      "passed": true,
+      "detail": {
+        "timebase": "1/24"
+      }
+    },
+    {
+      "name": "Shot 1: source hashes, settings and shot plan match the frozen director",
+      "passed": true,
+      "detail": {
+        "mismatched_fields": []
+      }
+    },
+    {
+      "name": "Shot 1: correct ten-second range and byte identities",
+      "passed": true
+    },
+    {
+      "name": "Shot 1: exact geometry table bytes and driver layout match the frozen shader",
+      "passed": true
+    },
+    {
+      "name": "Shot 1: sampled camera fit remains within the stated frame limits",
+      "passed": true
+    },
+    {
+      "name": "Shot 1: every audit frame matches absolute time, physical state and camera",
+      "passed": true,
+      "detail": {
+        "frame_count": 240,
+        "maximum_time_error_seconds": 0.0,
+        "maximum_full_state_error": 3.552713678800501e-15,
+        "maximum_render_state_error": 4.440892098500626e-16,
+        "maximum_camera_error": 0.0,
+        "errors": []
+      }
+    },
+    {
+      "name": "Shot 1: sidecar unique raw-frame count agrees with actual audit",
+      "passed": true
+    },
+    {
+      "name": "Shot 1: native 1920\u00d71080, 24 fps, expected duration and frame count",
+      "passed": true
+    },
+    {
+      "name": "Shot 1: complete error-free decode of every video frame",
+      "passed": true,
+      "detail": {
+        "exit_code": 0,
+        "decoded_frames": 240,
+        "errors": ""
+      }
+    },
+    {
+      "name": "Shot 1: decoded presentation timestamps advance without gaps or resets",
+      "passed": true,
+      "detail": {
+        "timebase": "1/24"
+      }
+    },
+    {
+      "name": "Shot 2: source hashes, settings and shot plan match the frozen director",
+      "passed": true,
+      "detail": {
+        "mismatched_fields": []
+      }
+    },
+    {
+      "name": "Shot 2: correct ten-second range and byte identities",
+      "passed": true
+    },
+    {
+      "name": "Shot 2: exact geometry table bytes and driver layout match the frozen shader",
+      "passed": true
+    },
+    {
+      "name": "Shot 2: sampled camera fit remains within the stated frame limits",
+      "passed": true
+    },
+    {
+      "name": "Shot 2: every audit frame matches absolute time, physical state and camera",
+      "passed": true,
+      "detail": {
+        "frame_count": 240,
+        "maximum_time_error_seconds": 0.0,
+        "maximum_full_state_error": 3.552713678800501e-15,
+        "maximum_render_state_error": 4.440892098500626e-16,
+        "maximum_camera_error": 0.0,
+        "errors": []
+      }
+    },
+    {
+      "name": "Shot 2: sidecar unique raw-frame count agrees with actual audit",
+      "passed": true
+    },
+    {
+      "name": "Shot 2: native 1920\u00d71080, 24 fps, expected duration and frame count",
+      "passed": true
+    },
+    {
+      "name": "Shot 2: complete error-free decode of every video frame",
+      "passed": true,
+      "detail": {
+        "exit_code": 0,
+        "decoded_frames": 240,
+        "errors": ""
+      }
+    },
+    {
+      "name": "Shot 2: decoded presentation timestamps advance without gaps or resets",
+      "passed": true,
+      "detail": {
+        "timebase": "1/24"
+      }
+    },
+    {
+      "name": "The final combined audit is the exact ordered concatenation of source audits",
+      "passed": true
+    },
+    {
+      "name": "The final shot-source identities match the three verified segments in order",
+      "passed": true
+    },
+    {
+      "name": "Final raw-frame unique count agrees with the complete audit",
+      "passed": true
+    },
+    {
+      "name": "No ten-second raw-image block is replayed as another segment",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Joined action film: native 1920\u00d71080, 24 fps, expected duration and frame count",
+      "passed": true
+    },
+    {
+      "name": "Joined chapter tags cover the three intended shots in order",
+      "passed": true
+    },
+    {
+      "name": "Joined action film: complete error-free decode of every video frame",
+      "passed": true,
+      "detail": {
+        "exit_code": 0,
+        "decoded_frames": 720,
+        "errors": ""
+      }
+    },
+    {
+      "name": "Joined action film: decoded presentation timestamps advance without gaps or resets",
+      "passed": true,
+      "detail": {
+        "timebase": "1/24"
+      }
+    },
+    {
+      "name": "Every decoded joined frame equals its corresponding source-segment frame",
+      "passed": true
+    },
+    {
+      "name": "All nine requested samples were decoded from the actual final film",
+      "passed": true
+    }
+  ],
+  "error": null,
+  "failed_checks": []
+}

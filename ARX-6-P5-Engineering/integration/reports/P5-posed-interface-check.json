@@ -1,0 +1,168 @@
+{
+  "overall_step_sha256": "4902a48bec1b6c47fc178ddc9a586d695ecaa46d1cf5709abe24e2df90f7bea0",
+  "time_s": 2.5000000000019997,
+  "trace_sha256": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+  "model_xml_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+  "part_count": 384,
+  "maximum_child_volume_index_error_mm3": 2.0998941181460395e-06,
+  "checks": [
+    {
+      "name": "J1_phased_belt_vs_input_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.11074923291682273,
+      "pass": true
+    },
+    {
+      "name": "J1_phased_belt_vs_output_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.11074923291580367,
+      "pass": true
+    },
+    {
+      "name": "J1_phased_input_key_vs_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.019999999997348927,
+      "pass": true
+    },
+    {
+      "name": "J2_phased_belt_vs_input_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.10881684948413971,
+      "pass": true
+    },
+    {
+      "name": "J2_phased_belt_vs_output_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.10881684949541132,
+      "pass": true
+    },
+    {
+      "name": "J2_phased_input_key_vs_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.019999999988971055,
+      "pass": true
+    },
+    {
+      "name": "J3_phased_belt_vs_input_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.10806522135804092,
+      "pass": true
+    },
+    {
+      "name": "J3_phased_belt_vs_output_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.10806522135754426,
+      "pass": true
+    },
+    {
+      "name": "J3_phased_input_key_vs_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.01999999998076124,
+      "pass": true
+    },
+    {
+      "name": "J4_phased_belt_vs_input_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.09923867232101594,
+      "pass": true
+    },
+    {
+      "name": "J4_phased_belt_vs_output_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.11132846181769745,
+      "pass": true
+    },
+    {
+      "name": "J4_phased_input_key_vs_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.019999999987025126,
+      "pass": true
+    },
+    {
+      "name": "J5_phased_belt_vs_input_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.11003358583518749,
+      "pass": true
+    },
+    {
+      "name": "J5_phased_belt_vs_output_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.0997756322409305,
+      "pass": true
+    },
+    {
+      "name": "J5_phased_input_key_vs_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.019999999992068203,
+      "pass": true
+    },
+    {
+      "name": "J6_phased_belt_vs_input_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.1007055147840242,
+      "pass": true
+    },
+    {
+      "name": "J6_phased_belt_vs_output_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.1082585230756137,
+      "pass": true
+    },
+    {
+      "name": "J6_phased_input_key_vs_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.019999999999710437,
+      "pass": true
+    },
+    {
+      "name": "counterbalance_spring_1_eye_a_vs_turret__spring_eye_pin_54",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.20000000000538176,
+      "pass": true
+    },
+    {
+      "name": "counterbalance_spring_1_eye_b_vs_upper__spring_eye_pin_58",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.19999999999984006,
+      "pass": true
+    },
+    {
+      "name": "counterbalance_spring_2_eye_a_vs_turret__spring_eye_pin_55",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.19999999999581217,
+      "pass": true
+    },
+    {
+      "name": "counterbalance_spring_2_eye_b_vs_upper__spring_eye_pin_59",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.20000000000076953,
+      "pass": true
+    },
+    {
+      "name": "elbow_counterbalance_spring_1_eye_a_vs_upper__spring_eye_pin_64",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.1999999999987608,
+      "pass": true
+    },
+    {
+      "name": "elbow_counterbalance_spring_1_eye_b_vs_fore__spring_eye_pin_58",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.20000000000024956,
+      "pass": true
+    },
+    {
+      "name": "elbow_counterbalance_spring_2_eye_a_vs_upper__spring_eye_pin_65",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.19999999999875964,
+      "pass": true
+    },
+    {
+      "name": "elbow_counterbalance_spring_2_eye_b_vs_fore__spring_eye_pin_59",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.2000000000001831,
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "scope": "Exact native BREP at the saved2.5s state: six moving belt tooth phases, six input keys/shafts and eight spring eye/pin fits. Does not qualify elastic belt engagement, pretension, bearing preload, spring fatigue or the global configuration space."
+}

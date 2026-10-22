@@ -1,0 +1,4343 @@
+{
+  "revision": "P5",
+  "generator_sha256": "0c8474173cc5ec70164cae5050a9aa7decbf6e30f14cb7f67564e9fbdaad58f7",
+  "spec_sha256": "606e09b482d4c5f838ee49daced4b574f8260450dd350735e95422c2d666a8ac",
+  "native_interface_checks": [
+    {
+      "name": "large_belt_vs_driven_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.14999999999592223,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "large_belt_vs_drive_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.1499999999922425,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "large_belt_vs_carrier_deck",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 1.5,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "large_belt_vs_front_cover",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 11.5,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "large_belt_vs_housing_rails",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 2.199999999999983,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "large_input_key_vs_keyed_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.020000000000000018,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "large_input_key_vs_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.020000000000000018,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "large_input_shaft_vs_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.014999999999602706,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "large_input_bearing_vs_cover",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.0,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "small_belt_vs_driven_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.11999999999767473,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "small_belt_vs_drive_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.09848035539951032,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "small_belt_vs_carrier_deck",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 3.5,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "small_belt_vs_front_cover",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 7.5,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "small_belt_vs_housing_rails",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 2.999999999999988,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "small_input_key_vs_keyed_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.020000000000000018,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "small_input_key_vs_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.020000000000000018,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "small_input_shaft_vs_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.014999999999667765,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "small_input_bearing_vs_cover",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.0,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_output_key_vs_clocked_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.0,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_output_key_vs_clocked_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.019999999999999574,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_shaft_vs_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.01500000000000003,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_shaft_flange_vs_front_cover",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.3000000000000007,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J2_output_key_vs_clocked_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 2.805874274039885e-13,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J2_output_key_vs_clocked_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.019999999999998134,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J2_shaft_vs_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.01499999999999904,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J2_shaft_flange_vs_front_cover",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.3000000000000007,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J3_output_key_vs_clocked_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.0,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J3_output_key_vs_clocked_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.020000000000000018,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J3_shaft_vs_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.014999999999999677,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J3_shaft_flange_vs_front_cover",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.3000000000000007,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J4_output_key_vs_clocked_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.0,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J4_output_key_vs_clocked_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.020000000000000018,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J4_shaft_vs_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.014999999999999342,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J4_shaft_flange_vs_front_cover",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.3000000000000007,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J5_output_key_vs_clocked_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.0,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J5_output_key_vs_clocked_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.019999999999999907,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J5_shaft_vs_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.014999999999999184,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J5_shaft_flange_vs_front_cover",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.3000000000000007,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J6_output_key_vs_clocked_shaft",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.0,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J6_output_key_vs_clocked_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.020000000000000018,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J6_shaft_vs_pulley",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.014999999999999342,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J6_shaft_flange_vs_front_cover",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.3000000000000007,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_carrier_deck_vs_table_with_two_real_bores",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 4.0,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_carrier_deck_vs_base_foot",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 43.99999999999999,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_housing_rails_vs_table_with_two_real_bores",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 8.0,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_housing_rails_vs_base_foot",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 47.99999999999999,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_front_cover_vs_table_with_two_real_bores",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 43.41658669218482,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_front_cover_vs_base_foot",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 83.21658488546619,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_gearhead_vs_table_with_two_real_bores",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 1.9999999999999711,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_gearhead_vs_base_foot",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 2.0,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_motor_vs_table_with_two_real_bores",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 26.172504656604804,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    },
+    {
+      "name": "J1_motor_vs_base_foot",
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 14.31782106327635,
+      "pass": true,
+      "volume_tolerance_mm3": 1e-05
+    }
+  ],
+  "native_checks_pass": true,
+  "step_files": [
+    {
+      "file": "J1_clocked_output_shaft.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -23.0,
+          -23.0,
+          -144.0
+        ],
+        "max_mm": [
+          23.0,
+          23.0,
+          18.0
+        ],
+        "span_mm": [
+          46.0,
+          46.0,
+          162.0
+        ]
+      },
+      "volume_mm3": 52161.8580893656
+    },
+    {
+      "file": "J1_clocked_stop_target.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -22.0,
+          -22.0,
+          -97.0
+        ],
+        "max_mm": [
+          22.0,
+          41.867654985233656,
+          -94.0
+        ],
+        "span_mm": [
+          44.0,
+          63.867654985233656,
+          3.0
+        ]
+      },
+      "volume_mm3": 3995.887819840995
+    },
+    {
+      "file": "J1_index_sensor_mount.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -5.0,
+          45.9999999,
+          -100.0000001
+        ],
+        "max_mm": [
+          5.0,
+          56.5000001,
+          -91.5
+        ],
+        "span_mm": [
+          10.0,
+          10.500000200000002,
+          8.500000099999994
+        ]
+      },
+      "volume_mm3": 608.6471126043978
+    },
+    {
+      "file": "J1_stop_pin_backplate.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -54.0,
+          -54.0,
+          -104.0
+        ],
+        "max_mm": [
+          54.0,
+          54.0,
+          -100.0
+        ],
+        "span_mm": [
+          108.0,
+          108.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 34671.810330226785
+    },
+    {
+      "file": "J2_clocked_output_shaft.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -23.0,
+          -23.0,
+          -144.0
+        ],
+        "max_mm": [
+          23.0,
+          23.0,
+          18.0
+        ],
+        "span_mm": [
+          46.0,
+          46.0,
+          162.0
+        ]
+      },
+      "volume_mm3": 52161.85808936564
+    },
+    {
+      "file": "J2_clocked_stop_target.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -22.000000000000004,
+          -22.0,
+          -97.0
+        ],
+        "max_mm": [
+          22.0,
+          42.825967519516,
+          -94.0
+        ],
+        "span_mm": [
+          44.0,
+          64.825967519516,
+          3.0
+        ]
+      },
+      "volume_mm3": 3995.887819840701
+    },
+    {
+      "file": "J2_index_sensor_mount.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -5.0,
+          45.9999999,
+          -100.0000001
+        ],
+        "max_mm": [
+          5.0,
+          56.5000001,
+          -91.5
+        ],
+        "span_mm": [
+          10.0,
+          10.500000200000002,
+          8.500000099999994
+        ]
+      },
+      "volume_mm3": 608.6471126043978
+    },
+    {
+      "file": "J2_stop_pin_backplate.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -54.0,
+          -54.0,
+          -104.0
+        ],
+        "max_mm": [
+          54.0,
+          54.0,
+          -100.0
+        ],
+        "span_mm": [
+          108.0,
+          108.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 34671.8103302268
+    },
+    {
+      "file": "J3_clocked_output_shaft.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -23.0,
+          -23.0,
+          -144.0
+        ],
+        "max_mm": [
+          23.0,
+          23.0,
+          18.0
+        ],
+        "span_mm": [
+          46.0,
+          46.0,
+          162.0
+        ]
+      },
+      "volume_mm3": 52161.858089365254
+    },
+    {
+      "file": "J3_clocked_stop_target.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -22.0,
+          -22.0,
+          -97.0
+        ],
+        "max_mm": [
+          42.96696028012,
+          22.0,
+          -94.0
+        ],
+        "span_mm": [
+          64.96696028011999,
+          44.0,
+          3.0
+        ]
+      },
+      "volume_mm3": 3995.8878198408074
+    },
+    {
+      "file": "J3_index_sensor_mount.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -5.0,
+          45.9999999,
+          -100.0000001
+        ],
+        "max_mm": [
+          5.0,
+          56.5000001,
+          -91.5
+        ],
+        "span_mm": [
+          10.0,
+          10.500000200000002,
+          8.500000099999994
+        ]
+      },
+      "volume_mm3": 608.6471126043978
+    },
+    {
+      "file": "J3_stop_pin_backplate.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -54.0,
+          -54.0,
+          -104.0
+        ],
+        "max_mm": [
+          54.0,
+          54.0,
+          -100.0
+        ],
+        "span_mm": [
+          108.0,
+          108.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 34685.73417027817
+    },
+    {
+      "file": "J4_clocked_output_shaft.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -14.0,
+          -14.0,
+          -106.0
+        ],
+        "max_mm": [
+          14.0,
+          14.0,
+          16.0
+        ],
+        "span_mm": [
+          28.0,
+          28.0,
+          122.0
+        ]
+      },
+      "volume_mm3": 11097.159659639949
+    },
+    {
+      "file": "J4_clocked_stop_target.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -10.000000000000002,
+          -10.000000000000002,
+          -69.0
+        ],
+        "max_mm": [
+          10.000000000000002,
+          17.848114086866,
+          -67.0
+        ],
+        "span_mm": [
+          20.000000000000004,
+          27.848114086866005,
+          2.0
+        ]
+      },
+      "volume_mm3": 579.3135149750718
+    },
+    {
+      "file": "J4_index_sensor_mount.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -5.0,
+          20.9999999,
+          -72.0000001
+        ],
+        "max_mm": [
+          5.0,
+          31.5000001,
+          -63.9999999
+        ],
+        "span_mm": [
+          10.0,
+          10.500000200000002,
+          8.000000199999995
+        ]
+      },
+      "volume_mm3": 506.1631655048376
+    },
+    {
+      "file": "J4_stop_pin_backplate.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -27.5,
+          -27.5,
+          -74.0
+        ],
+        "max_mm": [
+          27.5,
+          27.5,
+          -70.0
+        ],
+        "span_mm": [
+          55.0,
+          55.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 9009.333748259047
+    },
+    {
+      "file": "J5_clocked_output_shaft.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -14.0,
+          -14.0,
+          -106.0
+        ],
+        "max_mm": [
+          14.0,
+          14.0,
+          16.0
+        ],
+        "span_mm": [
+          28.0,
+          28.0,
+          122.0
+        ]
+      },
+      "volume_mm3": 11097.15965964
+    },
+    {
+      "file": "J5_clocked_stop_target.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -17.480670802575755,
+          -10.0,
+          -69.0
+        ],
+        "max_mm": [
+          10.0,
+          10.0,
+          -67.0
+        ],
+        "span_mm": [
+          27.480670802575755,
+          20.0,
+          2.0
+        ]
+      },
+      "volume_mm3": 579.3135149750436
+    },
+    {
+      "file": "J5_index_sensor_mount.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -5.0,
+          20.9999999,
+          -72.0000001
+        ],
+        "max_mm": [
+          5.0,
+          31.5000001,
+          -63.9999999
+        ],
+        "span_mm": [
+          10.0,
+          10.500000200000002,
+          8.000000199999995
+        ]
+      },
+      "volume_mm3": 506.1631655048376
+    },
+    {
+      "file": "J5_stop_pin_backplate.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -27.5,
+          -27.5,
+          -74.0
+        ],
+        "max_mm": [
+          27.5,
+          27.5,
+          -70.0
+        ],
+        "span_mm": [
+          55.0,
+          55.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 9015.488394202017
+    },
+    {
+      "file": "J6_clocked_output_shaft.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -14.0,
+          -14.0,
+          -106.0
+        ],
+        "max_mm": [
+          14.0,
+          14.0,
+          16.0
+        ],
+        "span_mm": [
+          28.0,
+          28.0,
+          122.0
+        ]
+      },
+      "volume_mm3": 11097.159659639949
+    },
+    {
+      "file": "J6_clocked_stop_target.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -10.0,
+          -17.851807770110327,
+          -69.0
+        ],
+        "max_mm": [
+          10.0,
+          10.0,
+          -67.0
+        ],
+        "span_mm": [
+          20.0,
+          27.851807770110327,
+          2.0
+        ]
+      },
+      "volume_mm3": 579.3135149749774
+    },
+    {
+      "file": "J6_index_sensor_mount.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -5.0,
+          20.9999999,
+          -72.0000001
+        ],
+        "max_mm": [
+          5.0,
+          31.5000001,
+          -63.9999999
+        ],
+        "span_mm": [
+          10.0,
+          10.500000200000002,
+          8.000000199999995
+        ]
+      },
+      "volume_mm3": 506.1631655048376
+    },
+    {
+      "file": "J6_stop_pin_backplate.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -27.5,
+          -27.5,
+          -74.0
+        ],
+        "max_mm": [
+          27.5,
+          27.5,
+          -70.0
+        ],
+        "span_mm": [
+          55.0,
+          55.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 9009.333748259045
+    },
+    {
+      "file": "bench_backing_washer.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -14.0,
+          -14.0,
+          -47.0
+        ],
+        "max_mm": [
+          14.0,
+          14.0,
+          -40.0
+        ],
+        "span_mm": [
+          28.0,
+          28.0,
+          7.0
+        ]
+      },
+      "volume_mm3": 3913.0499995870223
+    },
+    {
+      "file": "bench_mount_bolt.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -7.0,
+          -7.0,
+          -52.0
+        ],
+        "max_mm": [
+          7.0,
+          7.0,
+          21.0
+        ],
+        "span_mm": [
+          14.0,
+          14.0,
+          73.0
+        ]
+      },
+      "volume_mm3": 4187.743007235145
+    },
+    {
+      "file": "bench_mount_nut.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -7.0,
+          -7.0,
+          -53.0
+        ],
+        "max_mm": [
+          7.0,
+          7.0,
+          -47.0
+        ],
+        "span_mm": [
+          14.0,
+          14.0,
+          6.0
+        ]
+      },
+      "volume_mm3": 614.4483991523733
+    },
+    {
+      "file": "bench_mount_plate.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -95.0,
+          -95.0,
+          0.0
+        ],
+        "max_mm": [
+          205.0,
+          95.0,
+          12.0
+        ],
+        "span_mm": [
+          300.0,
+          190.0,
+          12.0
+        ]
+      },
+      "volume_mm3": 452023.7218513817
+    },
+    {
+      "file": "bend_subassembly.step",
+      "solids": 53,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -31.5,
+          -17.5,
+          -151.0
+        ],
+        "max_mm": [
+          31.5,
+          187.2,
+          42.0
+        ],
+        "span_mm": [
+          63.0,
+          204.7,
+          193.0
+        ]
+      },
+      "volume_mm3": 271340.76797107636
+    },
+    {
+      "file": "elbow_extension_spring.step",
+      "solids": 2,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -8.40001079680872,
+          -8.400010796806939,
+          -4.0000001
+        ],
+        "max_mm": [
+          8.40001079678021,
+          8.400010796810284,
+          92.08400660890399
+        ],
+        "span_mm": [
+          16.80002159358893,
+          16.800021593617224,
+          96.08400670890398
+        ]
+      },
+      "volume_mm3": 2793.392710869219
+    },
+    {
+      "file": "elbow_fixed_anchor_nut_strips.step",
+      "solids": 2,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -26.0,
+          174.0,
+          -20.0
+        ],
+        "max_mm": [
+          26.0,
+          206.0,
+          -14.0
+        ],
+        "span_mm": [
+          52.0,
+          32.0,
+          6.0
+        ]
+      },
+      "volume_mm3": 4275.493833544046
+    },
+    {
+      "file": "elbow_moving_anchor_nut_plate.step",
+      "solids": 2,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -26.0,
+          37.0,
+          -28.0
+        ],
+        "max_mm": [
+          26.0,
+          69.0,
+          -22.0
+        ],
+        "span_mm": [
+          52.0,
+          32.0,
+          6.0
+        ]
+      },
+      "volume_mm3": 4275.493833544046
+    },
+    {
+      "file": "elbow_spring_fixed_clevis.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -44.0,
+          174.0,
+          -84.0
+        ],
+        "max_mm": [
+          30.0,
+          206.0,
+          -22.0
+        ],
+        "span_mm": [
+          74.0,
+          32.0,
+          62.0
+        ]
+      },
+      "volume_mm3": 19290.275732133625
+    },
+    {
+      "file": "elbow_spring_moving_clevis.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -29.0,
+          -50.0,
+          -84.0
+        ],
+        "max_mm": [
+          29.0,
+          70.0,
+          -30.0
+        ],
+        "span_mm": [
+          58.0,
+          120.0,
+          54.0
+        ]
+      },
+      "volume_mm3": 39010.82896565922
+    },
+    {
+      "file": "finger_pad.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          0.0,
+          207.2,
+          -9.2
+        ],
+        "max_mm": [
+          1.8,
+          231.2,
+          9.2
+        ],
+        "span_mm": [
+          1.8,
+          24.0,
+          18.4
+        ]
+      },
+      "volume_mm3": 794.8800000000001
+    },
+    {
+      "file": "fixed_subassembly.step",
+      "solids": 62,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -95.0,
+          -92.5,
+          -98.0
+        ],
+        "max_mm": [
+          205.0,
+          82.1,
+          98.0
+        ],
+        "span_mm": [
+          300.0,
+          174.6,
+          196.0
+        ]
+      },
+      "volume_mm3": 1571283.7394840324
+    },
+    {
+      "file": "fore_clamp_side_shims.step",
+      "solids": 2,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -28.0,
+          187.0,
+          -27.0
+        ],
+        "max_mm": [
+          28.0,
+          201.0,
+          27.0
+        ],
+        "span_mm": [
+          56.0,
+          14.0,
+          54.0
+        ]
+      },
+      "volume_mm3": 1448.382748764805
+    },
+    {
+      "file": "fore_link_tube.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -30.0,
+          42.0,
+          -30.0
+        ],
+        "max_mm": [
+          30.0,
+          204.0,
+          30.0
+        ],
+        "span_mm": [
+          60.0,
+          162.0,
+          60.0
+        ]
+      },
+      "volume_mm3": 73929.61559188153
+    },
+    {
+      "file": "fore_nut_strip.step",
+      "solids": 2,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -26.0,
+          38.0,
+          22.0
+        ],
+        "max_mm": [
+          26.0,
+          68.0,
+          28.0
+        ],
+        "span_mm": [
+          52.0,
+          30.0,
+          6.0
+        ]
+      },
+      "volume_mm3": 3987.4938335440465
+    },
+    {
+      "file": "fore_roll_housing_clamp.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -27.0,
+          187.0,
+          -27.0
+        ],
+        "max_mm": [
+          27.0,
+          201.0,
+          27.0
+        ],
+        "span_mm": [
+          54.0,
+          14.0,
+          54.0
+        ]
+      },
+      "volume_mm3": 24543.83793359865
+    },
+    {
+      "file": "fore_root_ear.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -30.0,
+          -27.0,
+          22.0
+        ],
+        "max_mm": [
+          30.0,
+          65.0,
+          35.0
+        ],
+        "span_mm": [
+          60.0,
+          92.0,
+          13.0
+        ]
+      },
+      "volume_mm3": 30035.220833456682
+    },
+    {
+      "file": "fore_subassembly.step",
+      "solids": 63,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -40.0,
+          -50.0,
+          -96.5
+        ],
+        "max_mm": [
+          42.96696028012,
+          221.6,
+          189.0
+        ],
+        "span_mm": [
+          82.96696028011999,
+          271.6,
+          285.5
+        ]
+      },
+      "volume_mm3": 504666.8525214492
+    },
+    {
+      "file": "gripper_bridge.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -53.0000001,
+          185.5999999,
+          -16.0
+        ],
+        "max_mm": [
+          53.0000001,
+          208.5000001,
+          16.0
+        ],
+        "span_mm": [
+          106.0000002,
+          22.900000199999994,
+          32.0
+        ]
+      },
+      "volume_mm3": 27527.389925601656
+    },
+    {
+      "file": "gripper_cable_clamp_base.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -8.0,
+          -3.5,
+          -3.5
+        ],
+        "max_mm": [
+          8.0,
+          3.5000000000000004,
+          9.4368957093125e-16
+        ],
+        "span_mm": [
+          16.0,
+          7.0,
+          3.500000000000001
+        ]
+      },
+      "volume_mm3": 296.6683709268153
+    },
+    {
+      "file": "gripper_cable_clamp_cap.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -8.0,
+          -3.5000000000000004,
+          -3.8857805861884995e-16
+        ],
+        "max_mm": [
+          8.0,
+          3.5,
+          3.5
+        ],
+        "span_mm": [
+          16.0,
+          7.0,
+          3.5000000000000004
+        ]
+      },
+      "volume_mm3": 296.6683709268149
+    },
+    {
+      "file": "gripper_cable_clamp_liner.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -2.5,
+          -3.5000000000000004,
+          -2.5000000000000004
+        ],
+        "max_mm": [
+          2.5,
+          3.5000000000000004,
+          2.5000000000000004
+        ],
+        "span_mm": [
+          5.0,
+          7.000000000000001,
+          5.000000000000001
+        ]
+      },
+      "volume_mm3": 49.480084294040324
+    },
+    {
+      "file": "gripper_cable_clamp_mount.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -25.0,
+          185.0,
+          -19.5
+        ],
+        "max_mm": [
+          25.0,
+          197.0,
+          -16.5
+        ],
+        "span_mm": [
+          50.0,
+          12.0,
+          3.0
+        ]
+      },
+      "volume_mm3": 1736.6183682138249
+    },
+    {
+      "file": "gripper_pinion_m0p3_z20.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -3.5000001,
+          -3.5000001,
+          -7.0000001
+        ],
+        "max_mm": [
+          3.5000001,
+          3.5000001,
+          10.0
+        ],
+        "span_mm": [
+          7.0000002,
+          7.0000002,
+          17.0000001
+        ]
+      },
+      "volume_mm3": 312.6433782842804
+    },
+    {
+      "file": "gripper_rack_m0p3.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -23.56194490192,
+          -2.975,
+          0.0
+        ],
+        "max_mm": [
+          31.561944901923,
+          0.30000000000003224,
+          6.0
+        ],
+        "span_mm": [
+          55.123889803843,
+          3.2750000000000323,
+          6.0
+        ]
+      },
+      "volume_mm3": 951.0029052372603
+    },
+    {
+      "file": "idle_bearing_inner_cover.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -18.0,
+          -18.0,
+          29.2
+        ],
+        "max_mm": [
+          18.0,
+          18.0,
+          30.0
+        ],
+        "span_mm": [
+          36.0,
+          36.0,
+          0.8000000000000007
+        ]
+      },
+      "volume_mm3": 440.2250953622492
+    },
+    {
+      "file": "idle_bearing_outer_cover.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -18.0,
+          -18.0,
+          38.0
+        ],
+        "max_mm": [
+          18.0,
+          18.0,
+          40.0
+        ],
+        "span_mm": [
+          36.0,
+          36.0,
+          2.0
+        ]
+      },
+      "volume_mm3": 1100.562738405622
+    },
+    {
+      "file": "jaw_guide_bushing.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -3.0,
+          -3.0,
+          -4.0
+        ],
+        "max_mm": [
+          3.0,
+          3.0,
+          4.0
+        ],
+        "span_mm": [
+          6.0,
+          6.0,
+          8.0
+        ]
+      },
+      "volume_mm3": 124.65588322032289
+    },
+    {
+      "file": "jaw_subassembly.step",
+      "solids": 5,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -45.12388980384,
+          -29.4,
+          -13.8
+        ],
+        "max_mm": [
+          10.0,
+          12.8,
+          13.8
+        ],
+        "span_mm": [
+          55.12388980384,
+          42.2,
+          27.6
+        ]
+      },
+      "volume_mm3": 8531.373118332887
+    },
+    {
+      "file": "large_DIN471_installed_retainer.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -12.100000000000001,
+          -13.700000000000001,
+          -41.3
+        ],
+        "max_mm": [
+          12.100000000000001,
+          12.1,
+          -40.1
+        ],
+        "span_mm": [
+          24.200000000000003,
+          25.8,
+          1.1999999999999957
+        ]
+      },
+      "volume_mm3": 212.13738956629254
+    },
+    {
+      "file": "large_bearing_housing.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -27.0,
+          -27.0,
+          -40.0
+        ],
+        "max_mm": [
+          27.0,
+          27.0,
+          6.0
+        ],
+        "span_mm": [
+          54.0,
+          54.0,
+          46.0
+        ]
+      },
+      "volume_mm3": 44244.80863239388
+    },
+    {
+      "file": "large_brake_back_adapter.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -54.0,
+          -54.0,
+          -104.0
+        ],
+        "max_mm": [
+          54.0,
+          54.0,
+          -100.0
+        ],
+        "span_mm": [
+          108.0,
+          108.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 34772.34129514166
+    },
+    {
+      "file": "large_brake_front_adapter.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -54.0,
+          -54.0,
+          -48.0
+        ],
+        "max_mm": [
+          54.0,
+          54.0,
+          -44.0
+        ],
+        "span_mm": [
+          108.0,
+          108.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 30091.80806426415
+    },
+    {
+      "file": "large_brake_guard_strut.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -4.0,
+          -4.0,
+          -100.0
+        ],
+        "max_mm": [
+          4.0,
+          4.0,
+          -48.0
+        ],
+        "span_mm": [
+          8.0,
+          8.0,
+          52.0
+        ]
+      },
+      "volume_mm3": 1893.3750604655384
+    },
+    {
+      "file": "large_brake_keyed_hub.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -21.0,
+          -21.0,
+          -88.0
+        ],
+        "max_mm": [
+          21.0,
+          21.0,
+          -47.4
+        ],
+        "span_mm": [
+          42.0,
+          42.0,
+          40.6
+        ]
+      },
+      "volume_mm3": 16324.213313205737
+    },
+    {
+      "file": "large_brake_shaft_key.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          6.5,
+          -3.0,
+          -98.0
+        ],
+        "max_mm": [
+          12.5,
+          3.0,
+          -52.0
+        ],
+        "span_mm": [
+          6.0,
+          6.0,
+          46.0
+        ]
+      },
+      "volume_mm3": 1656.0
+    },
+    {
+      "file": "large_brake_vendor_envelope.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -45.0,
+          -45.0,
+          -88.0
+        ],
+        "max_mm": [
+          45.0,
+          45.0,
+          -50.4
+        ],
+        "span_mm": [
+          90.0,
+          90.0,
+          37.6
+        ]
+      },
+      "volume_mm3": 191951.31113434062
+    },
+    {
+      "file": "large_folded_carrier_deck.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -56.0,
+          -56.0,
+          -108.0
+        ],
+        "max_mm": [
+          56.0,
+          146.0,
+          -104.0
+        ],
+        "span_mm": [
+          112.0,
+          202.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 57379.318202041
+    },
+    {
+      "file": "large_folded_drive_pulley.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -31.447889756541,
+          -31.447889756541,
+          -137.5
+        ],
+        "max_mm": [
+          31.447889756541,
+          31.447889756541,
+          -106.0
+        ],
+        "span_mm": [
+          62.895779513082,
+          62.895779513082,
+          31.5
+        ]
+      },
+      "volume_mm3": 65221.205837246016
+    },
+    {
+      "file": "large_folded_driven_pulley.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -31.447889756541,
+          -31.447889756541,
+          -137.5
+        ],
+        "max_mm": [
+          31.447889756541,
+          31.447889756541,
+          -106.0
+        ],
+        "span_mm": [
+          62.895779513082,
+          62.895779513082,
+          31.5
+        ]
+      },
+      "volume_mm3": 59697.85496952259
+    },
+    {
+      "file": "large_folded_front_cover.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -36.147889756541,
+          -36.147889756541,
+          -152.5
+        ],
+        "max_mm": [
+          36.147889756541,
+          146.147889756541,
+          -143.0
+        ],
+        "span_mm": [
+          72.295779513082,
+          182.29577951308198,
+          9.5
+        ]
+      },
+      "volume_mm3": 30624.356808152465
+    },
+    {
+      "file": "large_folded_housing_rails.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -36.147889756541,
+          -36.147889756541,
+          -146.0
+        ],
+        "max_mm": [
+          36.147889756541,
+          146.147889756541,
+          -108.0
+        ],
+        "span_mm": [
+          72.295779513082,
+          182.29577951308198,
+          38.0
+        ]
+      },
+      "volume_mm3": 43110.93906246651
+    },
+    {
+      "file": "large_folded_input_shaft.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -6.0,
+          -6.0,
+          -152.0
+        ],
+        "max_mm": [
+          6.0,
+          6.0,
+          -94.0
+        ],
+        "span_mm": [
+          12.0,
+          12.0,
+          58.0
+        ]
+      },
+      "volume_mm3": 6309.550346438795
+    },
+    {
+      "file": "large_folded_input_support_bearing.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -14.0,
+          -14.0,
+          -151.0
+        ],
+        "max_mm": [
+          14.0,
+          14.0,
+          -143.0
+        ],
+        "span_mm": [
+          28.0,
+          28.0,
+          8.0
+        ]
+      },
+      "volume_mm3": 4021.2385965950243
+    },
+    {
+      "file": "large_folded_tension_block.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -6.0,
+          139.0,
+          -104.0
+        ],
+        "max_mm": [
+          6.0,
+          147.0,
+          -97.0
+        ],
+        "span_mm": [
+          12.0,
+          8.0,
+          7.0
+        ]
+      },
+      "volume_mm3": 599.3663778490013
+    },
+    {
+      "file": "large_folded_tension_screw.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -3.5,
+          133.0,
+          -104.0
+        ],
+        "max_mm": [
+          3.5,
+          154.0,
+          -97.0
+        ],
+        "span_mm": [
+          7.0,
+          21.0,
+          7.0
+        ]
+      },
+      "volume_mm3": 341.6482010778874
+    },
+    {
+      "file": "large_folded_timing_belt.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -30.947889756541,
+          -30.947889756541,
+          -134.5
+        ],
+        "max_mm": [
+          30.947889756541,
+          140.947889756541,
+          -109.5
+        ],
+        "span_mm": [
+          61.895779513082,
+          171.895779513082,
+          25.0
+        ]
+      },
+      "volume_mm3": 32864.652285220975
+    },
+    {
+      "file": "large_front_bearing_cover.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -27.0,
+          -27.0,
+          6.0
+        ],
+        "max_mm": [
+          27.0,
+          27.0,
+          10.0
+        ],
+        "span_mm": [
+          54.0,
+          54.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 4763.986498127458
+    },
+    {
+      "file": "large_index_sensor_envelope.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -2.5,
+          -2.5,
+          44.0
+        ],
+        "max_mm": [
+          2.5,
+          2.5,
+          60.0
+        ],
+        "span_mm": [
+          5.0,
+          5.0,
+          16.0
+        ]
+      },
+      "volume_mm3": 314.15926535897927
+    },
+    {
+      "file": "large_inner_race_spacer.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -12.0,
+          -12.0,
+          -28.0
+        ],
+        "max_mm": [
+          12.0,
+          12.0,
+          -6.0
+        ],
+        "span_mm": [
+          24.0,
+          24.0,
+          22.0
+        ]
+      },
+      "volume_mm3": 2832.161485174527
+    },
+    {
+      "file": "large_integral_steel_stop_target.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -22.0,
+          -22.0,
+          -97.0
+        ],
+        "max_mm": [
+          42.74011221213858,
+          22.0,
+          -94.0
+        ],
+        "span_mm": [
+          64.74011221213857,
+          44.0,
+          3.0
+        ]
+      },
+      "volume_mm3": 3995.8878198415955
+    },
+    {
+      "file": "large_output_shaft.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -23.0,
+          -23.0,
+          -144.0
+        ],
+        "max_mm": [
+          23.0,
+          23.0,
+          18.0
+        ],
+        "span_mm": [
+          46.0,
+          46.0,
+          162.0
+        ]
+      },
+      "volume_mm3": 52848.96038415014
+    },
+    {
+      "file": "large_rear_bearing_cover.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -36.0,
+          -36.0,
+          -44.0
+        ],
+        "max_mm": [
+          36.0,
+          36.0,
+          -40.0
+        ],
+        "span_mm": [
+          72.0,
+          72.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 11978.61632798505
+    },
+    {
+      "file": "large_selective_inner_race_shim.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -11.3,
+          -11.3,
+          -40.1
+        ],
+        "max_mm": [
+          11.3,
+          11.3,
+          -40.0
+        ],
+        "span_mm": [
+          22.6,
+          22.6,
+          0.10000000000000142
+        ]
+      },
+      "volume_mm3": 8.384125394268061
+    },
+    {
+      "file": "large_stop_pin.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -2.0,
+          -2.0,
+          -103.0
+        ],
+        "max_mm": [
+          2.0,
+          2.0,
+          -93.0
+        ],
+        "span_mm": [
+          4.0,
+          4.0,
+          10.0
+        ]
+      },
+      "volume_mm3": 125.6637061435917
+    },
+    {
+      "file": "left_jaw_carriage.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -9.800000000000011,
+          189.8,
+          -13.8
+        ],
+        "max_mm": [
+          -1.7999999999999998,
+          232.0,
+          13.8
+        ],
+        "span_mm": [
+          8.00000000000001,
+          42.19999999999999,
+          27.6
+        ]
+      },
+      "volume_mm3": 6536.178446654663
+    },
+    {
+      "file": "left_jaw_subassembly.step",
+      "solids": 5,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -10.0,
+          189.8,
+          -13.8
+        ],
+        "max_mm": [
+          45.123889803847,
+          232.0,
+          13.8
+        ],
+        "span_mm": [
+          55.123889803847,
+          42.19999999999999,
+          27.6
+        ]
+      },
+      "volume_mm3": 8531.373118332971
+    },
+    {
+      "file": "pedestal_sleeve.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -80.0,
+          -80.0,
+          12.0
+        ],
+        "max_mm": [
+          80.0,
+          80.0,
+          64.0000001
+        ],
+        "span_mm": [
+          160.0,
+          160.0,
+          52.000000099999994
+        ]
+      },
+      "volume_mm3": 302328.31161200564
+    },
+    {
+      "file": "pinion_front_bushing.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -3.5,
+          -3.5,
+          4.0
+        ],
+        "max_mm": [
+          3.5,
+          3.5,
+          9.0
+        ],
+        "span_mm": [
+          7.0,
+          7.0,
+          5.0
+        ]
+      },
+      "volume_mm3": 156.60682298512785
+    },
+    {
+      "file": "right_jaw_carriage.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          1.7999999999999998,
+          189.8,
+          -13.8
+        ],
+        "max_mm": [
+          9.800000000000011,
+          232.0,
+          13.8
+        ],
+        "span_mm": [
+          8.00000000000001,
+          42.19999999999999,
+          27.6
+        ]
+      },
+      "volume_mm3": 6536.178446654627
+    },
+    {
+      "file": "roll_subassembly.step",
+      "solids": 55,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -96.5,
+          -162.0,
+          -154.5
+        ],
+        "max_mm": [
+          29.5,
+          35.0,
+          40.0
+        ],
+        "span_mm": [
+          126.0,
+          197.0,
+          194.5
+        ]
+      },
+      "volume_mm3": 274101.29286655143
+    },
+    {
+      "file": "shoulder_extension_spring.step",
+      "solids": 3,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -10.400005339440037,
+          -10.40000534001849,
+          -5.0000001
+        ],
+        "max_mm": [
+          10.400005339441242,
+          10.400005340019229,
+          139.24330066336
+        ],
+        "span_mm": [
+          20.80001067888128,
+          20.80001068003772,
+          144.24330076336
+        ]
+      },
+      "volume_mm3": 10869.084528496898
+    },
+    {
+      "file": "shoulder_spring_fixed_clevis.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -75.0,
+          85.0,
+          16.0
+        ],
+        "max_mm": [
+          35.0,
+          115.0,
+          92.0
+        ],
+        "span_mm": [
+          110.0,
+          30.0,
+          76.0
+        ]
+      },
+      "volume_mm3": 56280.13015573568
+    },
+    {
+      "file": "shoulder_spring_moving_clevis.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -29.0,
+          56.0,
+          22.0
+        ],
+        "max_mm": [
+          29.0,
+          84.0,
+          89.5
+        ],
+        "span_mm": [
+          58.0,
+          28.0,
+          67.5
+        ]
+      },
+      "volume_mm3": 15674.381698103723
+    },
+    {
+      "file": "shoulder_spring_nut_plate.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -27.5,
+          56.0,
+          16.0
+        ],
+        "max_mm": [
+          27.5,
+          84.0,
+          20.0
+        ],
+        "span_mm": [
+          55.0,
+          28.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 5938.329222362698
+    },
+    {
+      "file": "small_DIN471_installed_retainer.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -7.55,
+          -8.85,
+          -25.1
+        ],
+        "max_mm": [
+          7.55,
+          7.55,
+          -24.1
+        ],
+        "span_mm": [
+          15.1,
+          16.4,
+          1.0
+        ]
+      },
+      "volume_mm3": 76.01447493549631
+    },
+    {
+      "file": "small_bearing_housing.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -18.0,
+          -18.0,
+          -24.0
+        ],
+        "max_mm": [
+          18.0,
+          18.0,
+          4.0
+        ],
+        "span_mm": [
+          36.0,
+          36.0,
+          28.0
+        ]
+      },
+      "volume_mm3": 12332.259129814396
+    },
+    {
+      "file": "small_brake_back_adapter.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -27.5,
+          -27.5,
+          -74.0
+        ],
+        "max_mm": [
+          27.5,
+          27.5,
+          -70.0
+        ],
+        "span_mm": [
+          55.0,
+          55.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 9065.88241602366
+    },
+    {
+      "file": "small_brake_front_adapter.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -27.5,
+          -27.5,
+          -32.0
+        ],
+        "max_mm": [
+          27.5,
+          27.5,
+          -28.0
+        ],
+        "span_mm": [
+          55.0,
+          55.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 8425.248842103598
+    },
+    {
+      "file": "small_brake_guard_strut.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -2.5,
+          -2.5,
+          -70.0
+        ],
+        "max_mm": [
+          2.5,
+          2.5,
+          -32.0
+        ],
+        "span_mm": [
+          5.0,
+          5.0,
+          38.0
+        ]
+      },
+      "volume_mm3": 559.5961914206943
+    },
+    {
+      "file": "small_brake_keyed_hub.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -8.0,
+          -8.0,
+          -63.0
+        ],
+        "max_mm": [
+          8.0,
+          8.0,
+          -34.3
+        ],
+        "span_mm": [
+          16.0,
+          16.0,
+          28.700000000000003
+        ]
+      },
+      "volume_mm3": 2296.448450124471
+    },
+    {
+      "file": "small_brake_shaft_key.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          2.8,
+          -1.0,
+          -70.0
+        ],
+        "max_mm": [
+          4.8,
+          1.0,
+          -40.0
+        ],
+        "span_mm": [
+          2.0,
+          2.0,
+          30.0
+        ]
+      },
+      "volume_mm3": 120.0
+    },
+    {
+      "file": "small_brake_vendor_envelope.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -19.75,
+          -19.75,
+          -63.0
+        ],
+        "max_mm": [
+          19.75,
+          19.75,
+          -37.3
+        ],
+        "span_mm": [
+          39.5,
+          39.5,
+          25.700000000000003
+        ]
+      },
+      "volume_mm3": 28082.00950704681
+    },
+    {
+      "file": "small_folded_carrier_deck.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -29.5,
+          -29.5,
+          -74.0
+        ],
+        "max_mm": [
+          29.500000000000004,
+          88.5,
+          -70.0
+        ],
+        "span_mm": [
+          59.0,
+          118.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 18302.98632441233
+    },
+    {
+      "file": "small_folded_drive_pulley.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -17.123944878271,
+          -17.123944878271,
+          -95.5
+        ],
+        "max_mm": [
+          17.123944878271,
+          17.123944878271,
+          -72.0
+        ],
+        "span_mm": [
+          34.247889756542,
+          34.247889756542,
+          23.5
+        ]
+      },
+      "volume_mm3": 10833.080831062212
+    },
+    {
+      "file": "small_folded_driven_pulley.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -17.123944878271,
+          -17.123944878271,
+          -95.5
+        ],
+        "max_mm": [
+          17.123944878271,
+          17.123944878271,
+          -72.0
+        ],
+        "span_mm": [
+          34.247889756542,
+          34.247889756542,
+          23.5
+        ]
+      },
+      "volume_mm3": 11056.817071571113
+    },
+    {
+      "file": "small_folded_front_cover.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -21.823944878271,
+          -21.823944878271,
+          -109.5
+        ],
+        "max_mm": [
+          21.823944878271,
+          89.32394487827099,
+          -100.0
+        ],
+        "span_mm": [
+          43.647889756542,
+          111.14788975654199,
+          9.5
+        ]
+      },
+      "volume_mm3": 12758.737734496173
+    },
+    {
+      "file": "small_folded_housing_rails.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -21.823944878271,
+          -21.823944878271,
+          -103.0
+        ],
+        "max_mm": [
+          21.823944878271003,
+          89.32394487827099,
+          -74.0
+        ],
+        "span_mm": [
+          43.647889756542,
+          111.14788975654199,
+          29.0
+        ]
+      },
+      "volume_mm3": 19849.45683967276
+    },
+    {
+      "file": "small_folded_input_shaft.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -3.5,
+          -3.5,
+          -109.0
+        ],
+        "max_mm": [
+          3.5,
+          3.5,
+          -60.0
+        ],
+        "span_mm": [
+          7.0,
+          7.0,
+          49.0
+        ]
+      },
+      "volume_mm3": 1839.2365093078488
+    },
+    {
+      "file": "small_folded_input_support_bearing.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -11.0,
+          -11.0,
+          -108.0
+        ],
+        "max_mm": [
+          11.0,
+          11.0,
+          -102.0
+        ],
+        "span_mm": [
+          22.0,
+          22.0,
+          6.0
+        ]
+      },
+      "volume_mm3": 2049.8892064673846
+    },
+    {
+      "file": "small_folded_tension_block.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -4.0,
+          81.5,
+          -70.0
+        ],
+        "max_mm": [
+          4.0,
+          89.5,
+          -63.0
+        ],
+        "span_mm": [
+          8.0,
+          8.0,
+          7.0
+        ]
+      },
+      "volume_mm3": 408.73009183012624
+    },
+    {
+      "file": "small_folded_tension_screw.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -2.7,
+          75.5,
+          -69.2
+        ],
+        "max_mm": [
+          2.7,
+          96.5,
+          -63.8
+        ],
+        "span_mm": [
+          5.4,
+          21.0,
+          5.400000000000006
+        ]
+      },
+      "volume_mm3": 195.94113380439381
+    },
+    {
+      "file": "small_folded_timing_belt.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -15.823944878271,
+          -15.823944878271,
+          -92.5
+        ],
+        "max_mm": [
+          15.823944878271,
+          83.32394487827099,
+          -77.5
+        ],
+        "span_mm": [
+          31.647889756542,
+          99.14788975654199,
+          15.0
+        ]
+      },
+      "volume_mm3": 7028.634044293967
+    },
+    {
+      "file": "small_front_bearing_cover.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -18.0,
+          -18.0,
+          4.0
+        ],
+        "max_mm": [
+          18.0,
+          18.0,
+          8.0
+        ],
+        "span_mm": [
+          36.0,
+          36.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 2134.7750399674233
+    },
+    {
+      "file": "small_index_sensor_envelope.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -2.5,
+          -2.5,
+          19.0
+        ],
+        "max_mm": [
+          2.5,
+          2.5,
+          35.0
+        ],
+        "span_mm": [
+          5.0,
+          5.0,
+          16.0
+        ]
+      },
+      "volume_mm3": 314.15926535897927
+    },
+    {
+      "file": "small_inner_race_spacer.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -8.0,
+          -8.0,
+          -16.0
+        ],
+        "max_mm": [
+          8.0,
+          8.0,
+          -4.0
+        ],
+        "span_mm": [
+          16.0,
+          16.0,
+          12.0
+        ]
+      },
+      "volume_mm3": 986.8685002721833
+    },
+    {
+      "file": "small_integral_steel_stop_target.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -10.0,
+          -10.0,
+          -69.0
+        ],
+        "max_mm": [
+          17.848114086866,
+          10.0,
+          -67.0
+        ],
+        "span_mm": [
+          27.848114086866,
+          20.0,
+          2.0
+        ]
+      },
+      "volume_mm3": 579.3135149750319
+    },
+    {
+      "file": "small_output_shaft.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -14.0,
+          -14.0,
+          -106.0
+        ],
+        "max_mm": [
+          14.0,
+          14.0,
+          16.0
+        ],
+        "span_mm": [
+          28.0,
+          28.0,
+          122.0
+        ]
+      },
+      "volume_mm3": 11151.409362834798
+    },
+    {
+      "file": "small_rear_bearing_cover.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -25.0,
+          -25.0,
+          -28.0
+        ],
+        "max_mm": [
+          25.0,
+          25.0,
+          -24.0
+        ],
+        "span_mm": [
+          50.0,
+          50.0,
+          4.0
+        ]
+      },
+      "volume_mm3": 5923.227904116901
+    },
+    {
+      "file": "small_selective_inner_race_shim.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -7.3,
+          -7.3,
+          -24.1
+        ],
+        "max_mm": [
+          7.3,
+          7.3,
+          -24.0
+        ],
+        "span_mm": [
+          14.6,
+          14.6,
+          0.10000000000000142
+        ]
+      },
+      "volume_mm3": 5.242532740678155
+    },
+    {
+      "file": "small_stop_pin.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -1.5,
+          -1.5,
+          -73.0
+        ],
+        "max_mm": [
+          1.5,
+          1.5,
+          -66.0
+        ],
+        "span_mm": [
+          3.0,
+          3.0,
+          7.0
+        ]
+      },
+      "volume_mm3": 49.480084294039244
+    },
+    {
+      "file": "spring_eye_pin.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -2.0,
+          -2.0,
+          -8.0
+        ],
+        "max_mm": [
+          2.0,
+          2.0,
+          8.0
+        ],
+        "span_mm": [
+          4.0,
+          4.0,
+          16.0
+        ]
+      },
+      "volume_mm3": 201.06192982974673
+    },
+    {
+      "file": "tool_subassembly.step",
+      "solids": 20,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -53.0000001,
+          63.6,
+          -40.0
+        ],
+        "max_mm": [
+          53.0000001,
+          208.5000001,
+          17.851807770110327
+        ],
+        "span_mm": [
+          106.0000002,
+          144.9000001,
+          57.85180777011033
+        ]
+      },
+      "volume_mm3": 63992.38576811358
+    },
+    {
+      "file": "turret_subassembly.step",
+      "solids": 56,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -111.147889756541,
+          -84.0,
+          -197.5
+        ],
+        "max_mm": [
+          55.99999999999999,
+          204.0,
+          92.0
+        ],
+        "span_mm": [
+          167.147889756541,
+          288.0,
+          289.5
+        ]
+      },
+      "volume_mm3": 1107998.6529760628
+    },
+    {
+      "file": "turret_yoke.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -40.0,
+          78.0,
+          -89.0
+        ],
+        "max_mm": [
+          40.0,
+          180.0,
+          45.0
+        ],
+        "span_mm": [
+          80.0,
+          102.0,
+          134.0
+        ]
+      },
+      "volume_mm3": 144503.6657472046
+    },
+    {
+      "file": "upper_elbow_housing_clamp.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -36.0,
+          210.0,
+          22.0
+        ],
+        "max_mm": [
+          36.0,
+          316.0,
+          69.0
+        ],
+        "span_mm": [
+          72.0,
+          106.0,
+          47.0
+        ]
+      },
+      "volume_mm3": 93765.63723630249
+    },
+    {
+      "file": "upper_link_tube.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -30.0,
+          42.0,
+          -22.0
+        ],
+        "max_mm": [
+          30.0,
+          238.0,
+          22.0
+        ],
+        "span_mm": [
+          60.0,
+          196.0,
+          44.0
+        ]
+      },
+      "volume_mm3": 76530.4689916431
+    },
+    {
+      "file": "upper_nut_strip.step",
+      "solids": 4,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -26.0,
+          38.0,
+          -20.0
+        ],
+        "max_mm": [
+          26.0,
+          242.0,
+          20.0
+        ],
+        "span_mm": [
+          52.0,
+          204.0,
+          40.0
+        ]
+      },
+      "volume_mm3": 8262.98766708809
+    },
+    {
+      "file": "upper_root_ear.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -30.0,
+          -27.0,
+          -27.0
+        ],
+        "max_mm": [
+          30.0,
+          64.0,
+          -22.0
+        ],
+        "span_mm": [
+          60.0,
+          91.0,
+          5.0
+        ]
+      },
+      "volume_mm3": 23975.220833456675
+    },
+    {
+      "file": "upper_subassembly.step",
+      "solids": 68,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -56.0,
+          -40.0,
+          -189.0
+        ],
+        "max_mm": [
+          56.0,
+          336.0,
+          197.5
+        ],
+        "span_mm": [
+          112.0,
+          376.0,
+          386.5
+        ]
+      },
+      "volume_mm3": 1155343.7019110513
+    },
+    {
+      "file": "wrist_bend_cradle.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -31.5,
+          -16.0,
+          -30.0000001
+        ],
+        "max_mm": [
+          31.5,
+          165.6000001,
+          29.99733331480428
+        ],
+        "span_mm": [
+          63.0,
+          181.6000001,
+          59.99733341480428
+        ]
+      },
+      "volume_mm3": 57508.14368071088
+    },
+    {
+      "file": "wrist_idle_trunnion.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -8.0,
+          -8.0,
+          18.0
+        ],
+        "max_mm": [
+          8.0,
+          8.0,
+          42.0
+        ],
+        "span_mm": [
+          16.0,
+          16.0,
+          24.0
+        ]
+      },
+      "volume_mm3": 1859.096357624007
+    },
+    {
+      "file": "wrist_roll_fork.step",
+      "solids": 1,
+      "valid": true,
+      "bounds": {
+        "min_mm": [
+          -25.0000001,
+          -40.0,
+          -61.0000001
+        ],
+        "max_mm": [
+          25.0000001,
+          24.996799895174,
+          38.0
+        ],
+        "span_mm": [
+          50.0000002,
+          64.99679989517401,
+          99.0000001
+        ]
+      },
+      "volume_mm3": 56559.7863957174
+    }
+  ],
+  "step_file_count": 127,
+  "all_step_solids_valid": true,
+  "rigid_placement_count": 375,
+  "body_masses": [
+    {
+      "body": "fixed",
+      "P2_mass_kg": 4.633617733999743,
+      "P5_mass_kg": 5.5170435811287275,
+      "difference_kg": 0.8834258471289846,
+      "minimum_inertia_eigenvalue_kg_m2": 0.014542377008061456
+    },
+    {
+      "body": "turret",
+      "P2_mass_kg": 4.2573952004078714,
+      "P5_mass_kg": 4.685441159865881,
+      "difference_kg": 0.42804595945800994,
+      "minimum_inertia_eigenvalue_kg_m2": 0.01755850766089515
+    },
+    {
+      "body": "upper",
+      "P2_mass_kg": 4.479617203830217,
+      "P5_mass_kg": 4.912427432591615,
+      "difference_kg": 0.4328102287613982,
+      "minimum_inertia_eigenvalue_kg_m2": 0.01343002494513535
+    },
+    {
+      "body": "fore",
+      "P2_mass_kg": 1.89794278900319,
+      "P5_mass_kg": 2.2406454526208024,
+      "difference_kg": 0.3427026636176125,
+      "minimum_inertia_eigenvalue_kg_m2": 0.004944964806252588
+    },
+    {
+      "body": "roll",
+      "P2_mass_kg": 0.9745610087805203,
+      "P5_mass_kg": 1.120335376276517,
+      "difference_kg": 0.1457743674959966,
+      "minimum_inertia_eigenvalue_kg_m2": 0.001859721774532198
+    },
+    {
+      "body": "bend",
+      "P2_mass_kg": 0.9595044648881442,
+      "P5_mass_kg": 1.1052788323841412,
+      "difference_kg": 0.14577436749599693,
+      "minimum_inertia_eigenvalue_kg_m2": 0.0017469835483187978
+    },
+    {
+      "body": "tool",
+      "P2_mass_kg": 0.3104677419578493,
+      "P5_mass_kg": 0.3456985909760507,
+      "difference_kg": 0.03523084901820139,
+      "minimum_inertia_eigenvalue_kg_m2": 0.00013870840119197832
+    },
+    {
+      "body": "jaw",
+      "P2_mass_kg": 0.026274131143488866,
+      "P5_mass_kg": 0.02627413114348886,
+      "difference_kg": -6.938893903907228e-18,
+      "minimum_inertia_eigenvalue_kg_m2": 3.504812929599088e-06
+    }
+  ],
+  "joint_envelope_comparison": [
+    {
+      "joint": "J1",
+      "parent_frame": "fixed",
+      "joint_origin_mm": [
+        0,
+        60,
+        0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "baseline_body_local_bounds": {
+        "min_mm": [
+          -54.0,
+          -245.1,
+          -60.0
+        ],
+        "max_mm": [
+          54.0,
+          78.0,
+          53.9208
+        ],
+        "span_mm": [
+          108.0,
+          323.1,
+          113.9208
+        ]
+      },
+      "P5_body_local_bounds": {
+        "min_mm": [
+          -55.91747,
+          -92.5,
+          -60.0
+        ],
+        "max_mm": [
+          154.0,
+          82.1,
+          55.99959
+        ],
+        "span_mm": [
+          209.91747,
+          174.6,
+          115.99959
+        ]
+      },
+      "baseline_axial_range_from_origin_mm": [
+        -305.1,
+        18.0
+      ],
+      "P5_axial_range_from_origin_mm": [
+        -152.5,
+        22.099999999999994
+      ],
+      "rear_projection_reduction_percent": 50.016388069485416,
+      "overall_axial_span_reduction_percent": 45.961002785515326
+    },
+    {
+      "joint": "J2",
+      "parent_frame": "turret",
+      "joint_origin_mm": [
+        0,
+        144,
+        -45
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "baseline_body_local_bounds": {
+        "min_mm": [
+          -54.0,
+          90.0792,
+          -350.1
+        ],
+        "max_mm": [
+          54.0,
+          204.0,
+          -27.0
+        ],
+        "span_mm": [
+          108.0,
+          113.9208,
+          323.1
+        ]
+      },
+      "P5_body_local_bounds": {
+        "min_mm": [
+          -111.14671,
+          27.42312,
+          -197.5
+        ],
+        "max_mm": [
+          55.99896,
+          204.0,
+          -22.9
+        ],
+        "span_mm": [
+          167.14567,
+          176.57688,
+          174.6
+        ]
+      },
+      "baseline_axial_range_from_origin_mm": [
+        -305.1,
+        18.0
+      ],
+      "P5_axial_range_from_origin_mm": [
+        -152.5,
+        22.1
+      ],
+      "rear_projection_reduction_percent": 50.016388069485416,
+      "overall_axial_span_reduction_percent": 45.961002785515326
+    },
+    {
+      "joint": "J3",
+      "parent_frame": "upper",
+      "joint_origin_mm": [
+        0,
+        280,
+        45
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "baseline_body_local_bounds": {
+        "min_mm": [
+          -54.0,
+          220.0,
+          27.0
+        ],
+        "max_mm": [
+          54.0,
+          333.9208,
+          350.1
+        ],
+        "span_mm": [
+          108.0,
+          113.92079999999999,
+          323.1
+        ]
+      },
+      "P5_body_local_bounds": {
+        "min_mm": [
+          -55.99959,
+          126.0,
+          22.9
+        ],
+        "max_mm": [
+          55.99959,
+          335.91747,
+          197.5
+        ],
+        "span_mm": [
+          111.99918,
+          209.91746999999998,
+          174.6
+        ]
+      },
+      "baseline_axial_range_from_origin_mm": [
+        -305.1,
+        18.0
+      ],
+      "P5_axial_range_from_origin_mm": [
+        -152.5,
+        22.1
+      ],
+      "rear_projection_reduction_percent": 50.016388069485416,
+      "overall_axial_span_reduction_percent": 45.961002785515326
+    },
+    {
+      "joint": "J4",
+      "parent_frame": "fore",
+      "joint_origin_mm": [
+        0,
+        204,
+        0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "baseline_body_local_bounds": {
+        "min_mm": [
+          -27.5,
+          -3.6000000000000227,
+          -35.0
+        ],
+        "max_mm": [
+          27.5,
+          220.0,
+          27.45967
+        ],
+        "span_mm": [
+          55.0,
+          223.60000000000002,
+          62.45967
+        ]
+      },
+      "P5_body_local_bounds": {
+        "min_mm": [
+          -29.49723,
+          94.5,
+          -96.5
+        ],
+        "max_mm": [
+          29.49723,
+          221.60000000000002,
+          29.45598
+        ],
+        "span_mm": [
+          58.99446,
+          127.10000000000002,
+          125.95598
+        ]
+      },
+      "baseline_axial_range_from_origin_mm": [
+        -207.60000000000002,
+        16.0
+      ],
+      "P5_axial_range_from_origin_mm": [
+        -109.5,
+        17.600000000000023
+      ],
+      "rear_projection_reduction_percent": 47.25433526011561,
+      "overall_axial_span_reduction_percent": 43.157423971377455
+    },
+    {
+      "joint": "J5",
+      "parent_frame": "roll",
+      "joint_origin_mm": [
+        0,
+        0,
+        -45
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "baseline_body_local_bounds": {
+        "min_mm": [
+          -27.5,
+          -27.45966999999996,
+          -252.6
+        ],
+        "max_mm": [
+          27.5,
+          35.0,
+          -29.0
+        ],
+        "span_mm": [
+          55.0,
+          62.45966999999996,
+          223.6
+        ]
+      },
+      "P5_body_local_bounds": {
+        "min_mm": [
+          -96.5,
+          -29.497229999999945,
+          -154.5
+        ],
+        "max_mm": [
+          29.45598,
+          35.0,
+          -27.4
+        ],
+        "span_mm": [
+          125.95598,
+          64.49722999999994,
+          127.1
+        ]
+      },
+      "baseline_axial_range_from_origin_mm": [
+        -207.6,
+        16.0
+      ],
+      "P5_axial_range_from_origin_mm": [
+        -109.5,
+        17.6
+      ],
+      "rear_projection_reduction_percent": 47.25433526011561,
+      "overall_axial_span_reduction_percent": 43.15742397137746
+    },
+    {
+      "joint": "J6",
+      "parent_frame": "bend",
+      "joint_origin_mm": [
+        0.0,
+        169.6,
+        0.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "baseline_body_local_bounds": {
+        "min_mm": [
+          -27.5,
+          -38.0,
+          -35.0
+        ],
+        "max_mm": [
+          27.5,
+          185.60000000000002,
+          27.45967
+        ],
+        "span_mm": [
+          55.0,
+          223.60000000000002,
+          62.45967
+        ]
+      },
+      "P5_body_local_bounds": {
+        "min_mm": [
+          -29.49723,
+          60.10000000000002,
+          -96.5
+        ],
+        "max_mm": [
+          29.49723,
+          187.20000000000005,
+          29.45598
+        ],
+        "span_mm": [
+          58.99446,
+          127.10000000000002,
+          125.95598
+        ]
+      },
+      "baseline_axial_range_from_origin_mm": [
+        -207.6,
+        16.00000000000003
+      ],
+      "P5_axial_range_from_origin_mm": [
+        -109.49999999999997,
+        17.60000000000005
+      ],
+      "rear_projection_reduction_percent": 47.254335260115624,
+      "overall_axial_span_reduction_percent": 43.157423971377455
+    }
+  ],
+  "zero_reference_assembly_bounds": {
+    "P2": {
+      "min_mm": [
+        -110.0,
+        -245.1,
+        -350.1
+      ],
+      "max_mm": [
+        95.0,
+        916.0,
+        350.1
+      ],
+      "span_mm": [
+        205.0,
+        1161.1,
+        700.2
+      ]
+    },
+    "P5": {
+      "min_mm": [
+        -111.147889756541,
+        -92.5,
+        -197.5
+      ],
+      "max_mm": [
+        205.0,
+        916.0,
+        197.5
+      ],
+      "span_mm": [
+        316.147889756541,
+        1008.5,
+        395.0
+      ]
+    },
+    "note": "Native STEP BREP body bounds in q=0 construction reference, includes canonical one jaw; excludes procedural springs, flexible cables, bench and payload. Not an asserted operating pose."
+  },
+  "body_local_bounds": {
+    "P2": {
+      "fixed": {
+        "min_mm": [
+          -95.0,
+          -245.1,
+          -94.86067
+        ],
+        "max_mm": [
+          95.0,
+          70.0,
+          94.86067
+        ],
+        "span_mm": [
+          190.0,
+          315.1,
+          189.72134
+        ]
+      },
+      "turret": {
+        "min_mm": [
+          -110.0,
+          -70.5,
+          -350.1
+        ],
+        "max_mm": [
+          54.0,
+          204.0,
+          97.5
+        ],
+        "span_mm": [
+          164.0,
+          274.5,
+          447.6
+        ]
+      },
+      "upper": {
+        "min_mm": [
+          -54.0,
+          -39.94134,
+          -175.5
+        ],
+        "max_mm": [
+          54.0,
+          358.0,
+          350.1
+        ],
+        "span_mm": [
+          108.0,
+          397.94133999999997,
+          525.6
+        ]
+      },
+      "fore": {
+        "min_mm": [
+          -40.0,
+          -39.94134,
+          -87.0
+        ],
+        "max_mm": [
+          42.96696,
+          212.0,
+          175.5
+        ],
+        "span_mm": [
+          82.96696,
+          251.94134,
+          262.5
+        ]
+      },
+      "roll": {
+        "min_mm": [
+          -27.5,
+          -144.3,
+          -252.6
+        ],
+        "max_mm": [
+          27.5,
+          35.0,
+          40.0
+        ],
+        "span_mm": [
+          55.0,
+          179.3,
+          292.6
+        ]
+      },
+      "bend": {
+        "min_mm": [
+          -31.5,
+          -38.0,
+          -133.3
+        ],
+        "max_mm": [
+          31.5,
+          177.6,
+          42.0
+        ],
+        "span_mm": [
+          63.0,
+          215.6,
+          175.3
+        ]
+      },
+      "tool": {
+        "min_mm": [
+          -53.0,
+          81.3,
+          -40.0
+        ],
+        "max_mm": [
+          53.0,
+          208.5,
+          17.85181
+        ],
+        "span_mm": [
+          106.0,
+          127.2,
+          57.85181
+        ]
+      },
+      "jaw": {
+        "min_mm": [
+          -45.12389,
+          -29.4,
+          -13.8
+        ],
+        "max_mm": [
+          10.0,
+          12.8,
+          13.8
+        ],
+        "span_mm": [
+          55.12389,
+          42.2,
+          27.6
+        ]
+      }
+    },
+    "P5": {
+      "fixed": {
+        "min_mm": [
+          -94.86067,
+          -92.5,
+          -97.97947
+        ],
+        "max_mm": [
+          204.86067,
+          82.1,
+          97.97947
+        ],
+        "span_mm": [
+          299.72134,
+          174.6,
+          195.95894
+        ]
+      },
+      "turret": {
+        "min_mm": [
+          -111.14671,
+          -84.0,
+          -197.5
+        ],
+        "max_mm": [
+          55.99896,
+          204.0,
+          92.0
+        ],
+        "span_mm": [
+          167.14567,
+          288.0,
+          289.5
+        ]
+      },
+      "upper": {
+        "min_mm": [
+          -55.99959,
+          -39.94134,
+          -189.0
+        ],
+        "max_mm": [
+          55.99959,
+          335.91747,
+          197.5
+        ],
+        "span_mm": [
+          111.99918,
+          375.85880999999995,
+          386.5
+        ]
+      },
+      "fore": {
+        "min_mm": [
+          -40.0,
+          -50.0,
+          -96.5
+        ],
+        "max_mm": [
+          42.96696,
+          221.6,
+          189.0
+        ],
+        "span_mm": [
+          82.96696,
+          271.6,
+          285.5
+        ]
+      },
+      "roll": {
+        "min_mm": [
+          -96.5,
+          -162.0,
+          -154.5
+        ],
+        "max_mm": [
+          29.45598,
+          35.0,
+          40.0
+        ],
+        "span_mm": [
+          125.95598,
+          197.0,
+          194.5
+        ]
+      },
+      "bend": {
+        "min_mm": [
+          -31.5,
+          -17.47433,
+          -151.0
+        ],
+        "max_mm": [
+          31.5,
+          187.2,
+          42.0
+        ],
+        "span_mm": [
+          63.0,
+          204.67433,
+          193.0
+        ]
+      },
+      "tool": {
+        "min_mm": [
+          -53.0,
+          63.6,
+          -40.0
+        ],
+        "max_mm": [
+          53.0,
+          208.5,
+          17.85181
+        ],
+        "span_mm": [
+          106.0,
+          144.9,
+          57.85181
+        ]
+      },
+      "jaw": {
+        "min_mm": [
+          -45.12389,
+          -29.4,
+          -13.8
+        ],
+        "max_mm": [
+          10.0,
+          12.8,
+          13.8
+        ],
+        "span_mm": [
+          55.12389,
+          42.2,
+          27.6
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "Native fit checks are nominal geometry checks, not tolerance-stack approval or manufacturing release.",
+    "Catalog motor/reducer/brake geometry remains a full-size outer envelope with catalog mass; vendor internals and true inertia distribution are unverified.",
+    "Belt tooth section is an explicit rounded nominal approximation; cutter geometry, pretension, alignment and endurance require supplier qualification.",
+    "Continuous-proxy task-path collision evidence is separate; no claim that all combinations of hard joint limits are collision-free.",
+    "Flexible spring and cable collision, fastener preload, structural stress and thermal life are not qualified."
+  ],
+  "tessellation_reference_assembly_bounds": {
+    "P2": {
+      "min_mm": [
+        -110.0,
+        -245.1,
+        -350.1
+      ],
+      "max_mm": [
+        95.0,
+        916.0,
+        350.1
+      ],
+      "span_mm": [
+        205.0,
+        1161.1,
+        700.2
+      ]
+    },
+    "P5": {
+      "min_mm": [
+        -111.14671,
+        -92.5,
+        -197.5
+      ],
+      "max_mm": [
+        204.86067,
+        916.0,
+        197.5
+      ],
+      "span_mm": [
+        316.00738,
+        1008.5,
+        395.0
+      ]
+    },
+    "note": "q=0 construction reference, includes canonical one jaw; comparison excludes procedural springs, flexible cables, bench and payload. This is not the demonstrated task pose."
+  },
+  "native_body_local_bounds": {
+    "P2": {
+      "fixed": {
+        "min_mm": [
+          -95.0,
+          -245.1,
+          -95.0
+        ],
+        "max_mm": [
+          95.0,
+          70.0,
+          95.0
+        ],
+        "span_mm": [
+          190.0,
+          315.1,
+          190.0
+        ]
+      },
+      "turret": {
+        "min_mm": [
+          -110.0,
+          -70.5,
+          -350.1
+        ],
+        "max_mm": [
+          54.0,
+          204.0,
+          97.5
+        ],
+        "span_mm": [
+          164.0,
+          274.5,
+          447.6
+        ]
+      },
+      "upper": {
+        "min_mm": [
+          -54.0,
+          -40.0,
+          -175.5
+        ],
+        "max_mm": [
+          54.0,
+          358.0,
+          350.1
+        ],
+        "span_mm": [
+          108.0,
+          398.0,
+          525.6
+        ]
+      },
+      "fore": {
+        "min_mm": [
+          -40.0,
+          -39.99999999999999,
+          -87.0
+        ],
+        "max_mm": [
+          42.96696028012,
+          212.0,
+          175.5
+        ],
+        "span_mm": [
+          82.96696028011999,
+          252.0,
+          262.5
+        ]
+      },
+      "roll": {
+        "min_mm": [
+          -27.5,
+          -144.3,
+          -252.6
+        ],
+        "max_mm": [
+          27.5,
+          35.0,
+          40.0
+        ],
+        "span_mm": [
+          55.0,
+          179.3,
+          292.6
+        ]
+      },
+      "bend": {
+        "min_mm": [
+          -31.5,
+          -38.0,
+          -133.3
+        ],
+        "max_mm": [
+          31.5,
+          177.6,
+          42.0
+        ],
+        "span_mm": [
+          63.0,
+          215.6,
+          175.3
+        ]
+      },
+      "tool": {
+        "min_mm": [
+          -53.0000001,
+          81.3,
+          -40.0
+        ],
+        "max_mm": [
+          53.0000001,
+          208.5000001,
+          17.851807770110327
+        ],
+        "span_mm": [
+          106.0000002,
+          127.2000001,
+          57.85180777011033
+        ]
+      },
+      "jaw": {
+        "min_mm": [
+          -45.12388980384,
+          -29.4,
+          -13.8
+        ],
+        "max_mm": [
+          10.0,
+          12.8,
+          13.8
+        ],
+        "span_mm": [
+          55.12388980384,
+          42.2,
+          27.6
+        ]
+      }
+    },
+    "P5": {
+      "fixed": {
+        "min_mm": [
+          -95.0,
+          -92.5,
+          -98.0
+        ],
+        "max_mm": [
+          205.0,
+          82.1,
+          98.0
+        ],
+        "span_mm": [
+          300.0,
+          174.6,
+          196.0
+        ]
+      },
+      "turret": {
+        "min_mm": [
+          -111.147889756541,
+          -84.0,
+          -197.5
+        ],
+        "max_mm": [
+          55.99999999999999,
+          204.0,
+          92.0
+        ],
+        "span_mm": [
+          167.147889756541,
+          288.0,
+          289.5
+        ]
+      },
+      "upper": {
+        "min_mm": [
+          -56.0,
+          -40.0,
+          -189.0
+        ],
+        "max_mm": [
+          56.0,
+          336.0,
+          197.5
+        ],
+        "span_mm": [
+          112.0,
+          376.0,
+          386.5
+        ]
+      },
+      "fore": {
+        "min_mm": [
+          -40.0,
+          -50.0,
+          -96.5
+        ],
+        "max_mm": [
+          42.96696028012,
+          221.6,
+          189.0
+        ],
+        "span_mm": [
+          82.96696028011999,
+          271.6,
+          285.5
+        ]
+      },
+      "roll": {
+        "min_mm": [
+          -96.5,
+          -162.0,
+          -154.5
+        ],
+        "max_mm": [
+          29.5,
+          35.0,
+          40.0
+        ],
+        "span_mm": [
+          126.0,
+          197.0,
+          194.5
+        ]
+      },
+      "bend": {
+        "min_mm": [
+          -31.5,
+          -17.5,
+          -151.0
+        ],
+        "max_mm": [
+          31.5,
+          187.2,
+          42.0
+        ],
+        "span_mm": [
+          63.0,
+          204.7,
+          193.0
+        ]
+      },
+      "tool": {
+        "min_mm": [
+          -53.0000001,
+          63.6,
+          -40.0
+        ],
+        "max_mm": [
+          53.0000001,
+          208.5000001,
+          17.851807770110327
+        ],
+        "span_mm": [
+          106.0000002,
+          144.9000001,
+          57.85180777011033
+        ]
+      },
+      "jaw": {
+        "min_mm": [
+          -45.12388980384,
+          -29.4,
+          -13.8
+        ],
+        "max_mm": [
+          10.0,
+          12.8,
+          13.8
+        ],
+        "span_mm": [
+          55.12388980384,
+          42.2,
+          27.6
+        ]
+      }
+    }
+  }
+}

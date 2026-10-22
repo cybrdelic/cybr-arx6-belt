@@ -1,0 +1,3865 @@
+{
+  "native_objects": 385,
+  "shader_objects": 385,
+  "matched": 385,
+  "surface_probes": 70392,
+  "passed_objects": 385,
+  "max_distance_mm": 6.767902860360664e-06,
+  "scope": "Surface samples from native STEP tessellation; not an exhaustive BREP equivalence proof. The pinion outline includes the native 0.06 mm root blend sampled at 0.00015 mm deflection.",
+  "records": [
+    {
+      "body": "fixed",
+      "native_name": "large_bearing_housing_0",
+      "shader_name": "large_bearing_housing_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.530164162521501e-06,
+      "rms_distance_mm": 2.6308867330090613e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "large_rear_bearing_cover_1",
+      "shader_name": "large_rear_bearing_cover_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.535912495080453e-06,
+      "rms_distance_mm": 1.7395991726501069e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "large_front_bearing_cover_2",
+      "shader_name": "large_front_bearing_cover_2",
+      "probes": 192,
+      "max_abs_distance_mm": 6.248139839515332e-06,
+      "rms_distance_mm": 2.2244383279933838e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "large_inner_race_spacer_0",
+      "shader_name": "large_inner_race_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.244440520968396e-06,
+      "rms_distance_mm": 2.656208840676171e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "large_DIN471_installed_retainer_1",
+      "shader_name": "large_DIN471_installed_retainer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.087215033006132e-06,
+      "rms_distance_mm": 1.9461578586193885e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "large_selective_inner_race_shim_2",
+      "shader_name": "large_selective_inner_race_shim_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.607808342134035e-06,
+      "rms_distance_mm": 1.9033001030258713e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J1_output_shaft",
+      "shader_name": "J1_output_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 6.7507283487699965e-06,
+      "rms_distance_mm": 1.6423617753816827e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_bearing_0",
+      "shader_name": "J1_bearing_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.726872260998107e-06,
+      "rms_distance_mm": 2.0453635059182595e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_bearing_-34",
+      "shader_name": "J1_bearing_-34",
+      "probes": 192,
+      "max_abs_distance_mm": 6.726872260998107e-06,
+      "rms_distance_mm": 2.0989786669192036e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "large_brake_front_adapter_5",
+      "shader_name": "large_brake_front_adapter_5",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552428184036785e-06,
+      "rms_distance_mm": 2.264005633673086e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_strut_0",
+      "shader_name": "J1_brake_strut_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.598988367161439e-06,
+      "rms_distance_mm": 1.7403173745532497e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_strut_1",
+      "shader_name": "J1_brake_strut_1",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552428184036785e-06,
+      "rms_distance_mm": 2.0087592434736564e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_strut_2",
+      "shader_name": "J1_brake_strut_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.598988367161439e-06,
+      "rms_distance_mm": 1.8987145361064866e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_strut_3",
+      "shader_name": "J1_brake_strut_3",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552428184036785e-06,
+      "rms_distance_mm": 1.937045258867569e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_stator",
+      "shader_name": "J1_brake_stator",
+      "probes": 192,
+      "max_abs_distance_mm": 5.234038187751366e-06,
+      "rms_distance_mm": 1.9846583395404066e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J1_brake_armature",
+      "shader_name": "J1_brake_armature",
+      "probes": 192,
+      "max_abs_distance_mm": 5.835219671013192e-06,
+      "rms_distance_mm": 1.6382707513544138e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "large_brake_keyed_hub_5",
+      "shader_name": "large_brake_keyed_hub_5",
+      "probes": 192,
+      "max_abs_distance_mm": 4.627323747286027e-06,
+      "rms_distance_mm": 1.3997765708728425e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "large_brake_shaft_key_6",
+      "shader_name": "large_brake_shaft_key_6",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J1_integral_stop_target",
+      "shader_name": "J1_integral_stop_target",
+      "probes": 192,
+      "max_abs_distance_mm": 5.304276633921745e-06,
+      "rms_distance_mm": 1.916021863247319e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_stop_pin_0",
+      "shader_name": "J1_stop_pin_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.6885565039289645e-06,
+      "rms_distance_mm": 1.4508749214909023e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_stop_pin_1",
+      "shader_name": "J1_stop_pin_1",
+      "probes": 192,
+      "max_abs_distance_mm": 4.700083327868754e-06,
+      "rms_distance_mm": 1.7731822886850543e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_back_adapter",
+      "shader_name": "J1_brake_back_adapter",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552428184036785e-06,
+      "rms_distance_mm": 2.3594089083532317e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_index_sensor",
+      "shader_name": "J1_index_sensor",
+      "probes": 192,
+      "max_abs_distance_mm": 6.481791599899367e-06,
+      "rms_distance_mm": 1.9256526375938257e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_sensor_mount",
+      "shader_name": "J1_sensor_mount",
+      "probes": 192,
+      "max_abs_distance_mm": 6.103281812386285e-06,
+      "rms_distance_mm": 2.4025220112364948e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_spacer_0",
+      "shader_name": "J1_brake_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.145162959825257e-06,
+      "rms_distance_mm": 2.344397453478e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_spacer_1",
+      "shader_name": "J1_brake_spacer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.745624624076129e-06,
+      "rms_distance_mm": 2.133920462191249e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_spacer_2",
+      "shader_name": "J1_brake_spacer_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.745624624076129e-06,
+      "rms_distance_mm": 2.3700067930588384e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_spacer_3",
+      "shader_name": "J1_brake_spacer_3",
+      "probes": 192,
+      "max_abs_distance_mm": 6.145162959825257e-06,
+      "rms_distance_mm": 2.487235253395099e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_spacer_4",
+      "shader_name": "J1_brake_spacer_4",
+      "probes": 192,
+      "max_abs_distance_mm": 5.745624624076129e-06,
+      "rms_distance_mm": 2.3212790554010765e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_brake_spacer_5",
+      "shader_name": "J1_brake_spacer_5",
+      "probes": 192,
+      "max_abs_distance_mm": 5.745624624076129e-06,
+      "rms_distance_mm": 2.2648979816694282e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_gearhead",
+      "shader_name": "J1_gearhead",
+      "probes": 192,
+      "max_abs_distance_mm": 4.328194787461825e-06,
+      "rms_distance_mm": 1.8072712903208625e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_motor",
+      "shader_name": "J1_motor",
+      "probes": 192,
+      "max_abs_distance_mm": 1.9462624045729626e-06,
+      "rms_distance_mm": 8.145824411231937e-07,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_carrier_deck",
+      "shader_name": "J1_carrier_deck",
+      "probes": 192,
+      "max_abs_distance_mm": 5.578506001135963e-06,
+      "rms_distance_mm": 1.9198901656361123e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_housing_rails",
+      "shader_name": "J1_housing_rails",
+      "probes": 192,
+      "max_abs_distance_mm": 5.107895965750231e-06,
+      "rms_distance_mm": 1.593744745713989e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_front_cover",
+      "shader_name": "J1_front_cover",
+      "probes": 192,
+      "max_abs_distance_mm": 5.83724806091368e-06,
+      "rms_distance_mm": 1.961411614372739e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_tension_block",
+      "shader_name": "J1_tension_block",
+      "probes": 192,
+      "max_abs_distance_mm": 4.775006703816587e-06,
+      "rms_distance_mm": 2.184101396727154e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_tension_screw",
+      "shader_name": "J1_tension_screw",
+      "probes": 192,
+      "max_abs_distance_mm": 5.179667595278659e-06,
+      "rms_distance_mm": 1.6280693619399123e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_timing_belt",
+      "shader_name": "J1_timing_belt",
+      "probes": 192,
+      "max_abs_distance_mm": 6.145421583614308e-06,
+      "rms_distance_mm": 2.5704244381237167e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_drive_pulley",
+      "shader_name": "J1_drive_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 4.986205926371667e-06,
+      "rms_distance_mm": 9.418052997273604e-07,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_input_support_bearing",
+      "shader_name": "J1_input_support_bearing",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 2.295345355576543e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_input_shaft",
+      "shader_name": "J1_input_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 4.128006914072557e-06,
+      "rms_distance_mm": 1.3865689734279922e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J1_driven_pulley",
+      "shader_name": "J1_driven_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 5.034883269416923e-06,
+      "rms_distance_mm": 8.142984291218475e-07,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J1_pulley_output_key",
+      "shader_name": "J1_pulley_output_key",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_pulley_input_key",
+      "shader_name": "J1_pulley_input_key",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_gear_mount_screw_0",
+      "shader_name": "J1_gear_mount_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.563943592967746e-06,
+      "rms_distance_mm": 1.7396757694688718e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_gear_mount_screw_1",
+      "shader_name": "J1_gear_mount_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 6.131544390441945e-06,
+      "rms_distance_mm": 1.736229260993046e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_gear_mount_screw_2",
+      "shader_name": "J1_gear_mount_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 6.131544390441945e-06,
+      "rms_distance_mm": 1.7613083125412679e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_gear_mount_screw_3",
+      "shader_name": "J1_gear_mount_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 5.563943592967746e-06,
+      "rms_distance_mm": 1.819199029093236e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_carrier_screw_0",
+      "shader_name": "J1_carrier_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.292837478660829e-06,
+      "rms_distance_mm": 1.6340996195510355e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_carrier_screw_1",
+      "shader_name": "J1_carrier_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 6.292837478660829e-06,
+      "rms_distance_mm": 2.1202532588264284e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_carrier_screw_2",
+      "shader_name": "J1_carrier_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 6.292837478660829e-06,
+      "rms_distance_mm": 1.8322551642380245e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "J1_carrier_screw_3",
+      "shader_name": "J1_carrier_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 5.7707401492912425e-06,
+      "rms_distance_mm": 1.791864629760829e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "large_bearing_housing_10",
+      "shader_name": "large_bearing_housing_10",
+      "probes": 192,
+      "max_abs_distance_mm": 6.451488253844673e-06,
+      "rms_distance_mm": 2.2781156887289625e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "large_rear_bearing_cover_11",
+      "shader_name": "large_rear_bearing_cover_11",
+      "probes": 192,
+      "max_abs_distance_mm": 5.423867641241031e-06,
+      "rms_distance_mm": 2.033266408340646e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "large_front_bearing_cover_12",
+      "shader_name": "large_front_bearing_cover_12",
+      "probes": 192,
+      "max_abs_distance_mm": 6.530164158302654e-06,
+      "rms_distance_mm": 2.28594160478509e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "large_inner_race_spacer_0",
+      "shader_name": "large_inner_race_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.244440520968396e-06,
+      "rms_distance_mm": 2.5506667363800332e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "large_DIN471_installed_retainer_1",
+      "shader_name": "large_DIN471_installed_retainer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.087215033006132e-06,
+      "rms_distance_mm": 2.210024383310465e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "large_selective_inner_race_shim_2",
+      "shader_name": "large_selective_inner_race_shim_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.607808342134035e-06,
+      "rms_distance_mm": 2.0253678363276276e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J2_output_shaft",
+      "shader_name": "J2_output_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 6.7507283487699965e-06,
+      "rms_distance_mm": 1.5481217770121492e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_bearing_0",
+      "shader_name": "J2_bearing_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.726872257445393e-06,
+      "rms_distance_mm": 2.041280601426808e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_bearing_-34",
+      "shader_name": "J2_bearing_-34",
+      "probes": 192,
+      "max_abs_distance_mm": 6.726872257445393e-06,
+      "rms_distance_mm": 2.2580674934711864e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "large_brake_front_adapter_15",
+      "shader_name": "large_brake_front_adapter_15",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552428184036785e-06,
+      "rms_distance_mm": 2.2263748813723877e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_strut_0",
+      "shader_name": "J2_brake_strut_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552428179595893e-06,
+      "rms_distance_mm": 2.0914180308991365e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_strut_1",
+      "shader_name": "J2_brake_strut_1",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552428179595893e-06,
+      "rms_distance_mm": 1.9569780899974974e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_strut_2",
+      "shader_name": "J2_brake_strut_2",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552428179595893e-06,
+      "rms_distance_mm": 1.9022260954678814e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_strut_3",
+      "shader_name": "J2_brake_strut_3",
+      "probes": 192,
+      "max_abs_distance_mm": 5.59898837249051e-06,
+      "rms_distance_mm": 1.980832941031286e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_stator",
+      "shader_name": "J2_brake_stator",
+      "probes": 192,
+      "max_abs_distance_mm": 5.234038180645939e-06,
+      "rms_distance_mm": 2.028702499113861e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J2_brake_armature",
+      "shader_name": "J2_brake_armature",
+      "probes": 192,
+      "max_abs_distance_mm": 5.835219671013192e-06,
+      "rms_distance_mm": 1.722785910697764e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "large_brake_keyed_hub_5",
+      "shader_name": "large_brake_keyed_hub_5",
+      "probes": 192,
+      "max_abs_distance_mm": 4.763160185827786e-06,
+      "rms_distance_mm": 1.4457018625472504e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "large_brake_shaft_key_6",
+      "shader_name": "large_brake_shaft_key_6",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J2_integral_stop_target",
+      "shader_name": "J2_integral_stop_target",
+      "probes": 192,
+      "max_abs_distance_mm": 4.934401719225434e-06,
+      "rms_distance_mm": 1.6044639841123427e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_stop_pin_0",
+      "shader_name": "J2_stop_pin_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.3102341814058605e-06,
+      "rms_distance_mm": 2.176544161680361e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_stop_pin_1",
+      "shader_name": "J2_stop_pin_1",
+      "probes": 192,
+      "max_abs_distance_mm": 4.188200811050535e-06,
+      "rms_distance_mm": 1.392785204748882e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_back_adapter",
+      "shader_name": "J2_brake_back_adapter",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552428184036785e-06,
+      "rms_distance_mm": 2.3743567522767603e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_index_sensor",
+      "shader_name": "J2_index_sensor",
+      "probes": 192,
+      "max_abs_distance_mm": 6.481791589241226e-06,
+      "rms_distance_mm": 1.9196823285237305e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_sensor_mount",
+      "shader_name": "J2_sensor_mount",
+      "probes": 192,
+      "max_abs_distance_mm": 5.648287223269932e-06,
+      "rms_distance_mm": 2.119519777015938e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_spacer_0",
+      "shader_name": "J2_brake_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.145162969595219e-06,
+      "rms_distance_mm": 2.636061978428268e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_spacer_1",
+      "shader_name": "J2_brake_spacer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.74562462607453e-06,
+      "rms_distance_mm": 2.015341814495198e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_spacer_2",
+      "shader_name": "J2_brake_spacer_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.74562462607453e-06,
+      "rms_distance_mm": 2.1567772747841172e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_spacer_3",
+      "shader_name": "J2_brake_spacer_3",
+      "probes": 192,
+      "max_abs_distance_mm": 6.145162969595219e-06,
+      "rms_distance_mm": 2.3038726776947766e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_spacer_4",
+      "shader_name": "J2_brake_spacer_4",
+      "probes": 192,
+      "max_abs_distance_mm": 5.74562462607453e-06,
+      "rms_distance_mm": 2.0808415504401825e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_brake_spacer_5",
+      "shader_name": "J2_brake_spacer_5",
+      "probes": 192,
+      "max_abs_distance_mm": 5.74562462607453e-06,
+      "rms_distance_mm": 2.137131500373006e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_gearhead",
+      "shader_name": "J2_gearhead",
+      "probes": 192,
+      "max_abs_distance_mm": 5.843055088661231e-06,
+      "rms_distance_mm": 2.5797754468213195e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_motor",
+      "shader_name": "J2_motor",
+      "probes": 192,
+      "max_abs_distance_mm": 5.282244348592258e-06,
+      "rms_distance_mm": 2.157770394816578e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_carrier_deck",
+      "shader_name": "J2_carrier_deck",
+      "probes": 192,
+      "max_abs_distance_mm": 6.218143859815228e-06,
+      "rms_distance_mm": 1.9732768743421945e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_housing_rails",
+      "shader_name": "J2_housing_rails",
+      "probes": 192,
+      "max_abs_distance_mm": 6.767902860360664e-06,
+      "rms_distance_mm": 2.358373260528135e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_front_cover",
+      "shader_name": "J2_front_cover",
+      "probes": 192,
+      "max_abs_distance_mm": 6.286335164418233e-06,
+      "rms_distance_mm": 1.8200465721099e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_tension_block",
+      "shader_name": "J2_tension_block",
+      "probes": 192,
+      "max_abs_distance_mm": 5.37817665891005e-06,
+      "rms_distance_mm": 2.667429526643722e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_tension_screw",
+      "shader_name": "J2_tension_screw",
+      "probes": 192,
+      "max_abs_distance_mm": 6.384210578858074e-06,
+      "rms_distance_mm": 2.6478919808683432e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_timing_belt",
+      "shader_name": "J2_timing_belt",
+      "probes": 192,
+      "max_abs_distance_mm": 6.4335463627607226e-06,
+      "rms_distance_mm": 2.194280119940677e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_drive_pulley",
+      "shader_name": "J2_drive_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 5.5760143178318344e-06,
+      "rms_distance_mm": 9.130978975564854e-07,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_input_support_bearing",
+      "shader_name": "J2_input_support_bearing",
+      "probes": 192,
+      "max_abs_distance_mm": 4.91174074923606e-06,
+      "rms_distance_mm": 1.9811569420611067e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_input_shaft",
+      "shader_name": "J2_input_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 5.880283728387781e-06,
+      "rms_distance_mm": 1.7872484674848747e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J2_driven_pulley",
+      "shader_name": "J2_driven_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 4.4450984066912724e-06,
+      "rms_distance_mm": 8.288250289420872e-07,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J2_pulley_output_key",
+      "shader_name": "J2_pulley_output_key",
+      "probes": 24,
+      "max_abs_distance_mm": 5.396239946442449e-06,
+      "rms_distance_mm": 3.712120103555127e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_pulley_input_key",
+      "shader_name": "J2_pulley_input_key",
+      "probes": 24,
+      "max_abs_distance_mm": 5.896428748473695e-06,
+      "rms_distance_mm": 3.1488692010064836e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_gear_mount_screw_0",
+      "shader_name": "J2_gear_mount_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.103334688172367e-06,
+      "rms_distance_mm": 1.7493437808110939e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_gear_mount_screw_1",
+      "shader_name": "J2_gear_mount_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.645343740479092e-06,
+      "rms_distance_mm": 1.983551950725201e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_gear_mount_screw_2",
+      "shader_name": "J2_gear_mount_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.192518040431082e-06,
+      "rms_distance_mm": 1.6905476961284072e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_gear_mount_screw_3",
+      "shader_name": "J2_gear_mount_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 5.852587841914669e-06,
+      "rms_distance_mm": 1.91508993227782e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_carrier_screw_0",
+      "shader_name": "J2_carrier_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.725973393959748e-06,
+      "rms_distance_mm": 1.809455273678583e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_carrier_screw_1",
+      "shader_name": "J2_carrier_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 6.1045044850160934e-06,
+      "rms_distance_mm": 2.0454158570849597e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_carrier_screw_2",
+      "shader_name": "J2_carrier_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 4.725973405950157e-06,
+      "rms_distance_mm": 1.871336593213058e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "J2_carrier_screw_3",
+      "shader_name": "J2_carrier_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 6.104504470805239e-06,
+      "rms_distance_mm": 2.018976867904091e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "large_bearing_housing_10",
+      "shader_name": "large_bearing_housing_10",
+      "probes": 192,
+      "max_abs_distance_mm": 6.451488253844673e-06,
+      "rms_distance_mm": 2.5723708867172728e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "large_rear_bearing_cover_11",
+      "shader_name": "large_rear_bearing_cover_11",
+      "probes": 192,
+      "max_abs_distance_mm": 5.423867655451886e-06,
+      "rms_distance_mm": 1.7712448030224174e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "large_front_bearing_cover_12",
+      "shader_name": "large_front_bearing_cover_12",
+      "probes": 192,
+      "max_abs_distance_mm": 6.248139834852395e-06,
+      "rms_distance_mm": 2.1528689877156285e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "large_inner_race_spacer_0",
+      "shader_name": "large_inner_race_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.244440520968396e-06,
+      "rms_distance_mm": 2.6177050851163057e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "large_DIN471_installed_retainer_1",
+      "shader_name": "large_DIN471_installed_retainer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.051354023066779e-06,
+      "rms_distance_mm": 1.8648930313503317e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "large_selective_inner_race_shim_2",
+      "shader_name": "large_selective_inner_race_shim_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.607808342134035e-06,
+      "rms_distance_mm": 2.067800179671802e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J3_output_shaft",
+      "shader_name": "J3_output_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 6.7507283487699965e-06,
+      "rms_distance_mm": 1.7110929511984731e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_bearing_0",
+      "shader_name": "J3_bearing_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.726872276985318e-06,
+      "rms_distance_mm": 2.165795116602004e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_bearing_-34",
+      "shader_name": "J3_bearing_-34",
+      "probes": 192,
+      "max_abs_distance_mm": 6.726872276985318e-06,
+      "rms_distance_mm": 2.1824262812038804e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "large_brake_front_adapter_15",
+      "shader_name": "large_brake_front_adapter_15",
+      "probes": 192,
+      "max_abs_distance_mm": 6.172768971968168e-06,
+      "rms_distance_mm": 2.0736044480308633e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_strut_0",
+      "shader_name": "J3_brake_strut_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.59898836094419e-06,
+      "rms_distance_mm": 1.8128228474019288e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_strut_1",
+      "shader_name": "J3_brake_strut_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.59898836094419e-06,
+      "rms_distance_mm": 1.7697106643928089e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_strut_2",
+      "shader_name": "J3_brake_strut_2",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552428179595893e-06,
+      "rms_distance_mm": 2.1065384875424556e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_strut_3",
+      "shader_name": "J3_brake_strut_3",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552428179595893e-06,
+      "rms_distance_mm": 2.0201221381972773e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_stator",
+      "shader_name": "J3_brake_stator",
+      "probes": 192,
+      "max_abs_distance_mm": 5.234038205514935e-06,
+      "rms_distance_mm": 2.074569102399585e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J3_brake_armature",
+      "shader_name": "J3_brake_armature",
+      "probes": 192,
+      "max_abs_distance_mm": 5.835219671013192e-06,
+      "rms_distance_mm": 1.6429505669778729e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "large_brake_keyed_hub_5",
+      "shader_name": "large_brake_keyed_hub_5",
+      "probes": 192,
+      "max_abs_distance_mm": 4.763160185827786e-06,
+      "rms_distance_mm": 1.7105698550735805e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "large_brake_shaft_key_6",
+      "shader_name": "large_brake_shaft_key_6",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J3_integral_stop_target",
+      "shader_name": "J3_integral_stop_target",
+      "probes": 192,
+      "max_abs_distance_mm": 5.336136319356294e-06,
+      "rms_distance_mm": 1.8592412336691468e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_stop_pin_0",
+      "shader_name": "J3_stop_pin_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.647772183563603e-06,
+      "rms_distance_mm": 1.4945757523786915e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_stop_pin_1",
+      "shader_name": "J3_stop_pin_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.252945103784157e-06,
+      "rms_distance_mm": 2.0630916856874007e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_back_adapter",
+      "shader_name": "J3_brake_back_adapter",
+      "probes": 192,
+      "max_abs_distance_mm": 6.145162969595219e-06,
+      "rms_distance_mm": 2.255320456458418e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_index_sensor",
+      "shader_name": "J3_index_sensor",
+      "probes": 192,
+      "max_abs_distance_mm": 6.481791589241226e-06,
+      "rms_distance_mm": 1.9776180709337467e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_sensor_mount",
+      "shader_name": "J3_sensor_mount",
+      "probes": 192,
+      "max_abs_distance_mm": 6.219608493562845e-06,
+      "rms_distance_mm": 2.3104842244353962e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_spacer_0",
+      "shader_name": "J3_brake_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.145162969595219e-06,
+      "rms_distance_mm": 2.6575137513451557e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_spacer_1",
+      "shader_name": "J3_brake_spacer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.74562462607453e-06,
+      "rms_distance_mm": 2.0136682498509177e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_spacer_2",
+      "shader_name": "J3_brake_spacer_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.74562462607453e-06,
+      "rms_distance_mm": 2.0772467417037063e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_spacer_3",
+      "shader_name": "J3_brake_spacer_3",
+      "probes": 192,
+      "max_abs_distance_mm": 6.145162969595219e-06,
+      "rms_distance_mm": 2.583341790391881e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_spacer_4",
+      "shader_name": "J3_brake_spacer_4",
+      "probes": 192,
+      "max_abs_distance_mm": 5.745624608977096e-06,
+      "rms_distance_mm": 2.3103042410594102e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_brake_spacer_5",
+      "shader_name": "J3_brake_spacer_5",
+      "probes": 192,
+      "max_abs_distance_mm": 5.745624608977096e-06,
+      "rms_distance_mm": 2.267765543371102e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_gearhead",
+      "shader_name": "J3_gearhead",
+      "probes": 192,
+      "max_abs_distance_mm": 4.328194787461825e-06,
+      "rms_distance_mm": 1.8567998870464374e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_motor",
+      "shader_name": "J3_motor",
+      "probes": 192,
+      "max_abs_distance_mm": 1.9462623939148216e-06,
+      "rms_distance_mm": 8.382657453387051e-07,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_carrier_deck",
+      "shader_name": "J3_carrier_deck",
+      "probes": 192,
+      "max_abs_distance_mm": 5.578505992254179e-06,
+      "rms_distance_mm": 2.0469167926670196e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_housing_rails",
+      "shader_name": "J3_housing_rails",
+      "probes": 192,
+      "max_abs_distance_mm": 5.107895951539376e-06,
+      "rms_distance_mm": 1.7231332991071576e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_front_cover",
+      "shader_name": "J3_front_cover",
+      "probes": 192,
+      "max_abs_distance_mm": 5.9280810873474366e-06,
+      "rms_distance_mm": 1.870705552564013e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_tension_block",
+      "shader_name": "J3_tension_block",
+      "probes": 192,
+      "max_abs_distance_mm": 4.775006703816587e-06,
+      "rms_distance_mm": 2.2281559846886053e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_tension_screw",
+      "shader_name": "J3_tension_screw",
+      "probes": 192,
+      "max_abs_distance_mm": 5.179667595278659e-06,
+      "rms_distance_mm": 1.6413655419813202e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_timing_belt",
+      "shader_name": "J3_timing_belt",
+      "probes": 192,
+      "max_abs_distance_mm": 6.394421183886223e-06,
+      "rms_distance_mm": 2.5693237405857566e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_drive_pulley",
+      "shader_name": "J3_drive_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 5.034883269416923e-06,
+      "rms_distance_mm": 8.777727299114776e-07,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_input_support_bearing",
+      "shader_name": "J3_input_support_bearing",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931306129405e-06,
+      "rms_distance_mm": 2.300992822047866e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_input_shaft",
+      "shader_name": "J3_input_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 4.1280069060789515e-06,
+      "rms_distance_mm": 1.4410374782354818e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J3_driven_pulley",
+      "shader_name": "J3_driven_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 5.034883269416923e-06,
+      "rms_distance_mm": 7.809517203212573e-07,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J3_pulley_output_key",
+      "shader_name": "J3_pulley_output_key",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_pulley_input_key",
+      "shader_name": "J3_pulley_input_key",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_gear_mount_screw_0",
+      "shader_name": "J3_gear_mount_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.131544390441945e-06,
+      "rms_distance_mm": 1.6745148317320346e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_gear_mount_screw_1",
+      "shader_name": "J3_gear_mount_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.563943600517263e-06,
+      "rms_distance_mm": 1.7002628170792094e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_gear_mount_screw_2",
+      "shader_name": "J3_gear_mount_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 6.131544390441945e-06,
+      "rms_distance_mm": 1.7826147429768606e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_gear_mount_screw_3",
+      "shader_name": "J3_gear_mount_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 6.131544390441945e-06,
+      "rms_distance_mm": 1.8582750469276164e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_carrier_screw_0",
+      "shader_name": "J3_carrier_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.292837478660829e-06,
+      "rms_distance_mm": 1.8146903415394143e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_carrier_screw_1",
+      "shader_name": "J3_carrier_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.77074015639667e-06,
+      "rms_distance_mm": 1.5022387539044186e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_carrier_screw_2",
+      "shader_name": "J3_carrier_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 6.292837478660829e-06,
+      "rms_distance_mm": 1.8284662002554314e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "J3_carrier_screw_3",
+      "shader_name": "J3_carrier_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 5.770740147070796e-06,
+      "rms_distance_mm": 1.7248239639186091e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "small_bearing_housing_10",
+      "shader_name": "small_bearing_housing_10",
+      "probes": 192,
+      "max_abs_distance_mm": 5.859725373369429e-06,
+      "rms_distance_mm": 2.1188122192524572e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "small_rear_bearing_cover_11",
+      "shader_name": "small_rear_bearing_cover_11",
+      "probes": 192,
+      "max_abs_distance_mm": 6.299899720341173e-06,
+      "rms_distance_mm": 2.3900461976383018e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "small_front_bearing_cover_12",
+      "shader_name": "small_front_bearing_cover_12",
+      "probes": 192,
+      "max_abs_distance_mm": 6.332276662135428e-06,
+      "rms_distance_mm": 1.7786994736059408e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "small_inner_race_spacer_0",
+      "shader_name": "small_inner_race_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.378930052340024e-06,
+      "rms_distance_mm": 1.6725184821656574e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "small_DIN471_installed_retainer_1",
+      "shader_name": "small_DIN471_installed_retainer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552119022895653e-06,
+      "rms_distance_mm": 1.8116265075245013e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "small_selective_inner_race_shim_2",
+      "shader_name": "small_selective_inner_race_shim_2",
+      "probes": 192,
+      "max_abs_distance_mm": 4.8479688841140955e-06,
+      "rms_distance_mm": 2.1721872935168617e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J4_output_shaft",
+      "shader_name": "J4_output_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 5.694031171010749e-06,
+      "rms_distance_mm": 1.8621290202831057e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_bearing_0",
+      "shader_name": "J4_bearing_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 2.1371860831441816e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_bearing_-20",
+      "shader_name": "J4_bearing_-20",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 1.963586055894533e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "small_brake_front_adapter_15",
+      "shader_name": "small_brake_front_adapter_15",
+      "probes": 192,
+      "max_abs_distance_mm": 6.240762928655386e-06,
+      "rms_distance_mm": 1.8264666446674814e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_brake_strut_0",
+      "shader_name": "J4_brake_strut_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 1.877907382321003e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_brake_strut_1",
+      "shader_name": "J4_brake_strut_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 2.0203544459859802e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_brake_strut_2",
+      "shader_name": "J4_brake_strut_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 2.0079899468691768e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_brake_strut_3",
+      "shader_name": "J4_brake_strut_3",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 1.8739391630733893e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_brake_stator",
+      "shader_name": "J4_brake_stator",
+      "probes": 192,
+      "max_abs_distance_mm": 5.894633441805297e-06,
+      "rms_distance_mm": 2.0397063936923757e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J4_brake_armature",
+      "shader_name": "J4_brake_armature",
+      "probes": 192,
+      "max_abs_distance_mm": 4.1745362486800275e-06,
+      "rms_distance_mm": 2.0946507271832693e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "small_brake_keyed_hub_5",
+      "shader_name": "small_brake_keyed_hub_5",
+      "probes": 192,
+      "max_abs_distance_mm": 6.211151942103754e-06,
+      "rms_distance_mm": 1.566308367652353e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "small_brake_shaft_key_6",
+      "shader_name": "small_brake_shaft_key_6",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J4_integral_stop_target",
+      "shader_name": "J4_integral_stop_target",
+      "probes": 192,
+      "max_abs_distance_mm": 5.933939627666973e-06,
+      "rms_distance_mm": 2.051322419873563e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_stop_pin_0",
+      "shader_name": "J4_stop_pin_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.43788445939164e-06,
+      "rms_distance_mm": 2.206453685304122e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_stop_pin_1",
+      "shader_name": "J4_stop_pin_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.43788445939164e-06,
+      "rms_distance_mm": 2.040310142628303e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_brake_back_adapter",
+      "shader_name": "J4_brake_back_adapter",
+      "probes": 192,
+      "max_abs_distance_mm": 5.229835867481825e-06,
+      "rms_distance_mm": 1.883997527014902e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_index_sensor",
+      "shader_name": "J4_index_sensor",
+      "probes": 192,
+      "max_abs_distance_mm": 6.481791589241226e-06,
+      "rms_distance_mm": 1.8548345774471645e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_sensor_mount",
+      "shader_name": "J4_sensor_mount",
+      "probes": 192,
+      "max_abs_distance_mm": 6.405655013974609e-06,
+      "rms_distance_mm": 2.6079095994844243e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_brake_spacer_0",
+      "shader_name": "J4_brake_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.481791597678921e-06,
+      "rms_distance_mm": 2.2762412226156207e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_brake_spacer_1",
+      "shader_name": "J4_brake_spacer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.195702607707631e-06,
+      "rms_distance_mm": 1.8477569960260198e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_brake_spacer_2",
+      "shader_name": "J4_brake_spacer_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.195702607707631e-06,
+      "rms_distance_mm": 1.876520523973902e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_gearhead",
+      "shader_name": "J4_gearhead",
+      "probes": 192,
+      "max_abs_distance_mm": 2.7553542008007526e-06,
+      "rms_distance_mm": 1.2655993672522677e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_motor",
+      "shader_name": "J4_motor",
+      "probes": 192,
+      "max_abs_distance_mm": 2.7553542008007526e-06,
+      "rms_distance_mm": 1.2970859923159203e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_carrier_deck",
+      "shader_name": "J4_carrier_deck",
+      "probes": 192,
+      "max_abs_distance_mm": 6.142215086546443e-06,
+      "rms_distance_mm": 2.142254937261384e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_housing_rails",
+      "shader_name": "J4_housing_rails",
+      "probes": 192,
+      "max_abs_distance_mm": 6.577652793993138e-06,
+      "rms_distance_mm": 2.7405963812844307e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_front_cover",
+      "shader_name": "J4_front_cover",
+      "probes": 192,
+      "max_abs_distance_mm": 6.577652793993138e-06,
+      "rms_distance_mm": 1.7238234410146362e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_tension_block",
+      "shader_name": "J4_tension_block",
+      "probes": 192,
+      "max_abs_distance_mm": 6.142215086102354e-06,
+      "rms_distance_mm": 2.3519471670003418e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_tension_screw",
+      "shader_name": "J4_tension_screw",
+      "probes": 192,
+      "max_abs_distance_mm": 5.594989572532683e-06,
+      "rms_distance_mm": 1.5611264300599963e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_timing_belt",
+      "shader_name": "J4_timing_belt",
+      "probes": 192,
+      "max_abs_distance_mm": 5.4113520664422765e-06,
+      "rms_distance_mm": 1.9522133529766644e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_drive_pulley",
+      "shader_name": "J4_drive_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 6.387450774525405e-06,
+      "rms_distance_mm": 8.152541768364834e-07,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_input_support_bearing",
+      "shader_name": "J4_input_support_bearing",
+      "probes": 192,
+      "max_abs_distance_mm": 4.574445841232233e-06,
+      "rms_distance_mm": 1.6239642558749358e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_input_shaft",
+      "shader_name": "J4_input_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 5.179667595278659e-06,
+      "rms_distance_mm": 1.7498913434764014e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J4_driven_pulley",
+      "shader_name": "J4_driven_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 6.387450774525405e-06,
+      "rms_distance_mm": 1.1772642336983097e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J4_pulley_output_key",
+      "shader_name": "J4_pulley_output_key",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_pulley_input_key",
+      "shader_name": "J4_pulley_input_key",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_gear_mount_screw_0",
+      "shader_name": "J4_gear_mount_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.534239717912669e-06,
+      "rms_distance_mm": 1.647964482351021e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_gear_mount_screw_1",
+      "shader_name": "J4_gear_mount_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 1.8704386020406084e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_gear_mount_screw_2",
+      "shader_name": "J4_gear_mount_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 2.100753284274066e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_gear_mount_screw_3",
+      "shader_name": "J4_gear_mount_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 4.534239717912669e-06,
+      "rms_distance_mm": 1.6316828497927673e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_gear_mount_screw_4",
+      "shader_name": "J4_gear_mount_screw_4",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 2.002369905171591e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_gear_mount_screw_5",
+      "shader_name": "J4_gear_mount_screw_5",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 2.025859177096654e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_carrier_screw_0",
+      "shader_name": "J4_carrier_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.343401157986705e-06,
+      "rms_distance_mm": 1.5764365603442726e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_carrier_screw_1",
+      "shader_name": "J4_carrier_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.343401157986705e-06,
+      "rms_distance_mm": 1.4174155875369321e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_carrier_screw_2",
+      "shader_name": "J4_carrier_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.968724681171267e-06,
+      "rms_distance_mm": 1.6237412245108793e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "J4_carrier_screw_3",
+      "shader_name": "J4_carrier_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 6.162015080191097e-06,
+      "rms_distance_mm": 1.6149381586851363e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "small_bearing_housing_10",
+      "shader_name": "small_bearing_housing_10",
+      "probes": 192,
+      "max_abs_distance_mm": 6.332276662135428e-06,
+      "rms_distance_mm": 2.148525979311409e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "small_rear_bearing_cover_11",
+      "shader_name": "small_rear_bearing_cover_11",
+      "probes": 192,
+      "max_abs_distance_mm": 6.299899720341173e-06,
+      "rms_distance_mm": 2.5520105590559154e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "small_front_bearing_cover_12",
+      "shader_name": "small_front_bearing_cover_12",
+      "probes": 192,
+      "max_abs_distance_mm": 6.332276662135428e-06,
+      "rms_distance_mm": 1.8445979099568904e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "small_inner_race_spacer_0",
+      "shader_name": "small_inner_race_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.378930052340024e-06,
+      "rms_distance_mm": 1.6871353485831007e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "small_DIN471_installed_retainer_1",
+      "shader_name": "small_DIN471_installed_retainer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 6.552119022895653e-06,
+      "rms_distance_mm": 1.7657496374286603e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "small_selective_inner_race_shim_2",
+      "shader_name": "small_selective_inner_race_shim_2",
+      "probes": 192,
+      "max_abs_distance_mm": 4.8479688841140955e-06,
+      "rms_distance_mm": 2.166704133650858e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J5_output_shaft",
+      "shader_name": "J5_output_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 5.557557940960578e-06,
+      "rms_distance_mm": 1.5481791824144606e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_bearing_0",
+      "shader_name": "J5_bearing_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 2.265485704324606e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_bearing_-20",
+      "shader_name": "J5_bearing_-20",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 2.0944091227844746e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "small_brake_front_adapter_15",
+      "shader_name": "small_brake_front_adapter_15",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 2.0624276948249138e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_brake_strut_0",
+      "shader_name": "J5_brake_strut_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 2.0060421216772365e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_brake_strut_1",
+      "shader_name": "J5_brake_strut_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 1.7834434508096962e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_brake_strut_2",
+      "shader_name": "J5_brake_strut_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 1.9554656654979944e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_brake_strut_3",
+      "shader_name": "J5_brake_strut_3",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 1.8832010189899083e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_brake_stator",
+      "shader_name": "J5_brake_stator",
+      "probes": 192,
+      "max_abs_distance_mm": 5.894633441805297e-06,
+      "rms_distance_mm": 1.916853472332787e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J5_brake_armature",
+      "shader_name": "J5_brake_armature",
+      "probes": 192,
+      "max_abs_distance_mm": 4.1745362486800275e-06,
+      "rms_distance_mm": 1.8895771905323241e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "small_brake_keyed_hub_5",
+      "shader_name": "small_brake_keyed_hub_5",
+      "probes": 192,
+      "max_abs_distance_mm": 5.321448761197445e-06,
+      "rms_distance_mm": 1.827870405342047e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "small_brake_shaft_key_6",
+      "shader_name": "small_brake_shaft_key_6",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J5_integral_stop_target",
+      "shader_name": "J5_integral_stop_target",
+      "probes": 192,
+      "max_abs_distance_mm": 5.933939627666973e-06,
+      "rms_distance_mm": 2.2916078057045667e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_stop_pin_0",
+      "shader_name": "J5_stop_pin_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.4375134501682965e-06,
+      "rms_distance_mm": 2.1851429047652894e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_stop_pin_1",
+      "shader_name": "J5_stop_pin_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.308351810562328e-06,
+      "rms_distance_mm": 1.8396348456315954e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_brake_back_adapter",
+      "shader_name": "J5_brake_back_adapter",
+      "probes": 192,
+      "max_abs_distance_mm": 5.455075620552918e-06,
+      "rms_distance_mm": 1.968341440325115e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_index_sensor",
+      "shader_name": "J5_index_sensor",
+      "probes": 192,
+      "max_abs_distance_mm": 6.481791599899367e-06,
+      "rms_distance_mm": 1.9907206686123475e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_sensor_mount",
+      "shader_name": "J5_sensor_mount",
+      "probes": 192,
+      "max_abs_distance_mm": 6.405655013974609e-06,
+      "rms_distance_mm": 2.716420896472368e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_brake_spacer_0",
+      "shader_name": "J5_brake_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.481791597678921e-06,
+      "rms_distance_mm": 2.082756544930795e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_brake_spacer_1",
+      "shader_name": "J5_brake_spacer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.195702607707631e-06,
+      "rms_distance_mm": 1.9234402080116707e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_brake_spacer_2",
+      "shader_name": "J5_brake_spacer_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.195702607707631e-06,
+      "rms_distance_mm": 1.9022097748497105e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_gearhead",
+      "shader_name": "J5_gearhead",
+      "probes": 192,
+      "max_abs_distance_mm": 2.7553542008007526e-06,
+      "rms_distance_mm": 1.328752616113927e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_motor",
+      "shader_name": "J5_motor",
+      "probes": 192,
+      "max_abs_distance_mm": 2.7553542008007526e-06,
+      "rms_distance_mm": 1.3271248094090975e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_carrier_deck",
+      "shader_name": "J5_carrier_deck",
+      "probes": 192,
+      "max_abs_distance_mm": 5.824364300632823e-06,
+      "rms_distance_mm": 2.153095952513784e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_housing_rails",
+      "shader_name": "J5_housing_rails",
+      "probes": 192,
+      "max_abs_distance_mm": 6.577652793993138e-06,
+      "rms_distance_mm": 2.7127395074910205e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_front_cover",
+      "shader_name": "J5_front_cover",
+      "probes": 192,
+      "max_abs_distance_mm": 5.1167234502713654e-06,
+      "rms_distance_mm": 1.6443641523484571e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_tension_block",
+      "shader_name": "J5_tension_block",
+      "probes": 192,
+      "max_abs_distance_mm": 6.142215086102354e-06,
+      "rms_distance_mm": 2.4377634305697282e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_tension_screw",
+      "shader_name": "J5_tension_screw",
+      "probes": 192,
+      "max_abs_distance_mm": 5.594989559432051e-06,
+      "rms_distance_mm": 1.4816931989100143e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_timing_belt",
+      "shader_name": "J5_timing_belt",
+      "probes": 192,
+      "max_abs_distance_mm": 5.4113520664422765e-06,
+      "rms_distance_mm": 1.8458029260679865e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_drive_pulley",
+      "shader_name": "J5_drive_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 4.848424399739315e-06,
+      "rms_distance_mm": 8.588199399164407e-07,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_input_support_bearing",
+      "shader_name": "J5_input_support_bearing",
+      "probes": 192,
+      "max_abs_distance_mm": 4.574445841232233e-06,
+      "rms_distance_mm": 1.867783127177012e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_input_shaft",
+      "shader_name": "J5_input_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 5.179667595278659e-06,
+      "rms_distance_mm": 1.6596870568963616e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J5_driven_pulley",
+      "shader_name": "J5_driven_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 5.8550208930086e-06,
+      "rms_distance_mm": 1.0416040566118337e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J5_pulley_output_key",
+      "shader_name": "J5_pulley_output_key",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_pulley_input_key",
+      "shader_name": "J5_pulley_input_key",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_gear_mount_screw_0",
+      "shader_name": "J5_gear_mount_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.534239717912669e-06,
+      "rms_distance_mm": 1.8448618788974332e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_gear_mount_screw_1",
+      "shader_name": "J5_gear_mount_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 2.1576559848364278e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_gear_mount_screw_2",
+      "shader_name": "J5_gear_mount_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 2.0924724390215192e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_gear_mount_screw_3",
+      "shader_name": "J5_gear_mount_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 4.534239717912669e-06,
+      "rms_distance_mm": 1.925589642050116e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_gear_mount_screw_4",
+      "shader_name": "J5_gear_mount_screw_4",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 2.163593691585734e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_gear_mount_screw_5",
+      "shader_name": "J5_gear_mount_screw_5",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 1.932625344861911e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_carrier_screw_0",
+      "shader_name": "J5_carrier_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.968724681171267e-06,
+      "rms_distance_mm": 1.68160845684728e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_carrier_screw_1",
+      "shader_name": "J5_carrier_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 6.162015080191097e-06,
+      "rms_distance_mm": 1.739319422805922e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_carrier_screw_2",
+      "shader_name": "J5_carrier_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 6.162015080191097e-06,
+      "rms_distance_mm": 1.6528657305457241e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_carrier_screw_3",
+      "shader_name": "J5_carrier_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 5.968724681171267e-06,
+      "rms_distance_mm": 1.6728587591252926e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "small_bearing_housing_10",
+      "shader_name": "small_bearing_housing_10",
+      "probes": 192,
+      "max_abs_distance_mm": 6.332276662135428e-06,
+      "rms_distance_mm": 2.2631767287244656e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "small_rear_bearing_cover_11",
+      "shader_name": "small_rear_bearing_cover_11",
+      "probes": 192,
+      "max_abs_distance_mm": 6.299899720341173e-06,
+      "rms_distance_mm": 2.3484891821670387e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "small_front_bearing_cover_12",
+      "shader_name": "small_front_bearing_cover_12",
+      "probes": 192,
+      "max_abs_distance_mm": 6.332276662135428e-06,
+      "rms_distance_mm": 1.8006134558544588e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "small_inner_race_spacer_0",
+      "shader_name": "small_inner_race_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.378930052340024e-06,
+      "rms_distance_mm": 1.7911028633818613e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "small_DIN471_installed_retainer_1",
+      "shader_name": "small_DIN471_installed_retainer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 6.170820702422475e-06,
+      "rms_distance_mm": 1.819008702327934e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "small_selective_inner_race_shim_2",
+      "shader_name": "small_selective_inner_race_shim_2",
+      "probes": 192,
+      "max_abs_distance_mm": 4.8479688841140955e-06,
+      "rms_distance_mm": 1.8368826354768776e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "J6_output_shaft",
+      "shader_name": "J6_output_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 5.694031171010749e-06,
+      "rms_distance_mm": 1.8746440894525769e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_bearing_0",
+      "shader_name": "J6_bearing_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 2.261877614264407e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_bearing_-20",
+      "shader_name": "J6_bearing_-20",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 2.078729622985751e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "small_brake_front_adapter_15",
+      "shader_name": "small_brake_front_adapter_15",
+      "probes": 192,
+      "max_abs_distance_mm": 5.455075620552918e-06,
+      "rms_distance_mm": 2.0017859213766918e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_brake_strut_0",
+      "shader_name": "J6_brake_strut_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 1.9120423278497684e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_brake_strut_1",
+      "shader_name": "J6_brake_strut_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 1.8497598347052992e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_brake_strut_2",
+      "shader_name": "J6_brake_strut_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 1.9950664416477306e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_brake_strut_3",
+      "shader_name": "J6_brake_strut_3",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 2.1037733535049116e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_brake_stator",
+      "shader_name": "J6_brake_stator",
+      "probes": 192,
+      "max_abs_distance_mm": 5.894633441805297e-06,
+      "rms_distance_mm": 1.8355569576469007e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "J6_brake_armature",
+      "shader_name": "J6_brake_armature",
+      "probes": 192,
+      "max_abs_distance_mm": 4.1745362486800275e-06,
+      "rms_distance_mm": 2.1051394088173802e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "small_brake_keyed_hub_5",
+      "shader_name": "small_brake_keyed_hub_5",
+      "probes": 192,
+      "max_abs_distance_mm": 5.332278408376467e-06,
+      "rms_distance_mm": 1.705345845801355e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "small_brake_shaft_key_6",
+      "shader_name": "small_brake_shaft_key_6",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "J6_integral_stop_target",
+      "shader_name": "J6_integral_stop_target",
+      "probes": 192,
+      "max_abs_distance_mm": 5.933939627666973e-06,
+      "rms_distance_mm": 2.1444125254145254e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_stop_pin_0",
+      "shader_name": "J6_stop_pin_0",
+      "probes": 192,
+      "max_abs_distance_mm": 5.501988687095505e-06,
+      "rms_distance_mm": 2.230426087146672e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_stop_pin_1",
+      "shader_name": "J6_stop_pin_1",
+      "probes": 192,
+      "max_abs_distance_mm": 6.125817987756577e-06,
+      "rms_distance_mm": 1.773509358369047e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_brake_back_adapter",
+      "shader_name": "J6_brake_back_adapter",
+      "probes": 192,
+      "max_abs_distance_mm": 5.526788777521219e-06,
+      "rms_distance_mm": 2.0646301634903524e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_index_sensor",
+      "shader_name": "J6_index_sensor",
+      "probes": 192,
+      "max_abs_distance_mm": 6.481791599899367e-06,
+      "rms_distance_mm": 1.961172165168275e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_sensor_mount",
+      "shader_name": "J6_sensor_mount",
+      "probes": 192,
+      "max_abs_distance_mm": 6.219608493562845e-06,
+      "rms_distance_mm": 2.5703046778758927e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_brake_spacer_0",
+      "shader_name": "J6_brake_spacer_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.481791597678921e-06,
+      "rms_distance_mm": 2.0314151859415145e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_brake_spacer_1",
+      "shader_name": "J6_brake_spacer_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.195702607707631e-06,
+      "rms_distance_mm": 2.0046843857741124e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_brake_spacer_2",
+      "shader_name": "J6_brake_spacer_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.195702607707631e-06,
+      "rms_distance_mm": 1.925671679477284e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_gearhead",
+      "shader_name": "J6_gearhead",
+      "probes": 192,
+      "max_abs_distance_mm": 2.7553542008007526e-06,
+      "rms_distance_mm": 1.290890909636196e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_motor",
+      "shader_name": "J6_motor",
+      "probes": 192,
+      "max_abs_distance_mm": 2.7553542008007526e-06,
+      "rms_distance_mm": 1.308673185469705e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_carrier_deck",
+      "shader_name": "J6_carrier_deck",
+      "probes": 192,
+      "max_abs_distance_mm": 6.142215086546443e-06,
+      "rms_distance_mm": 2.1186072827206445e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_housing_rails",
+      "shader_name": "J6_housing_rails",
+      "probes": 192,
+      "max_abs_distance_mm": 6.577652793993138e-06,
+      "rms_distance_mm": 2.536552621715435e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_front_cover",
+      "shader_name": "J6_front_cover",
+      "probes": 192,
+      "max_abs_distance_mm": 6.577652793993138e-06,
+      "rms_distance_mm": 1.7286117915621022e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_tension_block",
+      "shader_name": "J6_tension_block",
+      "probes": 192,
+      "max_abs_distance_mm": 6.1422150958723165e-06,
+      "rms_distance_mm": 2.3418099237109375e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_tension_screw",
+      "shader_name": "J6_tension_screw",
+      "probes": 192,
+      "max_abs_distance_mm": 5.594989572532683e-06,
+      "rms_distance_mm": 1.1683069763751824e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_timing_belt",
+      "shader_name": "J6_timing_belt",
+      "probes": 192,
+      "max_abs_distance_mm": 5.4113520664422765e-06,
+      "rms_distance_mm": 1.9421510796869144e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_drive_pulley",
+      "shader_name": "J6_drive_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 6.387450774525405e-06,
+      "rms_distance_mm": 1.0051278357543997e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_input_support_bearing",
+      "shader_name": "J6_input_support_bearing",
+      "probes": 192,
+      "max_abs_distance_mm": 4.574445841232233e-06,
+      "rms_distance_mm": 1.7587330047914628e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_input_shaft",
+      "shader_name": "J6_input_shaft",
+      "probes": 192,
+      "max_abs_distance_mm": 5.179667595278659e-06,
+      "rms_distance_mm": 1.8440526503451592e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "J6_driven_pulley",
+      "shader_name": "J6_driven_pulley",
+      "probes": 192,
+      "max_abs_distance_mm": 6.387450774525405e-06,
+      "rms_distance_mm": 1.1435913266703864e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "J6_pulley_output_key",
+      "shader_name": "J6_pulley_output_key",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_pulley_input_key",
+      "shader_name": "J6_pulley_input_key",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_gear_mount_screw_0",
+      "shader_name": "J6_gear_mount_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.534239717912669e-06,
+      "rms_distance_mm": 1.644482656472934e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_gear_mount_screw_1",
+      "shader_name": "J6_gear_mount_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 2.077034084612295e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_gear_mount_screw_2",
+      "shader_name": "J6_gear_mount_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 1.9409853477690983e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_gear_mount_screw_3",
+      "shader_name": "J6_gear_mount_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 4.534239717912669e-06,
+      "rms_distance_mm": 1.6845244883341723e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_gear_mount_screw_4",
+      "shader_name": "J6_gear_mount_screw_4",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 2.0719106285363388e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_gear_mount_screw_5",
+      "shader_name": "J6_gear_mount_screw_5",
+      "probes": 192,
+      "max_abs_distance_mm": 5.502984242955478e-06,
+      "rms_distance_mm": 2.0300936930667887e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_carrier_screw_0",
+      "shader_name": "J6_carrier_screw_0",
+      "probes": 192,
+      "max_abs_distance_mm": 6.162015080191097e-06,
+      "rms_distance_mm": 1.5853752044938909e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_carrier_screw_1",
+      "shader_name": "J6_carrier_screw_1",
+      "probes": 192,
+      "max_abs_distance_mm": 6.162015080191097e-06,
+      "rms_distance_mm": 1.6748253478803444e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_carrier_screw_2",
+      "shader_name": "J6_carrier_screw_2",
+      "probes": 192,
+      "max_abs_distance_mm": 6.162015080191097e-06,
+      "rms_distance_mm": 1.3779280747487665e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "J6_carrier_screw_3",
+      "shader_name": "J6_carrier_screw_3",
+      "probes": 192,
+      "max_abs_distance_mm": 5.968724681171267e-06,
+      "rms_distance_mm": 1.5631748237199197e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_plate_42",
+      "shader_name": "bench_mount_plate_42",
+      "probes": 192,
+      "max_abs_distance_mm": 5.537105096209416e-06,
+      "rms_distance_mm": 1.94029717222452e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "pedestal_sleeve_43",
+      "shader_name": "pedestal_sleeve_43",
+      "probes": 192,
+      "max_abs_distance_mm": 6.7130674343829355e-06,
+      "rms_distance_mm": 2.2264684998221217e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_backing_washer_44",
+      "shader_name": "bench_backing_washer_44",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 1.8624266330003544e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_bolt_45",
+      "shader_name": "bench_mount_bolt_45",
+      "probes": 192,
+      "max_abs_distance_mm": 4.50312246869089e-06,
+      "rms_distance_mm": 1.54305109464663e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_nut_46",
+      "shader_name": "bench_mount_nut_46",
+      "probes": 192,
+      "max_abs_distance_mm": 5.29989235786843e-06,
+      "rms_distance_mm": 2.126068936974115e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_backing_washer_47",
+      "shader_name": "bench_backing_washer_47",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 1.9729543512421236e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_bolt_48",
+      "shader_name": "bench_mount_bolt_48",
+      "probes": 192,
+      "max_abs_distance_mm": 4.50312246869089e-06,
+      "rms_distance_mm": 1.8012507648081356e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_nut_49",
+      "shader_name": "bench_mount_nut_49",
+      "probes": 192,
+      "max_abs_distance_mm": 5.29989235786843e-06,
+      "rms_distance_mm": 1.927157831098492e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_backing_washer_50",
+      "shader_name": "bench_backing_washer_50",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 1.8275353075804943e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_bolt_51",
+      "shader_name": "bench_mount_bolt_51",
+      "probes": 192,
+      "max_abs_distance_mm": 4.5031224633618194e-06,
+      "rms_distance_mm": 1.96162621469427e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_nut_52",
+      "shader_name": "bench_mount_nut_52",
+      "probes": 192,
+      "max_abs_distance_mm": 5.2998923552038946e-06,
+      "rms_distance_mm": 2.093191126573837e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_backing_washer_53",
+      "shader_name": "bench_backing_washer_53",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 1.6723948852044554e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_bolt_54",
+      "shader_name": "bench_mount_bolt_54",
+      "probes": 192,
+      "max_abs_distance_mm": 4.5031224633618194e-06,
+      "rms_distance_mm": 1.8998648511105182e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_nut_55",
+      "shader_name": "bench_mount_nut_55",
+      "probes": 192,
+      "max_abs_distance_mm": 5.2998923552038946e-06,
+      "rms_distance_mm": 1.9042794806071187e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_backing_washer_56",
+      "shader_name": "bench_backing_washer_56",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931318563903e-06,
+      "rms_distance_mm": 2.0186696553689476e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_bolt_57",
+      "shader_name": "bench_mount_bolt_57",
+      "probes": 192,
+      "max_abs_distance_mm": 4.50312246869089e-06,
+      "rms_distance_mm": 1.832025619992381e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_nut_58",
+      "shader_name": "bench_mount_nut_58",
+      "probes": 192,
+      "max_abs_distance_mm": 5.299892351651181e-06,
+      "rms_distance_mm": 1.94628334457189e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_backing_washer_59",
+      "shader_name": "bench_backing_washer_59",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931318563903e-06,
+      "rms_distance_mm": 1.7545016188153777e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_bolt_60",
+      "shader_name": "bench_mount_bolt_60",
+      "probes": 192,
+      "max_abs_distance_mm": 4.50312246869089e-06,
+      "rms_distance_mm": 1.888656285017983e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "bench_mount_nut_61",
+      "shader_name": "bench_mount_nut_61",
+      "probes": 192,
+      "max_abs_distance_mm": 5.299892351651181e-06,
+      "rms_distance_mm": 2.0452650642824707e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "turret_yoke_52",
+      "shader_name": "turret_yoke_52",
+      "probes": 192,
+      "max_abs_distance_mm": 6.413243843539362e-06,
+      "rms_distance_mm": 2.1866754105535137e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "upper_link_tube_52",
+      "shader_name": "upper_link_tube_52",
+      "probes": 192,
+      "max_abs_distance_mm": 6.413243843539362e-06,
+      "rms_distance_mm": 2.2234569812452238e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "upper_root_ear_53",
+      "shader_name": "upper_root_ear_53",
+      "probes": 192,
+      "max_abs_distance_mm": 6.413243843539362e-06,
+      "rms_distance_mm": 2.0107327284777954e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "upper_nut_strip_54",
+      "shader_name": "upper_nut_strip_54",
+      "probes": 192,
+      "max_abs_distance_mm": 4.671767104280633e-06,
+      "rms_distance_mm": 1.683155233749952e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "fore_link_tube_51",
+      "shader_name": "fore_link_tube_51",
+      "probes": 192,
+      "max_abs_distance_mm": 6.413243843539362e-06,
+      "rms_distance_mm": 1.8308709870254527e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "fore_root_ear_52",
+      "shader_name": "fore_root_ear_52",
+      "probes": 192,
+      "max_abs_distance_mm": 6.413243843539362e-06,
+      "rms_distance_mm": 2.2574218675618276e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "fore_nut_strip_53",
+      "shader_name": "fore_nut_strip_53",
+      "probes": 192,
+      "max_abs_distance_mm": 4.671767104280633e-06,
+      "rms_distance_mm": 1.792303145166307e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "upper_elbow_housing_clamp_55",
+      "shader_name": "upper_elbow_housing_clamp_55",
+      "probes": 192,
+      "max_abs_distance_mm": 6.413243843539362e-06,
+      "rms_distance_mm": 1.9767542056648146e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "fore_roll_housing_clamp_54",
+      "shader_name": "fore_roll_housing_clamp_54",
+      "probes": 192,
+      "max_abs_distance_mm": 6.145162968040907e-06,
+      "rms_distance_mm": 2.4061252861105155e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "fore_clamp_side_shims_55",
+      "shader_name": "fore_clamp_side_shims_55",
+      "probes": 192,
+      "max_abs_distance_mm": 4.461315534332044e-06,
+      "rms_distance_mm": 1.781269429196806e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "wrist_roll_fork_51",
+      "shader_name": "wrist_roll_fork_51",
+      "probes": 192,
+      "max_abs_distance_mm": 5.870821775055823e-06,
+      "rms_distance_mm": 1.8930114116525175e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "idle_bearing_inner_cover_52",
+      "shader_name": "idle_bearing_inner_cover_52",
+      "probes": 192,
+      "max_abs_distance_mm": 6.332276662135428e-06,
+      "rms_distance_mm": 1.8455999247955648e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "idle_bearing_outer_cover_53",
+      "shader_name": "idle_bearing_outer_cover_53",
+      "probes": 192,
+      "max_abs_distance_mm": 6.332276662135428e-06,
+      "rms_distance_mm": 1.9934922176612584e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "roll",
+      "native_name": "J5_idle_bearing",
+      "shader_name": "J5_idle_bearing",
+      "probes": 192,
+      "max_abs_distance_mm": 4.825931311458476e-06,
+      "rms_distance_mm": 2.174167365450445e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "wrist_bend_cradle_51",
+      "shader_name": "wrist_bend_cradle_51",
+      "probes": 192,
+      "max_abs_distance_mm": 5.734898922415965e-06,
+      "rms_distance_mm": 2.021925485171987e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "bend",
+      "native_name": "wrist_idle_trunnion_52",
+      "shader_name": "wrist_idle_trunnion_52",
+      "probes": 192,
+      "max_abs_distance_mm": 5.6074114263005015e-06,
+      "rms_distance_mm": 1.5172613618716725e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "gripper_bridge_10",
+      "shader_name": "gripper_bridge_10",
+      "probes": 192,
+      "max_abs_distance_mm": 6.142215088988934e-06,
+      "rms_distance_mm": 2.1724891004536774e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "gripper_motor",
+      "shader_name": "gripper_motor",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "gripper_pinion_m0p3_z20_12",
+      "shader_name": "gripper_pinion_m0p3_z20_12",
+      "probes": 192,
+      "max_abs_distance_mm": 5.891149370485432e-06,
+      "rms_distance_mm": 1.2942350095802433e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "pinion_front_bushing_13",
+      "shader_name": "pinion_front_bushing_13",
+      "probes": 192,
+      "max_abs_distance_mm": 5.714547241186807e-06,
+      "rms_distance_mm": 1.835884180517098e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "guide_rod_-10",
+      "shader_name": "guide_rod_-10",
+      "probes": 192,
+      "max_abs_distance_mm": 4.273995432679811e-06,
+      "rms_distance_mm": 1.8612565547555843e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "guide_rod_10",
+      "shader_name": "guide_rod_10",
+      "probes": 192,
+      "max_abs_distance_mm": 4.273995432679811e-06,
+      "rms_distance_mm": 1.960267829101875e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "jaw_left",
+      "native_name": "right_jaw_carriage_0",
+      "shader_name": "right_jaw_carriage_0",
+      "probes": 192,
+      "max_abs_distance_mm": 4.256488676301906e-06,
+      "rms_distance_mm": 1.5177572354443387e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "jaw_left",
+      "native_name": "finger_pad_1",
+      "shader_name": "finger_pad_1",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "jaw_left",
+      "native_name": "jaw_guide_bushing_2",
+      "shader_name": "jaw_guide_bushing_2",
+      "probes": 192,
+      "max_abs_distance_mm": 5.607411425412323e-06,
+      "rms_distance_mm": 2.0268057370202947e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "jaw_left",
+      "native_name": "jaw_guide_bushing_3",
+      "shader_name": "jaw_guide_bushing_3",
+      "probes": 192,
+      "max_abs_distance_mm": 5.607411425412323e-06,
+      "rms_distance_mm": 1.952700010971321e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "jaw_left",
+      "native_name": "upper_rack",
+      "shader_name": "upper_rack",
+      "probes": 192,
+      "max_abs_distance_mm": 5.123466477297001e-06,
+      "rms_distance_mm": 1.4747438872776596e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "gripper_cable_clamp_mount_16",
+      "shader_name": "gripper_cable_clamp_mount_16",
+      "probes": 192,
+      "max_abs_distance_mm": 6.145162968040907e-06,
+      "rms_distance_mm": 2.3034251883987693e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "gripper_cable_clamp_base_17",
+      "shader_name": "gripper_cable_clamp_base_17",
+      "probes": 192,
+      "max_abs_distance_mm": 5.123466478407224e-06,
+      "rms_distance_mm": 2.3456186626098796e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "gripper_cable_clamp_cap_18",
+      "shader_name": "gripper_cable_clamp_cap_18",
+      "probes": 192,
+      "max_abs_distance_mm": 5.123466478407224e-06,
+      "rms_distance_mm": 2.274419562710219e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "tool",
+      "native_name": "gripper_cable_clamp_liner_19",
+      "shader_name": "gripper_cable_clamp_liner_19",
+      "probes": 192,
+      "max_abs_distance_mm": 6.481791597234832e-06,
+      "rms_distance_mm": 2.0394205045158996e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "shoulder_spring_fixed_clevis_53",
+      "shader_name": "shoulder_spring_fixed_clevis_53",
+      "probes": 192,
+      "max_abs_distance_mm": 6.413243843539362e-06,
+      "rms_distance_mm": 1.6440520415653816e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "shoulder_spring_moving_clevis_56",
+      "shader_name": "shoulder_spring_moving_clevis_56",
+      "probes": 192,
+      "max_abs_distance_mm": 6.413243843539362e-06,
+      "rms_distance_mm": 2.1412681879063427e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "shoulder_spring_nut_plate_57",
+      "shader_name": "shoulder_spring_nut_plate_57",
+      "probes": 192,
+      "max_abs_distance_mm": 4.671767104280633e-06,
+      "rms_distance_mm": 1.7702605498315991e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "spring_eye_pin_54",
+      "shader_name": "spring_eye_pin_54",
+      "probes": 192,
+      "max_abs_distance_mm": 4.273995436232525e-06,
+      "rms_distance_mm": 1.9578805585819814e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "spring_eye_pin_58",
+      "shader_name": "spring_eye_pin_58",
+      "probes": 192,
+      "max_abs_distance_mm": 4.2739954331239005e-06,
+      "rms_distance_mm": 1.7564232798049283e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "turret",
+      "native_name": "spring_eye_pin_55",
+      "shader_name": "spring_eye_pin_55",
+      "probes": 192,
+      "max_abs_distance_mm": 4.273995436232525e-06,
+      "rms_distance_mm": 1.9254035558167576e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "spring_eye_pin_59",
+      "shader_name": "spring_eye_pin_59",
+      "probes": 192,
+      "max_abs_distance_mm": 4.2739954331239005e-06,
+      "rms_distance_mm": 1.8697355035514767e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "elbow_spring_fixed_clevis_62",
+      "shader_name": "elbow_spring_fixed_clevis_62",
+      "probes": 192,
+      "max_abs_distance_mm": 6.413243843539362e-06,
+      "rms_distance_mm": 1.8847345774714379e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "elbow_fixed_anchor_nut_strips_63",
+      "shader_name": "elbow_fixed_anchor_nut_strips_63",
+      "probes": 192,
+      "max_abs_distance_mm": 4.671767104280633e-06,
+      "rms_distance_mm": 1.6919726325883746e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "elbow_spring_moving_clevis_56",
+      "shader_name": "elbow_spring_moving_clevis_56",
+      "probes": 192,
+      "max_abs_distance_mm": 6.413243843539362e-06,
+      "rms_distance_mm": 2.1278765945720107e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "elbow_moving_anchor_nut_plate_57",
+      "shader_name": "elbow_moving_anchor_nut_plate_57",
+      "probes": 192,
+      "max_abs_distance_mm": 4.671767104280633e-06,
+      "rms_distance_mm": 1.5044158798759806e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "spring_eye_pin_64",
+      "shader_name": "spring_eye_pin_64",
+      "probes": 192,
+      "max_abs_distance_mm": 4.273995432679811e-06,
+      "rms_distance_mm": 1.8710419606174067e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "spring_eye_pin_58",
+      "shader_name": "spring_eye_pin_58",
+      "probes": 192,
+      "max_abs_distance_mm": 4.2739954331239005e-06,
+      "rms_distance_mm": 1.81861658356348e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "upper",
+      "native_name": "spring_eye_pin_65",
+      "shader_name": "spring_eye_pin_65",
+      "probes": 192,
+      "max_abs_distance_mm": 4.273995432679811e-06,
+      "rms_distance_mm": 1.9219239872376483e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fore",
+      "native_name": "spring_eye_pin_59",
+      "shader_name": "spring_eye_pin_59",
+      "probes": 192,
+      "max_abs_distance_mm": 4.2739954331239005e-06,
+      "rms_distance_mm": 1.909028960947503e-06,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "jaw_right",
+      "native_name": "left_carriage",
+      "shader_name": "left_carriage",
+      "probes": 192,
+      "max_abs_distance_mm": 2.2648549702353193e-14,
+      "rms_distance_mm": 9.460733356482359e-15,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "jaw_right",
+      "native_name": "left_pad",
+      "shader_name": "left_pad",
+      "probes": 24,
+      "max_abs_distance_mm": 0.0,
+      "rms_distance_mm": 0.0,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "jaw_right",
+      "native_name": "left_lower_rack",
+      "shader_name": "left_lower_rack",
+      "probes": 192,
+      "max_abs_distance_mm": 8.721711190390467e-13,
+      "rms_distance_mm": 2.210668149063744e-13,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "jaw_right",
+      "native_name": "left_guide_bushing_-10",
+      "shader_name": "left_guide_bushing_-10",
+      "probes": 192,
+      "max_abs_distance_mm": 1.2434497875801753e-14,
+      "rms_distance_mm": 5.5607287314204105e-15,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "jaw_right",
+      "native_name": "left_guide_bushing_10",
+      "shader_name": "left_guide_bushing_10",
+      "probes": 192,
+      "max_abs_distance_mm": 1.2434497875801753e-14,
+      "rms_distance_mm": 5.3880142547802744e-15,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "puck",
+      "native_name": "workpiece",
+      "shader_name": "workpiece",
+      "probes": 192,
+      "max_abs_distance_mm": 9.103828801926284e-14,
+      "rms_distance_mm": 3.123464712909922e-14,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "nest_A_base",
+      "shader_name": "nest_A_base",
+      "probes": 192,
+      "max_abs_distance_mm": 2.842517866562357e-14,
+      "rms_distance_mm": 1.1155485741279427e-14,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "nest_A_seat",
+      "shader_name": "nest_A_seat",
+      "probes": 192,
+      "max_abs_distance_mm": 2.6645352591003757e-14,
+      "rms_distance_mm": 1.1094733709899847e-14,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "nest_B_base",
+      "shader_name": "nest_B_base",
+      "probes": 192,
+      "max_abs_distance_mm": 2.842517866562357e-14,
+      "rms_distance_mm": 1.0869370696864358e-14,
+      "tolerance_mm": 0.001,
+      "pass": true
+    },
+    {
+      "body": "fixed",
+      "native_name": "nest_B_seat",
+      "shader_name": "nest_B_seat",
+      "probes": 192,
+      "max_abs_distance_mm": 3.197442310920451e-14,
+      "rms_distance_mm": 1.1132581115504903e-14,
+      "tolerance_mm": 0.001,
+      "pass": true
+    }
+  ],
+  "spec_sha256": "606e09b482d4c5f838ee49daced4b574f8260450dd350735e95422c2d666a8ac",
+  "native_geometry_sha256": "838768d0473b4ba2ed25be1e1b0d5c34c3ac643dce99e140bb415d99f2103208",
+  "captured_recipe_sha256": "3d26522dd8a764ca067cf444500530dfc63f22c5d6dbee8d1e9e22edbbfd454b",
+  "generator_sha256": "0c8474173cc5ec70164cae5050a9aa7decbf6e30f14cb7f67564e9fbdaad58f7"
+}

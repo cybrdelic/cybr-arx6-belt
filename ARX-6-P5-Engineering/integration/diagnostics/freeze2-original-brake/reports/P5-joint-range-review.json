@@ -1,0 +1,64 @@
+{
+  "revision": "P5",
+  "date_utc": "2026-10-22T03:31:36.836Z",
+  "model_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+  "results": [
+    {
+      "joint": 3,
+      "tested_pairs": [
+        [
+          "structure_upper_tube",
+          "structure_fore_tube"
+        ],
+        [
+          "structure_upper_mount_standoff_20",
+          "structure_fore_root_tab"
+        ],
+        [
+          "structure_upper_mount_standoff_20",
+          "structure_fore_tube"
+        ]
+      ],
+      "other_joint_positions_rad": [
+        -0.40405914701,
+        0.199926183848,
+        1.41096837695,
+        0,
+        1.53069809279,
+        3.5456518006
+      ],
+      "first_zero_clearance_angle_rad": 1.9010936816241761,
+      "angle_at_1mm_clearance_rad": 1.8817187721227921,
+      "angle_at_2mm_clearance_rad": 1.8623420440498937,
+      "retired_upper_hard_limit_rad": 2.1,
+      "retired_hard_limit_signed_clearance_mm": -8.890589738743019,
+      "current_upper_hard_limit_rad": 1.85,
+      "current_hard_limit_signed_clearance_mm": 2.636859968168617
+    },
+    {
+      "joint": 5,
+      "tested_pairs": [
+        [
+          "structure_bend_support_rail_28.5",
+          "structure_roll_fork_bridge"
+        ]
+      ],
+      "other_joint_positions_rad": [
+        -0.40405914701,
+        0.199926183848,
+        1.41096837695,
+        0,
+        1.53069809279,
+        3.5456518006
+      ],
+      "first_zero_clearance_angle_rad": 1.6803557738505703,
+      "angle_at_1mm_clearance_rad": 1.6385608168599681,
+      "angle_at_2mm_clearance_rad": 1.5941658874377413,
+      "retired_upper_hard_limit_rad": 1.75,
+      "retired_hard_limit_signed_clearance_mm": -1.7876449749254673,
+      "current_upper_hard_limit_rad": 1.63,
+      "current_hard_limit_signed_clearance_mm": 1.19788016084239
+    }
+  ],
+  "scope": "Rigid primitive distances for the named structural pairs, including the retired ranges to document the correction. Angles beyond the current stop are diagnostic poses only. Native BREP refinement is reported separately; this does not certify all joint combinations or tolerance stacks."
+}

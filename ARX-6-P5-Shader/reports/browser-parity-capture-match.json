@@ -1,0 +1,36 @@
+{
+  "capture_file_sha256": "b7564c214ccb06f54fd2e431bf9760d339ddba6e1e98f501feaffc8ff1075898",
+  "capture_shader_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+  "width": 256,
+  "height": 144,
+  "fresh_RGB8_sha256": "5b88e284a56e6c42d31b0ec3ad67c2806c0053b77328db2794e6b96bc52e5b68",
+  "comparisons": [
+    {
+      "file": "transport-browser.png",
+      "file_sha256": "7d870acbd0ee166e91904f9758da8a7a6ad2a38d4dad9dce611eb78d0892ff06",
+      "decoded_RGB8_sha256": "5b88e284a56e6c42d31b0ec3ad67c2806c0053b77328db2794e6b96bc52e5b68",
+      "shape": [
+        144,
+        256,
+        3
+      ],
+      "byte_identical": true,
+      "maximum_RGB8_error": 0,
+      "different_pixels": 0
+    },
+    {
+      "file": "transport-native.png",
+      "file_sha256": "7d870acbd0ee166e91904f9758da8a7a6ad2a38d4dad9dce611eb78d0892ff06",
+      "decoded_RGB8_sha256": "5b88e284a56e6c42d31b0ec3ad67c2806c0053b77328db2794e6b96bc52e5b68",
+      "shape": [
+        144,
+        256,
+        3
+      ],
+      "byte_identical": true,
+      "maximum_RGB8_error": 0,
+      "different_pixels": 0
+    }
+  ],
+  "all_byte_identical": true
+}

@@ -1,0 +1,122 @@
+{
+  "checks": [
+    {
+      "joint": "J3",
+      "check": "native link clearance at corrected upper hard stop",
+      "angle_rad": 1.85,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 2.636859968168595,
+      "pass": true
+    },
+    {
+      "joint": "J3",
+      "check": "physical pin engagement one milliradian before stop",
+      "angle_rad": 1.8490000000000002,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.03193643351457416,
+      "pass": true
+    },
+    {
+      "joint": "J3",
+      "check": "physical pin engagement at stop",
+      "angle_rad": 1.85,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 7.944157947911665e-12,
+      "pass": true
+    },
+    {
+      "joint": "J3",
+      "check": "physical pin engagement one milliradian beyond stop",
+      "angle_rad": 1.851,
+      "intersection_volume_mm3": 0.04555303985105956,
+      "minimum_distance_mm": 0.0,
+      "pass": true
+    },
+    {
+      "joint": "J5",
+      "check": "native link clearance at corrected upper hard stop",
+      "angle_rad": 1.63,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 1.0,
+      "pass": true
+    },
+    {
+      "joint": "J5",
+      "check": "physical pin engagement one milliradian before stop",
+      "angle_rad": 1.629,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.014924059067590586,
+      "pass": true
+    },
+    {
+      "joint": "J5",
+      "check": "physical pin engagement at stop",
+      "angle_rad": 1.63,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 1.6042626665492004e-12,
+      "pass": true
+    },
+    {
+      "joint": "J5",
+      "check": "physical pin engagement one milliradian beyond stop",
+      "angle_rad": 1.6309999999999998,
+      "intersection_volume_mm3": 0.008409612798042893,
+      "minimum_distance_mm": 0.0,
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "hard_limits_rad": [
+    [
+      -0.65,
+      0.65
+    ],
+    [
+      -0.25,
+      0.95
+    ],
+    [
+      0.95,
+      1.85
+    ],
+    [
+      -0.6,
+      0.6
+    ],
+    [
+      0.85,
+      1.63
+    ],
+    [
+      2.1,
+      4.2
+    ]
+  ],
+  "soft_limits_rad": [
+    [
+      -0.55,
+      0.55
+    ],
+    [
+      -0.1,
+      0.75
+    ],
+    [
+      1.05,
+      1.83
+    ],
+    [
+      -0.45,
+      0.45
+    ],
+    [
+      0.9,
+      1.61
+    ],
+    [
+      2.2,
+      4.1
+    ]
+  ],
+  "scope": "Nominal native geometry at corrected upper stops, including actual exported stop dowels and clocked steel target. Pin impact strength, bracket stress and stopping energy are not qualified. Other coupled configurations still require collision-aware planning."
+}

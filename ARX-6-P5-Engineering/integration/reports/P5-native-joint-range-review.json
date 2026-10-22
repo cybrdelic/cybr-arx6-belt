@@ -1,0 +1,76 @@
+{
+  "scope": "Native BREP refinement of the two identified inherited hard-range clashes. Relative joint rotations use exact current P5 parts. This is not a global configuration-space sweep.",
+  "checks": [
+    {
+      "pair": "elbow_link_tubes",
+      "joint_angle_rad": 1.8124,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 4.5763310455128945
+    },
+    {
+      "pair": "elbow_link_tubes",
+      "joint_angle_rad": 1.86234204,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 2.000000208991756
+    },
+    {
+      "pair": "elbow_link_tubes",
+      "joint_angle_rad": 1.88171877,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 1.0000001095605517
+    },
+    {
+      "pair": "elbow_link_tubes",
+      "joint_angle_rad": 1.90109368,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 8.382881062891973e-08
+    },
+    {
+      "pair": "elbow_link_tubes",
+      "joint_angle_rad": 1.95,
+      "intersection_volume_mm3": 149.9002050764898,
+      "minimum_distance_mm": 0.0
+    },
+    {
+      "pair": "elbow_link_tubes",
+      "joint_angle_rad": 2.1,
+      "intersection_volume_mm3": 256.2325088535324,
+      "minimum_distance_mm": 0.0
+    },
+    {
+      "pair": "wrist_bend_cradle_and_roll_fork",
+      "joint_angle_rad": 1.5694,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 1.0
+    },
+    {
+      "pair": "wrist_bend_cradle_and_roll_fork",
+      "joint_angle_rad": 1.59416589,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 1.0
+    },
+    {
+      "pair": "wrist_bend_cradle_and_roll_fork",
+      "joint_angle_rad": 1.63856082,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.9999999269816111
+    },
+    {
+      "pair": "wrist_bend_cradle_and_roll_fork",
+      "joint_angle_rad": 1.68035577,
+      "intersection_volume_mm3": 0.0,
+      "minimum_distance_mm": 9.469093331899649e-08
+    },
+    {
+      "pair": "wrist_bend_cradle_and_roll_fork",
+      "joint_angle_rad": 1.75,
+      "intersection_volume_mm3": 72.88089746876757,
+      "minimum_distance_mm": 0.0
+    }
+  ],
+  "status": "Diagnostic of inherited and now superseded end limits; the corrected current stops are verified in P5-corrected-joint-stop-check.json",
+  "current_upper_hard_stops_rad": {
+    "J3": 1.85,
+    "J5": 1.63
+  }
+}

@@ -1,0 +1,2255 @@
+{
+  "units": "mm",
+  "records": [
+    {
+      "body": "fixed",
+      "name": "large_bearing_housing_0",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__large_bearing_housing_0.step"
+    },
+    {
+      "body": "fixed",
+      "name": "large_rear_bearing_cover_1",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__large_rear_bearing_cover_1.step"
+    },
+    {
+      "body": "fixed",
+      "name": "large_front_bearing_cover_2",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__large_front_bearing_cover_2.step"
+    },
+    {
+      "body": "turret",
+      "name": "large_inner_race_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/turret__large_inner_race_spacer_0.step"
+    },
+    {
+      "body": "turret",
+      "name": "large_DIN471_installed_retainer_1",
+      "material": "steel",
+      "step_file": "cad/placed/turret__large_DIN471_installed_retainer_1.step"
+    },
+    {
+      "body": "turret",
+      "name": "large_selective_inner_race_shim_2",
+      "material": "steel",
+      "step_file": "cad/placed/turret__large_selective_inner_race_shim_2.step"
+    },
+    {
+      "body": "turret",
+      "name": "J1_output_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J1_output_shaft.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_bearing_0",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_bearing_0.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_bearing_-34",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_bearing_-34.step"
+    },
+    {
+      "body": "fixed",
+      "name": "large_brake_front_adapter_5",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__large_brake_front_adapter_5.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_strut_0",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_brake_strut_0.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_strut_1",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_brake_strut_1.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_strut_2",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_brake_strut_2.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_strut_3",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_brake_strut_3.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_stator",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_brake_stator.step"
+    },
+    {
+      "body": "turret",
+      "name": "J1_brake_armature",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J1_brake_armature.step"
+    },
+    {
+      "body": "turret",
+      "name": "large_brake_keyed_hub_5",
+      "material": "steel",
+      "step_file": "cad/placed/turret__large_brake_keyed_hub_5.step"
+    },
+    {
+      "body": "turret",
+      "name": "large_brake_shaft_key_6",
+      "material": "steel",
+      "step_file": "cad/placed/turret__large_brake_shaft_key_6.step"
+    },
+    {
+      "body": "turret",
+      "name": "J1_integral_stop_target",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J1_integral_stop_target.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_stop_pin_0",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_stop_pin_0.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_stop_pin_1",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_stop_pin_1.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_back_adapter",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__J1_brake_back_adapter.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_index_sensor",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_index_sensor.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_sensor_mount",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__J1_sensor_mount.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_brake_spacer_0.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_spacer_1",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_brake_spacer_1.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_spacer_2",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_brake_spacer_2.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_spacer_3",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_brake_spacer_3.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_spacer_4",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_brake_spacer_4.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_brake_spacer_5",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_brake_spacer_5.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_gearhead",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_gearhead.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_motor",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_motor.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_carrier_deck",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__J1_carrier_deck.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_housing_rails",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__J1_housing_rails.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_front_cover",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__J1_front_cover.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_tension_block",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__J1_tension_block.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_tension_screw",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_tension_screw.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_timing_belt",
+      "material": "rubber",
+      "step_file": "cad/placed/fixed__J1_timing_belt.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_drive_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__J1_drive_pulley.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_input_support_bearing",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_input_support_bearing.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_input_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_input_shaft.step"
+    },
+    {
+      "body": "turret",
+      "name": "J1_driven_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__J1_driven_pulley.step"
+    },
+    {
+      "body": "turret",
+      "name": "J1_pulley_output_key",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J1_pulley_output_key.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_pulley_input_key",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_pulley_input_key.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_gear_mount_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_gear_mount_screw_0.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_gear_mount_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_gear_mount_screw_1.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_gear_mount_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_gear_mount_screw_2.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_gear_mount_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_gear_mount_screw_3.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_carrier_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_carrier_screw_0.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_carrier_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_carrier_screw_1.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_carrier_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_carrier_screw_2.step"
+    },
+    {
+      "body": "fixed",
+      "name": "J1_carrier_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__J1_carrier_screw_3.step"
+    },
+    {
+      "body": "turret",
+      "name": "large_bearing_housing_10",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__large_bearing_housing_10.step"
+    },
+    {
+      "body": "turret",
+      "name": "large_rear_bearing_cover_11",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__large_rear_bearing_cover_11.step"
+    },
+    {
+      "body": "turret",
+      "name": "large_front_bearing_cover_12",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__large_front_bearing_cover_12.step"
+    },
+    {
+      "body": "upper",
+      "name": "large_inner_race_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/upper__large_inner_race_spacer_0.step"
+    },
+    {
+      "body": "upper",
+      "name": "large_DIN471_installed_retainer_1",
+      "material": "steel",
+      "step_file": "cad/placed/upper__large_DIN471_installed_retainer_1.step"
+    },
+    {
+      "body": "upper",
+      "name": "large_selective_inner_race_shim_2",
+      "material": "steel",
+      "step_file": "cad/placed/upper__large_selective_inner_race_shim_2.step"
+    },
+    {
+      "body": "upper",
+      "name": "J2_output_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J2_output_shaft.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_bearing_0",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_bearing_0.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_bearing_-34",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_bearing_-34.step"
+    },
+    {
+      "body": "turret",
+      "name": "large_brake_front_adapter_15",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__large_brake_front_adapter_15.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_strut_0",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_brake_strut_0.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_strut_1",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_brake_strut_1.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_strut_2",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_brake_strut_2.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_strut_3",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_brake_strut_3.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_stator",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_brake_stator.step"
+    },
+    {
+      "body": "upper",
+      "name": "J2_brake_armature",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J2_brake_armature.step"
+    },
+    {
+      "body": "upper",
+      "name": "large_brake_keyed_hub_5",
+      "material": "steel",
+      "step_file": "cad/placed/upper__large_brake_keyed_hub_5.step"
+    },
+    {
+      "body": "upper",
+      "name": "large_brake_shaft_key_6",
+      "material": "steel",
+      "step_file": "cad/placed/upper__large_brake_shaft_key_6.step"
+    },
+    {
+      "body": "upper",
+      "name": "J2_integral_stop_target",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J2_integral_stop_target.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_stop_pin_0",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_stop_pin_0.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_stop_pin_1",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_stop_pin_1.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_back_adapter",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__J2_brake_back_adapter.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_index_sensor",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_index_sensor.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_sensor_mount",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__J2_sensor_mount.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_brake_spacer_0.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_spacer_1",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_brake_spacer_1.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_spacer_2",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_brake_spacer_2.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_spacer_3",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_brake_spacer_3.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_spacer_4",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_brake_spacer_4.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_brake_spacer_5",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_brake_spacer_5.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_gearhead",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_gearhead.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_motor",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_motor.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_carrier_deck",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__J2_carrier_deck.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_housing_rails",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__J2_housing_rails.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_front_cover",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__J2_front_cover.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_tension_block",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__J2_tension_block.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_tension_screw",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_tension_screw.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_timing_belt",
+      "material": "rubber",
+      "step_file": "cad/placed/turret__J2_timing_belt.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_drive_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__J2_drive_pulley.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_input_support_bearing",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_input_support_bearing.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_input_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_input_shaft.step"
+    },
+    {
+      "body": "upper",
+      "name": "J2_driven_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__J2_driven_pulley.step"
+    },
+    {
+      "body": "upper",
+      "name": "J2_pulley_output_key",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J2_pulley_output_key.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_pulley_input_key",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_pulley_input_key.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_gear_mount_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_gear_mount_screw_0.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_gear_mount_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_gear_mount_screw_1.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_gear_mount_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_gear_mount_screw_2.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_gear_mount_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_gear_mount_screw_3.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_carrier_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_carrier_screw_0.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_carrier_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_carrier_screw_1.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_carrier_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_carrier_screw_2.step"
+    },
+    {
+      "body": "turret",
+      "name": "J2_carrier_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/turret__J2_carrier_screw_3.step"
+    },
+    {
+      "body": "upper",
+      "name": "large_bearing_housing_10",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__large_bearing_housing_10.step"
+    },
+    {
+      "body": "upper",
+      "name": "large_rear_bearing_cover_11",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__large_rear_bearing_cover_11.step"
+    },
+    {
+      "body": "upper",
+      "name": "large_front_bearing_cover_12",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__large_front_bearing_cover_12.step"
+    },
+    {
+      "body": "fore",
+      "name": "large_inner_race_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/fore__large_inner_race_spacer_0.step"
+    },
+    {
+      "body": "fore",
+      "name": "large_DIN471_installed_retainer_1",
+      "material": "steel",
+      "step_file": "cad/placed/fore__large_DIN471_installed_retainer_1.step"
+    },
+    {
+      "body": "fore",
+      "name": "large_selective_inner_race_shim_2",
+      "material": "steel",
+      "step_file": "cad/placed/fore__large_selective_inner_race_shim_2.step"
+    },
+    {
+      "body": "fore",
+      "name": "J3_output_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J3_output_shaft.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_bearing_0",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_bearing_0.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_bearing_-34",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_bearing_-34.step"
+    },
+    {
+      "body": "upper",
+      "name": "large_brake_front_adapter_15",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__large_brake_front_adapter_15.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_strut_0",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_brake_strut_0.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_strut_1",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_brake_strut_1.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_strut_2",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_brake_strut_2.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_strut_3",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_brake_strut_3.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_stator",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_brake_stator.step"
+    },
+    {
+      "body": "fore",
+      "name": "J3_brake_armature",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J3_brake_armature.step"
+    },
+    {
+      "body": "fore",
+      "name": "large_brake_keyed_hub_5",
+      "material": "steel",
+      "step_file": "cad/placed/fore__large_brake_keyed_hub_5.step"
+    },
+    {
+      "body": "fore",
+      "name": "large_brake_shaft_key_6",
+      "material": "steel",
+      "step_file": "cad/placed/fore__large_brake_shaft_key_6.step"
+    },
+    {
+      "body": "fore",
+      "name": "J3_integral_stop_target",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J3_integral_stop_target.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_stop_pin_0",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_stop_pin_0.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_stop_pin_1",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_stop_pin_1.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_back_adapter",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__J3_brake_back_adapter.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_index_sensor",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_index_sensor.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_sensor_mount",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__J3_sensor_mount.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_brake_spacer_0.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_spacer_1",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_brake_spacer_1.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_spacer_2",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_brake_spacer_2.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_spacer_3",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_brake_spacer_3.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_spacer_4",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_brake_spacer_4.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_brake_spacer_5",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_brake_spacer_5.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_gearhead",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_gearhead.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_motor",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_motor.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_carrier_deck",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__J3_carrier_deck.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_housing_rails",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__J3_housing_rails.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_front_cover",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__J3_front_cover.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_tension_block",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__J3_tension_block.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_tension_screw",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_tension_screw.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_timing_belt",
+      "material": "rubber",
+      "step_file": "cad/placed/upper__J3_timing_belt.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_drive_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__J3_drive_pulley.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_input_support_bearing",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_input_support_bearing.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_input_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_input_shaft.step"
+    },
+    {
+      "body": "fore",
+      "name": "J3_driven_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__J3_driven_pulley.step"
+    },
+    {
+      "body": "fore",
+      "name": "J3_pulley_output_key",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J3_pulley_output_key.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_pulley_input_key",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_pulley_input_key.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_gear_mount_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_gear_mount_screw_0.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_gear_mount_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_gear_mount_screw_1.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_gear_mount_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_gear_mount_screw_2.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_gear_mount_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_gear_mount_screw_3.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_carrier_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_carrier_screw_0.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_carrier_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_carrier_screw_1.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_carrier_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_carrier_screw_2.step"
+    },
+    {
+      "body": "upper",
+      "name": "J3_carrier_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/upper__J3_carrier_screw_3.step"
+    },
+    {
+      "body": "fore",
+      "name": "small_bearing_housing_10",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__small_bearing_housing_10.step"
+    },
+    {
+      "body": "fore",
+      "name": "small_rear_bearing_cover_11",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__small_rear_bearing_cover_11.step"
+    },
+    {
+      "body": "fore",
+      "name": "small_front_bearing_cover_12",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__small_front_bearing_cover_12.step"
+    },
+    {
+      "body": "roll",
+      "name": "small_inner_race_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/roll__small_inner_race_spacer_0.step"
+    },
+    {
+      "body": "roll",
+      "name": "small_DIN471_installed_retainer_1",
+      "material": "steel",
+      "step_file": "cad/placed/roll__small_DIN471_installed_retainer_1.step"
+    },
+    {
+      "body": "roll",
+      "name": "small_selective_inner_race_shim_2",
+      "material": "steel",
+      "step_file": "cad/placed/roll__small_selective_inner_race_shim_2.step"
+    },
+    {
+      "body": "roll",
+      "name": "J4_output_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J4_output_shaft.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_bearing_0",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_bearing_0.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_bearing_-20",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_bearing_-20.step"
+    },
+    {
+      "body": "fore",
+      "name": "small_brake_front_adapter_15",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__small_brake_front_adapter_15.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_brake_strut_0",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_brake_strut_0.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_brake_strut_1",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_brake_strut_1.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_brake_strut_2",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_brake_strut_2.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_brake_strut_3",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_brake_strut_3.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_brake_stator",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_brake_stator.step"
+    },
+    {
+      "body": "roll",
+      "name": "J4_brake_armature",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J4_brake_armature.step"
+    },
+    {
+      "body": "roll",
+      "name": "small_brake_keyed_hub_5",
+      "material": "steel",
+      "step_file": "cad/placed/roll__small_brake_keyed_hub_5.step"
+    },
+    {
+      "body": "roll",
+      "name": "small_brake_shaft_key_6",
+      "material": "steel",
+      "step_file": "cad/placed/roll__small_brake_shaft_key_6.step"
+    },
+    {
+      "body": "roll",
+      "name": "J4_integral_stop_target",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J4_integral_stop_target.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_stop_pin_0",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_stop_pin_0.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_stop_pin_1",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_stop_pin_1.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_brake_back_adapter",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__J4_brake_back_adapter.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_index_sensor",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_index_sensor.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_sensor_mount",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__J4_sensor_mount.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_brake_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_brake_spacer_0.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_brake_spacer_1",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_brake_spacer_1.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_brake_spacer_2",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_brake_spacer_2.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_gearhead",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_gearhead.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_motor",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_motor.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_carrier_deck",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__J4_carrier_deck.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_housing_rails",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__J4_housing_rails.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_front_cover",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__J4_front_cover.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_tension_block",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__J4_tension_block.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_tension_screw",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_tension_screw.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_timing_belt",
+      "material": "rubber",
+      "step_file": "cad/placed/fore__J4_timing_belt.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_drive_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__J4_drive_pulley.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_input_support_bearing",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_input_support_bearing.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_input_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_input_shaft.step"
+    },
+    {
+      "body": "roll",
+      "name": "J4_driven_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__J4_driven_pulley.step"
+    },
+    {
+      "body": "roll",
+      "name": "J4_pulley_output_key",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J4_pulley_output_key.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_pulley_input_key",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_pulley_input_key.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_gear_mount_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_gear_mount_screw_0.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_gear_mount_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_gear_mount_screw_1.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_gear_mount_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_gear_mount_screw_2.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_gear_mount_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_gear_mount_screw_3.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_gear_mount_screw_4",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_gear_mount_screw_4.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_gear_mount_screw_5",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_gear_mount_screw_5.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_carrier_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_carrier_screw_0.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_carrier_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_carrier_screw_1.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_carrier_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_carrier_screw_2.step"
+    },
+    {
+      "body": "fore",
+      "name": "J4_carrier_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/fore__J4_carrier_screw_3.step"
+    },
+    {
+      "body": "roll",
+      "name": "small_bearing_housing_10",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__small_bearing_housing_10.step"
+    },
+    {
+      "body": "roll",
+      "name": "small_rear_bearing_cover_11",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__small_rear_bearing_cover_11.step"
+    },
+    {
+      "body": "roll",
+      "name": "small_front_bearing_cover_12",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__small_front_bearing_cover_12.step"
+    },
+    {
+      "body": "bend",
+      "name": "small_inner_race_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/bend__small_inner_race_spacer_0.step"
+    },
+    {
+      "body": "bend",
+      "name": "small_DIN471_installed_retainer_1",
+      "material": "steel",
+      "step_file": "cad/placed/bend__small_DIN471_installed_retainer_1.step"
+    },
+    {
+      "body": "bend",
+      "name": "small_selective_inner_race_shim_2",
+      "material": "steel",
+      "step_file": "cad/placed/bend__small_selective_inner_race_shim_2.step"
+    },
+    {
+      "body": "bend",
+      "name": "J5_output_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J5_output_shaft.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_bearing_0",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_bearing_0.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_bearing_-20",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_bearing_-20.step"
+    },
+    {
+      "body": "roll",
+      "name": "small_brake_front_adapter_15",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__small_brake_front_adapter_15.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_brake_strut_0",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_brake_strut_0.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_brake_strut_1",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_brake_strut_1.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_brake_strut_2",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_brake_strut_2.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_brake_strut_3",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_brake_strut_3.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_brake_stator",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_brake_stator.step"
+    },
+    {
+      "body": "bend",
+      "name": "J5_brake_armature",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J5_brake_armature.step"
+    },
+    {
+      "body": "bend",
+      "name": "small_brake_keyed_hub_5",
+      "material": "steel",
+      "step_file": "cad/placed/bend__small_brake_keyed_hub_5.step"
+    },
+    {
+      "body": "bend",
+      "name": "small_brake_shaft_key_6",
+      "material": "steel",
+      "step_file": "cad/placed/bend__small_brake_shaft_key_6.step"
+    },
+    {
+      "body": "bend",
+      "name": "J5_integral_stop_target",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J5_integral_stop_target.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_stop_pin_0",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_stop_pin_0.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_stop_pin_1",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_stop_pin_1.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_brake_back_adapter",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__J5_brake_back_adapter.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_index_sensor",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_index_sensor.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_sensor_mount",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__J5_sensor_mount.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_brake_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_brake_spacer_0.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_brake_spacer_1",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_brake_spacer_1.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_brake_spacer_2",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_brake_spacer_2.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_gearhead",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_gearhead.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_motor",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_motor.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_carrier_deck",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__J5_carrier_deck.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_housing_rails",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__J5_housing_rails.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_front_cover",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__J5_front_cover.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_tension_block",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__J5_tension_block.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_tension_screw",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_tension_screw.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_timing_belt",
+      "material": "rubber",
+      "step_file": "cad/placed/roll__J5_timing_belt.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_drive_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__J5_drive_pulley.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_input_support_bearing",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_input_support_bearing.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_input_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_input_shaft.step"
+    },
+    {
+      "body": "bend",
+      "name": "J5_driven_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__J5_driven_pulley.step"
+    },
+    {
+      "body": "bend",
+      "name": "J5_pulley_output_key",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J5_pulley_output_key.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_pulley_input_key",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_pulley_input_key.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_gear_mount_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_gear_mount_screw_0.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_gear_mount_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_gear_mount_screw_1.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_gear_mount_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_gear_mount_screw_2.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_gear_mount_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_gear_mount_screw_3.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_gear_mount_screw_4",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_gear_mount_screw_4.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_gear_mount_screw_5",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_gear_mount_screw_5.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_carrier_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_carrier_screw_0.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_carrier_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_carrier_screw_1.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_carrier_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_carrier_screw_2.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_carrier_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_carrier_screw_3.step"
+    },
+    {
+      "body": "bend",
+      "name": "small_bearing_housing_10",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__small_bearing_housing_10.step"
+    },
+    {
+      "body": "bend",
+      "name": "small_rear_bearing_cover_11",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__small_rear_bearing_cover_11.step"
+    },
+    {
+      "body": "bend",
+      "name": "small_front_bearing_cover_12",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__small_front_bearing_cover_12.step"
+    },
+    {
+      "body": "tool",
+      "name": "small_inner_race_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/tool__small_inner_race_spacer_0.step"
+    },
+    {
+      "body": "tool",
+      "name": "small_DIN471_installed_retainer_1",
+      "material": "steel",
+      "step_file": "cad/placed/tool__small_DIN471_installed_retainer_1.step"
+    },
+    {
+      "body": "tool",
+      "name": "small_selective_inner_race_shim_2",
+      "material": "steel",
+      "step_file": "cad/placed/tool__small_selective_inner_race_shim_2.step"
+    },
+    {
+      "body": "tool",
+      "name": "J6_output_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/tool__J6_output_shaft.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_bearing_0",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_bearing_0.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_bearing_-20",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_bearing_-20.step"
+    },
+    {
+      "body": "bend",
+      "name": "small_brake_front_adapter_15",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__small_brake_front_adapter_15.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_brake_strut_0",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_brake_strut_0.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_brake_strut_1",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_brake_strut_1.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_brake_strut_2",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_brake_strut_2.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_brake_strut_3",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_brake_strut_3.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_brake_stator",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_brake_stator.step"
+    },
+    {
+      "body": "tool",
+      "name": "J6_brake_armature",
+      "material": "steel",
+      "step_file": "cad/placed/tool__J6_brake_armature.step"
+    },
+    {
+      "body": "tool",
+      "name": "small_brake_keyed_hub_5",
+      "material": "steel",
+      "step_file": "cad/placed/tool__small_brake_keyed_hub_5.step"
+    },
+    {
+      "body": "tool",
+      "name": "small_brake_shaft_key_6",
+      "material": "steel",
+      "step_file": "cad/placed/tool__small_brake_shaft_key_6.step"
+    },
+    {
+      "body": "tool",
+      "name": "J6_integral_stop_target",
+      "material": "steel",
+      "step_file": "cad/placed/tool__J6_integral_stop_target.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_stop_pin_0",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_stop_pin_0.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_stop_pin_1",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_stop_pin_1.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_brake_back_adapter",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__J6_brake_back_adapter.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_index_sensor",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_index_sensor.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_sensor_mount",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__J6_sensor_mount.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_brake_spacer_0",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_brake_spacer_0.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_brake_spacer_1",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_brake_spacer_1.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_brake_spacer_2",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_brake_spacer_2.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_gearhead",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_gearhead.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_motor",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_motor.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_carrier_deck",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__J6_carrier_deck.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_housing_rails",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__J6_housing_rails.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_front_cover",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__J6_front_cover.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_tension_block",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__J6_tension_block.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_tension_screw",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_tension_screw.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_timing_belt",
+      "material": "rubber",
+      "step_file": "cad/placed/bend__J6_timing_belt.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_drive_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__J6_drive_pulley.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_input_support_bearing",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_input_support_bearing.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_input_shaft",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_input_shaft.step"
+    },
+    {
+      "body": "tool",
+      "name": "J6_driven_pulley",
+      "material": "aluminum",
+      "step_file": "cad/placed/tool__J6_driven_pulley.step"
+    },
+    {
+      "body": "tool",
+      "name": "J6_pulley_output_key",
+      "material": "steel",
+      "step_file": "cad/placed/tool__J6_pulley_output_key.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_pulley_input_key",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_pulley_input_key.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_gear_mount_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_gear_mount_screw_0.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_gear_mount_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_gear_mount_screw_1.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_gear_mount_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_gear_mount_screw_2.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_gear_mount_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_gear_mount_screw_3.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_gear_mount_screw_4",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_gear_mount_screw_4.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_gear_mount_screw_5",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_gear_mount_screw_5.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_carrier_screw_0",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_carrier_screw_0.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_carrier_screw_1",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_carrier_screw_1.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_carrier_screw_2",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_carrier_screw_2.step"
+    },
+    {
+      "body": "bend",
+      "name": "J6_carrier_screw_3",
+      "material": "steel",
+      "step_file": "cad/placed/bend__J6_carrier_screw_3.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_plate_42",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__bench_mount_plate_42.step"
+    },
+    {
+      "body": "fixed",
+      "name": "pedestal_sleeve_43",
+      "material": "aluminum",
+      "step_file": "cad/placed/fixed__pedestal_sleeve_43.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_backing_washer_44",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_backing_washer_44.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_bolt_45",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_bolt_45.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_nut_46",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_nut_46.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_backing_washer_47",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_backing_washer_47.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_bolt_48",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_bolt_48.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_nut_49",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_nut_49.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_backing_washer_50",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_backing_washer_50.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_bolt_51",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_bolt_51.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_nut_52",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_nut_52.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_backing_washer_53",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_backing_washer_53.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_bolt_54",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_bolt_54.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_nut_55",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_nut_55.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_backing_washer_56",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_backing_washer_56.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_bolt_57",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_bolt_57.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_nut_58",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_nut_58.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_backing_washer_59",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_backing_washer_59.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_bolt_60",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_bolt_60.step"
+    },
+    {
+      "body": "fixed",
+      "name": "bench_mount_nut_61",
+      "material": "steel",
+      "step_file": "cad/placed/fixed__bench_mount_nut_61.step"
+    },
+    {
+      "body": "turret",
+      "name": "turret_yoke_52",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__turret_yoke_52.step"
+    },
+    {
+      "body": "upper",
+      "name": "upper_link_tube_52",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__upper_link_tube_52.step"
+    },
+    {
+      "body": "upper",
+      "name": "upper_root_ear_53",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__upper_root_ear_53.step"
+    },
+    {
+      "body": "upper",
+      "name": "upper_nut_strip_54",
+      "material": "steel",
+      "step_file": "cad/placed/upper__upper_nut_strip_54.step"
+    },
+    {
+      "body": "fore",
+      "name": "fore_link_tube_51",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__fore_link_tube_51.step"
+    },
+    {
+      "body": "fore",
+      "name": "fore_root_ear_52",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__fore_root_ear_52.step"
+    },
+    {
+      "body": "fore",
+      "name": "fore_nut_strip_53",
+      "material": "steel",
+      "step_file": "cad/placed/fore__fore_nut_strip_53.step"
+    },
+    {
+      "body": "upper",
+      "name": "upper_elbow_housing_clamp_55",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__upper_elbow_housing_clamp_55.step"
+    },
+    {
+      "body": "fore",
+      "name": "fore_roll_housing_clamp_54",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__fore_roll_housing_clamp_54.step"
+    },
+    {
+      "body": "fore",
+      "name": "fore_clamp_side_shims_55",
+      "material": "steel",
+      "step_file": "cad/placed/fore__fore_clamp_side_shims_55.step"
+    },
+    {
+      "body": "roll",
+      "name": "wrist_roll_fork_51",
+      "material": "aluminum",
+      "step_file": "cad/placed/roll__wrist_roll_fork_51.step"
+    },
+    {
+      "body": "roll",
+      "name": "idle_bearing_inner_cover_52",
+      "material": "steel",
+      "step_file": "cad/placed/roll__idle_bearing_inner_cover_52.step"
+    },
+    {
+      "body": "roll",
+      "name": "idle_bearing_outer_cover_53",
+      "material": "steel",
+      "step_file": "cad/placed/roll__idle_bearing_outer_cover_53.step"
+    },
+    {
+      "body": "roll",
+      "name": "J5_idle_bearing",
+      "material": "steel",
+      "step_file": "cad/placed/roll__J5_idle_bearing.step"
+    },
+    {
+      "body": "bend",
+      "name": "wrist_bend_cradle_51",
+      "material": "aluminum",
+      "step_file": "cad/placed/bend__wrist_bend_cradle_51.step"
+    },
+    {
+      "body": "bend",
+      "name": "wrist_idle_trunnion_52",
+      "material": "steel",
+      "step_file": "cad/placed/bend__wrist_idle_trunnion_52.step"
+    },
+    {
+      "body": "tool",
+      "name": "gripper_bridge_10",
+      "material": "aluminum",
+      "step_file": "cad/placed/tool__gripper_bridge_10.step"
+    },
+    {
+      "body": "tool",
+      "name": "gripper_motor",
+      "material": "aluminum",
+      "step_file": "cad/placed/tool__gripper_motor.step"
+    },
+    {
+      "body": "tool",
+      "name": "gripper_pinion_m0p3_z20_12",
+      "material": "steel",
+      "step_file": "cad/placed/tool__gripper_pinion_m0p3_z20_12.step"
+    },
+    {
+      "body": "tool",
+      "name": "pinion_front_bushing_13",
+      "material": "steel",
+      "step_file": "cad/placed/tool__pinion_front_bushing_13.step"
+    },
+    {
+      "body": "tool",
+      "name": "guide_rod_-10",
+      "material": "steel",
+      "step_file": "cad/placed/tool__guide_rod_-10.step"
+    },
+    {
+      "body": "tool",
+      "name": "guide_rod_10",
+      "material": "steel",
+      "step_file": "cad/placed/tool__guide_rod_10.step"
+    },
+    {
+      "body": "jaw",
+      "name": "right_jaw_carriage_0",
+      "material": "aluminum",
+      "step_file": "cad/placed/jaw__right_jaw_carriage_0.step"
+    },
+    {
+      "body": "jaw",
+      "name": "finger_pad_1",
+      "material": "rubber",
+      "step_file": "cad/placed/jaw__finger_pad_1.step"
+    },
+    {
+      "body": "jaw",
+      "name": "jaw_guide_bushing_2",
+      "material": "polymer",
+      "step_file": "cad/placed/jaw__jaw_guide_bushing_2.step"
+    },
+    {
+      "body": "jaw",
+      "name": "jaw_guide_bushing_3",
+      "material": "polymer",
+      "step_file": "cad/placed/jaw__jaw_guide_bushing_3.step"
+    },
+    {
+      "body": "jaw",
+      "name": "upper_rack",
+      "material": "steel",
+      "step_file": "cad/placed/jaw__upper_rack.step"
+    },
+    {
+      "body": "tool",
+      "name": "gripper_cable_clamp_mount_16",
+      "material": "aluminum",
+      "step_file": "cad/placed/tool__gripper_cable_clamp_mount_16.step"
+    },
+    {
+      "body": "tool",
+      "name": "gripper_cable_clamp_base_17",
+      "material": "aluminum",
+      "step_file": "cad/placed/tool__gripper_cable_clamp_base_17.step"
+    },
+    {
+      "body": "tool",
+      "name": "gripper_cable_clamp_cap_18",
+      "material": "aluminum",
+      "step_file": "cad/placed/tool__gripper_cable_clamp_cap_18.step"
+    },
+    {
+      "body": "tool",
+      "name": "gripper_cable_clamp_liner_19",
+      "material": "rubber",
+      "step_file": "cad/placed/tool__gripper_cable_clamp_liner_19.step"
+    },
+    {
+      "body": "turret",
+      "name": "shoulder_spring_fixed_clevis_53",
+      "material": "aluminum",
+      "step_file": "cad/placed/turret__shoulder_spring_fixed_clevis_53.step"
+    },
+    {
+      "body": "upper",
+      "name": "shoulder_spring_moving_clevis_56",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__shoulder_spring_moving_clevis_56.step"
+    },
+    {
+      "body": "upper",
+      "name": "shoulder_spring_nut_plate_57",
+      "material": "steel",
+      "step_file": "cad/placed/upper__shoulder_spring_nut_plate_57.step"
+    },
+    {
+      "body": "turret",
+      "name": "spring_eye_pin_54",
+      "material": "steel",
+      "step_file": "cad/placed/turret__spring_eye_pin_54.step"
+    },
+    {
+      "body": "upper",
+      "name": "spring_eye_pin_58",
+      "material": "steel",
+      "step_file": "cad/placed/upper__spring_eye_pin_58.step"
+    },
+    {
+      "body": "turret",
+      "name": "spring_eye_pin_55",
+      "material": "steel",
+      "step_file": "cad/placed/turret__spring_eye_pin_55.step"
+    },
+    {
+      "body": "upper",
+      "name": "spring_eye_pin_59",
+      "material": "steel",
+      "step_file": "cad/placed/upper__spring_eye_pin_59.step"
+    },
+    {
+      "body": "upper",
+      "name": "elbow_spring_fixed_clevis_62",
+      "material": "aluminum",
+      "step_file": "cad/placed/upper__elbow_spring_fixed_clevis_62.step"
+    },
+    {
+      "body": "upper",
+      "name": "elbow_fixed_anchor_nut_strips_63",
+      "material": "steel",
+      "step_file": "cad/placed/upper__elbow_fixed_anchor_nut_strips_63.step"
+    },
+    {
+      "body": "fore",
+      "name": "elbow_spring_moving_clevis_56",
+      "material": "aluminum",
+      "step_file": "cad/placed/fore__elbow_spring_moving_clevis_56.step"
+    },
+    {
+      "body": "fore",
+      "name": "elbow_moving_anchor_nut_plate_57",
+      "material": "steel",
+      "step_file": "cad/placed/fore__elbow_moving_anchor_nut_plate_57.step"
+    },
+    {
+      "body": "upper",
+      "name": "spring_eye_pin_64",
+      "material": "steel",
+      "step_file": "cad/placed/upper__spring_eye_pin_64.step"
+    },
+    {
+      "body": "fore",
+      "name": "spring_eye_pin_58",
+      "material": "steel",
+      "step_file": "cad/placed/fore__spring_eye_pin_58.step"
+    },
+    {
+      "body": "upper",
+      "name": "spring_eye_pin_65",
+      "material": "steel",
+      "step_file": "cad/placed/upper__spring_eye_pin_65.step"
+    },
+    {
+      "body": "fore",
+      "name": "spring_eye_pin_59",
+      "material": "steel",
+      "step_file": "cad/placed/fore__spring_eye_pin_59.step"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "revision": "P5",
+  "scope": "Read-only verification of the saved 30-second integrated nominal trace for a continuous action film. This does not change the existing three failed adverse stop criteria.",
+  "checked_utc": "2026-10-22T12:05:31.421653+00:00",
+  "passed": true,
+  "checks": {
+    "frame_count_3601": true,
+    "47_fields_per_frame": true,
+    "finite": true,
+    "starts_at_zero": true,
+    "ends_at_30_seconds": true,
+    "strictly_monotone_times": true,
+    "uniform_120_Hz_export": true,
+    "all_seven_provenance_hashes_match": true,
+    "sidecar_metrics_equal_embedded_metrics": true,
+    "first_1201_frames_exactly_equal_10s_nominal": true,
+    "all_six_placements_within_1p5_mm": true,
+    "non_repeated_cycles": true,
+    "quaternions_unit_to_1e_minus_9": true,
+    "recorded_nominal_checks_all_pass": true,
+    "no_imposed_payload_force": true
+  },
+  "trace": "ARX-6-P5-Engineering/integration/results/nominal_30s.json",
+  "trajectory_sha256": "b7a2358597ee4735affc3a9baff7bffcdc3644cd0bca8dc52eb0d25d0dd5e2b7",
+  "frame_count": 3601,
+  "duration_seconds": 30.000000000024,
+  "integration_rate_Hz": 2399.99999999808,
+  "export_rate_Hz": 120,
+  "provenance": [
+    {
+      "field": "xml_sha256",
+      "file": "ARX-6-P5.xml",
+      "actual_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+      "recorded_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+      "passed": true
+    },
+    {
+      "field": "controller_sha256",
+      "file": "controller.mjs",
+      "actual_sha256": "e8fbe68be5a83f02f6e0b194c573b69bcf34f098de31358fd0e236ad4795107d",
+      "recorded_sha256": "e8fbe68be5a83f02f6e0b194c573b69bcf34f098de31358fd0e236ad4795107d",
+      "passed": true
+    },
+    {
+      "field": "safety_sha256",
+      "file": "safety.mjs",
+      "actual_sha256": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+      "recorded_sha256": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+      "passed": true
+    },
+    {
+      "field": "parameters_sha256",
+      "file": "parameters.json",
+      "actual_sha256": "7127b02dc62029a39f58b5e69e97aa932867d560282f98e5aa62b05f0d558c70",
+      "recorded_sha256": "7127b02dc62029a39f58b5e69e97aa932867d560282f98e5aa62b05f0d558c70",
+      "passed": true
+    },
+    {
+      "field": "geometry_sha256",
+      "file": "geometry-meshes.json",
+      "actual_sha256": "838768d0473b4ba2ed25be1e1b0d5c34c3ac643dce99e140bb415d99f2103208",
+      "recorded_sha256": "838768d0473b4ba2ed25be1e1b0d5c34c3ac643dce99e140bb415d99f2103208",
+      "passed": true
+    },
+    {
+      "field": "collision_proxies_sha256",
+      "file": "p5_collision_proxies.json",
+      "actual_sha256": "f351530da734766721dfd95582d764552d0f92f291a62ad07080dcbd888b528f",
+      "recorded_sha256": "f351530da734766721dfd95582d764552d0f92f291a62ad07080dcbd888b528f",
+      "passed": true
+    },
+    {
+      "field": "cad_mass_properties_sha256",
+      "file": "mass_properties.json",
+      "actual_sha256": "98f98c0a6dd1b39dac65f967fb0ebe682beb003aa29052f2924337fb07f8e024",
+      "recorded_sha256": "98f98c0a6dd1b39dac65f967fb0ebe682beb003aa29052f2924337fb07f8e024",
+      "passed": true
+    }
+  ],
+  "layout": {
+    "time": [
+      0,
+      1
+    ],
+    "q": [
+      1,
+      7
+    ],
+    "qd": [
+      7,
+      13
+    ],
+    "jaw_half_gap": [
+      13,
+      15
+    ],
+    "puck_position": [
+      15,
+      18
+    ],
+    "puck_quaternion_wxyz": [
+      18,
+      22
+    ],
+    "motor_current": [
+      22,
+      28
+    ],
+    "joint_torque": [
+      28,
+      34
+    ],
+    "pad_normal_force": [
+      34,
+      36
+    ],
+    "pad_tangent_force": [
+      36,
+      38
+    ],
+    "temperature_C": [
+      38,
+      44
+    ],
+    "tcp_position": [
+      44,
+      47
+    ]
+  },
+  "placements": [
+    {
+      "transfer": 1,
+      "sample_time_s": 4.90000000000392,
+      "destination": "B",
+      "position_m": [
+        0.3301108217084069,
+        0.027999455763000242,
+        0.12377537079522435
+      ],
+      "target_m": [
+        0.33,
+        0.028,
+        0.124
+      ],
+      "error_mm": 0.25047959375220213,
+      "passed": true
+    },
+    {
+      "transfer": 2,
+      "sample_time_s": 9.90000000000792,
+      "destination": "A",
+      "position_m": [
+        0.29014639776479567,
+        0.02799946648909146,
+        -0.12430147695525483
+      ],
+      "target_m": [
+        0.29,
+        0.028,
+        -0.124
+      ],
+      "error_mm": 0.33514317048208825,
+      "passed": true
+    },
+    {
+      "transfer": 3,
+      "sample_time_s": 14.90000000001192,
+      "destination": "B",
+      "position_m": [
+        0.33021373971660334,
+        0.02799945617547081,
+        0.1235768371250873
+      ],
+      "target_m": [
+        0.33,
+        0.028,
+        0.124
+      ],
+      "error_mm": 0.4740799309221715,
+      "passed": true
+    },
+    {
+      "transfer": 4,
+      "sample_time_s": 19.90000000001592,
+      "destination": "A",
+      "position_m": [
+        0.2901588281796097,
+        0.02799946536718489,
+        -0.12453135454902027
+      ],
+      "target_m": [
+        0.29,
+        0.028,
+        -0.124
+      ],
+      "error_mm": 0.5545848296112319,
+      "passed": true
+    },
+    {
+      "transfer": 5,
+      "sample_time_s": 24.90000000001992,
+      "destination": "B",
+      "position_m": [
+        0.3301888622685757,
+        0.02799945646777703,
+        0.12334770756143959
+      ],
+      "target_m": [
+        0.33,
+        0.028,
+        0.124
+      ],
+      "error_mm": 0.6790837042087758,
+      "passed": true
+    },
+    {
+      "transfer": 6,
+      "sample_time_s": 29.90000000002392,
+      "destination": "A",
+      "position_m": [
+        0.29015694183491086,
+        0.027999464733273933,
+        -0.12475263300969203
+      ],
+      "target_m": [
+        0.29,
+        0.028,
+        -0.124
+      ],
+      "error_mm": 0.7688221337433925,
+      "passed": true
+    }
+  ],
+  "phase_schedule_per_5s_transfer": [
+    {
+      "start_s": 0,
+      "end_s": 0.65,
+      "phase": "approach / lower"
+    },
+    {
+      "start_s": 0.65,
+      "end_s": 1,
+      "phase": "grip dwell"
+    },
+    {
+      "start_s": 1,
+      "end_s": 1.65,
+      "phase": "lift"
+    },
+    {
+      "start_s": 1.65,
+      "end_s": 2.75,
+      "phase": "carry"
+    },
+    {
+      "start_s": 2.75,
+      "end_s": 3.4,
+      "phase": "lower to destination"
+    },
+    {
+      "start_s": 3.4,
+      "end_s": 3.75,
+      "phase": "release"
+    },
+    {
+      "start_s": 3.75,
+      "end_s": 4.45,
+      "phase": "retract"
+    },
+    {
+      "start_s": 4.45,
+      "end_s": 5,
+      "phase": "settle above destination"
+    }
+  ],
+  "transfer_start_times_s": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25
+  ],
+  "jaw_close_command_s_relative_to_transfer": 0.4,
+  "jaw_release_command_s_relative_to_transfer": 3.4,
+  "non_repetition": [
+    {
+      "cycle_start_s": 10.0,
+      "exact_repeated_state_rows": 0,
+      "max_puck_difference_m": 0.00030150551972148165,
+      "max_joint_difference_rad": 0.0005132314505358615
+    },
+    {
+      "cycle_start_s": 20.0,
+      "exact_repeated_state_rows": 0,
+      "max_puck_difference_m": 0.0005313859400842558,
+      "max_joint_difference_rad": 0.0005298354495508195
+    }
+  ],
+  "range": {
+    "puck_position_min_m": [
+      0.2892247166379493,
+      0.027969290558855546,
+      -0.12475352488569748
+    ],
+    "puck_position_max_m": [
+      0.33022673682213954,
+      0.21518650763624167,
+      0.12385405876246247
+    ],
+    "jaw_half_gap_min_m": [
+      0.018981055533871593,
+      0.01898109106628337
+    ],
+    "jaw_half_gap_max_m": [
+      0.038000780442330274,
+      0.0380007804817804
+    ],
+    "peak_pad_normal_force_N": [
+      21.94084580156285,
+      21.197295918245686
+    ]
+  },
+  "rendering_recommendation": "Use absolute t from 0 through 30; no modulo. Existing egl_render.physical_state performs linear interpolation with shortest-sign normalized quaternion interpolation; apply writes all six joints, both jaws, and independent puck position/orientation. At 24 fps, t=frame/24 aligns with every fifth 120 Hz recorded state. Camera changes may occur at 10s or 20s without resetting the physical timeline."
+}

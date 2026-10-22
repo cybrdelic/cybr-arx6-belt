@@ -1,0 +1,197 @@
+{
+  "mujoco_version": "3.16.0",
+  "units": "SI; Y up; quaternion w x y z",
+  "nq": 15,
+  "nv": 14,
+  "nu": 7,
+  "timestep_seconds": 0.000416666666667,
+  "joints": {
+    "j1": {
+      "id": 0,
+      "qpos_adr": 0,
+      "dof_adr": 0
+    },
+    "j2": {
+      "id": 1,
+      "qpos_adr": 1,
+      "dof_adr": 1
+    },
+    "j3": {
+      "id": 2,
+      "qpos_adr": 2,
+      "dof_adr": 2
+    },
+    "j4": {
+      "id": 3,
+      "qpos_adr": 3,
+      "dof_adr": 3
+    },
+    "j5": {
+      "id": 4,
+      "qpos_adr": 4,
+      "dof_adr": 4
+    },
+    "j6": {
+      "id": 5,
+      "qpos_adr": 5,
+      "dof_adr": 5
+    },
+    "jaw_left": {
+      "id": 6,
+      "qpos_adr": 6,
+      "dof_adr": 6
+    },
+    "jaw_right": {
+      "id": 7,
+      "qpos_adr": 7,
+      "dof_adr": 7
+    },
+    "puck_free": {
+      "id": 8,
+      "qpos_adr": 8,
+      "dof_adr": 8
+    }
+  },
+  "body_ids": {
+    "turret": 1,
+    "upper": 2,
+    "fore": 3,
+    "roll": 4,
+    "bend": 5,
+    "tool": 6,
+    "jaw_left": 7,
+    "jaw_right": 8,
+    "puck": 10
+  },
+  "geom_ids": {
+    "floor": 0,
+    "nest_A_seat": 3,
+    "nest_B_seat": 5,
+    "pad_left": 91,
+    "pad_right": 94,
+    "puck": 104
+  },
+  "tcp_site_id": 0,
+  "initial_qpos": [
+    -0.40405914701,
+    0.199926183848,
+    1.41096837695,
+    -0.0,
+    1.53069809279,
+    3.5456518006,
+    0.038,
+    0.038,
+    0.29,
+    0.028,
+    -0.124,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_qvel": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "state_export_fields": [
+    "t",
+    "q[6]",
+    "qd[6]",
+    "jaw_half_gap[2]",
+    "puck_position[3]",
+    "puck_quaternion_wxyz[4]",
+    "motor_current[6]",
+    "joint_torque[6]",
+    "pad_normal_force[2]",
+    "pad_tangent_force[2]",
+    "temperature_C[6]",
+    "tcp_position[3]"
+  ],
+  "flat_frame_layout": {
+    "time": [
+      0,
+      1
+    ],
+    "q": [
+      1,
+      7
+    ],
+    "qd": [
+      7,
+      13
+    ],
+    "jaw_half_gap": [
+      13,
+      15
+    ],
+    "puck_position": [
+      15,
+      18
+    ],
+    "puck_quaternion_wxyz": [
+      18,
+      22
+    ],
+    "motor_current": [
+      22,
+      28
+    ],
+    "joint_torque": [
+      28,
+      34
+    ],
+    "pad_normal_force": [
+      34,
+      36
+    ],
+    "pad_tangent_force": [
+      36,
+      38
+    ],
+    "temperature_C": [
+      38,
+      44
+    ],
+    "tcp_position": [
+      44,
+      47
+    ]
+  },
+  "initialization": "mj_resetDataKeyframe(model,data,0); mj_forward(model,data); controller current=bias/(ratio*Kt) at zero speed, clipped to current limits; other controller state zero; temperature25C",
+  "actuator_mapping": {
+    "arm_torque_Nm": [
+      0,
+      6
+    ],
+    "gripper_pinion_torque_Nm": 6
+  },
+  "integration": "controller.step -> data.ctrl[0:7] -> mj_step; no qpos assignments after reset",
+  "initial_motor_current_A": [
+    0.0,
+    -1.04554358462829,
+    -0.6956533547088766,
+    0.11251178594148216,
+    0.0002898030445044942,
+    -1.215421533507509e-15
+  ],
+  "xml_sha256": "f5bc8e046d89ca0900421d90150d990e16e2073b81024b364914479f931b210d",
+  "provenance": {
+    "model_xml_sha256": "f5bc8e046d89ca0900421d90150d990e16e2073b81024b364914479f931b210d",
+    "canonical_parameters_sha256": "285e85bf33924344d93b7e9b5e2bab8d4a6298ce86172e8d2a5c57121b269914",
+    "controller_parameters_file_sha256": "6a107e27867bebc883514bb851622f4f33c61c7e3184ca09b41a79c6d13eb15a",
+    "python_reference_source_sha256": "52818def40b2b4eab6ffe96762fde3f397ec832c73bb2c1caebc93bdc102d39f",
+    "mujoco_version": "3.16.0"
+  }
+}

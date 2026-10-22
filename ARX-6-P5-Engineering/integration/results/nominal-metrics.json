@@ -1,0 +1,315 @@
+{
+  "name": "nominal",
+  "duration_s": 10.000000000007999,
+  "dt_s": 0.000416666666667,
+  "solver": "MuJoCo 3.16.0 WASM; implicitfast; Newton",
+  "options": {},
+  "mode": "RUN",
+  "events": [],
+  "checks": [
+    {
+      "name": "all integrated states finite",
+      "passed": true,
+      "detail": "All 47 exported fields, every saved state."
+    },
+    {
+      "name": "hard travel bounds respected",
+      "passed": true,
+      "detail": "Minimum margin 0.03767688167161887 rad; dynamic contact joints not clamped."
+    },
+    {
+      "name": "no structural proxy penetration over 0.1 mm",
+      "passed": true,
+      "detail": "Every integration step inspected. Worst 0 m; flexible spring/cable and literal pin impact excluded."
+    },
+    {
+      "name": "no imposed force on independent free workpiece",
+      "passed": true,
+      "detail": {
+        "max_imposed_generalized_or_body_force": 0,
+        "workpiece_qpos_count": 7,
+        "workpiece_velocity_dofs": 6,
+        "attachment": "No workpiece weld, actuator, or post-reset pose command."
+      }
+    },
+    {
+      "name": "motor-generated output torque within belt service allowance",
+      "passed": true,
+      "detail": {
+        "peak_output_torque_Nm": [
+          4.555414192941597,
+          12.798933333298915,
+          4.1104970007480475,
+          1.512425302561504,
+          0.18118779844543742,
+          0.28497394986716734
+        ],
+        "allowance_Nm": [
+          12.798933333333332,
+          12.798933333333332,
+          12.798933333333332,
+          2.4948,
+          2.4948,
+          2.4948
+        ],
+        "service_factor": 1.5
+      }
+    },
+    {
+      "name": "estimated belt torque including rotor deceleration within service allowance",
+      "passed": true,
+      "detail": {
+        "peak_estimated_transmitted_torque_Nm": [
+          4.417155980927731,
+          12.685252449235414,
+          4.1533454323825145,
+          1.454011484879209,
+          0.3318355634395763,
+          0.027020326891734017
+        ],
+        "allowance_Nm": [
+          12.798933333333332,
+          12.798933333333332,
+          12.798933333333332,
+          2.4948,
+          2.4948,
+          2.4948
+        ],
+        "method": "Motor-generated output torque minus equivalent upstream armature times actual angular acceleration. Ideal rigid lumped transmission; no tooth impact or compliance."
+      }
+    },
+    {
+      "name": "configured arm peak current ceilings",
+      "passed": true,
+      "detail": "Electrical model incl. back-EMF and voltage saturation."
+    },
+    {
+      "name": "configured gripper peak current ceiling",
+      "passed": true,
+      "detail": "0.17996054610992296 A; ideal hardware-chopping approximation."
+    },
+    {
+      "name": "belt pulley speed within handbook low-speed screen",
+      "passed": true,
+      "detail": [
+        22.93802116082606,
+        9.508363785089816,
+        11.901998182691143,
+        15.23170169713709,
+        16.049092759958413,
+        42.741454564490155
+      ]
+    },
+    {
+      "name": "motor input speed ratings",
+      "passed": true,
+      "detail": "Actual motor speed includes gear ratio."
+    },
+    {
+      "name": "voltage ceilings",
+      "passed": true,
+      "detail": "Actual applied voltage, not unclipped demand."
+    },
+    {
+      "name": "completed without safety trip",
+      "passed": true,
+      "detail": "RUN"
+    },
+    {
+      "name": "arm RMS currents below continuous ratings",
+      "passed": true,
+      "detail": [
+        0.31835154195378407,
+        0.9076005105726566,
+        0.33033956075404036,
+        0.24627802164122012,
+        0.02133469779421277,
+        0.02040041144283392
+      ]
+    },
+    {
+      "name": "placement at B within 1.5 mm",
+      "passed": true,
+      "detail": 0.00025047959375220215
+    },
+    {
+      "name": "return to A within 1.5 mm",
+      "passed": true,
+      "detail": 0.00033514317048208823
+    }
+  ],
+  "all_checks_pass": true,
+  "rms_current_A": [
+    0.31835154195378407,
+    0.9076005105726566,
+    0.33033956075404036,
+    0.24627802164122012,
+    0.02133469779421277,
+    0.02040041144283392
+  ],
+  "peak_current_A": [
+    1.7195411405293095,
+    2.545636079070906,
+    0.7569839392574637,
+    0.6371493489728961,
+    0.07633017486934576,
+    0.12005284910572746
+  ],
+  "peak_output_torque_Nm": [
+    4.555414192941597,
+    12.798933333298915,
+    4.1104970007480475,
+    1.512425302561504,
+    0.18118779844543742,
+    0.28497394986716734
+  ],
+  "peak_estimated_belt_transmitted_torque_Nm": [
+    4.417155980927731,
+    12.685252449235414,
+    4.1533454323825145,
+    1.454011484879209,
+    0.3318355634395763,
+    0.027020326891734017
+  ],
+  "peak_motor_speed_rad_s": [
+    102.98849223746359,
+    81.02157848806124,
+    101.41794126933098,
+    203.93701896206238,
+    214.88105528791456,
+    572.2646755630003
+  ],
+  "peak_voltage_V": [
+    9.932495520724233,
+    7.243139154504775,
+    9.624353807778682,
+    14.780468869623714,
+    7.656980922984399,
+    20.136236347871723
+  ],
+  "over_continuous_current_s": [
+    0,
+    0.18750000000015088,
+    0,
+    0,
+    0,
+    0
+  ],
+  "over_continuous_gear_torque_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "voltage_saturation_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "belt_demand_limit_s": [
+    0,
+    0.11875000000009454,
+    0,
+    0,
+    0,
+    0
+  ],
+  "gear_demand_limit_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "final_temperature_C": [
+    25.048007176523445,
+    25.225706028207505,
+    25.041717981066547,
+    25.62575675756515,
+    25.004637745889873,
+    25.006339854671477
+  ],
+  "gripper_rms_current_A": 0.09020795508695217,
+  "peak_gripper_current_A": 0.17996054610992296,
+  "gripper_over_continuous_s": 0,
+  "gripper_final_temperature_C": 25.386661844329048,
+  "max_tracking_error_rad": 0.003368606057368495,
+  "min_hard_limit_margin_rad": 0.03767688167161887,
+  "max_penetration_m": 0.0000535205123111827,
+  "max_unintended_proxy_penetration_m": 0,
+  "unintended_proxy_pairs": {},
+  "unintended_proxy_pair_worst_time_s": {},
+  "spring_force_max_each_N": 213.62800167659879,
+  "spring_torque_range_Nm": [
+    -11.695983568175565,
+    -8.116131535222713
+  ],
+  "elbow_spring_force_max_each_N": 85.99028149842854,
+  "elbow_spring_torque_range_Nm": [
+    -7.1967700201961495,
+    -4.470117724896798
+  ],
+  "maximum_imposed_workpiece_force": 0,
+  "fault_time_s": null,
+  "max_fault_travel_deg": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "max_fault_travel_at_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "max_fault_tcp_travel_m": 0,
+  "max_fault_puck_drop_m": 0,
+  "max_speed_after_fault_plus_0p5s_rad_s": 0,
+  "brake_energy_J": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "brake_max_capacity_Nm": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "brake_max_actual_torque_Nm": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "placement_B_error_m": 0.00025047959375220215,
+  "return_A_error_m": 0.00033514317048208823,
+  "provenance": {
+    "xml_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+    "controller_sha256": "e8fbe68be5a83f02f6e0b194c573b69bcf34f098de31358fd0e236ad4795107d",
+    "safety_sha256": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+    "parameters_sha256": "7127b02dc62029a39f58b5e69e97aa932867d560282f98e5aa62b05f0d558c70",
+    "geometry_sha256": "838768d0473b4ba2ed25be1e1b0d5c34c3ac643dce99e140bb415d99f2103208",
+    "collision_proxies_sha256": "f351530da734766721dfd95582d764552d0f92f291a62ad07080dcbd888b528f",
+    "cad_mass_properties_sha256": "98f98c0a6dd1b39dac65f967fb0ebe682beb003aa29052f2924337fb07f8e024"
+  },
+  "wall_time_s": 40.169731485999996
+}

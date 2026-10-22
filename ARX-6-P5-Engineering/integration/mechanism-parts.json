@@ -1,0 +1,3006 @@
+{
+  "rigid_placements": [
+    {
+      "name": "large_bearing_housing_0",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 1872
+    },
+    {
+      "name": "large_rear_bearing_cover_1",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2574
+    },
+    {
+      "name": "large_front_bearing_cover_2",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "large_inner_race_spacer_0",
+      "body": "turret",
+      "mechanism": "J1",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "large_DIN471_installed_retainer_1",
+      "body": "turret",
+      "mechanism": "J1",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 1232
+    },
+    {
+      "name": "large_selective_inner_race_shim_2",
+      "body": "turret",
+      "mechanism": "J1",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_output_shaft",
+      "body": "turret",
+      "mechanism": "J1",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 2430
+    },
+    {
+      "name": "J1_bearing_0",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_bearing_-34",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "large_brake_front_adapter_5",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "J1_brake_strut_0",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_brake_strut_1",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_brake_strut_2",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_brake_strut_3",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_brake_stator",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_brake_armature",
+      "body": "turret",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 1404
+    },
+    {
+      "name": "large_brake_keyed_hub_5",
+      "body": "turret",
+      "mechanism": "J1",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 1658
+    },
+    {
+      "name": "large_brake_shaft_key_6",
+      "body": "turret",
+      "mechanism": "J1",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J1_integral_stop_target",
+      "body": "turret",
+      "mechanism": "J1",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 472
+    },
+    {
+      "name": "J1_stop_pin_0",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J1_stop_pin_1",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J1_brake_back_adapter",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 4212
+    },
+    {
+      "name": "J1_index_sensor",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J1_sensor_mount",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 1106
+    },
+    {
+      "name": "J1_brake_spacer_0",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_brake_spacer_1",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_brake_spacer_2",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_brake_spacer_3",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_brake_spacer_4",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_brake_spacer_5",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_gearhead",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "catalog reducer envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J1_motor",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "catalog motor envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J1_carrier_deck",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 2442
+    },
+    {
+      "name": "J1_housing_rails",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 544
+    },
+    {
+      "name": "J1_front_cover",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 1442
+    },
+    {
+      "name": "J1_tension_block",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 258
+    },
+    {
+      "name": "J1_tension_screw",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_timing_belt",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "structural part",
+      "material": "rubber",
+      "native_mesh_vertices": 11416
+    },
+    {
+      "name": "J1_drive_pulley",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5912
+    },
+    {
+      "name": "J1_input_support_bearing",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_input_shaft",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 288
+    },
+    {
+      "name": "J1_driven_pulley",
+      "body": "turret",
+      "mechanism": "J1",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5916
+    },
+    {
+      "name": "J1_pulley_output_key",
+      "body": "turret",
+      "mechanism": "J1",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J1_pulley_input_key",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J1_gear_mount_screw_0",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_gear_mount_screw_1",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_gear_mount_screw_2",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_gear_mount_screw_3",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_carrier_screw_0",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_carrier_screw_1",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_carrier_screw_2",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J1_carrier_screw_3",
+      "body": "fixed",
+      "mechanism": "J1",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "large_bearing_housing_10",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 1872
+    },
+    {
+      "name": "large_rear_bearing_cover_11",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2574
+    },
+    {
+      "name": "large_front_bearing_cover_12",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "large_inner_race_spacer_0",
+      "body": "upper",
+      "mechanism": "J2",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "large_DIN471_installed_retainer_1",
+      "body": "upper",
+      "mechanism": "J2",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 1232
+    },
+    {
+      "name": "large_selective_inner_race_shim_2",
+      "body": "upper",
+      "mechanism": "J2",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_output_shaft",
+      "body": "upper",
+      "mechanism": "J2",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 2430
+    },
+    {
+      "name": "J2_bearing_0",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_bearing_-34",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "large_brake_front_adapter_15",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "J2_brake_strut_0",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_brake_strut_1",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_brake_strut_2",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_brake_strut_3",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_brake_stator",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_brake_armature",
+      "body": "upper",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 1404
+    },
+    {
+      "name": "large_brake_keyed_hub_5",
+      "body": "upper",
+      "mechanism": "J2",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 1658
+    },
+    {
+      "name": "large_brake_shaft_key_6",
+      "body": "upper",
+      "mechanism": "J2",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J2_integral_stop_target",
+      "body": "upper",
+      "mechanism": "J2",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 472
+    },
+    {
+      "name": "J2_stop_pin_0",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J2_stop_pin_1",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J2_brake_back_adapter",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 4212
+    },
+    {
+      "name": "J2_index_sensor",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J2_sensor_mount",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 1106
+    },
+    {
+      "name": "J2_brake_spacer_0",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_brake_spacer_1",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_brake_spacer_2",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_brake_spacer_3",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_brake_spacer_4",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_brake_spacer_5",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_gearhead",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "catalog reducer envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J2_motor",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "catalog motor envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J2_carrier_deck",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 2442
+    },
+    {
+      "name": "J2_housing_rails",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 544
+    },
+    {
+      "name": "J2_front_cover",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 1442
+    },
+    {
+      "name": "J2_tension_block",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 258
+    },
+    {
+      "name": "J2_tension_screw",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_timing_belt",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "structural part",
+      "material": "rubber",
+      "native_mesh_vertices": 11416
+    },
+    {
+      "name": "J2_drive_pulley",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5912
+    },
+    {
+      "name": "J2_input_support_bearing",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_input_shaft",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 288
+    },
+    {
+      "name": "J2_driven_pulley",
+      "body": "upper",
+      "mechanism": "J2",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5916
+    },
+    {
+      "name": "J2_pulley_output_key",
+      "body": "upper",
+      "mechanism": "J2",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J2_pulley_input_key",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J2_gear_mount_screw_0",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_gear_mount_screw_1",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_gear_mount_screw_2",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_gear_mount_screw_3",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_carrier_screw_0",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_carrier_screw_1",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_carrier_screw_2",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J2_carrier_screw_3",
+      "body": "turret",
+      "mechanism": "J2",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "large_bearing_housing_10",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 1872
+    },
+    {
+      "name": "large_rear_bearing_cover_11",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2574
+    },
+    {
+      "name": "large_front_bearing_cover_12",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "large_inner_race_spacer_0",
+      "body": "fore",
+      "mechanism": "J3",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "large_DIN471_installed_retainer_1",
+      "body": "fore",
+      "mechanism": "J3",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 1232
+    },
+    {
+      "name": "large_selective_inner_race_shim_2",
+      "body": "fore",
+      "mechanism": "J3",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_output_shaft",
+      "body": "fore",
+      "mechanism": "J3",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 2432
+    },
+    {
+      "name": "J3_bearing_0",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_bearing_-34",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "large_brake_front_adapter_15",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "J3_brake_strut_0",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_brake_strut_1",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_brake_strut_2",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_brake_strut_3",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_brake_stator",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_brake_armature",
+      "body": "fore",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 1404
+    },
+    {
+      "name": "large_brake_keyed_hub_5",
+      "body": "fore",
+      "mechanism": "J3",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 1658
+    },
+    {
+      "name": "large_brake_shaft_key_6",
+      "body": "fore",
+      "mechanism": "J3",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J3_integral_stop_target",
+      "body": "fore",
+      "mechanism": "J3",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 472
+    },
+    {
+      "name": "J3_stop_pin_0",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J3_stop_pin_1",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J3_brake_back_adapter",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 4064
+    },
+    {
+      "name": "J3_index_sensor",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J3_sensor_mount",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 1106
+    },
+    {
+      "name": "J3_brake_spacer_0",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_brake_spacer_1",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_brake_spacer_2",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_brake_spacer_3",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_brake_spacer_4",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_brake_spacer_5",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_gearhead",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "catalog reducer envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J3_motor",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "catalog motor envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J3_carrier_deck",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 2442
+    },
+    {
+      "name": "J3_housing_rails",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 544
+    },
+    {
+      "name": "J3_front_cover",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 1442
+    },
+    {
+      "name": "J3_tension_block",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 258
+    },
+    {
+      "name": "J3_tension_screw",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_timing_belt",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "structural part",
+      "material": "rubber",
+      "native_mesh_vertices": 11416
+    },
+    {
+      "name": "J3_drive_pulley",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5912
+    },
+    {
+      "name": "J3_input_support_bearing",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_input_shaft",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 288
+    },
+    {
+      "name": "J3_driven_pulley",
+      "body": "fore",
+      "mechanism": "J3",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5916
+    },
+    {
+      "name": "J3_pulley_output_key",
+      "body": "fore",
+      "mechanism": "J3",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J3_pulley_input_key",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J3_gear_mount_screw_0",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_gear_mount_screw_1",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_gear_mount_screw_2",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_gear_mount_screw_3",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_carrier_screw_0",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_carrier_screw_1",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_carrier_screw_2",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J3_carrier_screw_3",
+      "body": "upper",
+      "mechanism": "J3",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "small_bearing_housing_10",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 1872
+    },
+    {
+      "name": "small_rear_bearing_cover_11",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2574
+    },
+    {
+      "name": "small_front_bearing_cover_12",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "small_inner_race_spacer_0",
+      "body": "roll",
+      "mechanism": "J4",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "small_DIN471_installed_retainer_1",
+      "body": "roll",
+      "mechanism": "J4",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 1232
+    },
+    {
+      "name": "small_selective_inner_race_shim_2",
+      "body": "roll",
+      "mechanism": "J4",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_output_shaft",
+      "body": "roll",
+      "mechanism": "J4",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 2666
+    },
+    {
+      "name": "J4_bearing_0",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_bearing_-20",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "small_brake_front_adapter_15",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "J4_brake_strut_0",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_brake_strut_1",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_brake_strut_2",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_brake_strut_3",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_brake_stator",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_brake_armature",
+      "body": "roll",
+      "mechanism": "J4",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 1002
+    },
+    {
+      "name": "small_brake_keyed_hub_5",
+      "body": "roll",
+      "mechanism": "J4",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 1684
+    },
+    {
+      "name": "small_brake_shaft_key_6",
+      "body": "roll",
+      "mechanism": "J4",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J4_integral_stop_target",
+      "body": "roll",
+      "mechanism": "J4",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 472
+    },
+    {
+      "name": "J4_stop_pin_0",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J4_stop_pin_1",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J4_brake_back_adapter",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 3510
+    },
+    {
+      "name": "J4_index_sensor",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J4_sensor_mount",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 1132
+    },
+    {
+      "name": "J4_brake_spacer_0",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_brake_spacer_1",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_brake_spacer_2",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_gearhead",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "catalog reducer envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J4_motor",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "catalog motor envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J4_carrier_deck",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 2698
+    },
+    {
+      "name": "J4_housing_rails",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 544
+    },
+    {
+      "name": "J4_front_cover",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 1442
+    },
+    {
+      "name": "J4_tension_block",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 258
+    },
+    {
+      "name": "J4_tension_screw",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_timing_belt",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "structural part",
+      "material": "rubber",
+      "native_mesh_vertices": 10584
+    },
+    {
+      "name": "J4_drive_pulley",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5030
+    },
+    {
+      "name": "J4_input_support_bearing",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_input_shaft",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 280
+    },
+    {
+      "name": "J4_driven_pulley",
+      "body": "roll",
+      "mechanism": "J4",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5032
+    },
+    {
+      "name": "J4_pulley_output_key",
+      "body": "roll",
+      "mechanism": "J4",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J4_pulley_input_key",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J4_gear_mount_screw_0",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_gear_mount_screw_1",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_gear_mount_screw_2",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_gear_mount_screw_3",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_gear_mount_screw_4",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_gear_mount_screw_5",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_carrier_screw_0",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_carrier_screw_1",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_carrier_screw_2",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J4_carrier_screw_3",
+      "body": "fore",
+      "mechanism": "J4",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "small_bearing_housing_10",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 1872
+    },
+    {
+      "name": "small_rear_bearing_cover_11",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2574
+    },
+    {
+      "name": "small_front_bearing_cover_12",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "small_inner_race_spacer_0",
+      "body": "bend",
+      "mechanism": "J5",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "small_DIN471_installed_retainer_1",
+      "body": "bend",
+      "mechanism": "J5",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 1232
+    },
+    {
+      "name": "small_selective_inner_race_shim_2",
+      "body": "bend",
+      "mechanism": "J5",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_output_shaft",
+      "body": "bend",
+      "mechanism": "J5",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 2660
+    },
+    {
+      "name": "J5_bearing_0",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_bearing_-20",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "small_brake_front_adapter_15",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "J5_brake_strut_0",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_brake_strut_1",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_brake_strut_2",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_brake_strut_3",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_brake_stator",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_brake_armature",
+      "body": "bend",
+      "mechanism": "J5",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 1002
+    },
+    {
+      "name": "small_brake_keyed_hub_5",
+      "body": "bend",
+      "mechanism": "J5",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 1684
+    },
+    {
+      "name": "small_brake_shaft_key_6",
+      "body": "bend",
+      "mechanism": "J5",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J5_integral_stop_target",
+      "body": "bend",
+      "mechanism": "J5",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 472
+    },
+    {
+      "name": "J5_stop_pin_0",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J5_stop_pin_1",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J5_brake_back_adapter",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 3366
+    },
+    {
+      "name": "J5_index_sensor",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J5_sensor_mount",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 1132
+    },
+    {
+      "name": "J5_brake_spacer_0",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_brake_spacer_1",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_brake_spacer_2",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_gearhead",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "catalog reducer envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J5_motor",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "catalog motor envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J5_carrier_deck",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 2698
+    },
+    {
+      "name": "J5_housing_rails",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 544
+    },
+    {
+      "name": "J5_front_cover",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 1442
+    },
+    {
+      "name": "J5_tension_block",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 258
+    },
+    {
+      "name": "J5_tension_screw",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_timing_belt",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "structural part",
+      "material": "rubber",
+      "native_mesh_vertices": 10584
+    },
+    {
+      "name": "J5_drive_pulley",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5030
+    },
+    {
+      "name": "J5_input_support_bearing",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_input_shaft",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 280
+    },
+    {
+      "name": "J5_driven_pulley",
+      "body": "bend",
+      "mechanism": "J5",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5032
+    },
+    {
+      "name": "J5_pulley_output_key",
+      "body": "bend",
+      "mechanism": "J5",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J5_pulley_input_key",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J5_gear_mount_screw_0",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_gear_mount_screw_1",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_gear_mount_screw_2",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_gear_mount_screw_3",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_gear_mount_screw_4",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_gear_mount_screw_5",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_carrier_screw_0",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_carrier_screw_1",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_carrier_screw_2",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J5_carrier_screw_3",
+      "body": "roll",
+      "mechanism": "J5",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "small_bearing_housing_10",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 1872
+    },
+    {
+      "name": "small_rear_bearing_cover_11",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2574
+    },
+    {
+      "name": "small_front_bearing_cover_12",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "bearing support envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "small_inner_race_spacer_0",
+      "body": "tool",
+      "mechanism": "J6",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "small_DIN471_installed_retainer_1",
+      "body": "tool",
+      "mechanism": "J6",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 1232
+    },
+    {
+      "name": "small_selective_inner_race_shim_2",
+      "body": "tool",
+      "mechanism": "J6",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_output_shaft",
+      "body": "tool",
+      "mechanism": "J6",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 2666
+    },
+    {
+      "name": "J6_bearing_0",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_bearing_-20",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "small_brake_front_adapter_15",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 2340
+    },
+    {
+      "name": "J6_brake_strut_0",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_brake_strut_1",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_brake_strut_2",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_brake_strut_3",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_brake_stator",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_brake_armature",
+      "body": "tool",
+      "mechanism": "J6",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 1002
+    },
+    {
+      "name": "small_brake_keyed_hub_5",
+      "body": "tool",
+      "mechanism": "J6",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 1684
+    },
+    {
+      "name": "small_brake_shaft_key_6",
+      "body": "tool",
+      "mechanism": "J6",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J6_integral_stop_target",
+      "body": "tool",
+      "mechanism": "J6",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 472
+    },
+    {
+      "name": "J6_stop_pin_0",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J6_stop_pin_1",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J6_brake_back_adapter",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "output-side brake",
+      "material": "aluminum",
+      "native_mesh_vertices": 3510
+    },
+    {
+      "name": "J6_index_sensor",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J6_sensor_mount",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 1132
+    },
+    {
+      "name": "J6_brake_spacer_0",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_brake_spacer_1",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_brake_spacer_2",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "output-side brake",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_gearhead",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "catalog reducer envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J6_motor",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "catalog motor envelope",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "J6_carrier_deck",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 2698
+    },
+    {
+      "name": "J6_housing_rails",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 544
+    },
+    {
+      "name": "J6_front_cover",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "removable enclosure and support",
+      "material": "aluminum",
+      "native_mesh_vertices": 1442
+    },
+    {
+      "name": "J6_tension_block",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 258
+    },
+    {
+      "name": "J6_tension_screw",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_timing_belt",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "structural part",
+      "material": "rubber",
+      "native_mesh_vertices": 10584
+    },
+    {
+      "name": "J6_drive_pulley",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5030
+    },
+    {
+      "name": "J6_input_support_bearing",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_input_shaft",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "rotating torque path",
+      "material": "steel",
+      "native_mesh_vertices": 280
+    },
+    {
+      "name": "J6_driven_pulley",
+      "body": "tool",
+      "mechanism": "J6",
+      "role": "keyed toothed transmission",
+      "material": "aluminum",
+      "native_mesh_vertices": 5032
+    },
+    {
+      "name": "J6_pulley_output_key",
+      "body": "tool",
+      "mechanism": "J6",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J6_pulley_input_key",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "keyed toothed transmission",
+      "material": "steel",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "J6_gear_mount_screw_0",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_gear_mount_screw_1",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_gear_mount_screw_2",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_gear_mount_screw_3",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_gear_mount_screw_4",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_gear_mount_screw_5",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_carrier_screw_0",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_carrier_screw_1",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_carrier_screw_2",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "J6_carrier_screw_3",
+      "body": "bend",
+      "mechanism": "J6",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_plate_42",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 3056
+    },
+    {
+      "name": "pedestal_sleeve_43",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 2964
+    },
+    {
+      "name": "bench_backing_washer_44",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_bolt_45",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_nut_46",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_backing_washer_47",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_bolt_48",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_nut_49",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_backing_washer_50",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_bolt_51",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_nut_52",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_backing_washer_53",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_bolt_54",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_nut_55",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_backing_washer_56",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_bolt_57",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_nut_58",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_backing_washer_59",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_bolt_60",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "bench_mount_nut_61",
+      "body": "fixed",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "turret_yoke_52",
+      "body": "turret",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 3110
+    },
+    {
+      "name": "upper_link_tube_52",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 8960
+    },
+    {
+      "name": "upper_root_ear_53",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 2020
+    },
+    {
+      "name": "upper_nut_strip_54",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 1968
+    },
+    {
+      "name": "fore_link_tube_51",
+      "body": "fore",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 6132
+    },
+    {
+      "name": "fore_root_ear_52",
+      "body": "fore",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 2044
+    },
+    {
+      "name": "fore_nut_strip_53",
+      "body": "fore",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 984
+    },
+    {
+      "name": "upper_elbow_housing_clamp_55",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 2198
+    },
+    {
+      "name": "fore_roll_housing_clamp_54",
+      "body": "fore",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 1676
+    },
+    {
+      "name": "fore_clamp_side_shims_55",
+      "body": "fore",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 984
+    },
+    {
+      "name": "wrist_roll_fork_51",
+      "body": "roll",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 4284
+    },
+    {
+      "name": "idle_bearing_inner_cover_52",
+      "body": "roll",
+      "mechanism": "structure_or_counterbalance",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 1404
+    },
+    {
+      "name": "idle_bearing_outer_cover_53",
+      "body": "roll",
+      "mechanism": "structure_or_counterbalance",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 1404
+    },
+    {
+      "name": "J5_idle_bearing",
+      "body": "roll",
+      "mechanism": "structure_or_counterbalance",
+      "role": "bearing support envelope",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "wrist_bend_cradle_51",
+      "body": "bend",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 4372
+    },
+    {
+      "name": "wrist_idle_trunnion_52",
+      "body": "bend",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 1170
+    },
+    {
+      "name": "gripper_bridge_10",
+      "body": "tool",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 6734
+    },
+    {
+      "name": "gripper_motor",
+      "body": "tool",
+      "mechanism": "structure_or_counterbalance",
+      "role": "catalog motor envelope",
+      "material": "aluminum",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "gripper_pinion_m0p3_z20_12",
+      "body": "tool",
+      "mechanism": "structure_or_counterbalance",
+      "role": "gripper transmission or contact",
+      "material": "steel",
+      "native_mesh_vertices": 4122
+    },
+    {
+      "name": "pinion_front_bushing_13",
+      "body": "tool",
+      "mechanism": "structure_or_counterbalance",
+      "role": "gripper transmission or contact",
+      "material": "steel",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "guide_rod_-10",
+      "body": "tool",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "guide_rod_10",
+      "body": "tool",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "right_jaw_carriage_0",
+      "body": "jaw",
+      "mechanism": "structure_or_counterbalance",
+      "role": "gripper transmission or contact",
+      "material": "aluminum",
+      "native_mesh_vertices": 774
+    },
+    {
+      "name": "finger_pad_1",
+      "body": "jaw",
+      "mechanism": "structure_or_counterbalance",
+      "role": "gripper transmission or contact",
+      "material": "rubber",
+      "native_mesh_vertices": 24
+    },
+    {
+      "name": "jaw_guide_bushing_2",
+      "body": "jaw",
+      "mechanism": "structure_or_counterbalance",
+      "role": "gripper transmission or contact",
+      "material": "polymer",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "jaw_guide_bushing_3",
+      "body": "jaw",
+      "mechanism": "structure_or_counterbalance",
+      "role": "gripper transmission or contact",
+      "material": "polymer",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "upper_rack",
+      "body": "jaw",
+      "mechanism": "structure_or_counterbalance",
+      "role": "gripper transmission or contact",
+      "material": "steel",
+      "native_mesh_vertices": 1458
+    },
+    {
+      "name": "gripper_cable_clamp_mount_16",
+      "body": "tool",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 960
+    },
+    {
+      "name": "gripper_cable_clamp_base_17",
+      "body": "tool",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 616
+    },
+    {
+      "name": "gripper_cable_clamp_cap_18",
+      "body": "tool",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "aluminum",
+      "native_mesh_vertices": 616
+    },
+    {
+      "name": "gripper_cable_clamp_liner_19",
+      "body": "tool",
+      "mechanism": "structure_or_counterbalance",
+      "role": "structural part",
+      "material": "rubber",
+      "native_mesh_vertices": 468
+    },
+    {
+      "name": "shoulder_spring_fixed_clevis_53",
+      "body": "turret",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "aluminum",
+      "native_mesh_vertices": 2088
+    },
+    {
+      "name": "shoulder_spring_moving_clevis_56",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "aluminum",
+      "native_mesh_vertices": 1968
+    },
+    {
+      "name": "shoulder_spring_nut_plate_57",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 960
+    },
+    {
+      "name": "spring_eye_pin_54",
+      "body": "turret",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "spring_eye_pin_58",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "spring_eye_pin_55",
+      "body": "turret",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "spring_eye_pin_59",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "elbow_spring_fixed_clevis_62",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "aluminum",
+      "native_mesh_vertices": 1992
+    },
+    {
+      "name": "elbow_fixed_anchor_nut_strips_63",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 984
+    },
+    {
+      "name": "elbow_spring_moving_clevis_56",
+      "body": "fore",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "aluminum",
+      "native_mesh_vertices": 3032
+    },
+    {
+      "name": "elbow_moving_anchor_nut_plate_57",
+      "body": "fore",
+      "mechanism": "structure_or_counterbalance",
+      "role": "assembly hardware",
+      "material": "steel",
+      "native_mesh_vertices": 984
+    },
+    {
+      "name": "spring_eye_pin_64",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "spring_eye_pin_58",
+      "body": "fore",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "spring_eye_pin_65",
+      "body": "upper",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    },
+    {
+      "name": "spring_eye_pin_59",
+      "body": "fore",
+      "mechanism": "structure_or_counterbalance",
+      "role": "counterbalance attachment",
+      "material": "steel",
+      "native_mesh_vertices": 234
+    }
+  ],
+  "spring_count": 4,
+  "scope": "Vendor motor/reducer/brake internals and bearing rolling elements are not modeled. Film inspection may move actual modeled parts only."
+}

@@ -1,0 +1,14 @@
+{
+  "revision": "P5",
+  "shader": "ARX-6-P5-Replay.glsl",
+  "shader_sha256": "3998db9eddaea3eceb328cd7f44dfa2b447360237d70cadf435549d8f0dbc0f3",
+  "source_shader_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+  "builder_sha256": "7dce42775889562f52031cf277bd0798d33fd78111bb3fbdbaff56f3f17e1946",
+  "trajectory_sha256": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+  "states": 1201,
+  "rate_Hz": 119.99999999990402,
+  "cycle_seconds": 10.000000000007999,
+  "position_quantization_max_m": 1.4894252220454263e-08,
+  "bytes": 757942,
+  "scope": "Recorded physical state replay. The independent physical solver is in the Engineering package and HTML viewer."
+}

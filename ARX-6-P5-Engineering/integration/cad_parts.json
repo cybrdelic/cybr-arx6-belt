@@ -1,0 +1,710 @@
+{
+  "large_bearing_housing": {
+    "material": "aluminum",
+    "volume_mm3": 44244.80863239105,
+    "mass_kg": 0.11946098330745583,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_rear_bearing_cover": {
+    "material": "aluminum",
+    "volume_mm3": 11978.61632798436,
+    "mass_kg": 0.03234226408555778,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_front_bearing_cover": {
+    "material": "aluminum",
+    "volume_mm3": 4763.98649812725,
+    "mass_kg": 0.012862763544943577,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_output_shaft": {
+    "material": "steel",
+    "volume_mm3": 52848.960384149184,
+    "mass_kg": 0.4148643390155711,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_inner_race_spacer": {
+    "material": "steel",
+    "volume_mm3": 2832.161485174467,
+    "mass_kg": 0.022232467658619567,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_bearing_housing": {
+    "material": "aluminum",
+    "volume_mm3": 12332.259129813672,
+    "mass_kg": 0.03329709965049692,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_rear_bearing_cover": {
+    "material": "aluminum",
+    "volume_mm3": 5923.2279041165775,
+    "mass_kg": 0.01599271534111476,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_front_bearing_cover": {
+    "material": "aluminum",
+    "volume_mm3": 2134.775039967336,
+    "mass_kg": 0.005763892607911808,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_output_shaft": {
+    "material": "steel",
+    "volume_mm3": 11151.409362834498,
+    "mass_kg": 0.08753856349825082,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_inner_race_spacer": {
+    "material": "steel",
+    "volume_mm3": 986.8685002721616,
+    "mass_kg": 0.007746917727136469,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_DIN471_installed_retainer": {
+    "material": "steel",
+    "volume_mm3": 212.13738956640145,
+    "mass_kg": 0.0016652785080962516,
+    "status": "Purchased A20/A12 installed clearance envelope; not a free-state supplier drawing"
+  },
+  "large_selective_inner_race_shim": {
+    "material": "steel",
+    "volume_mm3": 8.384125394267883,
+    "mass_kg": 6.581538434500288e-05,
+    "status": "Nominal 0.10mm selective shim: inspect endplay and choose thickness during assembly"
+  },
+  "small_DIN471_installed_retainer": {
+    "material": "steel",
+    "volume_mm3": 76.01447493549459,
+    "mass_kg": 0.0005967136282436325,
+    "status": "Purchased A20/A12 installed clearance envelope; not a free-state supplier drawing"
+  },
+  "small_selective_inner_race_shim": {
+    "material": "steel",
+    "volume_mm3": 5.2425327406780395,
+    "mass_kg": 4.115388201432261e-05,
+    "status": "Nominal 0.10mm selective shim: inspect endplay and choose thickness during assembly"
+  },
+  "upper_link_tube": {
+    "material": "aluminum",
+    "volume_mm3": 76530.46899164055,
+    "mass_kg": 0.2066322662774295,
+    "status": "Custom nominal prototype geometry"
+  },
+  "fore_link_tube": {
+    "material": "aluminum",
+    "volume_mm3": 73929.61559188135,
+    "mass_kg": 0.19960996209807963,
+    "status": "Custom nominal prototype geometry"
+  },
+  "upper_root_ear": {
+    "material": "aluminum",
+    "volume_mm3": 23975.220833456482,
+    "mass_kg": 0.06473309625033251,
+    "status": "Custom nominal prototype geometry"
+  },
+  "fore_root_ear": {
+    "material": "aluminum",
+    "volume_mm3": 30035.220833456486,
+    "mass_kg": 0.08109509625033251,
+    "status": "Custom nominal prototype geometry"
+  },
+  "upper_elbow_housing_clamp": {
+    "material": "aluminum",
+    "volume_mm3": 93765.63723630112,
+    "mass_kg": 0.25316722053801305,
+    "status": "Custom nominal prototype geometry"
+  },
+  "upper_nut_strip": {
+    "material": "steel",
+    "volume_mm3": 8262.98766708811,
+    "mass_kg": 0.06486445318664166,
+    "status": "Custom nominal prototype geometry"
+  },
+  "fore_nut_strip": {
+    "material": "steel",
+    "volume_mm3": 3987.4938335440556,
+    "mass_kg": 0.031301826593320835,
+    "status": "Custom nominal prototype geometry"
+  },
+  "fore_roll_housing_clamp": {
+    "material": "aluminum",
+    "volume_mm3": 24543.83793359903,
+    "mass_kg": 0.06626836242071737,
+    "status": "Custom nominal prototype geometry"
+  },
+  "fore_clamp_side_shims": {
+    "material": "steel",
+    "volume_mm3": 1448.3827487648068,
+    "mass_kg": 0.011369804577803734,
+    "status": "Two1mm shims close the clamp-to-tube wall gap"
+  },
+  "bench_mount_plate": {
+    "material": "aluminum",
+    "volume_mm3": 452023.7218514066,
+    "mass_kg": 1.220464048998798,
+    "status": "Custom nominal prototype geometry"
+  },
+  "bench_backing_washer": {
+    "material": "steel",
+    "volume_mm3": 3913.049999586937,
+    "mass_kg": 0.030717442496757456,
+    "status": "Six separate underside spreader washers preserve service access to the folded carrier"
+  },
+  "bench_mount_bolt": {
+    "material": "steel",
+    "volume_mm3": 4187.743007235194,
+    "mass_kg": 0.03287378260679628,
+    "status": "Nominal M8 bolt envelope; head and through-hole geometry, no thread helix"
+  },
+  "bench_mount_nut": {
+    "material": "steel",
+    "volume_mm3": 614.4483991523598,
+    "mass_kg": 0.004823419933346025,
+    "status": "Nominal M8 retaining nut envelope; torque and locking method require assembly specification"
+  },
+  "pedestal_sleeve": {
+    "material": "aluminum",
+    "volume_mm3": 302329.36545277544,
+    "mass_kg": 0.8162892867224937,
+    "status": "Custom nominal prototype geometry"
+  },
+  "turret_yoke": {
+    "material": "aluminum",
+    "volume_mm3": 144503.66574720462,
+    "mass_kg": 0.3901598975174525,
+    "status": "Custom nominal prototype geometry"
+  },
+  "wrist_roll_fork": {
+    "material": "aluminum",
+    "volume_mm3": 56559.469307378116,
+    "mass_kg": 0.1527105671299209,
+    "status": "Custom nominal prototype geometry"
+  },
+  "wrist_bend_cradle": {
+    "material": "aluminum",
+    "volume_mm3": 57508.118099748055,
+    "mass_kg": 0.15527191886931974,
+    "status": "Custom nominal prototype geometry"
+  },
+  "wrist_idle_trunnion": {
+    "material": "steel",
+    "volume_mm3": 1859.0963576240144,
+    "mass_kg": 0.014593906407348515,
+    "status": "Custom M6x1 thread on18..29; journal12k5; circlip groove inspect"
+  },
+  "idle_bearing_inner_cover": {
+    "material": "steel",
+    "volume_mm3": 440.2250953622311,
+    "mass_kg": 0.0034557669985935146,
+    "status": "Custom nominal prototype geometry"
+  },
+  "idle_bearing_outer_cover": {
+    "material": "steel",
+    "volume_mm3": 1100.5627384055763,
+    "mass_kg": 0.008639417496483774,
+    "status": "Custom nominal prototype geometry"
+  },
+  "gripper_bridge": {
+    "material": "aluminum",
+    "volume_mm3": 27527.39083004821,
+    "mass_kg": 0.07432395524113018,
+    "status": "Custom nominal prototype geometry"
+  },
+  "right_jaw_carriage": {
+    "material": "aluminum",
+    "volume_mm3": 6536.178446654644,
+    "mass_kg": 0.01764768180596754,
+    "status": "Custom nominal prototype geometry"
+  },
+  "left_jaw_carriage": {
+    "material": "aluminum",
+    "volume_mm3": 6536.178446654644,
+    "mass_kg": 0.01764768180596754,
+    "status": "Custom nominal prototype geometry"
+  },
+  "finger_pad": {
+    "material": "rubber",
+    "volume_mm3": 794.8800000000001,
+    "mass_kg": 0.0008743680000000002,
+    "status": "Bonded replaceable silicone insert; bond strength and friction require coupon test"
+  },
+  "jaw_guide_bushing": {
+    "material": "polymer",
+    "volume_mm3": 124.65588322032015,
+    "mass_kg": 0.00014335426570336819,
+    "status": "Custom nominal prototype geometry"
+  },
+  "pinion_front_bushing": {
+    "material": "steel",
+    "volume_mm3": 156.6068229851244,
+    "mass_kg": 0.0012293635604332268,
+    "status": "Custom oil-impregnated bronze sleeve; CAD density conservatively approximated by steel"
+  },
+  "gripper_pinion_m0p3_z20": {
+    "material": "steel",
+    "volume_mm3": 312.63506029608766,
+    "mass_kg": 0.002454185223324288,
+    "status": "Sampled involute with 0.06mm root blend, physical 3.05mm/2.55mm D socket and front journal; active flank metrology, shaft tolerance and process qualification required"
+  },
+  "gripper_rack_m0p3": {
+    "material": "steel",
+    "volume_mm3": 951.0029052375247,
+    "mass_kg": 0.00746537280611457,
+    "status": "Custom nominal rack profile; grind and inspect backlash before assembly"
+  },
+  "large_brake_front_adapter": {
+    "material": "aluminum",
+    "volume_mm3": 30091.808064262903,
+    "mass_kg": 0.08124788177350985,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_brake_back_adapter": {
+    "material": "aluminum",
+    "volume_mm3": 34772.341295140155,
+    "mass_kg": 0.09388532149687842,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_brake_guard_strut": {
+    "material": "steel",
+    "volume_mm3": 1893.3750604654963,
+    "mass_kg": 0.014862994224654147,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_brake_vendor_envelope": {
+    "material": "steel",
+    "volume_mm3": 191951.3111343364,
+    "mass_kg": 1.506817792404541,
+    "status": "CONFIGURED VENDOR ENVELOPE, not an internal manufacturing model; supplier drawing approval required"
+  },
+  "large_brake_keyed_hub": {
+    "material": "steel",
+    "volume_mm3": 16324.213313205171,
+    "mass_kg": 0.1281450745086606,
+    "status": "Custom keyed adapter to configured brake armature; vendor fastening pattern not released"
+  },
+  "large_brake_shaft_key": {
+    "material": "steel",
+    "volume_mm3": 1656.0,
+    "mass_kg": 0.0129996,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_integral_steel_stop_target": {
+    "material": "steel",
+    "volume_mm3": 3995.887819840933,
+    "mass_kg": 0.03136771938575132,
+    "status": "Integral steel target/stop tab; angular datum and stop impact strength require inspection"
+  },
+  "large_stop_pin": {
+    "material": "steel",
+    "volume_mm3": 125.6637061435917,
+    "mass_kg": 0.0009864600932271948,
+    "status": "Retained dowel pin envelope; not an impact-energy-rated stop"
+  },
+  "large_index_sensor_envelope": {
+    "material": "steel",
+    "volume_mm3": 314.15926535897927,
+    "mass_kg": 0.0024661502330679875,
+    "status": "M5 radial index sensor envelope; catalog part selection remains open"
+  },
+  "small_brake_front_adapter": {
+    "material": "aluminum",
+    "volume_mm3": 8425.248842103252,
+    "mass_kg": 0.022748171873678783,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_brake_back_adapter": {
+    "material": "aluminum",
+    "volume_mm3": 9065.882416023282,
+    "mass_kg": 0.024477882523262863,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_brake_guard_strut": {
+    "material": "steel",
+    "volume_mm3": 559.596191420682,
+    "mass_kg": 0.004392830102652353,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_brake_vendor_envelope": {
+    "material": "steel",
+    "volume_mm3": 28082.009507046194,
+    "mass_kg": 0.22044377463031264,
+    "status": "CONFIGURED VENDOR ENVELOPE, not an internal manufacturing model; supplier drawing approval required"
+  },
+  "small_brake_keyed_hub": {
+    "material": "steel",
+    "volume_mm3": 2296.448450124349,
+    "mass_kg": 0.018027120333476143,
+    "status": "Custom keyed adapter to configured brake armature; vendor fastening pattern not released"
+  },
+  "small_brake_shaft_key": {
+    "material": "steel",
+    "volume_mm3": 120.0,
+    "mass_kg": 0.000942,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_integral_steel_stop_target": {
+    "material": "steel",
+    "volume_mm3": 579.313514975093,
+    "mass_kg": 0.00454761109255448,
+    "status": "Integral steel target/stop tab; angular datum and stop impact strength require inspection"
+  },
+  "small_stop_pin": {
+    "material": "steel",
+    "volume_mm3": 49.480084294039244,
+    "mass_kg": 0.0003884186617082081,
+    "status": "Retained dowel pin envelope; not an impact-energy-rated stop"
+  },
+  "small_index_sensor_envelope": {
+    "material": "steel",
+    "volume_mm3": 314.15926535897927,
+    "mass_kg": 0.0024661502330679875,
+    "status": "M5 radial index sensor envelope; catalog part selection remains open"
+  },
+  "gripper_cable_clamp_base": {
+    "material": "aluminum",
+    "volume_mm3": 296.6683709268178,
+    "mass_kg": 0.0008010046015024081,
+    "status": "Custom nominal prototype geometry"
+  },
+  "gripper_cable_clamp_cap": {
+    "material": "aluminum",
+    "volume_mm3": 296.6683709268177,
+    "mass_kg": 0.0008010046015024079,
+    "status": "Custom nominal prototype geometry"
+  },
+  "gripper_cable_clamp_liner": {
+    "material": "rubber",
+    "volume_mm3": 49.48008429403924,
+    "mass_kg": 5.442809272344316e-05,
+    "status": "Split liner; compression and cable pull tests required"
+  },
+  "gripper_cable_clamp_mount": {
+    "material": "aluminum",
+    "volume_mm3": 1736.618368213826,
+    "mass_kg": 0.004688869594177331,
+    "status": "Custom nominal prototype geometry"
+  },
+  "shoulder_spring_fixed_clevis": {
+    "material": "aluminum",
+    "volume_mm3": 56280.130155736144,
+    "mass_kg": 0.15195635142048758,
+    "status": "Custom nominal prototype geometry"
+  },
+  "shoulder_spring_moving_clevis": {
+    "material": "aluminum",
+    "volume_mm3": 15674.38169810374,
+    "mass_kg": 0.0423208305848801,
+    "status": "Custom nominal prototype geometry"
+  },
+  "spring_eye_pin": {
+    "material": "steel",
+    "volume_mm3": 201.0619298297467,
+    "mass_kg": 0.0015783361491635117,
+    "status": "4 mm retained pin; washers/cotters and bearing stress to be qualified"
+  },
+  "shoulder_spring_nut_plate": {
+    "material": "steel",
+    "volume_mm3": 5938.329222362703,
+    "mass_kg": 0.04661588439554722,
+    "status": "Custom nominal prototype geometry"
+  },
+  "shoulder_extension_spring": {
+    "material": "steel",
+    "volume_mm3": 10869.084532340923,
+    "mass_kg": 0.08532231357887625,
+    "status": "Proposed coil/eye geometry; initial tension, hook form and fatigue require spring supplier review"
+  },
+  "elbow_spring_fixed_clevis": {
+    "material": "aluminum",
+    "volume_mm3": 19290.275732133825,
+    "mass_kg": 0.052083744476761326,
+    "status": "Custom nominal prototype geometry"
+  },
+  "elbow_fixed_anchor_nut_strips": {
+    "material": "steel",
+    "volume_mm3": 4275.493833544055,
+    "mass_kg": 0.033562626593320835,
+    "status": "Custom nominal prototype geometry"
+  },
+  "elbow_spring_moving_clevis": {
+    "material": "aluminum",
+    "volume_mm3": 39010.8289656616,
+    "mass_kg": 0.10532923820728633,
+    "status": "Custom nominal prototype geometry"
+  },
+  "elbow_moving_anchor_nut_plate": {
+    "material": "steel",
+    "volume_mm3": 4275.493833544055,
+    "mass_kg": 0.033562626593320835,
+    "status": "Short lever bolts into negative-wall nut strips at existing forearm tube holes; not floating at the joint"
+  },
+  "elbow_extension_spring": {
+    "material": "steel",
+    "volume_mm3": 2793.392699908546,
+    "mass_kg": 0.02192813269428209,
+    "status": "Proposed extension spring: geometry and mass computed; winding initial tension, hook and fatigue require supplier qualification"
+  },
+  "large_folded_driven_pulley": {
+    "material": "aluminum",
+    "volume_mm3": 59697.85496952572,
+    "mass_kg": 0.16118420841771944,
+    "status": "Custom 1:1 synchronous pulley, rounded nominal tooth section; supplier cutter and fatigue qualification required"
+  },
+  "large_folded_drive_pulley": {
+    "material": "aluminum",
+    "volume_mm3": 65221.20583724904,
+    "mass_kg": 0.17609725576057242,
+    "status": "Gearhead-side keyed pulley; explicit tooth phase matches finite closed belt"
+  },
+  "large_folded_timing_belt": {
+    "material": "rubber",
+    "volume_mm3": 32864.652285212775,
+    "mass_kg": 0.03615111751373405,
+    "status": "Actual 80/75-tooth closed nominal belt geometry; mass uses homogeneous elastomer approximation"
+  },
+  "large_folded_carrier_deck": {
+    "material": "aluminum",
+    "volume_mm3": 57379.318202040886,
+    "mass_kg": 0.15492415914551042,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_folded_housing_rails": {
+    "material": "aluminum",
+    "volume_mm3": 43110.93906246575,
+    "mass_kg": 0.11639953546865754,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_folded_front_cover": {
+    "material": "aluminum",
+    "volume_mm3": 30624.356808152508,
+    "mass_kg": 0.08268576338201178,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_folded_input_support_bearing": {
+    "material": "steel",
+    "volume_mm3": 4021.238596594936,
+    "mass_kg": 0.03156672298327025,
+    "status": "Additional outboard bearing envelope; exact series, preload and life require supplier approval"
+  },
+  "large_folded_input_shaft": {
+    "material": "steel",
+    "volume_mm3": 6309.550346438784,
+    "mass_kg": 0.04952997021954446,
+    "status": "Keyed input extension and outboard bearing journal; actual configured shaft/key interface must be approved"
+  },
+  "large_folded_tension_block": {
+    "material": "aluminum",
+    "volume_mm3": 599.3663778490039,
+    "mass_kg": 0.0016182892201923108,
+    "status": "Custom nominal prototype geometry"
+  },
+  "large_folded_tension_screw": {
+    "material": "steel",
+    "volume_mm3": 341.6482010778899,
+    "mass_kg": 0.0026819383784614354,
+    "status": "Nominal adjustment screw; thread helix omitted, locked after setting measured belt tension"
+  },
+  "small_folded_driven_pulley": {
+    "material": "aluminum",
+    "volume_mm3": 11056.817071572088,
+    "mass_kg": 0.02985340609324464,
+    "status": "Custom 1:1 synchronous pulley, rounded nominal tooth section; supplier cutter and fatigue qualification required"
+  },
+  "small_folded_drive_pulley": {
+    "material": "aluminum",
+    "volume_mm3": 10833.080831063331,
+    "mass_kg": 0.029249318243870993,
+    "status": "Gearhead-side keyed pulley; explicit tooth phase matches finite closed belt"
+  },
+  "small_folded_timing_belt": {
+    "material": "rubber",
+    "volume_mm3": 7028.634044286499,
+    "mass_kg": 0.00773149744871515,
+    "status": "Actual 80/75-tooth closed nominal belt geometry; mass uses homogeneous elastomer approximation"
+  },
+  "small_folded_carrier_deck": {
+    "material": "aluminum",
+    "volume_mm3": 18302.98632441214,
+    "mass_kg": 0.04941806307591278,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_folded_housing_rails": {
+    "material": "aluminum",
+    "volume_mm3": 19849.45683967194,
+    "mass_kg": 0.05359353346711424,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_folded_front_cover": {
+    "material": "aluminum",
+    "volume_mm3": 12758.737734495928,
+    "mass_kg": 0.03444859188313901,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_folded_input_support_bearing": {
+    "material": "steel",
+    "volume_mm3": 2049.88920646734,
+    "mass_kg": 0.016091630270768622,
+    "status": "Additional outboard bearing envelope; exact series, preload and life require supplier approval"
+  },
+  "small_folded_input_shaft": {
+    "material": "steel",
+    "volume_mm3": 1839.236509307842,
+    "mass_kg": 0.01443800659806656,
+    "status": "Keyed input extension and outboard bearing journal; actual configured shaft/key interface must be approved"
+  },
+  "small_folded_tension_block": {
+    "material": "aluminum",
+    "volume_mm3": 408.73009183012766,
+    "mass_kg": 0.0011035712479413448,
+    "status": "Custom nominal prototype geometry"
+  },
+  "small_folded_tension_screw": {
+    "material": "steel",
+    "volume_mm3": 195.9411338043954,
+    "mass_kg": 0.001538137900364504,
+    "status": "Nominal adjustment screw; thread helix omitted, locked after setting measured belt tension"
+  },
+  "J1_clocked_output_shaft": {
+    "material": "steel",
+    "volume_mm3": 52161.85808936403,
+    "mass_kg": 0.40947058600150765,
+    "status": "Brake key datum +X; pulley key seat clocked to the actual folded transmission"
+  },
+  "J1_clocked_stop_target": {
+    "material": "steel",
+    "volume_mm3": 3995.887819840944,
+    "mass_kg": 0.03136771938575141,
+    "status": "Joint-specific tab angle; shaft key datum stays +X"
+  },
+  "J1_stop_pin_backplate": {
+    "material": "aluminum",
+    "volume_mm3": 34671.81033022528,
+    "mass_kg": 0.09361388789160825,
+    "status": "Joint-specific retained stop dowel holes; impact strength unqualified"
+  },
+  "J1_index_sensor_mount": {
+    "material": "aluminum",
+    "volume_mm3": 608.6470846037358,
+    "mass_kg": 0.0016433471284300867,
+    "status": "Bolted radial M5 sensor mount; keeps the sensing face unobstructed"
+  },
+  "J2_clocked_output_shaft": {
+    "material": "steel",
+    "volume_mm3": 52161.85808936403,
+    "mass_kg": 0.40947058600150765,
+    "status": "Brake key datum +X; pulley key seat clocked to the actual folded transmission"
+  },
+  "J2_clocked_stop_target": {
+    "material": "steel",
+    "volume_mm3": 3995.88781984095,
+    "mass_kg": 0.03136771938575146,
+    "status": "Joint-specific tab angle; shaft key datum stays +X"
+  },
+  "J2_stop_pin_backplate": {
+    "material": "aluminum",
+    "volume_mm3": 34671.810330225286,
+    "mass_kg": 0.09361388789160828,
+    "status": "Joint-specific retained stop dowel holes; impact strength unqualified"
+  },
+  "J2_index_sensor_mount": {
+    "material": "aluminum",
+    "volume_mm3": 608.6470846037358,
+    "mass_kg": 0.0016433471284300867,
+    "status": "Bolted radial M5 sensor mount; keeps the sensing face unobstructed"
+  },
+  "J3_clocked_output_shaft": {
+    "material": "steel",
+    "volume_mm3": 52161.85808936403,
+    "mass_kg": 0.40947058600150765,
+    "status": "Brake key datum +X; pulley key seat clocked to the actual folded transmission"
+  },
+  "J3_clocked_stop_target": {
+    "material": "steel",
+    "volume_mm3": 3995.887819840934,
+    "mass_kg": 0.03136771938575133,
+    "status": "Joint-specific tab angle; shaft key datum stays +X"
+  },
+  "J3_stop_pin_backplate": {
+    "material": "aluminum",
+    "volume_mm3": 34685.73417027667,
+    "mass_kg": 0.09365148225974702,
+    "status": "Joint-specific retained stop dowel holes; impact strength unqualified"
+  },
+  "J3_index_sensor_mount": {
+    "material": "aluminum",
+    "volume_mm3": 608.6470846037358,
+    "mass_kg": 0.0016433471284300867,
+    "status": "Bolted radial M5 sensor mount; keeps the sensing face unobstructed"
+  },
+  "J4_clocked_output_shaft": {
+    "material": "steel",
+    "volume_mm3": 11097.159659639645,
+    "mass_kg": 0.08711270332817121,
+    "status": "Brake key datum +X; pulley key seat clocked to the actual folded transmission"
+  },
+  "J4_clocked_stop_target": {
+    "material": "steel",
+    "volume_mm3": 579.3135149750935,
+    "mass_kg": 0.004547611092554485,
+    "status": "Joint-specific tab angle; shaft key datum stays +X"
+  },
+  "J4_stop_pin_backplate": {
+    "material": "aluminum",
+    "volume_mm3": 9009.333748258667,
+    "mass_kg": 0.0243252011202984,
+    "status": "Joint-specific retained stop dowel holes; impact strength unqualified"
+  },
+  "J4_index_sensor_mount": {
+    "material": "aluminum",
+    "volume_mm3": 506.16313750426406,
+    "mass_kg": 0.001366640471261513,
+    "status": "Bolted radial M5 sensor mount; keeps the sensing face unobstructed"
+  },
+  "J5_clocked_output_shaft": {
+    "material": "steel",
+    "volume_mm3": 11097.159659639643,
+    "mass_kg": 0.0871127033281712,
+    "status": "Brake key datum +X; pulley key seat clocked to the actual folded transmission"
+  },
+  "J5_clocked_stop_target": {
+    "material": "steel",
+    "volume_mm3": 579.3135149750937,
+    "mass_kg": 0.004547611092554486,
+    "status": "Joint-specific tab angle; shaft key datum stays +X"
+  },
+  "J5_stop_pin_backplate": {
+    "material": "aluminum",
+    "volume_mm3": 9015.488394201633,
+    "mass_kg": 0.02434181866434441,
+    "status": "Joint-specific retained stop dowel holes; impact strength unqualified"
+  },
+  "J5_index_sensor_mount": {
+    "material": "aluminum",
+    "volume_mm3": 506.16313750426406,
+    "mass_kg": 0.001366640471261513,
+    "status": "Bolted radial M5 sensor mount; keeps the sensing face unobstructed"
+  },
+  "J6_clocked_output_shaft": {
+    "material": "steel",
+    "volume_mm3": 11097.159659639645,
+    "mass_kg": 0.08711270332817121,
+    "status": "Brake key datum +X; pulley key seat clocked to the actual folded transmission"
+  },
+  "J6_clocked_stop_target": {
+    "material": "steel",
+    "volume_mm3": 579.3135149750935,
+    "mass_kg": 0.004547611092554485,
+    "status": "Joint-specific tab angle; shaft key datum stays +X"
+  },
+  "J6_stop_pin_backplate": {
+    "material": "aluminum",
+    "volume_mm3": 9009.333748258667,
+    "mass_kg": 0.0243252011202984,
+    "status": "Joint-specific retained stop dowel holes; impact strength unqualified"
+  },
+  "J6_index_sensor_mount": {
+    "material": "aluminum",
+    "volume_mm3": 506.16313750426406,
+    "mass_kg": 0.001366640471261513,
+    "status": "Bolted radial M5 sensor mount; keeps the sensing face unobstructed"
+  }
+}

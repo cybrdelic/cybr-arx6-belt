@@ -1,0 +1,6 @@
+# Exact Python package versions used for this revision.
+numpy==2.3.5
+Pillow==12.3.0
+cadquery==2.7.0
+cadquery-ocp==7.8.1.1.post1
+# Browser checks use the Node package playwright@1.62.1, not Python Playwright.

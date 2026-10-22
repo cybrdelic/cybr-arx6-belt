@@ -1,0 +1,679 @@
+{
+  "revision": "P5",
+  "accepted": "Conservative whole-area-light receiver/emitter facing rejection only.",
+  "passed": true,
+  "reference_shader_sha256": "16f788689b352bfe5388b608f4018e956844ee7bd8fe91f1f91bb669860c2fee",
+  "accepted_shader_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+  "accepted_source_matches_tested_candidate": true,
+  "geometry_runtime_unchanged": true,
+  "geometry_runtime_sha256": "4be10a46a93ed959627aa0d994e5e43eb1fdb0f328de73714ba10255e8dd00af",
+  "compiled_geometry_sha256": "ca91a0664d1d3193bac02906d8142723a638908917549c4baf01f02596a8c73a",
+  "numeric_table_values_unchanged": true,
+  "sampling_budget": "One camera sample, one shadow ray per each of three lights, complete 25-point area-light BRDF quadrature per retained light, three AO queries, original ray limits and geometry.",
+  "native_image_checks": {
+    "operation": {
+      "linear_float_channels_identical": true,
+      "encoded_rgb_identical": true,
+      "reference_median_seconds": 2.9587555860052817,
+      "accepted_median_seconds": 2.7249762680003187,
+      "measured_speedup": 1.0857913225704965,
+      "pixels": 2073600
+    },
+    "exploded-shoulder": {
+      "linear_float_channels_identical": true,
+      "encoded_rgb_identical": true,
+      "reference_median_seconds": 0.9965382459922694,
+      "accepted_median_seconds": 0.8486832019989379,
+      "measured_speedup": 1.1742170030525907,
+      "pixels": 2073600
+    },
+    "sectioned-gripper": {
+      "linear_float_channels_identical": true,
+      "encoded_rgb_identical": true,
+      "reference_median_seconds": 2.122563352997531,
+      "accepted_median_seconds": 1.8382370589970378,
+      "measured_speedup": 1.1546733554352477,
+      "pixels": 2073600
+    }
+  },
+  "total_native_pixels_compared": 6220800,
+  "total_native_float_channels_compared": 18662400,
+  "scope": "Identical camera/state evaluation at three representative film states; all linear RGB values and ACES/gamma encoded RGB8 pixels were compared before captions. Timing used rotated variant order and excluded first draws. Shared CPU contention remains; this is not a proof across all cameras, drivers or hardware.",
+  "rejected_candidate": {
+    "name": "Per-object local-ray reuse",
+    "reason": "Mathematically equivalent affine reassociation changed sparse grazing-hit pixels at 1080 and did not improve native timing beyond light rejection consistently. No local-ray changes were applied to the published runtime.",
+    "native_combined_errors": {
+      "operation": {
+        "max": 1,
+        "mean": 4.179526748971193e-06,
+        "different_pixels": 22,
+        "pixels_over_one_code": 0,
+        "pixels": 2073600
+      },
+      "exploded-shoulder": {
+        "max": 23,
+        "mean": 8.616255144032922e-05,
+        "different_pixels": 363,
+        "pixels_over_one_code": 8,
+        "pixels": 2073600
+      },
+      "sectioned-gripper": {
+        "max": 161,
+        "mean": 0.0001305298353909465,
+        "different_pixels": 16,
+        "pixels_over_one_code": 3,
+        "pixels": 2073600
+      }
+    }
+  },
+  "reference_files_preserved": "../temporary-render-benchmarks/p5-exact-accel/reference-source/",
+  "reference_provenance": {
+    "ARX-6-P5-Live.glsl": "16f788689b352bfe5388b608f4018e956844ee7bd8fe91f1f91bb669860c2fee",
+    "source/geometry-runtime.glsl": "4be10a46a93ed959627aa0d994e5e43eb1fdb0f328de73714ba10255e8dd00af",
+    "source/lighting-p5.glsl": "c8aa710f7339deea75f87898a87b03878f233efe7ae406a191880445e0b05dbe",
+    "tools/assemble_p5.py": "2cdca664f18b3ac337296dbdd37303ae452f1365632d8a800d89a3c4651c686c",
+    "tools/egl_render.py": "bbc289ca2c5661f63a43c3efeef5b3165a1704cba874082f53895f6562b4885b",
+    "tools/shader_tables.py": "2a1ca8becd51c12d84a0fc9b57b1af5707d2635b43bbe03f089891ebd41ba88c",
+    "tools/film_p5.py": "222f6f8e9e5dfc335fd2312fa5dfd57dd1b061d4f101e25668b5b82ba39b2923",
+    "reports/inspection-parts.json": "a556c371e7671c1cc3e006dc95cce1d801798f7920a8cfc499e45eb647521304"
+  },
+  "native_comparison": {
+    "width": 1920,
+    "height": 1080,
+    "rounds": 3,
+    "method": "Rotate reference/light-cull/combined draw order per repeat at identical frozen states; exclude one first draw per state/variant. All camera, AO, shadow and quadrature budgets unchanged.",
+    "variants": {
+      "reference": {
+        "shader_sha256": "16f788689b352bfe5388b608f4018e956844ee7bd8fe91f1f91bb669860c2fee",
+        "compile_seconds": 0.1876063860108843,
+        "numeric_tables_sha256": "31281f64aa6bf986db33ed24a3ad31358afa8a00cf78a7c851603f4597643195",
+        "renderer": {
+          "vendor": "Mesa",
+          "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+          "version": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2"
+        },
+        "states": {
+          "operation": {
+            "warmup_seconds": 3.413017922997824,
+            "draw_seconds": [
+              3.4024405459931586,
+              2.9587555860052817,
+              2.89189027500106
+            ],
+            "median_seconds": 2.9587555860052817,
+            "finite": true,
+            "linear_error": {
+              "max": 0.0,
+              "mean": 0.0,
+              "rms": 0.0,
+              "p99": 0.0,
+              "p9999": 0.0,
+              "different_values": 0
+            },
+            "rgb8_error": {
+              "max": 0,
+              "mean": 0.0,
+              "different_pixels": 0,
+              "pixels_over_one_code": 0,
+              "pixels": 2073600
+            }
+          },
+          "exploded-shoulder": {
+            "warmup_seconds": 1.830196248003631,
+            "draw_seconds": [
+              0.9341246989934007,
+              0.9965382459922694,
+              1.0052970310061937
+            ],
+            "median_seconds": 0.9965382459922694,
+            "finite": true,
+            "linear_error": {
+              "max": 0.0,
+              "mean": 0.0,
+              "rms": 0.0,
+              "p99": 0.0,
+              "p9999": 0.0,
+              "different_values": 0
+            },
+            "rgb8_error": {
+              "max": 0,
+              "mean": 0.0,
+              "different_pixels": 0,
+              "pixels_over_one_code": 0,
+              "pixels": 2073600
+            }
+          },
+          "sectioned-gripper": {
+            "warmup_seconds": 2.822491714003263,
+            "draw_seconds": [
+              2.5984063270007027,
+              2.122563352997531,
+              1.7315687249938492
+            ],
+            "median_seconds": 2.122563352997531,
+            "finite": true,
+            "linear_error": {
+              "max": 0.0,
+              "mean": 0.0,
+              "rms": 0.0,
+              "p99": 0.0,
+              "p9999": 0.0,
+              "different_values": 0
+            },
+            "rgb8_error": {
+              "max": 0,
+              "mean": 0.0,
+              "different_pixels": 0,
+              "pixels_over_one_code": 0,
+              "pixels": 2073600
+            }
+          }
+        }
+      },
+      "light-cull": {
+        "shader_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+        "compile_seconds": 0.21532293599739205,
+        "numeric_tables_sha256": "31281f64aa6bf986db33ed24a3ad31358afa8a00cf78a7c851603f4597643195",
+        "renderer": {
+          "vendor": "Mesa",
+          "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+          "version": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2"
+        },
+        "states": {
+          "operation": {
+            "warmup_seconds": 3.08152961700398,
+            "draw_seconds": [
+              2.9092325950041413,
+              2.7249762680003187,
+              2.5836454300006153
+            ],
+            "median_seconds": 2.7249762680003187,
+            "finite": true,
+            "linear_error": {
+              "max": 0.0,
+              "mean": 0.0,
+              "rms": 0.0,
+              "p99": 0.0,
+              "p9999": 0.0,
+              "different_values": 0
+            },
+            "rgb8_error": {
+              "max": 0,
+              "mean": 0.0,
+              "different_pixels": 0,
+              "pixels_over_one_code": 0,
+              "pixels": 2073600
+            },
+            "speedup": 1.0857913225704965
+          },
+          "exploded-shoulder": {
+            "warmup_seconds": 1.37252862600144,
+            "draw_seconds": [
+              0.8486832019989379,
+              1.0802804860140895,
+              0.80888355600473
+            ],
+            "median_seconds": 0.8486832019989379,
+            "finite": true,
+            "linear_error": {
+              "max": 0.0,
+              "mean": 0.0,
+              "rms": 0.0,
+              "p99": 0.0,
+              "p9999": 0.0,
+              "different_values": 0
+            },
+            "rgb8_error": {
+              "max": 0,
+              "mean": 0.0,
+              "different_pixels": 0,
+              "pixels_over_one_code": 0,
+              "pixels": 2073600
+            },
+            "speedup": 1.1742170030525907
+          },
+          "sectioned-gripper": {
+            "warmup_seconds": 2.3297178959910525,
+            "draw_seconds": [
+              1.8382370589970378,
+              1.9636102020012913,
+              1.6977440940099768
+            ],
+            "median_seconds": 1.8382370589970378,
+            "finite": true,
+            "linear_error": {
+              "max": 0.0,
+              "mean": 0.0,
+              "rms": 0.0,
+              "p99": 0.0,
+              "p9999": 0.0,
+              "different_values": 0
+            },
+            "rgb8_error": {
+              "max": 0,
+              "mean": 0.0,
+              "different_pixels": 0,
+              "pixels_over_one_code": 0,
+              "pixels": 2073600
+            },
+            "speedup": 1.1546733554352477
+          }
+        }
+      },
+      "combined": {
+        "shader_sha256": "59b175f63c19ecee23326532140771d68cb8b7d8dd2b2b34eeb9d1b57c034960",
+        "compile_seconds": 0.25251405499875546,
+        "numeric_tables_sha256": "31281f64aa6bf986db33ed24a3ad31358afa8a00cf78a7c851603f4597643195",
+        "renderer": {
+          "vendor": "Mesa",
+          "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+          "version": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2"
+        },
+        "states": {
+          "operation": {
+            "warmup_seconds": 2.8062195709935622,
+            "draw_seconds": [
+              2.559753378009191,
+              2.6863293109927326,
+              2.719405089999782
+            ],
+            "median_seconds": 2.6863293109927326,
+            "finite": true,
+            "linear_error": {
+              "max": 0.009696006774902344,
+              "mean": 9.659839861342334e-08,
+              "rms": 1.6720739688698543e-05,
+              "p99": 0.0,
+              "p9999": 2.316385507583618e-05,
+              "different_values": 7210
+            },
+            "rgb8_error": {
+              "max": 1,
+              "mean": 4.179526748971193e-06,
+              "different_pixels": 22,
+              "pixels_over_one_code": 0,
+              "pixels": 2073600
+            },
+            "speedup": 1.1014120919195398
+          },
+          "exploded-shoulder": {
+            "warmup_seconds": 1.1960307009867392,
+            "draw_seconds": [
+              0.9440802699973574,
+              0.8363254249998135,
+              1.0757955129956827
+            ],
+            "median_seconds": 0.9440802699973574,
+            "finite": true,
+            "linear_error": {
+              "max": 0.17624759674072266,
+              "mean": 5.899919415242039e-07,
+              "rms": 0.00016885223536994374,
+              "p99": 4.0978193283081055e-08,
+              "p9999": 0.0005352869629859924,
+              "different_values": 153099
+            },
+            "rgb8_error": {
+              "max": 23,
+              "mean": 8.616255144032922e-05,
+              "different_pixels": 363,
+              "pixels_over_one_code": 8,
+              "pixels": 2073600
+            },
+            "speedup": 1.0555651650204054
+          },
+          "sectioned-gripper": {
+            "warmup_seconds": 2.277907188006793,
+            "draw_seconds": [
+              1.9811279330024263,
+              2.5915577880077763,
+              1.7211832070024684
+            ],
+            "median_seconds": 1.9811279330024263,
+            "finite": true,
+            "linear_error": {
+              "max": 2.3015899658203125,
+              "mean": 1.105071532947477e-06,
+              "rms": 0.0014418427171541035,
+              "p99": 0.0,
+              "p9999": 2.9802322387695312e-06,
+              "different_values": 11892
+            },
+            "rgb8_error": {
+              "max": 161,
+              "mean": 0.0001305298353909465,
+              "different_pixels": 16,
+              "pixels_over_one_code": 3,
+              "pixels": 2073600
+            },
+            "speedup": 1.0713913612740584
+          }
+        }
+      }
+    }
+  },
+  "lower_resolution_comparison": {
+    "width": 640,
+    "height": 360,
+    "rounds": 4,
+    "reference_sha256": "16f788689b352bfe5388b608f4018e956844ee7bd8fe91f1f91bb669860c2fee",
+    "budget": "One camera sample, one shadow ray per light, 3 lights x 25 BRDF quadrature points, quality 1 AO and actual-solid shadows; unchanged from final film settings.",
+    "variants": {
+      "reference": {
+        "shader_sha256": "16f788689b352bfe5388b608f4018e956844ee7bd8fe91f1f91bb669860c2fee",
+        "compile_seconds": 2.612234806001652,
+        "renderer": {
+          "vendor": "Mesa",
+          "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+          "version": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2"
+        },
+        "numeric_tables_sha256": "31281f64aa6bf986db33ed24a3ad31358afa8a00cf78a7c851603f4597643195",
+        "states": {
+          "operation": {
+            "warmup_seconds": 29.208667715996853,
+            "draw_seconds": [
+              0.8031890569982352,
+              0.7661363130027894,
+              0.7307848130003549,
+              0.696040095994249
+            ],
+            "median_seconds": 0.7484605630015722,
+            "finite": true
+          },
+          "exploded-shoulder": {
+            "warmup_seconds": 0.3082030640071025,
+            "draw_seconds": [
+              0.32709672999044415,
+              0.3285940890054917,
+              0.28808587801177055,
+              0.23595750000094995
+            ],
+            "median_seconds": 0.30759130400110735,
+            "finite": true
+          },
+          "sectioned-gripper": {
+            "warmup_seconds": 1.1778588570014108,
+            "draw_seconds": [
+              0.8825816739990842,
+              0.6943980770010967,
+              0.6511246540030697,
+              0.7160842660086928
+            ],
+            "median_seconds": 0.7052411715048947,
+            "finite": true
+          }
+        }
+      },
+      "light-cull": {
+        "shader_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+        "compile_seconds": 2.375090783010819,
+        "renderer": {
+          "vendor": "Mesa",
+          "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+          "version": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2"
+        },
+        "numeric_tables_sha256": "31281f64aa6bf986db33ed24a3ad31358afa8a00cf78a7c851603f4597643195",
+        "states": {
+          "operation": {
+            "warmup_seconds": 27.16470497699629,
+            "draw_seconds": [
+              0.4322686070081545,
+              0.48617125500459224,
+              0.4625889620074304,
+              0.447892382988357
+            ],
+            "median_seconds": 0.4552406724978937,
+            "finite": true,
+            "linear_error": {
+              "max": 0.0,
+              "mean": 0.0,
+              "rms": 0.0,
+              "p99": 0.0,
+              "p9999": 0.0,
+              "different_values": 0
+            },
+            "rgb8_error": {
+              "max": 0,
+              "mean": 0.0,
+              "different_pixels": 0,
+              "pixels_over_one_code": 0,
+              "pixels": 230400
+            }
+          },
+          "exploded-shoulder": {
+            "warmup_seconds": 0.24506363000546116,
+            "draw_seconds": [
+              0.22264728900336195,
+              0.24252127300132997,
+              0.28170662399497814,
+              0.1953999919933267
+            ],
+            "median_seconds": 0.23258428100234596,
+            "finite": true,
+            "linear_error": {
+              "max": 0.0,
+              "mean": 0.0,
+              "rms": 0.0,
+              "p99": 0.0,
+              "p9999": 0.0,
+              "different_values": 0
+            },
+            "rgb8_error": {
+              "max": 0,
+              "mean": 0.0,
+              "different_pixels": 0,
+              "pixels_over_one_code": 0,
+              "pixels": 230400
+            }
+          },
+          "sectioned-gripper": {
+            "warmup_seconds": 0.9381507030047942,
+            "draw_seconds": [
+              0.7061873649945483,
+              0.6338693150028121,
+              0.5500181350071216,
+              0.5186167389911134
+            ],
+            "median_seconds": 0.5919437250049668,
+            "finite": true,
+            "linear_error": {
+              "max": 0.0,
+              "mean": 0.0,
+              "rms": 0.0,
+              "p99": 0.0,
+              "p9999": 0.0,
+              "different_values": 0
+            },
+            "rgb8_error": {
+              "max": 0,
+              "mean": 0.0,
+              "different_pixels": 0,
+              "pixels_over_one_code": 0,
+              "pixels": 230400
+            }
+          }
+        }
+      },
+      "local-ray": {
+        "shader_sha256": "c51d6448c3536cc5fb6f971688e377d6eef75759bf72dcb355c45c2d53010262",
+        "compile_seconds": 2.688990044000093,
+        "renderer": {
+          "vendor": "Mesa",
+          "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+          "version": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2"
+        },
+        "numeric_tables_sha256": "31281f64aa6bf986db33ed24a3ad31358afa8a00cf78a7c851603f4597643195",
+        "states": {
+          "operation": {
+            "warmup_seconds": 18.42909169399354,
+            "draw_seconds": [
+              0.31907276800484397,
+              0.35910639898793306,
+              0.4329815149976639,
+              0.43863843400322367
+            ],
+            "median_seconds": 0.3960439569927985,
+            "finite": true,
+            "linear_error": {
+              "max": 0.0022259950637817383,
+              "mean": 4.573168865817934e-08,
+              "rms": 6.664610411842125e-06,
+              "p99": 0.0,
+              "p9999": 3.986712545156479e-05,
+              "different_values": 720
+            },
+            "rgb8_error": {
+              "max": 0,
+              "mean": 0.0,
+              "different_pixels": 0,
+              "pixels_over_one_code": 0,
+              "pixels": 230400
+            }
+          },
+          "exploded-shoulder": {
+            "warmup_seconds": 0.14449045300716534,
+            "draw_seconds": [
+              0.21757837501354516,
+              0.20386906199564692,
+              0.19671441700484138,
+              0.1744054760056315
+            ],
+            "median_seconds": 0.20029173950024415,
+            "finite": true,
+            "linear_error": {
+              "max": 0.06655025482177734,
+              "mean": 8.323181646119338e-07,
+              "rms": 0.00018537927340614972,
+              "p99": 2.514570951461792e-08,
+              "p9999": 0.00036662817001342773,
+              "different_values": 15828
+            },
+            "rgb8_error": {
+              "max": 2,
+              "mean": 5.063657407407407e-05,
+              "different_pixels": 26,
+              "pixels_over_one_code": 1,
+              "pixels": 230400
+            }
+          },
+          "sectioned-gripper": {
+            "warmup_seconds": 0.4371981520089321,
+            "draw_seconds": [
+              0.4426964059966849,
+              0.5846180040098261,
+              0.5087383529898943,
+              0.5525553390034474
+            ],
+            "median_seconds": 0.5306468459966709,
+            "finite": true,
+            "linear_error": {
+              "max": 0.000399857759475708,
+              "mean": 4.618161408842525e-09,
+              "rms": 9.817174132153016e-07,
+              "p99": 0.0,
+              "p9999": 4.133209586143494e-06,
+              "different_values": 1313
+            },
+            "rgb8_error": {
+              "max": 1,
+              "mean": 2.8935185185185184e-06,
+              "different_pixels": 2,
+              "pixels_over_one_code": 0,
+              "pixels": 230400
+            }
+          }
+        }
+      },
+      "combined": {
+        "shader_sha256": "59b175f63c19ecee23326532140771d68cb8b7d8dd2b2b34eeb9d1b57c034960",
+        "compile_seconds": 0.905974558001617,
+        "renderer": {
+          "vendor": "Mesa",
+          "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+          "version": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2"
+        },
+        "numeric_tables_sha256": "31281f64aa6bf986db33ed24a3ad31358afa8a00cf78a7c851603f4597643195",
+        "states": {
+          "operation": {
+            "warmup_seconds": 17.0448187639995,
+            "draw_seconds": [
+              0.4166715109895449,
+              0.38677677600935567,
+              0.3215219029953005,
+              0.33653436999884434
+            ],
+            "median_seconds": 0.3616555730041,
+            "finite": true,
+            "linear_error": {
+              "max": 0.0022259950637817383,
+              "mean": 4.573168865817934e-08,
+              "rms": 6.664610411842125e-06,
+              "p99": 0.0,
+              "p9999": 3.986712545156479e-05,
+              "different_values": 720
+            },
+            "rgb8_error": {
+              "max": 0,
+              "mean": 0.0,
+              "different_pixels": 0,
+              "pixels_over_one_code": 0,
+              "pixels": 230400
+            }
+          },
+          "exploded-shoulder": {
+            "warmup_seconds": 0.20016746399051044,
+            "draw_seconds": [
+              0.19364501400559675,
+              0.15677855198737234,
+              0.19586213800357655,
+              0.16950704499322455
+            ],
+            "median_seconds": 0.18157602949941065,
+            "finite": true,
+            "linear_error": {
+              "max": 0.06655025482177734,
+              "mean": 8.323181646119338e-07,
+              "rms": 0.00018537927340614972,
+              "p99": 2.514570951461792e-08,
+              "p9999": 0.00036662817001342773,
+              "different_values": 15828
+            },
+            "rgb8_error": {
+              "max": 2,
+              "mean": 5.063657407407407e-05,
+              "different_pixels": 26,
+              "pixels_over_one_code": 1,
+              "pixels": 230400
+            }
+          },
+          "sectioned-gripper": {
+            "warmup_seconds": 0.4083952329965541,
+            "draw_seconds": [
+              0.3987892300065141,
+              0.2839739240007475,
+              0.29958292200171854,
+              0.27546865500335116
+            ],
+            "median_seconds": 0.291778423001233,
+            "finite": true,
+            "linear_error": {
+              "max": 0.000399857759475708,
+              "mean": 4.618161408842525e-09,
+              "rms": 9.817174132153016e-07,
+              "p99": 0.0,
+              "p9999": 4.133209586143494e-06,
+              "different_values": 1313
+            },
+            "rgb8_error": {
+              "max": 1,
+              "mean": 2.8935185185185184e-06,
+              "different_pixels": 2,
+              "pixels_over_one_code": 0,
+              "pixels": 230400
+            }
+          }
+        }
+      }
+    }
+  }
+}

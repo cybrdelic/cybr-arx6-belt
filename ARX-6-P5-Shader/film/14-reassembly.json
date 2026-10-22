@@ -1,0 +1,755 @@
+{
+  "revision": "P5",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration_seconds": 72,
+  "chapters": [
+    {
+      "id": "01-operation",
+      "duration": 10,
+      "group": 0,
+      "title": "ARX / 6",
+      "subtitle": "Compact drives. Independent payload. Fresh physical solve.",
+      "note": "RECORDED DYNAMICS \u00b7 TWO TRANSFERS",
+      "start": 0,
+      "end": 10
+    },
+    {
+      "id": "02-disassembly",
+      "duration": 6,
+      "group": 0,
+      "title": "Every assembly, revealed",
+      "subtitle": "The same CAD parts separate along service and inspection directions.",
+      "note": "VISUAL DISASSEMBLY \u00b7 ALL RIGID PARTS",
+      "start": 10,
+      "end": 16
+    },
+    {
+      "id": "03-base",
+      "duration": 5,
+      "group": 1,
+      "title": "01 / Base rotation",
+      "subtitle": "Folded motor and reducer \u2192 toothed belt \u2192 output shaft.",
+      "note": "DIRECT OUTPUT BRAKE \u00b7 ADJUSTABLE BELT CARRIER",
+      "start": 16,
+      "end": 21
+    },
+    {
+      "id": "04-shoulder",
+      "duration": 6,
+      "group": 2,
+      "title": "02 / Shoulder drive",
+      "subtitle": "The full-size drive folds beside the joint instead of projecting outward.",
+      "note": "5M BELT \u00b7 36T PULLEYS \u00b7 25 MM WIDTH",
+      "start": 21,
+      "end": 27
+    },
+    {
+      "id": "05-elbow",
+      "duration": 6,
+      "group": 3,
+      "title": "03 / Elbow drive",
+      "subtitle": "The belt transfers reducer torque; the brake acts directly on the output.",
+      "note": "REMOVABLE COVER \u00b7 SUPPORTED INPUT SHAFT",
+      "start": 27,
+      "end": 33
+    },
+    {
+      "id": "06-shoulder-balance",
+      "duration": 4,
+      "group": 8,
+      "title": "Shoulder counterbalance",
+      "subtitle": "Paired extension springs support the arm through its changing lever arm.",
+      "note": "ACTUAL MOVING ANCHORS \u00b7 RECORDED JOINT MOTION",
+      "start": 33,
+      "end": 37
+    },
+    {
+      "id": "07-elbow-balance",
+      "duration": 4,
+      "group": 9,
+      "title": "Elbow counterbalance",
+      "subtitle": "The fixed anchor moves below the elbow; the raised mast is removed.",
+      "note": "COMPACT TAIL ARM \u00b7 PAIRED SPRINGS",
+      "start": 37,
+      "end": 41
+    },
+    {
+      "id": "08-wrist-roll",
+      "duration": 4,
+      "group": 4,
+      "title": "04 / Wrist roll",
+      "subtitle": "A smaller folded transmission turns the wrist about the forearm axis.",
+      "note": "3M BELT \u00b7 30T PULLEYS \u00b7 15 MM WIDTH",
+      "start": 41,
+      "end": 45
+    },
+    {
+      "id": "09-wrist-bend",
+      "duration": 4,
+      "group": 5,
+      "title": "05 / Wrist bend",
+      "subtitle": "The fork, bearings and output brake support the bend axis.",
+      "note": "ISOLATED MECHANISM \u00b7 SECTIONED HOUSINGS",
+      "start": 45,
+      "end": 49
+    },
+    {
+      "id": "10-tool-roll",
+      "duration": 4,
+      "group": 6,
+      "title": "06 / Tool roll",
+      "subtitle": "The final folded stage rotates the tool without the former axial stack.",
+      "note": "FULL MOTOR ENVELOPE \u00b7 SHORTER AXIAL PACKAGE",
+      "start": 49,
+      "end": 53
+    },
+    {
+      "id": "11-gripper",
+      "duration": 6,
+      "group": 7,
+      "title": "Rack-and-pinion gripper",
+      "subtitle": "One pinion moves opposed racks; guided jaws transmit force through the pads.",
+      "note": "MECHANISM INSPECTION \u00b7 RECORDED JAW POSITIONS",
+      "start": 53,
+      "end": 59
+    },
+    {
+      "id": "12-fixtures",
+      "duration": 4,
+      "group": 10,
+      "title": "Payload and receiving nests",
+      "subtitle": "The puck remains a free rigid body. Friction and contact determine its motion.",
+      "note": "NO KINEMATIC ATTACHMENT \u00b7 NO HIDDEN PAYLOAD WELD",
+      "start": 59,
+      "end": 63
+    },
+    {
+      "id": "13-structure",
+      "duration": 4,
+      "group": 11,
+      "title": "Links and load path",
+      "subtitle": "Rigid links carry joint reactions between the bearings and tool.",
+      "note": "CAD-DERIVED SOLIDS \u00b7 INDIVIDUAL FASTENERS RETAINED",
+      "start": 63,
+      "end": 67
+    },
+    {
+      "id": "14-reassembly",
+      "duration": 5,
+      "group": 0,
+      "title": "ARX / 6 \u00b7 P5",
+      "subtitle": "Compact engineered prototype. CAD, dynamics and renderer share one revision.",
+      "note": "REASSEMBLY \u00b7 SOURCE AND VALIDATION INCLUDED",
+      "start": 67,
+      "end": 72
+    }
+  ],
+  "shader_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+  "trajectory_sha256": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+  "inspection_sha256": "a556c371e7671c1cc3e006dc95cce1d801798f7920a8cfc499e45eb647521304",
+  "director_sha256": "222f6f8e9e5dfc335fd2312fa5dfd57dd1b061d4f101e25668b5b82ba39b2923",
+  "renderer_sha256": "bbc289ca2c5661f63a43c3efeef5b3165a1704cba874082f53895f6562b4885b",
+  "table_packer_sha256": "2a1ca8becd51c12d84a0fc9b57b1af5707d2635b43bbe03f089891ebd41ba88c",
+  "method": "One full-screen fragment program; native procedural CAD-derived CSG at every frame; shader output plus typography; physical replay distinguished from visual mechanism inspection.",
+  "camera_samples": 1,
+  "shadow_samples": 1,
+  "quality": 1,
+  "numeric_table_transport": {
+    "tables": [
+      {
+        "name": "CSG_P",
+        "type": "vec4",
+        "count": 612,
+        "offset": 0,
+        "stride": 16,
+        "bytes": 9792,
+        "value_sha256": "d892178215037f3000ffe8faf5aef8942ef5aae11fd05d00a86ec01738e91e94"
+      },
+      {
+        "name": "CSG_EXTRA",
+        "type": "vec2",
+        "count": 612,
+        "offset": 9792,
+        "stride": 8,
+        "bytes": 4896,
+        "value_sha256": "44f990aa79e0b345c307f0130350ec0335952f5218314604b47ea5d6c61e0b95"
+      },
+      {
+        "name": "CSG_DETAIL",
+        "type": "vec4",
+        "count": 612,
+        "offset": 14688,
+        "stride": 16,
+        "bytes": 9792,
+        "value_sha256": "e55eb42d6917bc4c38f8a407f0f8d4c277b2280c73cf5435f435eeb3cd07df34"
+      },
+      {
+        "name": "CSG_R0",
+        "type": "vec4",
+        "count": 612,
+        "offset": 24480,
+        "stride": 16,
+        "bytes": 9792,
+        "value_sha256": "7ea1bf14ddcc27b4a630219c64eb96f26de5986e38540f0cfdb4db5116ee980b"
+      },
+      {
+        "name": "CSG_R1",
+        "type": "vec4",
+        "count": 612,
+        "offset": 34272,
+        "stride": 16,
+        "bytes": 9792,
+        "value_sha256": "16711222c4765c4e9680a5b0e1a3eef9d61f463233388b31b9ac18bba33fc3a3"
+      },
+      {
+        "name": "CSG_R2",
+        "type": "vec4",
+        "count": 612,
+        "offset": 44064,
+        "stride": 16,
+        "bytes": 9792,
+        "value_sha256": "90dd3e93a34629fc29e53e5a0ecf1ad55129326511f1ad42946c8ee759a8c5be"
+      },
+      {
+        "name": "CSG_POLY",
+        "type": "vec2",
+        "count": 1028,
+        "offset": 53856,
+        "stride": 8,
+        "bytes": 8224,
+        "value_sha256": "61f37646d2f68cec08d4a70965c321326efc330dd7127a8d64c86c678392dad0"
+      },
+      {
+        "name": "POLY_BVH_LO",
+        "type": "vec2",
+        "count": 2048,
+        "offset": 62080,
+        "stride": 8,
+        "bytes": 16384,
+        "value_sha256": "85e4c5f01abe1dc24aeb8f8b67eb1763c040b3828773bf287222006c978014e1"
+      },
+      {
+        "name": "POLY_BVH_HI",
+        "type": "vec2",
+        "count": 2048,
+        "offset": 78464,
+        "stride": 8,
+        "bytes": 16384,
+        "value_sha256": "0ed6f9d411cbac01a79519e16c7a6d71cbe760f230fd691dd3589a81968dce45"
+      },
+      {
+        "name": "POLY_BVH_META",
+        "type": "ivec3",
+        "count": 2048,
+        "offset": 94848,
+        "stride": 16,
+        "bytes": 32768,
+        "value_sha256": "2c261f2eaff0fd701152e0dbd32b16e2eb5ae85f6cd7aeddb2380c31f6ef7161"
+      },
+      {
+        "name": "CSG_CODE",
+        "type": "int",
+        "count": 1301,
+        "offset": 127616,
+        "stride": 4,
+        "bytes": 5204,
+        "value_sha256": "2c7c447dc183df0e4f94cacc07c2205cdf356d2568d72475c4410a5a5e9a2203"
+      },
+      {
+        "name": "CSG_SHAPE",
+        "type": "ivec2",
+        "count": 129,
+        "offset": 132824,
+        "stride": 8,
+        "bytes": 1032,
+        "value_sha256": "871ed2ff4f39becef0d0a6da5e7f3fb7fb60e2801f289775c211fa3bfabc3365"
+      },
+      {
+        "name": "CSG_OBJECT",
+        "type": "ivec4",
+        "count": 385,
+        "offset": 133856,
+        "stride": 16,
+        "bytes": 6160,
+        "value_sha256": "7d707135fa630d386778058196883a8b794888741f0be129172ce23e43be77ce"
+      },
+      {
+        "name": "CSG_INSPECT",
+        "type": "ivec2",
+        "count": 385,
+        "offset": 140016,
+        "stride": 8,
+        "bytes": 3080,
+        "value_sha256": "edcee1190ccfa323b18f0c0e4db636dec132f0947ab915566183745950fe9297"
+      },
+      {
+        "name": "CSG_INPUT_PHASE",
+        "type": "int",
+        "count": 385,
+        "offset": 143096,
+        "stride": 4,
+        "bytes": 1540,
+        "value_sha256": "bc4c792caa99086760aef0573e438962b49fa8343a9bfb6ebb5716e66e91ebc8"
+      },
+      {
+        "name": "CSG_EXPLODE",
+        "type": "vec3",
+        "count": 385,
+        "offset": 144640,
+        "stride": 16,
+        "bytes": 6160,
+        "value_sha256": "039ff7f3b6509c847d6121e45cecfb393abb9b43247d451b749644ad05dc3e62"
+      },
+      {
+        "name": "CSG_DEMO_AXIS",
+        "type": "vec4",
+        "count": 385,
+        "offset": 150800,
+        "stride": 16,
+        "bytes": 6160,
+        "value_sha256": "868e905fab118a695e0f6e17ad07f63f0840708cb7a4ee587589b58a9a5cf3ac"
+      },
+      {
+        "name": "CSG_DEMO_CENTER",
+        "type": "vec3",
+        "count": 385,
+        "offset": 156960,
+        "stride": 16,
+        "bytes": 6160,
+        "value_sha256": "618a20e4c536c49426edd667613eb990192cf51f4894f0f7fe27287394cccba8"
+      },
+      {
+        "name": "CSG_CUT_PLANE",
+        "type": "vec4",
+        "count": 129,
+        "offset": 163120,
+        "stride": 16,
+        "bytes": 2064,
+        "value_sha256": "df23021f9397a8ae41c36d5caf21fc7fa5b6a6bdcf4460bcef48188a5572a008"
+      },
+      {
+        "name": "CSG_O0",
+        "type": "vec4",
+        "count": 385,
+        "offset": 165184,
+        "stride": 16,
+        "bytes": 6160,
+        "value_sha256": "2eeef665f0c0451819415b4b8ed72eacff1abd3a14c6432600a1c7e8d3afaffd"
+      },
+      {
+        "name": "CSG_O1",
+        "type": "vec4",
+        "count": 385,
+        "offset": 171344,
+        "stride": 16,
+        "bytes": 6160,
+        "value_sha256": "4377dcefc8cb626a1f82ae2c76b14bd9bc05d64afe881aaa4a7302c2553bb075"
+      },
+      {
+        "name": "CSG_O2",
+        "type": "vec4",
+        "count": 385,
+        "offset": 177504,
+        "stride": 16,
+        "bytes": 6160,
+        "value_sha256": "e8df3914fc007c1c96f08880d48fb03314344f69757e0a83d7e3a92d6693c0f7"
+      },
+      {
+        "name": "BVH_LO",
+        "type": "vec3",
+        "count": 760,
+        "offset": 183664,
+        "stride": 16,
+        "bytes": 12160,
+        "value_sha256": "8467b65890c4002fe5a84942efdb2bd74e26f9be96f8327abb3eebb300eae508"
+      },
+      {
+        "name": "BVH_HI",
+        "type": "vec3",
+        "count": 760,
+        "offset": 195824,
+        "stride": 16,
+        "bytes": 12160,
+        "value_sha256": "16f1417122d6c301c8f6270b1744f7fd51120a74dc1fd6c2f83ffc48884b01a7"
+      },
+      {
+        "name": "BVH_META",
+        "type": "ivec2",
+        "count": 760,
+        "offset": 207984,
+        "stride": 8,
+        "bytes": 6080,
+        "value_sha256": "119d6aaa2541fc79f91b6199f133b0181fcc233e89e1c39e2c5d2f7fa2e8f783"
+      },
+      {
+        "name": "BVH_BODY",
+        "type": "ivec2",
+        "count": 10,
+        "offset": 214064,
+        "stride": 8,
+        "bytes": 80,
+        "value_sha256": "b6031c6b0ab8f4030399f9ac86553daf7fc472aa2be37289141d7b345f9095f2"
+      },
+      {
+        "name": "CSG_LEAF",
+        "type": "int",
+        "count": 385,
+        "offset": 214144,
+        "stride": 4,
+        "bytes": 1540,
+        "value_sha256": "86e402f7a00362bd0feec1f51a6746d1e184b83c6ec444e719635e66031b15c4"
+      },
+      {
+        "name": "BVH_ELO",
+        "type": "vec3",
+        "count": 760,
+        "offset": 215696,
+        "stride": 16,
+        "bytes": 12160,
+        "value_sha256": "5fd7b964dace5e0d1489f962467f7809b53b35b09a930d4707a6e1b53eee6980"
+      },
+      {
+        "name": "BVH_EHI",
+        "type": "vec3",
+        "count": 760,
+        "offset": 227856,
+        "stride": 16,
+        "bytes": 12160,
+        "value_sha256": "fd096f329e5b832cf3dcbc9b4c53f1205fc47335228ee52c62845449b96a1151"
+      },
+      {
+        "name": "BVH_GROUP_MASK",
+        "type": "int",
+        "count": 760,
+        "offset": 240016,
+        "stride": 4,
+        "bytes": 3040,
+        "value_sha256": "28eb4e9ca01ac2348fd0f5c7a1678690da8fe4e77c8c2fe92f2bdf121196cd2e"
+      },
+      {
+        "name": "SPRING_ANCHOR_A",
+        "type": "vec3",
+        "count": 4,
+        "offset": 243056,
+        "stride": 16,
+        "bytes": 64,
+        "value_sha256": "c1f5de9d7707666710b0561a6276c66cd31e2782acf7ebe63f4c8c5e9ba63bff"
+      },
+      {
+        "name": "SPRING_ANCHOR_B",
+        "type": "vec3",
+        "count": 4,
+        "offset": 243120,
+        "stride": 16,
+        "bytes": 64,
+        "value_sha256": "317337e5adc659004503cb0bfcc6b26f5d43b53ac524474a2da10e5c1d0e6082"
+      },
+      {
+        "name": "SPRING_DETAIL",
+        "type": "vec4",
+        "count": 4,
+        "offset": 243184,
+        "stride": 16,
+        "bytes": 64,
+        "value_sha256": "35c40a0264cf5413f4a48c73df243a37450bc6bce96775f8816946b0b44ccc99"
+      },
+      {
+        "name": "SPRING_HOOK",
+        "type": "vec2",
+        "count": 4,
+        "offset": 243248,
+        "stride": 8,
+        "bytes": 32,
+        "value_sha256": "fe4c28dfff62e76226ce85d8ffbb6decd975ef45afbce5db8e1b7d414b2298ef"
+      },
+      {
+        "name": "SPRING_BODY",
+        "type": "ivec2",
+        "count": 4,
+        "offset": 243280,
+        "stride": 8,
+        "bytes": 32,
+        "value_sha256": "916422ebd48f76fc6c8675243ba13f9153dbff341167e0220fd61c12945ba1a6"
+      },
+      {
+        "name": "P5_FINISH",
+        "type": "int",
+        "count": 385,
+        "offset": 243312,
+        "stride": 4,
+        "bytes": 1540,
+        "value_sha256": "5a2957393516541e24d30c7cfdc651b5d9fd6fa91bf72578777174cd4fd0ceb9"
+      }
+    ],
+    "table_count": 36,
+    "bytes": 244864,
+    "tail_padding_bytes": 12,
+    "sha256": "31281f64aa6bf986db33ed24a3ad31358afa8a00cf78a7c851603f4597643195",
+    "transport": "Exact literal float32/int32 arrays in one read-only std430 SSBO; no meshes, no geometry or material textures.",
+    "driver_block_bytes": 244864,
+    "driver_layout_checks": [
+      {
+        "name": "CSG_P",
+        "active": true,
+        "offset": 0,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_EXTRA",
+        "active": true,
+        "offset": 9792,
+        "stride": 8,
+        "passed": true
+      },
+      {
+        "name": "CSG_DETAIL",
+        "active": true,
+        "offset": 14688,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_R0",
+        "active": true,
+        "offset": 24480,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_R1",
+        "active": true,
+        "offset": 34272,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_R2",
+        "active": true,
+        "offset": 44064,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_POLY",
+        "active": true,
+        "offset": 53856,
+        "stride": 8,
+        "passed": true
+      },
+      {
+        "name": "POLY_BVH_LO",
+        "active": true,
+        "offset": 62080,
+        "stride": 8,
+        "passed": true
+      },
+      {
+        "name": "POLY_BVH_HI",
+        "active": true,
+        "offset": 78464,
+        "stride": 8,
+        "passed": true
+      },
+      {
+        "name": "POLY_BVH_META",
+        "active": true,
+        "offset": 94848,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_CODE",
+        "active": true,
+        "offset": 127616,
+        "stride": 4,
+        "passed": true
+      },
+      {
+        "name": "CSG_SHAPE",
+        "active": true,
+        "offset": 132824,
+        "stride": 8,
+        "passed": true
+      },
+      {
+        "name": "CSG_OBJECT",
+        "active": true,
+        "offset": 133856,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_INSPECT",
+        "active": true,
+        "offset": 140016,
+        "stride": 8,
+        "passed": true
+      },
+      {
+        "name": "CSG_INPUT_PHASE",
+        "active": true,
+        "offset": 143096,
+        "stride": 4,
+        "passed": true
+      },
+      {
+        "name": "CSG_EXPLODE",
+        "active": true,
+        "offset": 144640,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_DEMO_AXIS",
+        "active": true,
+        "offset": 150800,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_DEMO_CENTER",
+        "active": true,
+        "offset": 156960,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_CUT_PLANE",
+        "active": true,
+        "offset": 163120,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_O0",
+        "active": true,
+        "offset": 165184,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_O1",
+        "active": true,
+        "offset": 171344,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "CSG_O2",
+        "active": true,
+        "offset": 177504,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "BVH_LO",
+        "active": true,
+        "offset": 183664,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "BVH_HI",
+        "active": true,
+        "offset": 195824,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "BVH_META",
+        "active": true,
+        "offset": 207984,
+        "stride": 8,
+        "passed": true
+      },
+      {
+        "name": "BVH_BODY",
+        "active": true,
+        "offset": 214064,
+        "stride": 8,
+        "passed": true
+      },
+      {
+        "name": "CSG_LEAF",
+        "active": true,
+        "offset": 214144,
+        "stride": 4,
+        "passed": true
+      },
+      {
+        "name": "BVH_ELO",
+        "active": true,
+        "offset": 215696,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "BVH_EHI",
+        "active": true,
+        "offset": 227856,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "BVH_GROUP_MASK",
+        "active": true,
+        "offset": 240016,
+        "stride": 4,
+        "passed": true
+      },
+      {
+        "name": "SPRING_ANCHOR_A",
+        "active": true,
+        "offset": 243056,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "SPRING_ANCHOR_B",
+        "active": true,
+        "offset": 243120,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "SPRING_DETAIL",
+        "active": true,
+        "offset": 243184,
+        "stride": 16,
+        "passed": true
+      },
+      {
+        "name": "SPRING_HOOK",
+        "active": true,
+        "offset": 243248,
+        "stride": 8,
+        "passed": true
+      },
+      {
+        "name": "SPRING_BODY",
+        "active": true,
+        "offset": 243280,
+        "stride": 8,
+        "passed": true
+      },
+      {
+        "name": "P5_FINISH",
+        "active": true,
+        "offset": 243312,
+        "stride": 4,
+        "passed": true
+      }
+    ]
+  },
+  "chapter": 13,
+  "frames": 120,
+  "unique_raw_shader_frames": 120,
+  "seconds": 287.4696935600077,
+  "first_render_sha256": "27441110833d5dd4f68d424d625c07eeab8d164d2d34785583eb721a4d28877d",
+  "last_render_sha256": "0c1ff62bf40f27f33bbf61917e30314cc15ee4756b33edb42eae422dfbdf2cb8",
+  "output_sha256": "f2d93e405a90304ddb454f12e2154d9aaba229a9dd427aade14500a453f062d6",
+  "bytes": 1663162
+}

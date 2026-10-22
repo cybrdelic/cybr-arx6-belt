@@ -1,0 +1,1001 @@
+{
+  "revision": "P5",
+  "checked_utc": "2026-10-22T04:43:45.058221+00:00",
+  "verifier_sha256": "34ef23790cb3eb1e4f70d1d89566e923d2df6e3612d8f8d136c108823e8bc196",
+  "passed": true,
+  "final_film_verified": true,
+  "expected": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "camera_samples": 1,
+    "shadow_samples": 1,
+    "quality": 1,
+    "chapters": 14,
+    "frames": 1728,
+    "duration_seconds": 72
+  },
+  "chapters": [
+    {
+      "id": "01-operation",
+      "title": "ARX / 6",
+      "group": 0,
+      "file": "film/01-operation.mp4",
+      "sha256": "2a657d5dc7fdd89b05054aae1a0c5212af07f4699de5127a945fcb5adecda084",
+      "bytes": 3012307,
+      "report_sha256": "911544f39e838d504ef6a1b7a0c0e574eb0f1ac60bc9624394258f76f18f8338",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 240,
+        "duration_seconds": 10.0,
+        "container_duration_seconds": 10.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/01-operation-frame-audit.json",
+        "sha256": "c677f5196ad4d5c2965cc455105b66f3c0c2c6962f92eb249420ae3c54643dae",
+        "frames": 240,
+        "unique_raw_shader_frames": 240,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          0
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.0,
+            0.0
+          ],
+          "cutaway": [
+            0.0,
+            0.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            0.0
+          ],
+          "physical_time_s": [
+            0.0,
+            9.958333333333334
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/01-operation-frame-0120.jpg",
+        "frame": 120,
+        "local_time_s": 5.0,
+        "sha256": "3c20345034215247406199a6cab3bf23d5e9f28544e25d1414b94302c8e2951b",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 5.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "02-disassembly",
+      "title": "Every assembly, revealed",
+      "group": 0,
+      "file": "film/02-disassembly.mp4",
+      "sha256": "ac6555ebdfc7e3787d8325ec07061798009bf9998f7a8f5e08b789a5e6016eea",
+      "bytes": 1931982,
+      "report_sha256": "2227a786b657e4a5dd84e7d6973576ba1ddfdb1ac65c1608fa9e8b73db0793d2",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 144,
+        "duration_seconds": 6.0,
+        "container_duration_seconds": 6.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/02-disassembly-frame-audit.json",
+        "sha256": "01eefec53ce9b04143a96e8604d29242ec38e9afe9a448741d3c3f6a922eb472",
+        "frames": 144,
+        "unique_raw_shader_frames": 144,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          0
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.0,
+            0.7
+          ],
+          "cutaway": [
+            0.0,
+            0.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            0.0
+          ],
+          "physical_time_s": [
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/02-disassembly-frame-0072.jpg",
+        "frame": 72,
+        "local_time_s": 3.0,
+        "sha256": "a9290ad35a0f12aa4f215bfca5f43cbf22f2730c6cad35543590d4461410f4c4",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 13.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "03-base",
+      "title": "01 / Base rotation",
+      "group": 1,
+      "file": "film/03-base.mp4",
+      "sha256": "95b9baf40dc9fe9733234f3bec37da2d5a4f4ad6284d2004a62251084eab3e4d",
+      "bytes": 792647,
+      "report_sha256": "d292d092b22574a8bdbace3460c54dd2e7b3f013b9a5607bfd863fa7e5779286",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 120,
+        "duration_seconds": 5.0,
+        "container_duration_seconds": 5.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/03-base-frame-audit.json",
+        "sha256": "058a4717b34b64d20681543bfaf13e3b05ad2e4061985a31883df9d9c25af451",
+        "frames": 120,
+        "unique_raw_shader_frames": 120,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          1
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.1,
+            0.44999999999999996
+          ],
+          "cutaway": [
+            0.0,
+            1.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            3.426953986290866
+          ],
+          "physical_time_s": [
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/03-base-frame-0060.jpg",
+        "frame": 60,
+        "local_time_s": 2.5,
+        "sha256": "64782d99f9dcf7891136329ba0258745346603f3db53bee6740c7fa66db583e2",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 18.5
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "04-shoulder",
+      "title": "02 / Shoulder drive",
+      "group": 2,
+      "file": "film/04-shoulder.mp4",
+      "sha256": "6da2f268d6aaabfb3083780f49e50378b5a7fb3440837e242a31b8ea0e1b7e4e",
+      "bytes": 848165,
+      "report_sha256": "ae3574e72bf33ea29bc001959bbb02d5fb20f472d74dd76d3406178dd2efe091",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 144,
+        "duration_seconds": 6.0,
+        "container_duration_seconds": 6.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/04-shoulder-frame-audit.json",
+        "sha256": "aa2d77b604177ebd79e0294ae8cf77609853975ed2979aac1dd4affeda44f3b6",
+        "frames": 144,
+        "unique_raw_shader_frames": 144,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          2
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.1,
+            0.44999999999999996
+          ],
+          "cutaway": [
+            0.0,
+            1.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            3.43175364173385
+          ],
+          "physical_time_s": [
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/04-shoulder-frame-0072.jpg",
+        "frame": 72,
+        "local_time_s": 3.0,
+        "sha256": "79854fe2315d98695baaa8fdec881afb85fa66429df47e7bf89b8b4328fb80f4",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 24.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "05-elbow",
+      "title": "03 / Elbow drive",
+      "group": 3,
+      "file": "film/05-elbow.mp4",
+      "sha256": "80d19d42b5a52e7ec2bfd55d1d81003e879cabe960d2efe870675f49bb026400",
+      "bytes": 861510,
+      "report_sha256": "9b105862699d203cf57adbdd06ce72a86fc1495deffa4283f1790c5192c4f9f1",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 144,
+        "duration_seconds": 6.0,
+        "container_duration_seconds": 6.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/05-elbow-frame-audit.json",
+        "sha256": "f7f704892fdae45c7ac633411025ed92eb186956a875bb0bf69db56716e73f82",
+        "frames": 144,
+        "unique_raw_shader_frames": 144,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          3
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.1,
+            0.44999999999999996
+          ],
+          "cutaway": [
+            0.0,
+            1.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            3.43175364173385
+          ],
+          "physical_time_s": [
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/05-elbow-frame-0072.jpg",
+        "frame": 72,
+        "local_time_s": 3.0,
+        "sha256": "20d941f51112741e3c0ee7ec1cd04475c8ad4a323ecec6e56c11fd3c2aad3b7e",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 30.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "06-shoulder-balance",
+      "title": "Shoulder counterbalance",
+      "group": 8,
+      "file": "film/06-shoulder-balance.mp4",
+      "sha256": "bec8ef658423965249cd47f3bff34c5bca49da67789d6f3720ef19ab1bc930dc",
+      "bytes": 863998,
+      "report_sha256": "0fcc95d467420e5e6d2ed2e5d803a0bf61dfa763c00211e8d6c12c73ff28b0f2",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 96,
+        "duration_seconds": 4.0,
+        "container_duration_seconds": 4.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/06-shoulder-balance-frame-audit.json",
+        "sha256": "ada83ca530914b085eeb253a37272b445ceff2fe7248dafef5c44679b2b61424",
+        "frames": 96,
+        "unique_raw_shader_frames": 96,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          8
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.0,
+            0.0
+          ],
+          "cutaway": [
+            0.0,
+            0.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            0.0
+          ],
+          "physical_time_s": [
+            1.6,
+            4.7666666666666675
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/06-shoulder-balance-frame-0048.jpg",
+        "frame": 48,
+        "local_time_s": 2.0,
+        "sha256": "5a7e2605c4bf9e5fbf9c6f31e547055afc5970e05453b183adcb67cc55091a08",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 35.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "07-elbow-balance",
+      "title": "Elbow counterbalance",
+      "group": 9,
+      "file": "film/07-elbow-balance.mp4",
+      "sha256": "06a37bc342132dc6272f3c2de53ade967683372f63e75604f248ef1b7e7043e2",
+      "bytes": 1129528,
+      "report_sha256": "702b935a1b4dcd4c5909ea068d5954723d20883b6665fca592e8651d2dadf87f",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 96,
+        "duration_seconds": 4.0,
+        "container_duration_seconds": 4.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/07-elbow-balance-frame-audit.json",
+        "sha256": "6461f021f9a20ff83be40d23a4a4ee7cf62d74b095fbb4f0dd3ec95d2573e875",
+        "frames": 96,
+        "unique_raw_shader_frames": 96,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          9
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.0,
+            0.0
+          ],
+          "cutaway": [
+            0.0,
+            0.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            0.0
+          ],
+          "physical_time_s": [
+            1.6,
+            4.7666666666666675
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/07-elbow-balance-frame-0048.jpg",
+        "frame": 48,
+        "local_time_s": 2.0,
+        "sha256": "b18472c489b45d415b92061c309cb5d94be72f7ad30747f05357b4060a6dc573",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 39.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "08-wrist-roll",
+      "title": "04 / Wrist roll",
+      "group": 4,
+      "file": "film/08-wrist-roll.mp4",
+      "sha256": "c16f39eb6bee250b004751e3b7af686b43609fcf1c68d763d0dea929c8bc181b",
+      "bytes": 850278,
+      "report_sha256": "82311891548c19419996e5c62fa9caa0b93d4285638d588e8a305edaf9e7a05d",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 96,
+        "duration_seconds": 4.0,
+        "container_duration_seconds": 4.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/08-wrist-roll-frame-audit.json",
+        "sha256": "18778ac5a39f5c983ead42562e04c63f819638460d418397924a0ded16f83d19",
+        "frames": 96,
+        "unique_raw_shader_frames": 96,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          4
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.1,
+            0.44999999999999996
+          ],
+          "cutaway": [
+            0.0,
+            1.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            3.41975450312639
+          ],
+          "physical_time_s": [
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/08-wrist-roll-frame-0048.jpg",
+        "frame": 48,
+        "local_time_s": 2.0,
+        "sha256": "91e3c172138eaeeb057966aecac76d049adeeb862cfbee983282a2c3a341a850",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 43.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "09-wrist-bend",
+      "title": "05 / Wrist bend",
+      "group": 5,
+      "file": "film/09-wrist-bend.mp4",
+      "sha256": "412aff994c866fb6bc53b1b45ff31b892c6d39abe02a337838f3b518db4ad18b",
+      "bytes": 757582,
+      "report_sha256": "5c61e554e6256b17e1ef818d9f56f734bde3441b5dee9b7693b6f21ac1c85f6d",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 96,
+        "duration_seconds": 4.0,
+        "container_duration_seconds": 4.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/09-wrist-bend-frame-audit.json",
+        "sha256": "ae8c4a2299e9401066aad4794fdf2b3d5697142b2e3ded0c5c1ee5154b3cdfc2",
+        "frames": 96,
+        "unique_raw_shader_frames": 96,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          5
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.1,
+            0.44999999999999996
+          ],
+          "cutaway": [
+            0.0,
+            1.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            3.41975450312639
+          ],
+          "physical_time_s": [
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/09-wrist-bend-frame-0048.jpg",
+        "frame": 48,
+        "local_time_s": 2.0,
+        "sha256": "1aad53c6e1fecdf2ad2641db3c38a80fd173e6357b2c4f6c81ee8a024e000bd6",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 47.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "10-tool-roll",
+      "title": "06 / Tool roll",
+      "group": 6,
+      "file": "film/10-tool-roll.mp4",
+      "sha256": "3069430d8e53cc10267ee6a31449d847e25e0ba5e3366b45531dd9c4f571ac8b",
+      "bytes": 622090,
+      "report_sha256": "8ae159de5fa74ec1108d72c1adae2b0bc0a0c30ea918f579c3015ab6286d4dbd",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 96,
+        "duration_seconds": 4.0,
+        "container_duration_seconds": 4.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/10-tool-roll-frame-audit.json",
+        "sha256": "b2b2f49d371d32e660d22a0e08624c176687851f28d850e85a71b7dc67bc33c0",
+        "frames": 96,
+        "unique_raw_shader_frames": 96,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          6
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.1,
+            0.44999999999999996
+          ],
+          "cutaway": [
+            0.0,
+            1.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            3.41975450312639
+          ],
+          "physical_time_s": [
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/10-tool-roll-frame-0048.jpg",
+        "frame": 48,
+        "local_time_s": 2.0,
+        "sha256": "b3cbe64a328ca26c0e604e3d689dd3356b8ec228c156814778213106625f6790",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 51.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "11-gripper",
+      "title": "Rack-and-pinion gripper",
+      "group": 7,
+      "file": "film/11-gripper.mp4",
+      "sha256": "aac1b6660cd0416faee1d6d0333988fd2bd45c63c1877e3df291d880b3f6d6b6",
+      "bytes": 1585509,
+      "report_sha256": "4a647cf8aa9707faca7b889fad2ec663f33bfbbdd79bf59d2749402e22e0e0cf",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 144,
+        "duration_seconds": 6.0,
+        "container_duration_seconds": 6.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/11-gripper-frame-audit.json",
+        "sha256": "3210f2ca5440d088560088ac9e37f137056aa70e6e247b996439df797ae471f5",
+        "frames": 144,
+        "unique_raw_shader_frames": 144,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          7
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.0,
+            0.22
+          ],
+          "cutaway": [
+            0.0,
+            1.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            0.0
+          ],
+          "physical_time_s": [
+            0.45,
+            3.230555555555555
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/11-gripper-frame-0072.jpg",
+        "frame": 72,
+        "local_time_s": 3.0,
+        "sha256": "8a1473206eef2d8589cf04d273168d01d8cf9ec5b30685af51265ca7d9470c35",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 56.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "12-fixtures",
+      "title": "Payload and receiving nests",
+      "group": 10,
+      "file": "film/12-fixtures.mp4",
+      "sha256": "db210edbce77d5f0fd001f700baa7d4d5035aa68b13d2a3b36257740d2dadb8f",
+      "bytes": 117531,
+      "report_sha256": "9db0865daf877550a0e0f94c316cd71ff59cb93d8ad27a1072f5a386b27fe1f0",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 96,
+        "duration_seconds": 4.0,
+        "container_duration_seconds": 4.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/12-fixtures-frame-audit.json",
+        "sha256": "1e83557375c8a7d9dc23195586398bd2ff925fa2a2693468e36029332de93e34",
+        "frames": 96,
+        "unique_raw_shader_frames": 96,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          10
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.0,
+            0.0
+          ],
+          "cutaway": [
+            0.0,
+            0.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            0.0
+          ],
+          "physical_time_s": [
+            0.1,
+            8.907291666666667
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/12-fixtures-frame-0048.jpg",
+        "frame": 48,
+        "local_time_s": 2.0,
+        "sha256": "fd886c606c8347e0e1c6e41e1b365704d23649d78ce6dac0899b68cfa842b7c0",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 61.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "13-structure",
+      "title": "Links and load path",
+      "group": 11,
+      "file": "film/13-structure.mp4",
+      "sha256": "3d1c734dd46c85165c37205fe9c6dd4b8e9427c7ca6a8a69de9ad2da88aea79c",
+      "bytes": 347484,
+      "report_sha256": "13fb6c2834061ff6cba68b6ae50476684a486cdafd48f2718e94f2ea7c27a071",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 96,
+        "duration_seconds": 4.0,
+        "container_duration_seconds": 4.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/13-structure-frame-audit.json",
+        "sha256": "71c78406ac9c9afe0c452a94b17e1bcac058ee752fd60ad52d8032569badea1d",
+        "frames": 96,
+        "unique_raw_shader_frames": 96,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          11
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.32,
+            0.48
+          ],
+          "cutaway": [
+            0.0,
+            0.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            0.0
+          ],
+          "physical_time_s": [
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/13-structure-frame-0048.jpg",
+        "frame": 48,
+        "local_time_s": 2.0,
+        "sha256": "5e1b794e1abede033afde53596a0c6bd7ccca9230bc5f9f288c92acd52e860b1",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 65.0
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "14-reassembly",
+      "title": "ARX / 6 \u00b7 P5",
+      "group": 0,
+      "file": "film/14-reassembly.mp4",
+      "sha256": "f2d93e405a90304ddb454f12e2154d9aaba229a9dd427aade14500a453f062d6",
+      "bytes": 1663162,
+      "report_sha256": "cd416f0c9658d387369bee23799fcfead491dc2e3d9e6121f085dffc87ab9977",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24",
+        "nominal_fps": "24",
+        "counted_frames": 120,
+        "duration_seconds": 5.0,
+        "container_duration_seconds": 5.0,
+        "codec": "h264",
+        "pixel_format": "yuv420p"
+      },
+      "audit": {
+        "file": "film/14-reassembly-frame-audit.json",
+        "sha256": "85b8f293f1ad53325ae8d40671b72ae25b08d6ab7d224d3e2706f222c788f601",
+        "frames": 120,
+        "unique_raw_shader_frames": 120,
+        "duplicate_raw_frames": 0,
+        "groups": [
+          0
+        ],
+        "maximum_scalar_error": 0.0,
+        "maximum_camera_coordinate_error": 0.0,
+        "control_ranges": {
+          "explode": [
+            0.0,
+            0.7
+          ],
+          "cutaway": [
+            0.0,
+            0.0
+          ],
+          "mechanism_rad": [
+            0.0,
+            0.0
+          ],
+          "physical_time_s": [
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "middle_frame": {
+        "file": "film/14-reassembly-frame-0060.jpg",
+        "frame": 60,
+        "local_time_s": 2.5,
+        "sha256": "2ea58b42c1e6c924b8b113ddc80e7b3705f19bc6dec95e946c9af358cb67c270",
+        "width": 1920,
+        "height": 1080,
+        "film_time_s": 69.5
+      },
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "joined": {
+    "present": true,
+    "file": "ARX-6-P5-Inspection-1080p.mp4",
+    "sha256": "f08fee0296f0a67525a127685de9cc322e7a98fc925fec643f681dccd8678dbc",
+    "bytes": 15374957,
+    "report_sha256": "88b0aa811ad89157244f4f3b235e91ed7e157640d33915a8bf8b9b76ac8bd08a",
+    "media": {
+      "width": 1920,
+      "height": 1080,
+      "fps": "24",
+      "nominal_fps": "24",
+      "counted_frames": 1728,
+      "duration_seconds": 72.0,
+      "container_duration_seconds": 72.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    "chapter_tags": 14,
+    "full_decode": {
+      "exit_code": 0,
+      "decoded_frames": 1728,
+      "seconds": 7.947,
+      "passed": true,
+      "errors": ""
+    }
+  },
+  "errors": [],
+  "scope": "Current-source provenance, completed MP4 hashes and decoded metadata, per-frame audit/state consistency and image-hash uniqueness, semantic group/spring coverage, and final middle-frame contact sheet. Raw shader hashes precede captions/encoding and cannot be reconstructed from lossy MP4/JPEG images; group coverage does not prove every part is unoccluded in one frame.",
+  "current_source_hashes": {
+    "shader_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+    "trajectory_sha256": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+    "inspection_sha256": "a556c371e7671c1cc3e006dc95cce1d801798f7920a8cfc499e45eb647521304",
+    "director_sha256": "222f6f8e9e5dfc335fd2312fa5dfd57dd1b061d4f101e25668b5b82ba39b2923",
+    "renderer_sha256": "bbc289ca2c5661f63a43c3efeef5b3165a1704cba874082f53895f6562b4885b",
+    "table_packer_sha256": "2a1ca8becd51c12d84a0fc9b57b1af5707d2635b43bbe03f089891ebd41ba88c"
+  },
+  "numeric_table_sha256": "31281f64aa6bf986db33ed24a3ad31358afa8a00cf78a7c851603f4597643195",
+  "totals": {
+    "chapters": 14,
+    "ffprobe_frames": 1728,
+    "chapter_duration_seconds": 72.0,
+    "audit_frames": 1728,
+    "unique_raw_shader_frames": 1728,
+    "duplicate_raw_frames": 0,
+    "duplicate_locations": []
+  },
+  "coverage": {
+    "groups_present": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "required_groups": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "inventory": {
+      "rigid_parts": 385,
+      "dynamic_springs": 4,
+      "total_components": 389
+    },
+    "spring_chapters": [
+      {
+        "group": 8,
+        "chapter": "06-shoulder-balance",
+        "springs": [
+          "shoulder_extension_spring_1",
+          "shoulder_extension_spring_2"
+        ],
+        "passed": true
+      },
+      {
+        "group": 9,
+        "chapter": "07-elbow-balance",
+        "springs": [
+          "elbow_extension_spring_1",
+          "elbow_extension_spring_2"
+        ],
+        "passed": true
+      }
+    ]
+  },
+  "contact_sheet": {
+    "file": "reports/film-contact-sheet-p5.jpg",
+    "sha256": "406ba3dd5a59cf360b74ac970fb287a1f7663e84d0afe01207ad1e437f139726",
+    "width": 2000,
+    "height": 2292,
+    "chapters": 14,
+    "sources": [
+      "film/01-operation-frame-0120.jpg",
+      "film/02-disassembly-frame-0072.jpg",
+      "film/03-base-frame-0060.jpg",
+      "film/04-shoulder-frame-0072.jpg",
+      "film/05-elbow-frame-0072.jpg",
+      "film/06-shoulder-balance-frame-0048.jpg",
+      "film/07-elbow-balance-frame-0048.jpg",
+      "film/08-wrist-roll-frame-0048.jpg",
+      "film/09-wrist-bend-frame-0048.jpg",
+      "film/10-tool-roll-frame-0048.jpg",
+      "film/11-gripper-frame-0072.jpg",
+      "film/12-fixtures-frame-0048.jpg",
+      "film/13-structure-frame-0048.jpg",
+      "film/14-reassembly-frame-0060.jpg"
+    ],
+    "source_kind": "Final actual middle-frame JPEGs; no preview images used."
+  },
+  "status": "verified",
+  "seconds": 30.748,
+  "error_count": 0
+}

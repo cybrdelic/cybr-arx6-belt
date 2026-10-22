@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.mesa-*/
+ARX-6-P5-Engineering/integration/cad/
+ARX-6-P5-Shader/ARX-6-P5.html
+ARX-6-P5-Shader/ARX-6-P5-Inspection-1080p.mp4
+action/render/*.mp4
+action/ARX-6-P5-In-Action-1080p.mp4
+# Restored byte-exact cache; the compressed original is tracked.
+ARX-6-P5-Engineering/integration/geometry-meshes.json
+ARX-6-P5-Engineering/integration/geometry-meshes.json.restoring

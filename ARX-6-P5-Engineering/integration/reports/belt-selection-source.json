@@ -1,0 +1,40 @@
+{
+  "source": "https://sdp-si.com/D820/PDFS/Technical-Section.pdf",
+  "publisher": "Stock Drive Products / Sterling Instrument (SDP/SI)",
+  "title": "Timing Belts, Pulleys, Chains and Sprockets: Technical Section",
+  "reviewed": "2026-10-21",
+  "large": {
+    "pdf_page_one_based": 81,
+    "printed_page": "T-78",
+    "table": 38,
+    "profile": "5 mm PowerGrip HTD",
+    "pulley_teeth": 36,
+    "base_width_mm": 9,
+    "base_rating_Nm_at_10_to_200_rpm": 7.1,
+    "selected_width_mm": 25,
+    "width_multiplier": 3.38,
+    "belt_length_mm": 400,
+    "length_correction": 0.8,
+    "corrected_catalog_torque_Nm": 19.1984,
+    "nominal_service_factor_target": 1.5,
+    "rejected_width_mm": 15,
+    "rejected_corrected_torque_Nm": 10.7352,
+    "baseline_shoulder_peak_Nm": 11.116115006617749
+  },
+  "small": {
+    "pdf_page_one_based": 79,
+    "printed_page": "T-76",
+    "table": 37,
+    "profile": "3 mm PowerGrip HTD",
+    "pulley_teeth": 30,
+    "base_width_mm": 6,
+    "base_rating_Nm_at_10_to_200_rpm": 1.4,
+    "selected_width_mm": 15,
+    "width_multiplier": 2.97,
+    "belt_length_mm": 225,
+    "length_correction": 0.9,
+    "corrected_catalog_torque_Nm": 3.7422,
+    "nominal_service_factor_target": 1.5
+  },
+  "scope": "Catalog torque selection screen. Rates below the tabulated 10 rpm minimum, reversing duty, installed pretension, tooth-profile manufacture, bearing loads, elastic positioning error and life still require qualification. Brake holding torque acts on the output shaft and is not assigned to the belt. Do not apply long-length open belt tensile ratings to the selected endless belts."
+}

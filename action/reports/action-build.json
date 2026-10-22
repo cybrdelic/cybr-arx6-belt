@@ -1,0 +1,98 @@
+{
+  "revision": "P5",
+  "purpose": "Continuous arm action",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration_seconds": 30,
+  "frames": 720,
+  "camera_samples": 1,
+  "shadow_samples": 1,
+  "quality": 1,
+  "exposure": 0.38,
+  "playback_speed": 1.0,
+  "shader_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+  "trajectory_sha256": "b7a2358597ee4735affc3a9baff7bffcdc3644cd0bca8dc52eb0d25d0dd5e2b7",
+  "short_trajectory_sha256": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+  "short_trajectory_prefix_exact": true,
+  "physical_sources": {
+    "ARX-6-P5.xml": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+    "controller.mjs": "e8fbe68be5a83f02f6e0b194c573b69bcf34f098de31358fd0e236ad4795107d",
+    "safety.mjs": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+    "parameters.json": "7127b02dc62029a39f58b5e69e97aa932867d560282f98e5aa62b05f0d558c70",
+    "geometry-meshes.json": "838768d0473b4ba2ed25be1e1b0d5c34c3ac643dce99e140bb415d99f2103208",
+    "p5_collision_proxies.json": "f351530da734766721dfd95582d764552d0f92f291a62ad07080dcbd888b528f",
+    "mass_properties.json": "98f98c0a6dd1b39dac65f967fb0ebe682beb003aa29052f2924337fb07f8e024"
+  },
+  "director_sha256": "957b9e36957716c8509c63bd0af34ff23a3253f846591db3f4afaefec66555ad",
+  "renderer_sha256": "bbc289ca2c5661f63a43c3efeef5b3165a1704cba874082f53895f6562b4885b",
+  "table_packer_sha256": "2a1ca8becd51c12d84a0fc9b57b1af5707d2635b43bbe03f089891ebd41ba88c",
+  "inspection_director_sha256": "222f6f8e9e5dfc335fd2312fa5dfd57dd1b061d4f101e25668b5b82ba39b2923",
+  "inspection_sha256": "a556c371e7671c1cc3e006dc95cce1d801798f7920a8cfc499e45eb647521304",
+  "shots": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 10,
+      "id": "01-whole-arm",
+      "title": "Whole arm \u2014 transfers 1 and 2",
+      "reused": true
+    },
+    {
+      "index": 1,
+      "start": 10,
+      "end": 20,
+      "id": "02-elevated",
+      "title": "Elevated view \u2014 transfers 3 and 4",
+      "azimuth": [
+        0.96,
+        1.1
+      ],
+      "elevation": 0.4,
+      "reused": false
+    },
+    {
+      "index": 2,
+      "start": 20,
+      "end": 30,
+      "id": "03-front",
+      "title": "Front view \u2014 transfers 5 and 6",
+      "azimuth": [
+        0.19,
+        0.34
+      ],
+      "elevation": 0.3,
+      "reused": false
+    }
+  ],
+  "method": "Frozen CAD-derived procedural fragment shader evaluated at recorded physical states. Original matching first ten seconds reused; seconds ten through thirty newly rendered. Physical time advances continuously at normal speed; no frame loop or pose reset.",
+  "engineering_status": "Nominal action passes. Broader ordinary scenario suite remains 21/24 with three unresolved adverse stop criteria.",
+  "file": "ARX-6-P5-In-Action-1080p.mp4",
+  "bytes": 8890212,
+  "sha256": "c92e0443619af3ad4a167cb4113345641c8c641bba8b7cf341429d8a6c220467",
+  "shot_sources": [
+    {
+      "shot": 0,
+      "reused": true,
+      "file_sha256": "2a657d5dc7fdd89b05054aae1a0c5212af07f4699de5127a945fcb5adecda084",
+      "source_report_sha256": "911544f39e838d504ef6a1b7a0c0e574eb0f1ac60bc9624394258f76f18f8338",
+      "source_audit_sha256": "c677f5196ad4d5c2965cc455105b66f3c0c2c6962f92eb249420ae3c54643dae"
+    },
+    {
+      "shot": 1,
+      "reused": false,
+      "file_sha256": "d0468a92d7512e8fad9a31580afcf01144da041a59859e553646fb14604cb425",
+      "source_report_sha256": "fc0aa0bf9aef958f662f44789106d58c2c3b88c952044e916dcbf713144d94d3",
+      "source_audit_sha256": "1ba5bc489ec28d9b5009b0f1dde1d196c3f66f1a37231fa0d1aaf8ac4b50ed38"
+    },
+    {
+      "shot": 2,
+      "reused": false,
+      "file_sha256": "d597268e4792354e972d3141efe43707c3194fe67d1856ebe9847ee4002de268",
+      "source_report_sha256": "0ec85e1795293901d5b071725e7b7c80b12f11a1247b63c1f7c1ccad06f3bda9",
+      "source_audit_sha256": "26e02cf5da0c13955b38a90033c86ce9bfd64125bd044f67d0cf1d182202a227"
+    }
+  ],
+  "unique_raw_shader_frames": 720,
+  "audit_sha256": "8a0c8bfef57e6cb623c14eac31fb00dd7a0cfecadedca1d068f462b027383708"
+}

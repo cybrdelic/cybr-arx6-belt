@@ -1,0 +1,390 @@
+body,name,mass_kg,provenance
+fixed,large_bearing_housing_0,0.1194609833074558,CAD density
+fixed,large_rear_bearing_cover_1,0.03234226408555779,CAD density
+fixed,large_front_bearing_cover_2,0.012862763544943572,CAD density
+fixed,J1_bearing_0,0.068,"Retained catalog bearing mass, annular envelope"
+fixed,J1_bearing_-34,0.068,"Retained catalog bearing mass, annular envelope"
+fixed,large_brake_front_adapter_5,0.08124788177350985,CAD density
+fixed,J1_brake_strut_0,0.014862994224654142,CAD density
+fixed,J1_brake_strut_1,0.014862994224654142,CAD density
+fixed,J1_brake_strut_2,0.014862994224654142,CAD density
+fixed,J1_brake_strut_3,0.014862994224654138,CAD density
+fixed,J1_brake_stator,0.9900000000000001,"Vendor brake mass split: 90% stator, 10% armature engineering assumption"
+fixed,J1_stop_pin_0,0.0009864600932271948,CAD density
+fixed,J1_stop_pin_1,0.0009864600932271953,CAD density
+fixed,J1_brake_back_adapter,0.09361388789160825,CAD density
+fixed,J1_index_sensor,0.004,M5 sensor mass allowance; not selected catalog hardware
+fixed,J1_sensor_mount,0.0016433471284300865,CAD density
+fixed,J1_brake_spacer_0,0.002819549561466631,CAD density
+fixed,J1_brake_spacer_1,0.0028195495614666308,CAD density
+fixed,J1_brake_spacer_2,0.0028195495614666308,CAD density
+fixed,J1_brake_spacer_3,0.002819549561466631,CAD density
+fixed,J1_brake_spacer_4,0.002819549561466631,CAD density
+fixed,J1_brake_spacer_5,0.002819549561466631,CAD density
+fixed,J1_gearhead,0.46,Original full maxon gearhead envelope and catalog mass; now folded alongside output axis
+fixed,J1_motor,0.39,Original full maxon motor envelope and catalog mass; not rescaled
+fixed,J1_carrier_deck,0.15492415914551036,CAD density
+fixed,J1_housing_rails,0.11639953546865736,CAD density
+fixed,J1_front_cover,0.08268576338201176,CAD density
+fixed,J1_tension_block,0.0016182892201923108,CAD density
+fixed,J1_tension_screw,0.0026819383784614367,CAD density
+fixed,J1_timing_belt,0.036151117513734045,CAD density
+fixed,J1_drive_pulley,0.1760972557605725,CAD density
+fixed,J1_input_support_bearing,0.03156672298327025,CAD density
+fixed,J1_input_shaft,0.049529970219544465,CAD density
+fixed,J1_pulley_input_key,0.0035168,CAD density
+fixed,J1_gear_mount_screw_0,0.001840364611426984,CAD density
+fixed,J1_gear_mount_screw_1,0.001840364611426984,CAD density
+fixed,J1_gear_mount_screw_2,0.0018403646114269845,CAD density
+fixed,J1_gear_mount_screw_3,0.001840364611426984,CAD density
+fixed,J1_carrier_screw_0,0.0019390106207497042,CAD density
+fixed,J1_carrier_screw_1,0.0019390106207497046,CAD density
+fixed,J1_carrier_screw_2,0.0019390106207497042,CAD density
+fixed,J1_carrier_screw_3,0.0019390106207497042,CAD density
+fixed,bench_mount_plate_42,1.220464048998798,CAD density
+fixed,pedestal_sleeve_43,0.8162892867224936,CAD density
+fixed,bench_backing_washer_44,0.030717442496757456,CAD density
+fixed,bench_mount_bolt_45,0.03287378260679628,CAD density
+fixed,bench_mount_nut_46,0.004823419933346027,CAD density
+fixed,bench_backing_washer_47,0.030717442496757456,CAD density
+fixed,bench_mount_bolt_48,0.03287378260679628,CAD density
+fixed,bench_mount_nut_49,0.004823419933346027,CAD density
+fixed,bench_backing_washer_50,0.030717442496757456,CAD density
+fixed,bench_mount_bolt_51,0.03287378260679627,CAD density
+fixed,bench_mount_nut_52,0.004823419933346024,CAD density
+fixed,bench_backing_washer_53,0.030717442496757456,CAD density
+fixed,bench_mount_bolt_54,0.03287378260679627,CAD density
+fixed,bench_mount_nut_55,0.004823419933346024,CAD density
+fixed,bench_backing_washer_56,0.03071744249675746,CAD density
+fixed,bench_mount_bolt_57,0.03287378260679628,CAD density
+fixed,bench_mount_nut_58,0.004823419933346021,CAD density
+fixed,bench_backing_washer_59,0.03071744249675746,CAD density
+fixed,bench_mount_bolt_60,0.03287378260679628,CAD density
+fixed,bench_mount_nut_61,0.004823419933346021,CAD density
+turret,large_inner_race_spacer_0,0.022232467658619578,CAD density
+turret,large_DIN471_installed_retainer_1,0.0016652785080962535,CAD density
+turret,large_selective_inner_race_shim_2,6.581538434500282e-05,CAD density
+turret,J1_output_shaft,0.4094705860015077,CAD density
+turret,J1_brake_armature,0.11000000000000001,10% vendor brake mass allocation; rotational inertia not measured
+turret,large_brake_keyed_hub_5,0.1281450745086606,CAD density
+turret,large_brake_shaft_key_6,0.0129996,CAD density
+turret,J1_integral_stop_target,0.03136771938575141,CAD density
+turret,J1_driven_pulley,0.1611842084177195,CAD density
+turret,J1_pulley_output_key,0.007912800000000001,CAD density
+turret,large_bearing_housing_10,0.11946098330745583,CAD density
+turret,large_rear_bearing_cover_11,0.032342264085557786,CAD density
+turret,large_front_bearing_cover_12,0.012862763544943572,CAD density
+turret,J2_bearing_0,0.068,"Retained catalog bearing mass, annular envelope"
+turret,J2_bearing_-34,0.068,"Retained catalog bearing mass, annular envelope"
+turret,large_brake_front_adapter_15,0.08124788177350982,CAD density
+turret,J2_brake_strut_0,0.014862994224654131,CAD density
+turret,J2_brake_strut_1,0.014862994224654133,CAD density
+turret,J2_brake_strut_2,0.014862994224654138,CAD density
+turret,J2_brake_strut_3,0.014862994224654147,CAD density
+turret,J2_brake_stator,0.9900000000000001,"Vendor brake mass split: 90% stator, 10% armature engineering assumption"
+turret,J2_stop_pin_0,0.0009864600932271944,CAD density
+turret,J2_stop_pin_1,0.0009864600932271944,CAD density
+turret,J2_brake_back_adapter,0.09361388789160828,CAD density
+turret,J2_index_sensor,0.004,M5 sensor mass allowance; not selected catalog hardware
+turret,J2_sensor_mount,0.0016433471284300865,CAD density
+turret,J2_brake_spacer_0,0.0028195495614666308,CAD density
+turret,J2_brake_spacer_1,0.0028195495614666303,CAD density
+turret,J2_brake_spacer_2,0.0028195495614666308,CAD density
+turret,J2_brake_spacer_3,0.0028195495614666308,CAD density
+turret,J2_brake_spacer_4,0.002819549561466631,CAD density
+turret,J2_brake_spacer_5,0.0028195495614666308,CAD density
+turret,J2_gearhead,0.46,Original full maxon gearhead envelope and catalog mass; now folded alongside output axis
+turret,J2_motor,0.39,Original full maxon motor envelope and catalog mass; not rescaled
+turret,J2_carrier_deck,0.15492415914551042,CAD density
+turret,J2_housing_rails,0.11639953546865751,CAD density
+turret,J2_front_cover,0.08268576338201178,CAD density
+turret,J2_tension_block,0.0016182892201923118,CAD density
+turret,J2_tension_screw,0.002681938378461431,CAD density
+turret,J2_timing_belt,0.03615111751373398,CAD density
+turret,J2_drive_pulley,0.17609725576057247,CAD density
+turret,J2_input_support_bearing,0.03156672298327023,CAD density
+turret,J2_input_shaft,0.04952997021954448,CAD density
+turret,J2_pulley_input_key,0.0035167999999999974,CAD density
+turret,J2_gear_mount_screw_0,0.001840364611426984,CAD density
+turret,J2_gear_mount_screw_1,0.0018403646114269856,CAD density
+turret,J2_gear_mount_screw_2,0.0018403646114269862,CAD density
+turret,J2_gear_mount_screw_3,0.001840364611426984,CAD density
+turret,J2_carrier_screw_0,0.0019390106207497094,CAD density
+turret,J2_carrier_screw_1,0.0019390106207497044,CAD density
+turret,J2_carrier_screw_2,0.0019390106207497094,CAD density
+turret,J2_carrier_screw_3,0.0019390106207497085,CAD density
+turret,turret_yoke_52,0.3901598975174525,CAD density
+turret,shoulder_spring_fixed_clevis_53,0.15195635142048758,CAD density
+turret,spring_eye_pin_54,0.0015783361491635117,CAD density
+turret,spring_eye_pin_55,0.0015783361491635117,CAD density
+turret,spring_mass_allocation,0.042661156789438125,Half spring mass at each actual anchor; flexible-body mass approximation
+turret,spring_mass_allocation,0.042661156789438125,Half spring mass at each actual anchor; flexible-body mass approximation
+turret,fastener_encoder_cable_allowance,0.1,Engineering mass reserve
+upper,large_inner_race_spacer_0,0.022232467658619567,CAD density
+upper,large_DIN471_installed_retainer_1,0.0016652785080962548,CAD density
+upper,large_selective_inner_race_shim_2,6.581538434500133e-05,CAD density
+upper,J2_output_shaft,0.40947058600150765,CAD density
+upper,J2_brake_armature,0.11000000000000001,10% vendor brake mass allocation; rotational inertia not measured
+upper,large_brake_keyed_hub_5,0.12814507450866067,CAD density
+upper,large_brake_shaft_key_6,0.0129996,CAD density
+upper,J2_integral_stop_target,0.03136771938575146,CAD density
+upper,J2_driven_pulley,0.1611842084177195,CAD density
+upper,J2_pulley_output_key,0.007912800000000001,CAD density
+upper,large_bearing_housing_10,0.1194609833074558,CAD density
+upper,large_rear_bearing_cover_11,0.03234226408555779,CAD density
+upper,large_front_bearing_cover_12,0.012862763544943574,CAD density
+upper,J3_bearing_0,0.068,"Retained catalog bearing mass, annular envelope"
+upper,J3_bearing_-34,0.068,"Retained catalog bearing mass, annular envelope"
+upper,large_brake_front_adapter_15,0.08124788177350982,CAD density
+upper,J3_brake_strut_0,0.014862994224654133,CAD density
+upper,J3_brake_strut_1,0.014862994224654133,CAD density
+upper,J3_brake_strut_2,0.014862994224654142,CAD density
+upper,J3_brake_strut_3,0.014862994224654142,CAD density
+upper,J3_brake_stator,0.9900000000000001,"Vendor brake mass split: 90% stator, 10% armature engineering assumption"
+upper,J3_stop_pin_0,0.0009864600932271955,CAD density
+upper,J3_stop_pin_1,0.0009864600932271944,CAD density
+upper,J3_brake_back_adapter,0.09365148225974702,CAD density
+upper,J3_index_sensor,0.004,M5 sensor mass allowance; not selected catalog hardware
+upper,J3_sensor_mount,0.0016433471284300865,CAD density
+upper,J3_brake_spacer_0,0.002819549561466633,CAD density
+upper,J3_brake_spacer_1,0.0028195495614666303,CAD density
+upper,J3_brake_spacer_2,0.0028195495614666303,CAD density
+upper,J3_brake_spacer_3,0.002819549561466633,CAD density
+upper,J3_brake_spacer_4,0.002819549561466633,CAD density
+upper,J3_brake_spacer_5,0.002819549561466633,CAD density
+upper,J3_gearhead,0.46,Original full maxon gearhead envelope and catalog mass; now folded alongside output axis
+upper,J3_motor,0.39,Original full maxon motor envelope and catalog mass; not rescaled
+upper,J3_carrier_deck,0.15492415914551036,CAD density
+upper,J3_housing_rails,0.11639953546865754,CAD density
+upper,J3_front_cover,0.08268576338201179,CAD density
+upper,J3_tension_block,0.0016182892201923108,CAD density
+upper,J3_tension_screw,0.0026819383784614354,CAD density
+upper,J3_timing_belt,0.036151117513734114,CAD density
+upper,J3_drive_pulley,0.17609725576057242,CAD density
+upper,J3_input_support_bearing,0.03156672298327024,CAD density
+upper,J3_input_shaft,0.04952997021954446,CAD density
+upper,J3_pulley_input_key,0.0035168000000000005,CAD density
+upper,J3_gear_mount_screw_0,0.0018403646114269845,CAD density
+upper,J3_gear_mount_screw_1,0.001840364611426984,CAD density
+upper,J3_gear_mount_screw_2,0.001840364611426984,CAD density
+upper,J3_gear_mount_screw_3,0.001840364611426984,CAD density
+upper,J3_carrier_screw_0,0.0019390106207497046,CAD density
+upper,J3_carrier_screw_1,0.0019390106207497046,CAD density
+upper,J3_carrier_screw_2,0.0019390106207497087,CAD density
+upper,J3_carrier_screw_3,0.001939010620749709,CAD density
+upper,upper_link_tube_52,0.2066322662774295,CAD density
+upper,upper_root_ear_53,0.06473309625033251,CAD density
+upper,upper_nut_strip_54,0.06486445318664166,CAD density
+upper,upper_elbow_housing_clamp_55,0.25316722053801305,CAD density
+upper,shoulder_spring_moving_clevis_56,0.0423208305848801,CAD density
+upper,shoulder_spring_nut_plate_57,0.04661588439554722,CAD density
+upper,spring_eye_pin_58,0.001578336149163511,CAD density
+upper,spring_eye_pin_59,0.001578336149163511,CAD density
+upper,spring_mass_allocation,0.042661156789438125,Half spring mass at each actual anchor; flexible-body mass approximation
+upper,spring_mass_allocation,0.042661156789438125,Half spring mass at each actual anchor; flexible-body mass approximation
+upper,elbow_spring_fixed_clevis_62,0.052083744476761326,CAD density
+upper,elbow_fixed_anchor_nut_strips_63,0.033562626593320835,CAD density
+upper,spring_eye_pin_64,0.001578336149163511,CAD density
+upper,spring_eye_pin_65,0.001578336149163511,CAD density
+upper,elbow_spring_mass_allocation,0.010964066347141045,Half spring mass at each actual elbow anchor; flexible-body mass approximation
+upper,elbow_spring_mass_allocation,0.010964066347141045,Half spring mass at each actual elbow anchor; flexible-body mass approximation
+upper,fastener_encoder_cable_allowance,0.08,Engineering mass reserve
+fore,large_inner_race_spacer_0,0.022232467658619567,CAD density
+fore,large_DIN471_installed_retainer_1,0.001665278508096255,CAD density
+fore,large_selective_inner_race_shim_2,6.581538434500127e-05,CAD density
+fore,J3_output_shaft,0.4094705860015077,CAD density
+fore,J3_brake_armature,0.11000000000000001,10% vendor brake mass allocation; rotational inertia not measured
+fore,large_brake_keyed_hub_5,0.12814507450866067,CAD density
+fore,large_brake_shaft_key_6,0.0129996,CAD density
+fore,J3_integral_stop_target,0.03136771938575133,CAD density
+fore,J3_driven_pulley,0.16118420841771955,CAD density
+fore,J3_pulley_output_key,0.0079128,CAD density
+fore,small_bearing_housing_10,0.03329709965049692,CAD density
+fore,small_rear_bearing_cover_11,0.01599271534111476,CAD density
+fore,small_front_bearing_cover_12,0.00576389260791181,CAD density
+fore,J4_bearing_0,0.0201,"Retained catalog bearing mass, annular envelope"
+fore,J4_bearing_-20,0.0201,"Retained catalog bearing mass, annular envelope"
+fore,small_brake_front_adapter_15,0.022748171873678787,CAD density
+fore,J4_brake_strut_0,0.004392830102652352,CAD density
+fore,J4_brake_strut_1,0.004392830102652353,CAD density
+fore,J4_brake_strut_2,0.004392830102652353,CAD density
+fore,J4_brake_strut_3,0.004392830102652352,CAD density
+fore,J4_brake_stator,0.171,"Vendor brake mass split: 90% stator, 10% armature engineering assumption"
+fore,J4_stop_pin_0,0.0003884186617082081,CAD density
+fore,J4_stop_pin_1,0.00038841866170820816,CAD density
+fore,J4_brake_back_adapter,0.0243252011202984,CAD density
+fore,J4_index_sensor,0.004,M5 sensor mass allowance; not selected catalog hardware
+fore,J4_sensor_mount,0.0013666404712615128,CAD density
+fore,J4_brake_spacer_0,0.0008700578022263856,CAD density
+fore,J4_brake_spacer_1,0.000870057802226386,CAD density
+fore,J4_brake_spacer_2,0.000870057802226386,CAD density
+fore,J4_gearhead,0.078,Original full maxon gearhead envelope and catalog mass; now folded alongside output axis
+fore,J4_motor,0.11,Original full maxon motor envelope and catalog mass; not rescaled
+fore,J4_carrier_deck,0.04941806307591279,CAD density
+fore,J4_housing_rails,0.05359353346711416,CAD density
+fore,J4_front_cover,0.034448591883139,CAD density
+fore,J4_tension_block,0.0011035712479413446,CAD density
+fore,J4_tension_screw,0.0015381379003645045,CAD density
+fore,J4_timing_belt,0.007731497448715156,CAD density
+fore,J4_drive_pulley,0.029249318243870975,CAD density
+fore,J4_input_support_bearing,0.016091630270768622,CAD density
+fore,J4_input_shaft,0.014438006598066561,CAD density
+fore,J4_pulley_input_key,0.0005651999999999995,CAD density
+fore,J4_gear_mount_screw_0,0.0005178915489442766,CAD density
+fore,J4_gear_mount_screw_1,0.0005178915489442766,CAD density
+fore,J4_gear_mount_screw_2,0.0005178915489442766,CAD density
+fore,J4_gear_mount_screw_3,0.0005178915489442766,CAD density
+fore,J4_gear_mount_screw_4,0.0005178915489442772,CAD density
+fore,J4_gear_mount_screw_5,0.0005178915489442772,CAD density
+fore,J4_carrier_screw_0,0.0007608073469014741,CAD density
+fore,J4_carrier_screw_1,0.0007608073469014741,CAD density
+fore,J4_carrier_screw_2,0.0007608073469014741,CAD density
+fore,J4_carrier_screw_3,0.0007608073469014741,CAD density
+fore,fore_link_tube_51,0.19960996209807963,CAD density
+fore,fore_root_ear_52,0.08109509625033251,CAD density
+fore,fore_nut_strip_53,0.031301826593320835,CAD density
+fore,fore_roll_housing_clamp_54,0.06626836242071736,CAD density
+fore,fore_clamp_side_shims_55,0.011369804577803734,CAD density
+fore,elbow_spring_moving_clevis_56,0.10532923820728633,CAD density
+fore,elbow_moving_anchor_nut_plate_57,0.033562626593320835,CAD density
+fore,spring_eye_pin_58,0.001578336149163512,CAD density
+fore,spring_eye_pin_59,0.001578336149163512,CAD density
+fore,elbow_spring_mass_allocation,0.010964066347141045,Half spring mass at each actual elbow anchor; flexible-body mass approximation
+fore,elbow_spring_mass_allocation,0.010964066347141045,Half spring mass at each actual elbow anchor; flexible-body mass approximation
+fore,fastener_encoder_cable_allowance,0.06,Engineering mass reserve
+roll,small_inner_race_spacer_0,0.007746917727136469,CAD density
+roll,small_DIN471_installed_retainer_1,0.0005967136282436327,CAD density
+roll,small_selective_inner_race_shim_2,4.115388201432359e-05,CAD density
+roll,J4_output_shaft,0.08711270332817121,CAD density
+roll,J4_brake_armature,0.019000000000000003,10% vendor brake mass allocation; rotational inertia not measured
+roll,small_brake_keyed_hub_5,0.018027120333476143,CAD density
+roll,small_brake_shaft_key_6,0.000942,CAD density
+roll,J4_integral_stop_target,0.004547611092554486,CAD density
+roll,J4_driven_pulley,0.029853406093244637,CAD density
+roll,J4_pulley_output_key,0.0005652000000000001,CAD density
+roll,small_bearing_housing_10,0.03329709965049692,CAD density
+roll,small_rear_bearing_cover_11,0.01599271534111476,CAD density
+roll,small_front_bearing_cover_12,0.005763892607911809,CAD density
+roll,J5_bearing_0,0.0201,"Retained catalog bearing mass, annular envelope"
+roll,J5_bearing_-20,0.0201,"Retained catalog bearing mass, annular envelope"
+roll,small_brake_front_adapter_15,0.022748171873678783,CAD density
+roll,J5_brake_strut_0,0.004392830102652352,CAD density
+roll,J5_brake_strut_1,0.004392830102652353,CAD density
+roll,J5_brake_strut_2,0.004392830102652352,CAD density
+roll,J5_brake_strut_3,0.004392830102652351,CAD density
+roll,J5_brake_stator,0.171,"Vendor brake mass split: 90% stator, 10% armature engineering assumption"
+roll,J5_stop_pin_0,0.0003884186617082081,CAD density
+roll,J5_stop_pin_1,0.0003884186617082081,CAD density
+roll,J5_brake_back_adapter,0.02434181866434441,CAD density
+roll,J5_index_sensor,0.004,M5 sensor mass allowance; not selected catalog hardware
+roll,J5_sensor_mount,0.001366640471261513,CAD density
+roll,J5_brake_spacer_0,0.0008700578022263856,CAD density
+roll,J5_brake_spacer_1,0.000870057802226386,CAD density
+roll,J5_brake_spacer_2,0.0008700578022263862,CAD density
+roll,J5_gearhead,0.078,Original full maxon gearhead envelope and catalog mass; now folded alongside output axis
+roll,J5_motor,0.11,Original full maxon motor envelope and catalog mass; not rescaled
+roll,J5_carrier_deck,0.04941806307591278,CAD density
+roll,J5_housing_rails,0.05359353346711424,CAD density
+roll,J5_front_cover,0.03444859188313901,CAD density
+roll,J5_tension_block,0.0011035712479413448,CAD density
+roll,J5_tension_screw,0.0015381379003645045,CAD density
+roll,J5_timing_belt,0.00773149744871515,CAD density
+roll,J5_drive_pulley,0.02924931824387097,CAD density
+roll,J5_input_support_bearing,0.016091630270768622,CAD density
+roll,J5_input_shaft,0.01443800659806656,CAD density
+roll,J5_pulley_input_key,0.0005652,CAD density
+roll,J5_gear_mount_screw_0,0.000517891548944277,CAD density
+roll,J5_gear_mount_screw_1,0.000517891548944277,CAD density
+roll,J5_gear_mount_screw_2,0.000517891548944277,CAD density
+roll,J5_gear_mount_screw_3,0.000517891548944277,CAD density
+roll,J5_gear_mount_screw_4,0.000517891548944277,CAD density
+roll,J5_gear_mount_screw_5,0.0005178915489442772,CAD density
+roll,J5_carrier_screw_0,0.000760807346901474,CAD density
+roll,J5_carrier_screw_1,0.0007608073469014741,CAD density
+roll,J5_carrier_screw_2,0.000760807346901474,CAD density
+roll,J5_carrier_screw_3,0.0007608073469014741,CAD density
+roll,wrist_roll_fork_51,0.1527105671299209,CAD density
+roll,idle_bearing_inner_cover_52,0.0034557669985935146,CAD density
+roll,idle_bearing_outer_cover_53,0.008639417496483774,CAD density
+roll,J5_idle_bearing,0.0201,SKF6001-2RSH vendor mass; annular envelope inertia
+roll,fastener_encoder_cable_allowance,0.025,Engineering mass reserve
+bend,small_inner_race_spacer_0,0.007746917727136469,CAD density
+bend,small_DIN471_installed_retainer_1,0.0005967136282436324,CAD density
+bend,small_selective_inner_race_shim_2,4.115388201432359e-05,CAD density
+bend,J5_output_shaft,0.08711270332817118,CAD density
+bend,J5_brake_armature,0.019000000000000003,10% vendor brake mass allocation; rotational inertia not measured
+bend,small_brake_keyed_hub_5,0.018027120333476147,CAD density
+bend,small_brake_shaft_key_6,0.000942,CAD density
+bend,J5_integral_stop_target,0.004547611092554486,CAD density
+bend,J5_driven_pulley,0.029853406093244623,CAD density
+bend,J5_pulley_output_key,0.0005652000000000001,CAD density
+bend,small_bearing_housing_10,0.033297099650496896,CAD density
+bend,small_rear_bearing_cover_11,0.01599271534111476,CAD density
+bend,small_front_bearing_cover_12,0.005763892607911809,CAD density
+bend,J6_bearing_0,0.0201,"Retained catalog bearing mass, annular envelope"
+bend,J6_bearing_-20,0.0201,"Retained catalog bearing mass, annular envelope"
+bend,small_brake_front_adapter_15,0.022748171873678783,CAD density
+bend,J6_brake_strut_0,0.004392830102652352,CAD density
+bend,J6_brake_strut_1,0.004392830102652353,CAD density
+bend,J6_brake_strut_2,0.004392830102652353,CAD density
+bend,J6_brake_strut_3,0.004392830102652352,CAD density
+bend,J6_brake_stator,0.171,"Vendor brake mass split: 90% stator, 10% armature engineering assumption"
+bend,J6_stop_pin_0,0.00038841866170820816,CAD density
+bend,J6_stop_pin_1,0.00038841866170820816,CAD density
+bend,J6_brake_back_adapter,0.0243252011202984,CAD density
+bend,J6_index_sensor,0.004,M5 sensor mass allowance; not selected catalog hardware
+bend,J6_sensor_mount,0.0013666404712615121,CAD density
+bend,J6_brake_spacer_0,0.0008700578022263858,CAD density
+bend,J6_brake_spacer_1,0.000870057802226386,CAD density
+bend,J6_brake_spacer_2,0.000870057802226386,CAD density
+bend,J6_gearhead,0.078,Original full maxon gearhead envelope and catalog mass; now folded alongside output axis
+bend,J6_motor,0.11,Original full maxon motor envelope and catalog mass; not rescaled
+bend,J6_carrier_deck,0.049418063075912816,CAD density
+bend,J6_housing_rails,0.05359353346711424,CAD density
+bend,J6_front_cover,0.03444859188313901,CAD density
+bend,J6_tension_block,0.0011035712479413422,CAD density
+bend,J6_tension_screw,0.0015381379003645045,CAD density
+bend,J6_timing_belt,0.007731497448715178,CAD density
+bend,J6_drive_pulley,0.02924931824387098,CAD density
+bend,J6_input_support_bearing,0.016091630270768622,CAD density
+bend,J6_input_shaft,0.01443800659806656,CAD density
+bend,J6_pulley_input_key,0.0005652000000000001,CAD density
+bend,J6_gear_mount_screw_0,0.000517891548944277,CAD density
+bend,J6_gear_mount_screw_1,0.000517891548944277,CAD density
+bend,J6_gear_mount_screw_2,0.000517891548944277,CAD density
+bend,J6_gear_mount_screw_3,0.000517891548944277,CAD density
+bend,J6_gear_mount_screw_4,0.0005178915489442772,CAD density
+bend,J6_gear_mount_screw_5,0.0005178915489442772,CAD density
+bend,J6_carrier_screw_0,0.0007608073469014741,CAD density
+bend,J6_carrier_screw_1,0.0007608073469014742,CAD density
+bend,J6_carrier_screw_2,0.0007608073469014741,CAD density
+bend,J6_carrier_screw_3,0.0007608073469014741,CAD density
+bend,wrist_bend_cradle_51,0.15527191886931974,CAD density
+bend,wrist_idle_trunnion_52,0.014593906407348515,CAD density
+bend,fastener_encoder_cable_allowance,0.025,Engineering mass reserve
+tool,small_inner_race_spacer_0,0.007746917727136469,CAD density
+tool,small_DIN471_installed_retainer_1,0.0005967136282436325,CAD density
+tool,small_selective_inner_race_shim_2,4.115388201432166e-05,CAD density
+tool,J6_output_shaft,0.08711270332817121,CAD density
+tool,J6_brake_armature,0.019000000000000003,10% vendor brake mass allocation; rotational inertia not measured
+tool,small_brake_keyed_hub_5,0.018027120333476136,CAD density
+tool,small_brake_shaft_key_6,0.000942,CAD density
+tool,J6_integral_stop_target,0.004547611092554485,CAD density
+tool,J6_driven_pulley,0.029853406093244637,CAD density
+tool,J6_pulley_output_key,0.0005652000000000001,CAD density
+tool,gripper_bridge_10,0.07432395524113018,CAD density
+tool,gripper_motor,0.012,Pololu envelope; mass engineering allowance
+tool,gripper_pinion_m0p3_z20_12,0.002454185223324292,CAD density
+tool,pinion_front_bushing_13,0.0012293635604332268,CAD density
+tool,guide_rod_-10,0.010456476988208261,CAD density
+tool,guide_rod_10,0.010456476988208261,CAD density
+tool,gripper_cable_clamp_mount_16,0.004688869594177331,CAD density
+tool,gripper_cable_clamp_base_17,0.0008010046015024082,CAD density
+tool,gripper_cable_clamp_cap_18,0.0008010046015024079,CAD density
+tool,gripper_cable_clamp_liner_19,5.4428092723443135e-05,CAD density
+tool,fastener_encoder_cable_allowance,0.06,Engineering mass reserve
+jaw,right_jaw_carriage_0,0.017647681805967545,CAD density
+jaw,finger_pad_1,0.0008743679999999999,CAD density
+jaw,jaw_guide_bushing_2,0.00014335426570336816,CAD density
+jaw,jaw_guide_bushing_3,0.00014335426570336816,CAD density
+jaw,upper_rack,0.007465372806114579,CAD density

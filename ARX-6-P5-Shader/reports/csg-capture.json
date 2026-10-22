@@ -1,0 +1,62 @@
+{
+  "generator_sha256": "0c8474173cc5ec70164cae5050a9aa7decbf6e30f14cb7f67564e9fbdaad58f7",
+  "spec_sha256": "606e09b482d4c5f838ee49daced4b574f8260450dd350735e95422c2d666a8ac",
+  "placed_objects": 385,
+  "unique_parts": 116,
+  "bodies": {
+    "fixed": 66,
+    "turret": 56,
+    "upper": 64,
+    "fore": 60,
+    "roll": 55,
+    "bend": 53,
+    "tool": 20,
+    "jaw_left": 5,
+    "jaw_right": 5,
+    "puck": 1
+  },
+  "scope": "Analytic CAD construction replay. Per-instance rigid geometry is captured; dynamic spring geometry comes from the same design specification. No triangle meshes are renderer inputs.",
+  "capture_mapping": "Semantic AST construction interpreter; explicit unsupported-operation failure; no source-line-number whitelist.",
+  "excluded_operations": [
+    {
+      "line": 405,
+      "reason": "Dynamic spring is emitted analytically from the shared spring specification."
+    },
+    {
+      "line": 406,
+      "reason": "Dynamic spring is emitted analytically from the shared spring specification."
+    },
+    {
+      "line": 407,
+      "reason": "Dynamic spring is emitted analytically from the shared spring specification."
+    },
+    {
+      "line": 408,
+      "reason": "Dynamic spring is emitted analytically from the shared spring specification."
+    },
+    {
+      "line": 414,
+      "reason": "Dynamic spring is emitted analytically from the shared spring specification."
+    },
+    {
+      "line": 452,
+      "reason": "Dynamic spring is emitted analytically from the shared spring specification."
+    },
+    {
+      "line": 453,
+      "reason": "Dynamic spring is emitted analytically from the shared spring specification."
+    },
+    {
+      "line": 454,
+      "reason": "Dynamic spring is emitted analytically from the shared spring specification."
+    },
+    {
+      "line": 455,
+      "reason": "Dynamic spring is emitted analytically from the shared spring specification."
+    },
+    {
+      "line": 461,
+      "reason": "Dynamic spring is emitted analytically from the shared spring specification."
+    }
+  ]
+}

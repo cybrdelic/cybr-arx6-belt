@@ -1,0 +1,138 @@
+{
+  "revision": "P5",
+  "scope": "Independent static and numerical review of P5 SSBO packing and film state/camera/callout conventions. Geometry and native physics are covered by separate reports.",
+  "reviewed_files_sha256": {
+    "tools/shader_tables.py": "2a1ca8becd51c12d84a0fc9b57b1af5707d2635b43bbe03f089891ebd41ba88c",
+    "tools/egl_render.py": "bbc289ca2c5661f63a43c3efeef5b3165a1704cba874082f53895f6562b4885b",
+    "tools/film_p5.py": "222f6f8e9e5dfc335fd2312fa5dfd57dd1b061d4f101e25668b5b82ba39b2923",
+    "tools/build_replay_p5.py": "bbcee3e56685edecd5b3a687293fd8a77fcd2b0528ab2c5b1ec3f0cacbd79b9e",
+    "tools/build_viewer_p5.py": "de2ddf9851e5848e28791b08fd6a0f5fd42a4bf95eb362ec57e5d21e77a35eb3",
+    "tools/assemble_p5.py": "f7a93e2729c648496cfb80406b6fcd58cdbfff9e854c1655f363969dbd82c1c0",
+    "source/geometry-runtime.glsl": "4be10a46a93ed959627aa0d994e5e43eb1fdb0f328de73714ba10255e8dd00af",
+    "tools/webgl_tables.py": "702c91ad0e6b67063d1613b4ab9b565e3cb980ba873bc7262cd21ba4e61c4fec",
+    "tools/test_viewer_p5.cjs": "296a717654e4d309b07f6e848e03d54bae45b8c3f2319e6aa4b48b08879be476",
+    "tools/check_webgl_transport.py": "ee7956034468701ee03510129ca0630cfbba0c98b0eabd572310fb3b2724ff9f"
+  },
+  "numeric_transport": {
+    "literal_parser": "Recognized float/int vectors and scalars only; rejects expression residue and element-count mismatch.",
+    "float_conversion": "Original literals converted to float32; integer literals converted to int32; explicit little-endian numeric arrays.",
+    "layout": "std430 scalar stride 4, vec2 stride 8, vec3/vec4 stride 16; correct per-table base alignment and final block padding.",
+    "current_table_count": 36,
+    "current_buffer_bytes": 244864,
+    "final_padding_bytes": 12,
+    "driver_check": "EGL compares reflected total block bytes plus active member offsets/array strides with packed layout before upload.",
+    "rendering_inputs": "No triangle meshes or geometry/material textures. The RGBA32F texture is a render destination.",
+    "portable_path": "Downloadable live/replay GLSL retains all constants. Desktop film uses read-only std430 SSBO transport; the offline WebGL2 viewer can select exact std140 uvec4 uniform-buffer transport."
+  },
+  "physical_state_review": {
+    "units": "SI input, millimetre local CAD, render unit = 200 mm; Y up; normalized WXYZ quaternion.",
+    "fields": "Six joint values from frame[1:7], jaw half gaps [13:15], independent puck position [15:18], quaternion [18:22].",
+    "interpolation": "Linear joint/gap/position interpolation; quaternion normalized lerp with consistent hemisphere.",
+    "first_chapter": "Nominal physical trace with inspection offsets/cut/extra mechanism phase zero.",
+    "later_chapters": "Explicit INSPECTION VIEW; frozen or selectively varied physical coordinates plus separate demonstration transforms.",
+    "forward_transform_report": "forward-transforms.json",
+    "film_camera": "World-space camera projection agrees with the fragment camera. Stable per-chapter fit envelopes avoid zoom breathing. Raw CAD bounds feed framing; rotating/exploded solids retain conservative runtime trace bounds.",
+    "callouts": "Current six-drive and gripper label tokens resolve to actual modeled records. Static envelopes and output hardware use the corresponding body pose; current tokens do not label a parent-side rotating input key. If such a callout is added, its physical input phase must also be applied.",
+    "supplier_scope": "Vendor envelopes are not presented as fully modeled internal mechanisms."
+  },
+  "resolved_findings": [
+    {
+      "finding": "SSBO lacked the final 12 bytes of block padding although all member offsets were correct.",
+      "resolution": "Packer pads to 16 bytes; EGL now verifies GL_BUFFER_DATA_SIZE as well as member layout."
+    },
+    {
+      "finding": "Group 11 title claimed forks, but forks belong to wrist drive groups.",
+      "resolution": "Title now says Links and load path."
+    },
+    {
+      "finding": "Gripper inspection footer referred to a contact-held payload although group 7 does not display the payload.",
+      "resolution": "Footer now says MECHANISM INSPECTION \u00b7 RECORDED JAW POSITIONS."
+    },
+    {
+      "finding": "Film cache/join provenance originally omitted table packer code and some sampling settings.",
+      "resolution": "Current code records table_packer_sha256 and compares camera_samples, shadow_samples and quality on join and resume."
+    },
+    {
+      "finding": "Broad P4-to-P5 replacement changed the film button label to Save MP5.",
+      "resolution": "Builder explicitly restores Save MP4; verified in current build script."
+    }
+  ],
+  "remaining_limited_caveats": [
+    {
+      "item": "The optional --no-caption flag is not included in film cache/join identity.",
+      "effect": "Reusing a chapter after changing only this flag can reuse the previous caption choice. The delivery defaults consistently enable captions."
+    },
+    {
+      "item": "Resume and join trust a complete chapter report and do not recompute the chapter MP4 output_sha256 before reuse.",
+      "effect": "A separately edited or corrupted chapter could retain a stale report. No such change was observed in this review."
+    },
+    {
+      "item": "First browser draw on software WebGL may have a long shader JIT delay.",
+      "effect": "Root added a separate 300-second first-probe allowance while keeping ordinary tile timeouts shorter. The final HTML hash needs its own completed P5 browser report."
+    }
+  ],
+  "delivery_checks": "Rebuild replay and viewer after the final trace/shader freeze; join completed chapters and embed final film before the complete viewer test. Do not treat preliminary film-free HTML or historical P3 reports as final evidence.",
+  "exact_acceleration_report": "exact-light-cull-check.json",
+  "further_unimplemented_optimizations": [
+    {
+      "idea": "Defer normal, tangent and local-material evaluation until the closest primary hit is final.",
+      "basis": "traceObject currently performs four SDF normal samples for each provisional nearest hit; an occluded provisional hit need not be shaded.",
+      "validation": "Keep the same hit epsilon and normal stencil for the final winning solid; compare complete float and encoded images."
+    },
+    {
+      "idea": "Cache camera-relative light bases and constant quadrature sample positions/radiance once per frame.",
+      "basis": "Light orientation and the cloth radiance at the fixed 25 quadrature nodes are frame invariants.",
+      "validation": "Preserve numeric literals and operation order where feasible; check multiple camera and emitter placements. Compiler hoisting may already remove some cost."
+    },
+    {
+      "idea": "Near-to-far BVH child traversal.",
+      "basis": "The current threaded traversal has fixed ordering; earlier foreground hits could shorten later ray ranges.",
+      "validation": "Requires traversal changes and tie-order checks; no geometry simplification. Deferred beyond this frozen revision."
+    }
+  ],
+  "webgl_uniform_buffers": {
+    "correctness": "No numerical transport correctness issue found. All selected per-table scalar hashes match desktop tables; every generated accessor was independently tested.",
+    "packing": "float32/int32 literal bits; four scalar or two vec2 elements per uvec4; vec3 padded to four lanes; 16-byte table alignment.",
+    "accessors": "Global word address dispatch across named uniform blocks; uintBitsToFloat for floats; signed integer constructors for int/ivec; nested table indexing rewritten recursively; selected .length() calls retain original counts.",
+    "variants": [
+      {
+        "maximum_block_bytes": 65536,
+        "block_count": 4,
+        "table_count": 36,
+        "table_bytes": 244896,
+        "literal_tables_remaining": 0,
+        "shader_sha256": "053d05bdf747ca9719f0c4cd15b2a5c6cfa3ea0ec51940f2548209cf965a1f2f",
+        "literal_source_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+        "data_sha256": "714797b47f6e7718ca1c9798a240ceb3bdcc41cef2dcd11f0bb9ab751990c10b"
+      },
+      {
+        "maximum_block_bytes": 32768,
+        "block_count": 8,
+        "table_count": 36,
+        "table_bytes": 244896,
+        "literal_tables_remaining": 0,
+        "shader_sha256": "3649cea5a31ac7fe6ef457a30eabbe05939b8df82849584d1eb6778c11cca524",
+        "literal_source_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+        "data_sha256": "714797b47f6e7718ca1c9798a240ceb3bdcc41cef2dcd11f0bb9ab751990c10b"
+      },
+      {
+        "maximum_block_bytes": 16384,
+        "block_count": 12,
+        "table_count": 26,
+        "table_bytes": 196608,
+        "literal_tables_remaining": 10,
+        "shader_sha256": "7d3eb965bc4720f98d43db479b950078aa12735dd17cb5a051cc407204bef64f",
+        "literal_source_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+        "data_sha256": "0f96c83ca57b49e75ffa407c1bb709e8126c3a14e0d508809b00990970aab8d2"
+      }
+    ],
+    "selection": "Largest supported maximum block size with sufficient MAX_FRAGMENT_UNIFORM_BLOCKS; otherwise original literal shader source.",
+    "upload_validation": "Active block size reflection and exact byte readback.",
+    "probe_report": "webgl-table-accessors.json",
+    "probe_scalar_values": 166026,
+    "probe_scalar_bit_mismatches": 0,
+    "probe_scope": "Generated std140 accessors on desktop OpenGL; browser execution and cross-driver images are separate reports.",
+    "browser_test_report": "viewer-tests-p5.json",
+    "browser_image_report": "webgl-transport-parity.json"
+  }
+}

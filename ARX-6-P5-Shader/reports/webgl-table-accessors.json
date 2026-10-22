@@ -1,0 +1,228 @@
+{
+  "shader_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+  "packer_sha256": "702c91ad0e6b67063d1613b4ab9b565e3cb980ba873bc7262cd21ba4e61c4fec",
+  "scalar_values_per_variant": 55342,
+  "tables": 36,
+  "scope": "Every scalar element, signed integer conversion, float bit conversion, selected-array length, vector lane and block boundary checked on desktop OpenGL with the same generated std140 accessors. Browser execution and cross-driver imagery have separate reports.",
+  "variants": [
+    {
+      "maximum_block_bytes": 65536,
+      "block_count": 4,
+      "transported_tables": 36,
+      "literal_tables_remaining": 0,
+      "transported_bytes": 244896,
+      "scalar_bits_identical": true,
+      "array_lengths_identical": true,
+      "table_dispatch_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "scalar_bit_mismatches": 0,
+      "driver": {
+        "vendor": "Mesa",
+        "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+        "version": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2"
+      },
+      "compile_seconds": 0.07592841699079145,
+      "first_draw_seconds": 4.873332720002509,
+      "blocks": [
+        {
+          "name": "ARXNumericBlock0",
+          "bytes": 65536,
+          "reflected_bytes": 65536,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock1",
+          "bytes": 65536,
+          "reflected_bytes": 65536,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock2",
+          "bytes": 65536,
+          "reflected_bytes": 65536,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock3",
+          "bytes": 48288,
+          "reflected_bytes": 48288,
+          "passed": true
+        }
+      ],
+      "actual_scene_variant_sha256": "053d05bdf747ca9719f0c4cd15b2a5c6cfa3ea0ec51940f2548209cf965a1f2f",
+      "actual_scene_data_sha256": "714797b47f6e7718ca1c9798a240ceb3bdcc41cef2dcd11f0bb9ab751990c10b",
+      "desktop_value_hashes_match": true
+    },
+    {
+      "maximum_block_bytes": 32768,
+      "block_count": 8,
+      "transported_tables": 36,
+      "literal_tables_remaining": 0,
+      "transported_bytes": 244896,
+      "scalar_bits_identical": true,
+      "array_lengths_identical": true,
+      "table_dispatch_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "scalar_bit_mismatches": 0,
+      "driver": {
+        "vendor": "Mesa",
+        "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+        "version": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2"
+      },
+      "compile_seconds": 0.15063559799455106,
+      "first_draw_seconds": 11.036286194997956,
+      "blocks": [
+        {
+          "name": "ARXNumericBlock0",
+          "bytes": 32768,
+          "reflected_bytes": 32768,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock1",
+          "bytes": 32768,
+          "reflected_bytes": 32768,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock2",
+          "bytes": 32768,
+          "reflected_bytes": 32768,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock3",
+          "bytes": 32768,
+          "reflected_bytes": 32768,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock4",
+          "bytes": 32768,
+          "reflected_bytes": 32768,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock5",
+          "bytes": 32768,
+          "reflected_bytes": 32768,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock6",
+          "bytes": 32768,
+          "reflected_bytes": 32768,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock7",
+          "bytes": 15520,
+          "reflected_bytes": 15520,
+          "passed": true
+        }
+      ],
+      "actual_scene_variant_sha256": "3649cea5a31ac7fe6ef457a30eabbe05939b8df82849584d1eb6778c11cca524",
+      "actual_scene_data_sha256": "714797b47f6e7718ca1c9798a240ceb3bdcc41cef2dcd11f0bb9ab751990c10b",
+      "desktop_value_hashes_match": true
+    },
+    {
+      "maximum_block_bytes": 16384,
+      "block_count": 12,
+      "transported_tables": 26,
+      "literal_tables_remaining": 10,
+      "transported_bytes": 196608,
+      "scalar_bits_identical": true,
+      "array_lengths_identical": true,
+      "table_dispatch_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "scalar_bit_mismatches": 0,
+      "driver": {
+        "vendor": "Mesa",
+        "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+        "version": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2"
+      },
+      "compile_seconds": 4.679815952011268,
+      "first_draw_seconds": 11.76170003999141,
+      "blocks": [
+        {
+          "name": "ARXNumericBlock0",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock1",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock2",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock3",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock4",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock5",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock6",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock7",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock8",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock9",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock10",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        },
+        {
+          "name": "ARXNumericBlock11",
+          "bytes": 16384,
+          "reflected_bytes": 16384,
+          "passed": true
+        }
+      ],
+      "actual_scene_variant_sha256": "7d3eb965bc4720f98d43db479b950078aa12735dd17cb5a051cc407204bef64f",
+      "actual_scene_data_sha256": "0f96c83ca57b49e75ffa407c1bb709e8126c3a14e0d508809b00990970aab8d2",
+      "desktop_value_hashes_match": true
+    }
+  ],
+  "nested_index_rewrite_passed": true,
+  "passed": true,
+  "total_scalar_values_checked": 166026
+}

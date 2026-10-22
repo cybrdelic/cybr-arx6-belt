@@ -1,0 +1,2412 @@
+{
+  "file": "cad/ARX-6-P5-assembled-nominal-t2p5.step",
+  "units": "mm",
+  "time_s": 2.5000000000019997,
+  "joint_angles_rad": [
+    0.2911024000023293,
+    0.282868743215918,
+    1.2982041741373023,
+    -0.026069736689729003,
+    1.5405088953280361,
+    2.8958557304771237
+  ],
+  "jaw_half_gaps_m": [
+    0.018991885896368584,
+    0.018991884766210526
+  ],
+  "input_drive_phase_about_native_axes_rad": [
+    -0.2911024000023293,
+    -0.282868743215918,
+    1.2982041741373023,
+    -0.026069736689729003,
+    -1.5405088953280361,
+    2.8958557304771237
+  ],
+  "trace_sha256": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+  "model_xml_sha256": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+  "generator_sha256": "0c8474173cc5ec70164cae5050a9aa7decbf6e30f14cb7f67564e9fbdaad58f7",
+  "part_count": 384,
+  "imported_solid_count": 399,
+  "imported_valid": true,
+  "bounds_mm": {
+    "min": [
+      -98.24937903297561,
+      -92.5,
+      -217.73842369179658
+    ],
+    "max": [
+      390.54698806322506,
+      503.83203866722744,
+      218.6428526843966
+    ]
+  },
+  "spring_anchors": [
+    {
+      "name": "counterbalance_spring_1",
+      "anchor_a_mm": [
+        -79.48582902331844,
+        103.99999999999999,
+        38.82013632737248
+      ],
+      "anchor_b_mm": [
+        1.4953084182213081,
+        211.21810839911018,
+        63.08319868221542
+      ],
+      "eye_distance_mm": 136.53704107253787,
+      "valid": true
+    },
+    {
+      "name": "counterbalance_spring_2",
+      "anchor_a_mm": [
+        -86.37403108375008,
+        103.99999999999999,
+        61.81040975712241
+      ],
+      "anchor_b_mm": [
+        -5.39289364221032,
+        211.21810839911018,
+        86.07347211196534
+      ],
+      "eye_distance_mm": 136.53704107253787,
+      "valid": true
+    },
+    {
+      "name": "elbow_counterbalance_spring_1",
+      "anchor_a_mm": [
+        38.989766108861964,
+        334.82249723576643,
+        -45.73371499760482
+      ],
+      "anchor_b_mm": [
+        47.54423084779769,
+        413.3348720319079,
+        -43.17067972876905
+      ],
+      "eye_distance_mm": 79.01861181322269,
+      "valid": true
+    },
+    {
+      "name": "elbow_counterbalance_spring_2",
+      "anchor_a_mm": [
+        45.877968169293595,
+        334.82249723576643,
+        -68.72398842735474
+      ],
+      "anchor_b_mm": [
+        54.432432908229316,
+        413.3348720319079,
+        -66.16095315851896
+      ],
+      "eye_distance_mm": 79.01861181322269,
+      "valid": true
+    }
+  ],
+  "parts": [
+    {
+      "name": "fixed__large_bearing_housing_0",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 44244.80863239389
+    },
+    {
+      "name": "fixed__large_rear_bearing_cover_1",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 11978.616327985052
+    },
+    {
+      "name": "fixed__large_front_bearing_cover_2",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 4763.986498127455
+    },
+    {
+      "name": "turret__large_inner_race_spacer_0",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 2832.161485174527
+    },
+    {
+      "name": "turret__large_DIN471_installed_retainer_1",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 212.1373895663171
+    },
+    {
+      "name": "turret__large_selective_inner_race_shim_2",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 8.384125394268057
+    },
+    {
+      "name": "turret__J1_output_shaft",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 52161.858089365625
+    },
+    {
+      "name": "fixed__J1_bearing_0",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 12855.397138489716
+    },
+    {
+      "name": "fixed__J1_bearing_-34",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 12855.397138489716
+    },
+    {
+      "name": "fixed__large_brake_front_adapter_5",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 30091.80806426415
+    },
+    {
+      "name": "fixed__J1_brake_strut_0",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 1893.3750604655386
+    },
+    {
+      "name": "fixed__J1_brake_strut_1",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 1893.3750604655386
+    },
+    {
+      "name": "fixed__J1_brake_strut_2",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 1893.3750604655386
+    },
+    {
+      "name": "fixed__J1_brake_strut_3",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 1893.3750604655386
+    },
+    {
+      "name": "fixed__J1_brake_stator",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 191951.3111343406
+    },
+    {
+      "name": "turret__J1_brake_armature",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 4276.021760801227
+    },
+    {
+      "name": "turret__large_brake_keyed_hub_5",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 16324.213313205735
+    },
+    {
+      "name": "turret__large_brake_shaft_key_6",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 1655.9999999999995
+    },
+    {
+      "name": "turret__J1_integral_stop_target",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 3995.8878198409448
+    },
+    {
+      "name": "fixed__J1_stop_pin_0",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 125.66370614359168
+    },
+    {
+      "name": "fixed__J1_stop_pin_1",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 125.66370614359174
+    },
+    {
+      "name": "fixed__J1_brake_back_adapter",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 34671.810330226785
+    },
+    {
+      "name": "fixed__J1_index_sensor",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 314.15926535897927
+    },
+    {
+      "name": "fixed__J1_sensor_mount",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 608.6471126043978
+    },
+    {
+      "name": "fixed__J1_brake_spacer_0",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 359.1782880849291
+    },
+    {
+      "name": "fixed__J1_brake_spacer_1",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 359.1782880849291
+    },
+    {
+      "name": "fixed__J1_brake_spacer_2",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 359.1782880849291
+    },
+    {
+      "name": "fixed__J1_brake_spacer_3",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 359.1782880849291
+    },
+    {
+      "name": "fixed__J1_brake_spacer_4",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 359.1782880849291
+    },
+    {
+      "name": "fixed__J1_brake_spacer_5",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 359.1782880849291
+    },
+    {
+      "name": "fixed__J1_gearhead",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 96980.96521631692
+    },
+    {
+      "name": "fixed__J1_motor",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 70497.33914655495
+    },
+    {
+      "name": "fixed__J1_carrier_deck",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 57379.31820204102
+    },
+    {
+      "name": "fixed__J1_housing_rails",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 43110.939062466656
+    },
+    {
+      "name": "fixed__J1_front_cover",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 30624.356808152465
+    },
+    {
+      "name": "fixed__J1_tension_block",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 599.3663778490014
+    },
+    {
+      "name": "fixed__J1_tension_screw",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 341.6482010778874
+    },
+    {
+      "name": "fixed__J1_timing_belt",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 32864.65228521366
+    },
+    {
+      "name": "fixed__J1_drive_pulley",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 65221.205837245536
+    },
+    {
+      "name": "fixed__J1_input_support_bearing",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 4021.2385965950243
+    },
+    {
+      "name": "fixed__J1_input_shaft",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 6309.550346438801
+    },
+    {
+      "name": "turret__J1_driven_pulley",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 59697.85496952255
+    },
+    {
+      "name": "turret__J1_pulley_output_key",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 1007.9999999999995
+    },
+    {
+      "name": "fixed__J1_pulley_input_key",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 448.00000000000045
+    },
+    {
+      "name": "fixed__J1_gear_mount_screw_0",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 234.44135177413696
+    },
+    {
+      "name": "fixed__J1_gear_mount_screw_1",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 234.44135177413696
+    },
+    {
+      "name": "fixed__J1_gear_mount_screw_2",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 234.44135177413696
+    },
+    {
+      "name": "fixed__J1_gear_mount_screw_3",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 234.44135177413696
+    },
+    {
+      "name": "fixed__J1_carrier_screw_0",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 247.0077223884959
+    },
+    {
+      "name": "fixed__J1_carrier_screw_1",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 247.0077223884959
+    },
+    {
+      "name": "fixed__J1_carrier_screw_2",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 247.0077223884959
+    },
+    {
+      "name": "fixed__J1_carrier_screw_3",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 247.0077223884959
+    },
+    {
+      "name": "turret__large_bearing_housing_10",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 44244.80863239388
+    },
+    {
+      "name": "turret__large_rear_bearing_cover_11",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 11978.616327985052
+    },
+    {
+      "name": "turret__large_front_bearing_cover_12",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 4763.986498127456
+    },
+    {
+      "name": "upper__large_inner_race_spacer_0",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 2832.1614851745244
+    },
+    {
+      "name": "upper__large_DIN471_installed_retainer_1",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 212.13738956629376
+    },
+    {
+      "name": "upper__large_selective_inner_race_shim_2",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 8.384125394267492
+    },
+    {
+      "name": "upper__J2_output_shaft",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 52161.85808936562
+    },
+    {
+      "name": "turret__J2_bearing_0",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 12855.397138489709
+    },
+    {
+      "name": "turret__J2_bearing_-34",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 12855.397138489712
+    },
+    {
+      "name": "turret__large_brake_front_adapter_15",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 30091.80806426412
+    },
+    {
+      "name": "turret__J2_brake_strut_0",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 1893.3750604655374
+    },
+    {
+      "name": "turret__J2_brake_strut_1",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 1893.3750604655381
+    },
+    {
+      "name": "turret__J2_brake_strut_2",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 1893.3750604655372
+    },
+    {
+      "name": "turret__J2_brake_strut_3",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 1893.375060465537
+    },
+    {
+      "name": "turret__J2_brake_stator",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 191951.31113434056
+    },
+    {
+      "name": "upper__J2_brake_armature",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 4276.021760801237
+    },
+    {
+      "name": "upper__large_brake_keyed_hub_5",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 16324.213313205732
+    },
+    {
+      "name": "upper__large_brake_shaft_key_6",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 1655.9999999999995
+    },
+    {
+      "name": "upper__J2_integral_stop_target",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 3995.8878198407024
+    },
+    {
+      "name": "turret__J2_stop_pin_0",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 125.66370614359161
+    },
+    {
+      "name": "turret__J2_stop_pin_1",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 125.6637061435918
+    },
+    {
+      "name": "turret__J2_brake_back_adapter",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 34671.81033022679
+    },
+    {
+      "name": "turret__J2_index_sensor",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 314.1592653589795
+    },
+    {
+      "name": "turret__J2_sensor_mount",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 608.6471126042968
+    },
+    {
+      "name": "turret__J2_brake_spacer_0",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 359.1782880849289
+    },
+    {
+      "name": "turret__J2_brake_spacer_1",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 359.1782880849289
+    },
+    {
+      "name": "turret__J2_brake_spacer_2",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 359.17828808492914
+    },
+    {
+      "name": "turret__J2_brake_spacer_3",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 359.17828808492897
+    },
+    {
+      "name": "turret__J2_brake_spacer_4",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 359.17828808492914
+    },
+    {
+      "name": "turret__J2_brake_spacer_5",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 359.1782880849288
+    },
+    {
+      "name": "turret__J2_gearhead",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 96980.9652163169
+    },
+    {
+      "name": "turret__J2_motor",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 70497.33914655496
+    },
+    {
+      "name": "turret__J2_carrier_deck",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 57379.31820203384
+    },
+    {
+      "name": "turret__J2_housing_rails",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 43110.93906240017
+    },
+    {
+      "name": "turret__J2_front_cover",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 30624.356808146265
+    },
+    {
+      "name": "turret__J2_tension_block",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 599.3663778474162
+    },
+    {
+      "name": "turret__J2_tension_screw",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 341.6482010785933
+    },
+    {
+      "name": "turret__J2_timing_belt",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 32864.6522852134
+    },
+    {
+      "name": "turret__J2_drive_pulley",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 65221.20583729916
+    },
+    {
+      "name": "turret__J2_input_support_bearing",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 4021.2385965950243
+    },
+    {
+      "name": "turret__J2_input_shaft",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 6309.550346438751
+    },
+    {
+      "name": "upper__J2_driven_pulley",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 59697.85496952266
+    },
+    {
+      "name": "upper__J2_pulley_output_key",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 1007.9999999994077
+    },
+    {
+      "name": "turret__J2_pulley_input_key",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 447.99999999970197
+    },
+    {
+      "name": "turret__J2_gear_mount_screw_0",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 234.44135177413682
+    },
+    {
+      "name": "turret__J2_gear_mount_screw_1",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 234.44135177413705
+    },
+    {
+      "name": "turret__J2_gear_mount_screw_2",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 234.44135177413676
+    },
+    {
+      "name": "turret__J2_gear_mount_screw_3",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 234.441351774137
+    },
+    {
+      "name": "turret__J2_carrier_screw_0",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 247.00772238849655
+    },
+    {
+      "name": "turret__J2_carrier_screw_1",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 247.0077223884962
+    },
+    {
+      "name": "turret__J2_carrier_screw_2",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 247.00772238849646
+    },
+    {
+      "name": "turret__J2_carrier_screw_3",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 247.0077223884964
+    },
+    {
+      "name": "upper__large_bearing_housing_10",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 44244.808632393855
+    },
+    {
+      "name": "upper__large_rear_bearing_cover_11",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 11978.616327985046
+    },
+    {
+      "name": "upper__large_front_bearing_cover_12",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 4763.98649812745
+    },
+    {
+      "name": "fore__large_inner_race_spacer_0",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 2832.161485174528
+    },
+    {
+      "name": "fore__large_DIN471_installed_retainer_1",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 212.13738956631738
+    },
+    {
+      "name": "fore__large_selective_inner_race_shim_2",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 8.384125394267734
+    },
+    {
+      "name": "fore__J3_output_shaft",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 52161.85808936523
+    },
+    {
+      "name": "upper__J3_bearing_0",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 12855.397138489709
+    },
+    {
+      "name": "upper__J3_bearing_-34",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 12855.397138489709
+    },
+    {
+      "name": "upper__large_brake_front_adapter_15",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 30091.808064264147
+    },
+    {
+      "name": "upper__J3_brake_strut_0",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 1893.3750604655386
+    },
+    {
+      "name": "upper__J3_brake_strut_1",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 1893.3750604655377
+    },
+    {
+      "name": "upper__J3_brake_strut_2",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 1893.3750604655338
+    },
+    {
+      "name": "upper__J3_brake_strut_3",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 1893.3750604655393
+    },
+    {
+      "name": "upper__J3_brake_stator",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 191951.31113434053
+    },
+    {
+      "name": "fore__J3_brake_armature",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 4276.021760801235
+    },
+    {
+      "name": "fore__large_brake_keyed_hub_5",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 16324.213313205737
+    },
+    {
+      "name": "fore__large_brake_shaft_key_6",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 1655.999999999999
+    },
+    {
+      "name": "fore__J3_integral_stop_target",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 3995.887819840811
+    },
+    {
+      "name": "upper__J3_stop_pin_0",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 125.66370614359188
+    },
+    {
+      "name": "upper__J3_stop_pin_1",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 125.66370614359171
+    },
+    {
+      "name": "upper__J3_brake_back_adapter",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 34685.73417027877
+    },
+    {
+      "name": "upper__J3_index_sensor",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 314.15926535897955
+    },
+    {
+      "name": "upper__J3_sensor_mount",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 608.6471126043978
+    },
+    {
+      "name": "upper__J3_brake_spacer_0",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 359.1782880849272
+    },
+    {
+      "name": "upper__J3_brake_spacer_1",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 359.1782880849289
+    },
+    {
+      "name": "upper__J3_brake_spacer_2",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 359.1782880849286
+    },
+    {
+      "name": "upper__J3_brake_spacer_3",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 359.1782880849281
+    },
+    {
+      "name": "upper__J3_brake_spacer_4",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 359.17828808492857
+    },
+    {
+      "name": "upper__J3_brake_spacer_5",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 359.17828808492925
+    },
+    {
+      "name": "upper__J3_gearhead",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 96980.96521631688
+    },
+    {
+      "name": "upper__J3_motor",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 70497.33914655495
+    },
+    {
+      "name": "upper__J3_carrier_deck",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 57379.31820203977
+    },
+    {
+      "name": "upper__J3_housing_rails",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 43110.93906246794
+    },
+    {
+      "name": "upper__J3_front_cover",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 30624.35680815349
+    },
+    {
+      "name": "upper__J3_tension_block",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 599.3663778490012
+    },
+    {
+      "name": "upper__J3_tension_screw",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 341.64820107788717
+    },
+    {
+      "name": "upper__J3_timing_belt",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 32864.65228521363
+    },
+    {
+      "name": "upper__J3_drive_pulley",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 65221.20583724216
+    },
+    {
+      "name": "upper__J3_input_support_bearing",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 4021.238596595026
+    },
+    {
+      "name": "upper__J3_input_shaft",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 6309.550346438801
+    },
+    {
+      "name": "fore__J3_driven_pulley",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 59697.85496952286
+    },
+    {
+      "name": "fore__J3_pulley_output_key",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 1007.9999999999997
+    },
+    {
+      "name": "upper__J3_pulley_input_key",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 448.00000000000034
+    },
+    {
+      "name": "upper__J3_gear_mount_screw_0",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 234.44135177413693
+    },
+    {
+      "name": "upper__J3_gear_mount_screw_1",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 234.44135177413693
+    },
+    {
+      "name": "upper__J3_gear_mount_screw_2",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 234.44135177413693
+    },
+    {
+      "name": "upper__J3_gear_mount_screw_3",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 234.441351774137
+    },
+    {
+      "name": "upper__J3_carrier_screw_0",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 247.00772238849598
+    },
+    {
+      "name": "upper__J3_carrier_screw_1",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 247.0077223884958
+    },
+    {
+      "name": "upper__J3_carrier_screw_2",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 247.00772238849567
+    },
+    {
+      "name": "upper__J3_carrier_screw_3",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 247.00772238849632
+    },
+    {
+      "name": "fore__small_bearing_housing_10",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 12332.259129814385
+    },
+    {
+      "name": "fore__small_rear_bearing_cover_11",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 5923.227904116914
+    },
+    {
+      "name": "fore__small_front_bearing_cover_12",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 2134.7750399674223
+    },
+    {
+      "name": "roll__small_inner_race_spacer_0",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 986.8685002721825
+    },
+    {
+      "name": "roll__small_DIN471_installed_retainer_1",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 76.0144749354966
+    },
+    {
+      "name": "roll__small_selective_inner_race_shim_2",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 5.242532740677649
+    },
+    {
+      "name": "roll__J4_output_shaft",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 11097.159659639949
+    },
+    {
+      "name": "fore__J4_bearing_0",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 4021.2385965950252
+    },
+    {
+      "name": "fore__J4_bearing_-20",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 4021.2385965950207
+    },
+    {
+      "name": "fore__small_brake_front_adapter_15",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 8425.248842103598
+    },
+    {
+      "name": "fore__J4_brake_strut_0",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 559.5961914206945
+    },
+    {
+      "name": "fore__J4_brake_strut_1",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 559.5961914206941
+    },
+    {
+      "name": "fore__J4_brake_strut_2",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 559.596191420694
+    },
+    {
+      "name": "fore__J4_brake_strut_3",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 559.5961914206943
+    },
+    {
+      "name": "fore__J4_brake_stator",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 28082.0095070468
+    },
+    {
+      "name": "roll__J4_brake_armature",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 822.3855859559208
+    },
+    {
+      "name": "roll__small_brake_keyed_hub_5",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 2296.4484501244706
+    },
+    {
+      "name": "roll__small_brake_shaft_key_6",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 120.00000000000003
+    },
+    {
+      "name": "roll__J4_integral_stop_target",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 579.3135149750352
+    },
+    {
+      "name": "fore__J4_stop_pin_0",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 49.480084294039216
+    },
+    {
+      "name": "fore__J4_stop_pin_1",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 49.480084294039244
+    },
+    {
+      "name": "fore__J4_brake_back_adapter",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 9009.333748259036
+    },
+    {
+      "name": "fore__J4_index_sensor",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 314.1592653589794
+    },
+    {
+      "name": "fore__J4_sensor_mount",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 506.1631655048643
+    },
+    {
+      "name": "fore__J4_brake_spacer_0",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 110.83538881865024
+    },
+    {
+      "name": "fore__J4_brake_spacer_1",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 110.83538881865034
+    },
+    {
+      "name": "fore__J4_brake_spacer_2",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 110.83538881865027
+    },
+    {
+      "name": "fore__J4_gearhead",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 14825.175732290238
+    },
+    {
+      "name": "fore__J4_motor",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 18474.44975870013
+    },
+    {
+      "name": "fore__J4_carrier_deck",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 18302.98632441212
+    },
+    {
+      "name": "fore__J4_housing_rails",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 19849.456839673763
+    },
+    {
+      "name": "fore__J4_front_cover",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 12758.737734496573
+    },
+    {
+      "name": "fore__J4_tension_block",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 408.7300918301262
+    },
+    {
+      "name": "fore__J4_tension_screw",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 195.94113380439418
+    },
+    {
+      "name": "fore__J4_timing_belt",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 7028.634519086454
+    },
+    {
+      "name": "fore__J4_drive_pulley",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 10833.080831062485
+    },
+    {
+      "name": "fore__J4_input_support_bearing",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 2049.8892064673864
+    },
+    {
+      "name": "fore__J4_input_shaft",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 1839.2365093078492
+    },
+    {
+      "name": "roll__J4_driven_pulley",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 11056.81707157111
+    },
+    {
+      "name": "roll__J4_pulley_output_key",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 71.99999999999987
+    },
+    {
+      "name": "fore__J4_pulley_input_key",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 72.0
+    },
+    {
+      "name": "fore__J4_gear_mount_screw_0",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 65.97344572538525
+    },
+    {
+      "name": "fore__J4_gear_mount_screw_1",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 65.97344572538523
+    },
+    {
+      "name": "fore__J4_gear_mount_screw_2",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 65.9734457253852
+    },
+    {
+      "name": "fore__J4_gear_mount_screw_3",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 65.9734457253852
+    },
+    {
+      "name": "fore__J4_gear_mount_screw_4",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 65.9734457253852
+    },
+    {
+      "name": "fore__J4_gear_mount_screw_5",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 65.97344572538523
+    },
+    {
+      "name": "fore__J4_carrier_screw_0",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 96.91813336324441
+    },
+    {
+      "name": "fore__J4_carrier_screw_1",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 96.91813336324441
+    },
+    {
+      "name": "fore__J4_carrier_screw_2",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 96.91813336324444
+    },
+    {
+      "name": "fore__J4_carrier_screw_3",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 96.91813336324446
+    },
+    {
+      "name": "roll__small_bearing_housing_10",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 12332.259129814398
+    },
+    {
+      "name": "roll__small_rear_bearing_cover_11",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 5923.227904116897
+    },
+    {
+      "name": "roll__small_front_bearing_cover_12",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 2134.7750399674233
+    },
+    {
+      "name": "bend__small_inner_race_spacer_0",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 986.8685002721834
+    },
+    {
+      "name": "bend__small_DIN471_installed_retainer_1",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 76.01447493549625
+    },
+    {
+      "name": "bend__small_selective_inner_race_shim_2",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 5.2425327406777305
+    },
+    {
+      "name": "bend__J5_output_shaft",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 11097.159659639998
+    },
+    {
+      "name": "roll__J5_bearing_0",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 4021.2385965950234
+    },
+    {
+      "name": "roll__J5_bearing_-20",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 4021.2385965950234
+    },
+    {
+      "name": "roll__small_brake_front_adapter_15",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 8425.248842103603
+    },
+    {
+      "name": "roll__J5_brake_strut_0",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 559.5961914206938
+    },
+    {
+      "name": "roll__J5_brake_strut_1",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 559.5961914206939
+    },
+    {
+      "name": "roll__J5_brake_strut_2",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 559.5961914206939
+    },
+    {
+      "name": "roll__J5_brake_strut_3",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 559.5961914206939
+    },
+    {
+      "name": "roll__J5_brake_stator",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 28082.0095070468
+    },
+    {
+      "name": "bend__J5_brake_armature",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 822.3855859559195
+    },
+    {
+      "name": "bend__small_brake_keyed_hub_5",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 2296.4484501244697
+    },
+    {
+      "name": "bend__small_brake_shaft_key_6",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 119.99999999999986
+    },
+    {
+      "name": "bend__J5_integral_stop_target",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 579.3135149750423
+    },
+    {
+      "name": "roll__J5_stop_pin_0",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 49.48008429403921
+    },
+    {
+      "name": "roll__J5_stop_pin_1",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 49.48008429403921
+    },
+    {
+      "name": "roll__J5_brake_back_adapter",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 9015.488394202019
+    },
+    {
+      "name": "roll__J5_index_sensor",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 314.1592653589793
+    },
+    {
+      "name": "roll__J5_sensor_mount",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 506.16316550476114
+    },
+    {
+      "name": "roll__J5_brake_spacer_0",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 110.83538881865024
+    },
+    {
+      "name": "roll__J5_brake_spacer_1",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 110.83538881865036
+    },
+    {
+      "name": "roll__J5_brake_spacer_2",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 110.83538881865034
+    },
+    {
+      "name": "roll__J5_gearhead",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 14825.175732290234
+    },
+    {
+      "name": "roll__J5_motor",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 18474.449758700135
+    },
+    {
+      "name": "roll__J5_carrier_deck",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 18302.98632441215
+    },
+    {
+      "name": "roll__J5_housing_rails",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 19849.456839673745
+    },
+    {
+      "name": "roll__J5_front_cover",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 12758.737734496573
+    },
+    {
+      "name": "roll__J5_tension_block",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 408.7300918301255
+    },
+    {
+      "name": "roll__J5_tension_screw",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 195.94113380439373
+    },
+    {
+      "name": "roll__J5_timing_belt",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 7028.634405994319
+    },
+    {
+      "name": "roll__J5_drive_pulley",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 10833.080831062494
+    },
+    {
+      "name": "roll__J5_input_support_bearing",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 2049.889206467386
+    },
+    {
+      "name": "roll__J5_input_shaft",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 1839.2365093078495
+    },
+    {
+      "name": "bend__J5_driven_pulley",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 11056.81707157111
+    },
+    {
+      "name": "bend__J5_pulley_output_key",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 72.00000000000003
+    },
+    {
+      "name": "roll__J5_pulley_input_key",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 71.99999999999984
+    },
+    {
+      "name": "roll__J5_gear_mount_screw_0",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 65.97344572538512
+    },
+    {
+      "name": "roll__J5_gear_mount_screw_1",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 65.97344572538515
+    },
+    {
+      "name": "roll__J5_gear_mount_screw_2",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 65.97344572538515
+    },
+    {
+      "name": "roll__J5_gear_mount_screw_3",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 65.97344572538516
+    },
+    {
+      "name": "roll__J5_gear_mount_screw_4",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 65.97344572538518
+    },
+    {
+      "name": "roll__J5_gear_mount_screw_5",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 65.97344572538519
+    },
+    {
+      "name": "roll__J5_carrier_screw_0",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 96.9181333632445
+    },
+    {
+      "name": "roll__J5_carrier_screw_1",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 96.91813336324445
+    },
+    {
+      "name": "roll__J5_carrier_screw_2",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 96.91813336324441
+    },
+    {
+      "name": "roll__J5_carrier_screw_3",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 96.91813336324451
+    },
+    {
+      "name": "bend__small_bearing_housing_10",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 12332.259129814389
+    },
+    {
+      "name": "bend__small_rear_bearing_cover_11",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 5923.227904116916
+    },
+    {
+      "name": "bend__small_front_bearing_cover_12",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 2134.775039967428
+    },
+    {
+      "name": "tool__small_inner_race_spacer_0",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 986.8685002721829
+    },
+    {
+      "name": "tool__small_DIN471_installed_retainer_1",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 76.01447493549666
+    },
+    {
+      "name": "tool__small_selective_inner_race_shim_2",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 5.242532740677787
+    },
+    {
+      "name": "tool__J6_output_shaft",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 11097.159659639936
+    },
+    {
+      "name": "bend__J6_bearing_0",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 4021.2385965950207
+    },
+    {
+      "name": "bend__J6_bearing_-20",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 4021.2385965950198
+    },
+    {
+      "name": "bend__small_brake_front_adapter_15",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 8425.248842103592
+    },
+    {
+      "name": "bend__J6_brake_strut_0",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 559.596191420694
+    },
+    {
+      "name": "bend__J6_brake_strut_1",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 559.5961914206939
+    },
+    {
+      "name": "bend__J6_brake_strut_2",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 559.5961914206938
+    },
+    {
+      "name": "bend__J6_brake_strut_3",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 559.5961914206939
+    },
+    {
+      "name": "bend__J6_brake_stator",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 28082.009507046823
+    },
+    {
+      "name": "tool__J6_brake_armature",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 822.3855859559241
+    },
+    {
+      "name": "tool__small_brake_keyed_hub_5",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 2296.448450124471
+    },
+    {
+      "name": "tool__small_brake_shaft_key_6",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 119.99999999999997
+    },
+    {
+      "name": "tool__J6_integral_stop_target",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 579.3135149750293
+    },
+    {
+      "name": "bend__J6_stop_pin_0",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 49.48008429403925
+    },
+    {
+      "name": "bend__J6_stop_pin_1",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 49.48008429403924
+    },
+    {
+      "name": "bend__J6_brake_back_adapter",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 9009.333748259025
+    },
+    {
+      "name": "bend__J6_index_sensor",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 314.15926535897916
+    },
+    {
+      "name": "bend__J6_sensor_mount",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 506.1631655048623
+    },
+    {
+      "name": "bend__J6_brake_spacer_0",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 110.83538881865029
+    },
+    {
+      "name": "bend__J6_brake_spacer_1",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 110.8353888186503
+    },
+    {
+      "name": "bend__J6_brake_spacer_2",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 110.83538881865032
+    },
+    {
+      "name": "bend__J6_gearhead",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 14825.17573229023
+    },
+    {
+      "name": "bend__J6_motor",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 18474.449758700124
+    },
+    {
+      "name": "bend__J6_carrier_deck",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 18302.986324412126
+    },
+    {
+      "name": "bend__J6_housing_rails",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 19849.45683967373
+    },
+    {
+      "name": "bend__J6_front_cover",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 12758.737734496548
+    },
+    {
+      "name": "bend__J6_tension_block",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 408.73009183012607
+    },
+    {
+      "name": "bend__J6_tension_screw",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 195.94113380439393
+    },
+    {
+      "name": "bend__J6_timing_belt",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 7028.634239083829
+    },
+    {
+      "name": "bend__J6_drive_pulley",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 10833.080831062472
+    },
+    {
+      "name": "bend__J6_input_support_bearing",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 2049.889206467382
+    },
+    {
+      "name": "bend__J6_input_shaft",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 1839.2365093078479
+    },
+    {
+      "name": "tool__J6_driven_pulley",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 11056.817071571093
+    },
+    {
+      "name": "tool__J6_pulley_output_key",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 72.0
+    },
+    {
+      "name": "bend__J6_pulley_input_key",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 72.00000000000007
+    },
+    {
+      "name": "bend__J6_gear_mount_screw_0",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 65.97344572538523
+    },
+    {
+      "name": "bend__J6_gear_mount_screw_1",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 65.97344572538523
+    },
+    {
+      "name": "bend__J6_gear_mount_screw_2",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 65.9734457253852
+    },
+    {
+      "name": "bend__J6_gear_mount_screw_3",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 65.97344572538525
+    },
+    {
+      "name": "bend__J6_gear_mount_screw_4",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 65.97344572538522
+    },
+    {
+      "name": "bend__J6_gear_mount_screw_5",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 65.97344572538519
+    },
+    {
+      "name": "bend__J6_carrier_screw_0",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 96.91813336324444
+    },
+    {
+      "name": "bend__J6_carrier_screw_1",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 96.91813336324442
+    },
+    {
+      "name": "bend__J6_carrier_screw_2",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 96.91813336324438
+    },
+    {
+      "name": "bend__J6_carrier_screw_3",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 96.91813336324445
+    },
+    {
+      "name": "fixed__bench_mount_plate_42",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 452023.7218513818
+    },
+    {
+      "name": "fixed__pedestal_sleeve_43",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 302328.31161200564
+    },
+    {
+      "name": "fixed__bench_backing_washer_44",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 3913.0499995870223
+    },
+    {
+      "name": "fixed__bench_mount_bolt_45",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 4187.743007235145
+    },
+    {
+      "name": "fixed__bench_mount_nut_46",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 614.4483991523736
+    },
+    {
+      "name": "fixed__bench_backing_washer_47",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 3913.0499995870223
+    },
+    {
+      "name": "fixed__bench_mount_bolt_48",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 4187.743007235145
+    },
+    {
+      "name": "fixed__bench_mount_nut_49",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 614.4483991523736
+    },
+    {
+      "name": "fixed__bench_backing_washer_50",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 3913.049999587023
+    },
+    {
+      "name": "fixed__bench_mount_bolt_51",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 4187.743007235145
+    },
+    {
+      "name": "fixed__bench_mount_nut_52",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 614.4483991523733
+    },
+    {
+      "name": "fixed__bench_backing_washer_53",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 3913.049999587023
+    },
+    {
+      "name": "fixed__bench_mount_bolt_54",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 4187.743007235145
+    },
+    {
+      "name": "fixed__bench_mount_nut_55",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 614.4483991523733
+    },
+    {
+      "name": "fixed__bench_backing_washer_56",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 3913.049999587023
+    },
+    {
+      "name": "fixed__bench_mount_bolt_57",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 4187.743007235146
+    },
+    {
+      "name": "fixed__bench_mount_nut_58",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 614.448399152373
+    },
+    {
+      "name": "fixed__bench_backing_washer_59",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 3913.049999587023
+    },
+    {
+      "name": "fixed__bench_mount_bolt_60",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 4187.743007235146
+    },
+    {
+      "name": "fixed__bench_mount_nut_61",
+      "body": "fixed",
+      "solids": 1,
+      "volume_mm3": 614.448399152373
+    },
+    {
+      "name": "turret__turret_yoke_52",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 144503.66574720453
+    },
+    {
+      "name": "upper__upper_link_tube_52",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 76530.46899164295
+    },
+    {
+      "name": "upper__upper_root_ear_53",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 23975.220833456664
+    },
+    {
+      "name": "upper__upper_nut_strip_54",
+      "body": "upper",
+      "solids": 4,
+      "volume_mm3": 8262.987667088091
+    },
+    {
+      "name": "fore__fore_link_tube_51",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 73929.61559188152
+    },
+    {
+      "name": "fore__fore_root_ear_52",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 30035.220833456675
+    },
+    {
+      "name": "fore__fore_nut_strip_53",
+      "body": "fore",
+      "solids": 2,
+      "volume_mm3": 3987.4938335440456
+    },
+    {
+      "name": "upper__upper_elbow_housing_clamp_55",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 93765.63723630243
+    },
+    {
+      "name": "fore__fore_roll_housing_clamp_54",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 24543.837933598632
+    },
+    {
+      "name": "fore__fore_clamp_side_shims_55",
+      "body": "fore",
+      "solids": 2,
+      "volume_mm3": 1448.382748764804
+    },
+    {
+      "name": "roll__wrist_roll_fork_51",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 56559.78639571737
+    },
+    {
+      "name": "roll__idle_bearing_inner_cover_52",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 440.22509536224976
+    },
+    {
+      "name": "roll__idle_bearing_outer_cover_53",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 1100.5627384056204
+    },
+    {
+      "name": "roll__J5_idle_bearing",
+      "body": "roll",
+      "solids": 1,
+      "volume_mm3": 4021.2385965950225
+    },
+    {
+      "name": "bend__wrist_bend_cradle_51",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 57508.14368071091
+    },
+    {
+      "name": "bend__wrist_idle_trunnion_52",
+      "body": "bend",
+      "solids": 1,
+      "volume_mm3": 1859.0963576240067
+    },
+    {
+      "name": "tool__gripper_bridge_10",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 27527.389925601616
+    },
+    {
+      "name": "tool__gripper_motor",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 3839.999999999999
+    },
+    {
+      "name": "tool__gripper_pinion_m0p3_z20_12",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 312.6433782848006
+    },
+    {
+      "name": "tool__pinion_front_bushing_13",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 156.60682298512793
+    },
+    {
+      "name": "tool__guide_rod_-10",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 1332.035285122074
+    },
+    {
+      "name": "tool__guide_rod_10",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 1332.0352851220728
+    },
+    {
+      "name": "jaw__right_jaw_carriage_0",
+      "body": "jaw",
+      "solids": 1,
+      "volume_mm3": 6536.1784466546305
+    },
+    {
+      "name": "jaw__finger_pad_1",
+      "body": "jaw",
+      "solids": 1,
+      "volume_mm3": 794.8799999999999
+    },
+    {
+      "name": "jaw__jaw_guide_bushing_2",
+      "body": "jaw",
+      "solids": 1,
+      "volume_mm3": 124.6558832203228
+    },
+    {
+      "name": "jaw__jaw_guide_bushing_3",
+      "body": "jaw",
+      "solids": 1,
+      "volume_mm3": 124.65588322032272
+    },
+    {
+      "name": "jaw__upper_rack",
+      "body": "jaw",
+      "solids": 1,
+      "volume_mm3": 951.0029052376204
+    },
+    {
+      "name": "tool__gripper_cable_clamp_mount_16",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 1736.618368213823
+    },
+    {
+      "name": "tool__gripper_cable_clamp_base_17",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 296.66837092681476
+    },
+    {
+      "name": "tool__gripper_cable_clamp_cap_18",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 296.66837092681453
+    },
+    {
+      "name": "tool__gripper_cable_clamp_liner_19",
+      "body": "tool",
+      "solids": 1,
+      "volume_mm3": 49.480084294040225
+    },
+    {
+      "name": "turret__shoulder_spring_fixed_clevis_53",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 56280.13015573567
+    },
+    {
+      "name": "upper__shoulder_spring_moving_clevis_56",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 15674.381698103718
+    },
+    {
+      "name": "upper__shoulder_spring_nut_plate_57",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 5938.329222362695
+    },
+    {
+      "name": "turret__spring_eye_pin_54",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 201.06192982974676
+    },
+    {
+      "name": "upper__spring_eye_pin_58",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 201.06192982974676
+    },
+    {
+      "name": "turret__spring_eye_pin_55",
+      "body": "turret",
+      "solids": 1,
+      "volume_mm3": 201.0619298297467
+    },
+    {
+      "name": "upper__spring_eye_pin_59",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 201.0619298297468
+    },
+    {
+      "name": "upper__elbow_spring_fixed_clevis_62",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 19290.275732133625
+    },
+    {
+      "name": "upper__elbow_fixed_anchor_nut_strips_63",
+      "body": "upper",
+      "solids": 2,
+      "volume_mm3": 4275.493833544046
+    },
+    {
+      "name": "fore__elbow_spring_moving_clevis_56",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 39010.82896565921
+    },
+    {
+      "name": "fore__elbow_moving_anchor_nut_plate_57",
+      "body": "fore",
+      "solids": 2,
+      "volume_mm3": 4275.493833544046
+    },
+    {
+      "name": "upper__spring_eye_pin_64",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 201.06192982974693
+    },
+    {
+      "name": "fore__spring_eye_pin_58",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 201.06192982974642
+    },
+    {
+      "name": "upper__spring_eye_pin_65",
+      "body": "upper",
+      "solids": 1,
+      "volume_mm3": 201.06192982974687
+    },
+    {
+      "name": "fore__spring_eye_pin_59",
+      "body": "fore",
+      "solids": 1,
+      "volume_mm3": 201.06192982974642
+    },
+    {
+      "name": "left_carriage",
+      "body": "jaw_right",
+      "solids": 1,
+      "volume_mm3": 6536.178446654665
+    },
+    {
+      "name": "left_pad",
+      "body": "jaw_right",
+      "solids": 1,
+      "volume_mm3": 794.8799999999999
+    },
+    {
+      "name": "lower_rack",
+      "body": "jaw_right",
+      "solids": 1,
+      "volume_mm3": 951.0029052372614
+    },
+    {
+      "name": "left_bushing_-10",
+      "body": "jaw_right",
+      "solids": 1,
+      "volume_mm3": 124.65588322032276
+    },
+    {
+      "name": "left_bushing_10",
+      "body": "jaw_right",
+      "solids": 1,
+      "volume_mm3": 124.65588322032279
+    },
+    {
+      "name": "counterbalance_spring_1",
+      "body": "flexible_between_bodies",
+      "solids": 3,
+      "volume_mm3": 10864.312392621605
+    },
+    {
+      "name": "counterbalance_spring_2",
+      "body": "flexible_between_bodies",
+      "solids": 3,
+      "volume_mm3": 10864.3123926216
+    },
+    {
+      "name": "elbow_counterbalance_spring_1",
+      "body": "flexible_between_bodies",
+      "solids": 3,
+      "volume_mm3": 2792.168439907748
+    },
+    {
+      "name": "elbow_counterbalance_spring_2",
+      "body": "flexible_between_bodies",
+      "solids": 3,
+      "volume_mm3": 2792.168439907748
+    }
+  ],
+  "scope": "Robot only: exact named BREP parts at a saved physical nominal pose, actual belt-tooth and input-shaft phase, correct handed lower jaw, four rebuilt springs at actual eye distance. Workbench, payload, nest and flexible cable harness excluded. Supplier components remain declared outer envelopes."
+}

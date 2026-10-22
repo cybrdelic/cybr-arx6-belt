@@ -1,0 +1,1934 @@
+{
+  "revision": "P5",
+  "shader": "ARX-6-P5-Live.glsl",
+  "shader_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+  "objects": 385,
+  "geometry_source": "CAD construction replay; one fullscreen fragment program; no robot meshes or image material textures",
+  "display_finishes": [
+    {
+      "name": "large_bearing_housing_0",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "large_rear_bearing_cover_1",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "large_front_bearing_cover_2",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "large_inner_race_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_DIN471_installed_retainer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_selective_inner_race_shim_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_output_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_bearing_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_bearing_-34",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_brake_front_adapter_5",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J1_brake_strut_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_brake_strut_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_brake_strut_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_brake_strut_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_brake_stator",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J1_brake_armature",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_brake_keyed_hub_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_brake_shaft_key_6",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_integral_stop_target",
+      "substrate": 4,
+      "display_finish": 6
+    },
+    {
+      "name": "J1_stop_pin_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_stop_pin_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_brake_back_adapter",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J1_index_sensor",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J1_sensor_mount",
+      "substrate": 3,
+      "display_finish": 2
+    },
+    {
+      "name": "J1_brake_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_brake_spacer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_brake_spacer_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_brake_spacer_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_brake_spacer_4",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_brake_spacer_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_gearhead",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J1_motor",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J1_carrier_deck",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J1_housing_rails",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J1_front_cover",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J1_tension_block",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J1_tension_screw",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_timing_belt",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "J1_drive_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J1_input_support_bearing",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_input_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_driven_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J1_pulley_output_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_pulley_input_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_gear_mount_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_gear_mount_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_gear_mount_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_gear_mount_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_carrier_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_carrier_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_carrier_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J1_carrier_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_bearing_housing_10",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "large_rear_bearing_cover_11",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "large_front_bearing_cover_12",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "large_inner_race_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_DIN471_installed_retainer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_selective_inner_race_shim_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_output_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_bearing_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_bearing_-34",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_brake_front_adapter_15",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J2_brake_strut_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_brake_strut_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_brake_strut_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_brake_strut_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_brake_stator",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J2_brake_armature",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_brake_keyed_hub_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_brake_shaft_key_6",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_integral_stop_target",
+      "substrate": 4,
+      "display_finish": 6
+    },
+    {
+      "name": "J2_stop_pin_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_stop_pin_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_brake_back_adapter",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J2_index_sensor",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J2_sensor_mount",
+      "substrate": 3,
+      "display_finish": 2
+    },
+    {
+      "name": "J2_brake_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_brake_spacer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_brake_spacer_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_brake_spacer_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_brake_spacer_4",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_brake_spacer_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_gearhead",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J2_motor",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J2_carrier_deck",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J2_housing_rails",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J2_front_cover",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J2_tension_block",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J2_tension_screw",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_timing_belt",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "J2_drive_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J2_input_support_bearing",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_input_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_driven_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J2_pulley_output_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_pulley_input_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_gear_mount_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_gear_mount_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_gear_mount_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_gear_mount_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_carrier_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_carrier_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_carrier_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J2_carrier_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_bearing_housing_10",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "large_rear_bearing_cover_11",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "large_front_bearing_cover_12",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "large_inner_race_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_DIN471_installed_retainer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_selective_inner_race_shim_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_output_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_bearing_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_bearing_-34",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_brake_front_adapter_15",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J3_brake_strut_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_brake_strut_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_brake_strut_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_brake_strut_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_brake_stator",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J3_brake_armature",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_brake_keyed_hub_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "large_brake_shaft_key_6",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_integral_stop_target",
+      "substrate": 4,
+      "display_finish": 6
+    },
+    {
+      "name": "J3_stop_pin_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_stop_pin_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_brake_back_adapter",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J3_index_sensor",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J3_sensor_mount",
+      "substrate": 3,
+      "display_finish": 2
+    },
+    {
+      "name": "J3_brake_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_brake_spacer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_brake_spacer_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_brake_spacer_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_brake_spacer_4",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_brake_spacer_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_gearhead",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J3_motor",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J3_carrier_deck",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J3_housing_rails",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J3_front_cover",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J3_tension_block",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J3_tension_screw",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_timing_belt",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "J3_drive_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J3_input_support_bearing",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_input_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_driven_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J3_pulley_output_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_pulley_input_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_gear_mount_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_gear_mount_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_gear_mount_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_gear_mount_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_carrier_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_carrier_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_carrier_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J3_carrier_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_bearing_housing_10",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "small_rear_bearing_cover_11",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "small_front_bearing_cover_12",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "small_inner_race_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_DIN471_installed_retainer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_selective_inner_race_shim_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_output_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_bearing_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_bearing_-20",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_brake_front_adapter_15",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J4_brake_strut_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_brake_strut_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_brake_strut_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_brake_strut_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_brake_stator",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J4_brake_armature",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_brake_keyed_hub_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_brake_shaft_key_6",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_integral_stop_target",
+      "substrate": 4,
+      "display_finish": 6
+    },
+    {
+      "name": "J4_stop_pin_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_stop_pin_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_brake_back_adapter",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J4_index_sensor",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J4_sensor_mount",
+      "substrate": 3,
+      "display_finish": 2
+    },
+    {
+      "name": "J4_brake_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_brake_spacer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_brake_spacer_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_gearhead",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J4_motor",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J4_carrier_deck",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J4_housing_rails",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J4_front_cover",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J4_tension_block",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J4_tension_screw",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_timing_belt",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "J4_drive_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J4_input_support_bearing",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_input_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_driven_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J4_pulley_output_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_pulley_input_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_gear_mount_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_gear_mount_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_gear_mount_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_gear_mount_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_gear_mount_screw_4",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_gear_mount_screw_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_carrier_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_carrier_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_carrier_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J4_carrier_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_bearing_housing_10",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "small_rear_bearing_cover_11",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "small_front_bearing_cover_12",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "small_inner_race_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_DIN471_installed_retainer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_selective_inner_race_shim_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_output_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_bearing_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_bearing_-20",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_brake_front_adapter_15",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J5_brake_strut_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_brake_strut_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_brake_strut_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_brake_strut_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_brake_stator",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J5_brake_armature",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_brake_keyed_hub_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_brake_shaft_key_6",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_integral_stop_target",
+      "substrate": 4,
+      "display_finish": 6
+    },
+    {
+      "name": "J5_stop_pin_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_stop_pin_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_brake_back_adapter",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J5_index_sensor",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J5_sensor_mount",
+      "substrate": 3,
+      "display_finish": 2
+    },
+    {
+      "name": "J5_brake_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_brake_spacer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_brake_spacer_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_gearhead",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J5_motor",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J5_carrier_deck",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J5_housing_rails",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J5_front_cover",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J5_tension_block",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J5_tension_screw",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_timing_belt",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "J5_drive_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J5_input_support_bearing",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_input_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_driven_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J5_pulley_output_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_pulley_input_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_gear_mount_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_gear_mount_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_gear_mount_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_gear_mount_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_gear_mount_screw_4",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_gear_mount_screw_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_carrier_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_carrier_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_carrier_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_carrier_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_bearing_housing_10",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "small_rear_bearing_cover_11",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "small_front_bearing_cover_12",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "small_inner_race_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_DIN471_installed_retainer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_selective_inner_race_shim_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_output_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_bearing_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_bearing_-20",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_brake_front_adapter_15",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J6_brake_strut_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_brake_strut_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_brake_strut_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_brake_strut_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_brake_stator",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J6_brake_armature",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_brake_keyed_hub_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "small_brake_shaft_key_6",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_integral_stop_target",
+      "substrate": 4,
+      "display_finish": 6
+    },
+    {
+      "name": "J6_stop_pin_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_stop_pin_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_brake_back_adapter",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J6_index_sensor",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J6_sensor_mount",
+      "substrate": 3,
+      "display_finish": 2
+    },
+    {
+      "name": "J6_brake_spacer_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_brake_spacer_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_brake_spacer_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_gearhead",
+      "substrate": 4,
+      "display_finish": 2
+    },
+    {
+      "name": "J6_motor",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "J6_carrier_deck",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J6_housing_rails",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J6_front_cover",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J6_tension_block",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "J6_tension_screw",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_timing_belt",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "J6_drive_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J6_input_support_bearing",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_input_shaft",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_driven_pulley",
+      "substrate": 3,
+      "display_finish": 6
+    },
+    {
+      "name": "J6_pulley_output_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_pulley_input_key",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_gear_mount_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_gear_mount_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_gear_mount_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_gear_mount_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_gear_mount_screw_4",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_gear_mount_screw_5",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_carrier_screw_0",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_carrier_screw_1",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_carrier_screw_2",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J6_carrier_screw_3",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_plate_42",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "pedestal_sleeve_43",
+      "substrate": 3,
+      "display_finish": 1
+    },
+    {
+      "name": "bench_backing_washer_44",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_bolt_45",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_nut_46",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_backing_washer_47",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_bolt_48",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_nut_49",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_backing_washer_50",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_bolt_51",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_nut_52",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_backing_washer_53",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_bolt_54",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_nut_55",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_backing_washer_56",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_bolt_57",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_nut_58",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_backing_washer_59",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_bolt_60",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "bench_mount_nut_61",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "turret_yoke_52",
+      "substrate": 3,
+      "display_finish": 1
+    },
+    {
+      "name": "upper_link_tube_52",
+      "substrate": 1,
+      "display_finish": 1
+    },
+    {
+      "name": "upper_root_ear_53",
+      "substrate": 3,
+      "display_finish": 1
+    },
+    {
+      "name": "upper_nut_strip_54",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "fore_link_tube_51",
+      "substrate": 1,
+      "display_finish": 1
+    },
+    {
+      "name": "fore_root_ear_52",
+      "substrate": 3,
+      "display_finish": 1
+    },
+    {
+      "name": "fore_nut_strip_53",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "upper_elbow_housing_clamp_55",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "fore_roll_housing_clamp_54",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "fore_clamp_side_shims_55",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "wrist_roll_fork_51",
+      "substrate": 3,
+      "display_finish": 1
+    },
+    {
+      "name": "idle_bearing_inner_cover_52",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "idle_bearing_outer_cover_53",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "J5_idle_bearing",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "wrist_bend_cradle_51",
+      "substrate": 3,
+      "display_finish": 1
+    },
+    {
+      "name": "wrist_idle_trunnion_52",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "gripper_bridge_10",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "gripper_motor",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "gripper_pinion_m0p3_z20_12",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "pinion_front_bushing_13",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "guide_rod_-10",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "guide_rod_10",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "right_jaw_carriage_0",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "finger_pad_1",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "jaw_guide_bushing_2",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "jaw_guide_bushing_3",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "upper_rack",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "gripper_cable_clamp_mount_16",
+      "substrate": 3,
+      "display_finish": 2
+    },
+    {
+      "name": "gripper_cable_clamp_base_17",
+      "substrate": 3,
+      "display_finish": 2
+    },
+    {
+      "name": "gripper_cable_clamp_cap_18",
+      "substrate": 3,
+      "display_finish": 2
+    },
+    {
+      "name": "gripper_cable_clamp_liner_19",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "shoulder_spring_fixed_clevis_53",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "shoulder_spring_moving_clevis_56",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "shoulder_spring_nut_plate_57",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "spring_eye_pin_54",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "spring_eye_pin_58",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "spring_eye_pin_55",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "spring_eye_pin_59",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "elbow_spring_fixed_clevis_62",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "elbow_fixed_anchor_nut_strips_63",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "elbow_spring_moving_clevis_56",
+      "substrate": 3,
+      "display_finish": 4
+    },
+    {
+      "name": "elbow_moving_anchor_nut_plate_57",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "spring_eye_pin_64",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "spring_eye_pin_58",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "spring_eye_pin_65",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "spring_eye_pin_59",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "left_carriage",
+      "substrate": 3,
+      "display_finish": 3
+    },
+    {
+      "name": "left_pad",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "left_lower_rack",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "left_guide_bushing_-10",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "left_guide_bushing_10",
+      "substrate": 5,
+      "display_finish": 5
+    },
+    {
+      "name": "workpiece",
+      "substrate": 6,
+      "display_finish": 6
+    },
+    {
+      "name": "nest_A_base",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "nest_A_seat",
+      "substrate": 4,
+      "display_finish": 4
+    },
+    {
+      "name": "nest_B_base",
+      "substrate": 2,
+      "display_finish": 2
+    },
+    {
+      "name": "nest_B_seat",
+      "substrate": 4,
+      "display_finish": 4
+    }
+  ]
+}

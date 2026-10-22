@@ -1,0 +1,482 @@
+[
+  {
+    "name": "J1",
+    "parent_body": "fixed",
+    "origin_mm": [
+      0,
+      60,
+      0
+    ],
+    "axis": [
+      0,
+      1,
+      0
+    ],
+    "segments": [
+      {
+        "type": "motor",
+        "origin_mm": [
+          0,
+          60,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "offset_local_mm": [
+          110.0,
+          6.735557395310443e-15,
+          0.0
+        ],
+        "z_mm": [
+          -34.0,
+          22.1
+        ],
+        "r_mm": 20
+      },
+      {
+        "type": "gearhead",
+        "origin_mm": [
+          0,
+          60,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "offset_local_mm": [
+          110.0,
+          6.735557395310443e-15,
+          0.0
+        ],
+        "z_mm": [
+          -104.0,
+          -34.0
+        ],
+        "r_mm": 21
+      },
+      {
+        "type": "bearing_housing",
+        "origin_mm": [
+          0,
+          60,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "z_mm": [
+          -40,
+          10
+        ],
+        "r_mm": 27
+      }
+    ]
+  },
+  {
+    "name": "J2",
+    "parent_body": "turret",
+    "origin_mm": [
+      0,
+      144,
+      -45
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "segments": [
+      {
+        "type": "motor",
+        "origin_mm": [
+          0,
+          144,
+          -45
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "offset_local_mm": [
+          -75.0,
+          -80.46738469715541,
+          0.0
+        ],
+        "z_mm": [
+          -34.0,
+          22.1
+        ],
+        "r_mm": 20
+      },
+      {
+        "type": "gearhead",
+        "origin_mm": [
+          0,
+          144,
+          -45
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "offset_local_mm": [
+          -75.0,
+          -80.46738469715541,
+          0.0
+        ],
+        "z_mm": [
+          -104.0,
+          -34.0
+        ],
+        "r_mm": 21
+      },
+      {
+        "type": "bearing_housing",
+        "origin_mm": [
+          0,
+          144,
+          -45
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "z_mm": [
+          -40,
+          10
+        ],
+        "r_mm": 27
+      }
+    ]
+  },
+  {
+    "name": "J3",
+    "parent_body": "upper",
+    "origin_mm": [
+      0,
+      280,
+      45
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "segments": [
+      {
+        "type": "motor",
+        "origin_mm": [
+          0,
+          280,
+          45
+        ],
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "offset_local_mm": [
+          -0.0,
+          110.0,
+          0.0
+        ],
+        "z_mm": [
+          -34.0,
+          22.1
+        ],
+        "r_mm": 20
+      },
+      {
+        "type": "gearhead",
+        "origin_mm": [
+          0,
+          280,
+          45
+        ],
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "offset_local_mm": [
+          -0.0,
+          110.0,
+          0.0
+        ],
+        "z_mm": [
+          -104.0,
+          -34.0
+        ],
+        "r_mm": 21
+      },
+      {
+        "type": "bearing_housing",
+        "origin_mm": [
+          0,
+          280,
+          45
+        ],
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "z_mm": [
+          -40,
+          10
+        ],
+        "r_mm": 27
+      }
+    ]
+  },
+  {
+    "name": "J4",
+    "parent_body": "fore",
+    "origin_mm": [
+      0,
+      204,
+      0
+    ],
+    "axis": [
+      0,
+      1,
+      0
+    ],
+    "segments": [
+      {
+        "type": "motor",
+        "origin_mm": [
+          0,
+          204,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "offset_local_mm": [
+          -0.0,
+          67.5,
+          0.0
+        ],
+        "z_mm": [
+          -31.0,
+          17.6
+        ],
+        "r_mm": 11
+      },
+      {
+        "type": "gearhead",
+        "origin_mm": [
+          0,
+          204,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "offset_local_mm": [
+          -0.0,
+          67.5,
+          0.0
+        ],
+        "z_mm": [
+          -70.0,
+          -31.0
+        ],
+        "r_mm": 11
+      },
+      {
+        "type": "bearing_housing",
+        "origin_mm": [
+          0,
+          204,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "z_mm": [
+          -24,
+          8
+        ],
+        "r_mm": 18
+      }
+    ]
+  },
+  {
+    "name": "J5",
+    "parent_body": "roll",
+    "origin_mm": [
+      0,
+      0,
+      -45
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "segments": [
+      {
+        "type": "motor",
+        "origin_mm": [
+          0,
+          0,
+          -45
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "offset_local_mm": [
+          -67.5,
+          4.133182947122317e-15,
+          0.0
+        ],
+        "z_mm": [
+          -31.0,
+          17.6
+        ],
+        "r_mm": 11
+      },
+      {
+        "type": "gearhead",
+        "origin_mm": [
+          0,
+          0,
+          -45
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "offset_local_mm": [
+          -67.5,
+          4.133182947122317e-15,
+          0.0
+        ],
+        "z_mm": [
+          -70.0,
+          -31.0
+        ],
+        "r_mm": 11
+      },
+      {
+        "type": "bearing_housing",
+        "origin_mm": [
+          0,
+          0,
+          -45
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "z_mm": [
+          -24,
+          8
+        ],
+        "r_mm": 18
+      }
+    ]
+  },
+  {
+    "name": "J6",
+    "parent_body": "bend",
+    "origin_mm": [
+      0,
+      169.6,
+      0
+    ],
+    "axis": [
+      0,
+      1,
+      0
+    ],
+    "segments": [
+      {
+        "type": "motor",
+        "origin_mm": [
+          0,
+          169.6,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "offset_local_mm": [
+          -0.0,
+          67.5,
+          0.0
+        ],
+        "z_mm": [
+          -31.0,
+          17.6
+        ],
+        "r_mm": 11
+      },
+      {
+        "type": "gearhead",
+        "origin_mm": [
+          0,
+          169.6,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "offset_local_mm": [
+          -0.0,
+          67.5,
+          0.0
+        ],
+        "z_mm": [
+          -70.0,
+          -31.0
+        ],
+        "r_mm": 11
+      },
+      {
+        "type": "bearing_housing",
+        "origin_mm": [
+          0,
+          169.6,
+          0
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "z_mm": [
+          -24,
+          8
+        ],
+        "r_mm": 18
+      }
+    ]
+  }
+]

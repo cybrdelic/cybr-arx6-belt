@@ -1,0 +1,215 @@
+import {SafetyState,springState,brakeFraction} from './safety.mjs';
+/* ARX / 6 — persistent electromechanical/contact controller.
+ * SI units. The trajectory is a reference for torque control only.
+ * No object attachment, puck pose writes, or kinematic moving bodies.
+ */
+const clip=(x,a,b)=>Math.max(a,Math.min(b,x));
+const dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
+const norm=a=>Math.hypot(...a);
+const scale=(a,s)=>a.map(x=>x*s);
+const add=(a,b)=>a.map((x,i)=>x+b[i]);
+const sub=(a,b)=>a.map((x,i)=>x-b[i]);
+const mix=(a,b,t)=>a.map((x,i)=>x+(b[i]-x)*t);
+const ease=t=>{t=clip(t,0,1);return t*t*t*(t*(t*6-15)+10);};
+const phase=(t,a,b)=>ease((t-a)/(b-a));
+function ry(a){const c=Math.cos(a),s=Math.sin(a);return [c,0,s,0,1,0,-s,0,c];}
+function rz(a){const c=Math.cos(a),s=Math.sin(a);return [c,-s,0,s,c,0,0,0,1];}
+function mm(a,b){const o=new Array(9);for(let i=0;i<3;i++)for(let j=0;j<3;j++){o[3*i+j]=0;for(let k=0;k<3;k++)o[3*i+j]+=a[3*i+k]*b[3*k+j];}return o;}
+function transposeMul(a,v){return [a[0]*v[0]+a[3]*v[1]+a[6]*v[2],a[1]*v[0]+a[4]*v[1]+a[7]*v[2],a[2]*v[0]+a[5]*v[1]+a[8]*v[2]];}
+
+export function reference(time,p){
+  let t=(time*0.4)%10;if(t<0)t+=10;
+  const returning=t>=5,h=returning?t-5:t,dir=returning?-1:1,s=p.scene_units_to_meters;
+  const a=p.workpiece_targets_m.A,b=p.workpiece_targets_m.B;
+  const start=returning?b:a,end=returning?a:b,hs=[start[0],.92*s,start[2]],he=[end[0],.92*s,end[2]];
+  const travel=phase(h,1.65,2.75),hump=16*travel*travel*(1-travel)*(1-travel);
+  let tcp,stage;
+  if(h<.65){tcp=mix(hs,start,phase(h,0,.65));stage=0;}
+  else if(h<1){tcp=start.slice();stage=1;}
+  else if(h<1.65){tcp=mix(start,hs,phase(h,1,1.65));stage=2;}
+  else if(h<2.75){tcp=mix(hs,he,travel);tcp[1]+=.16*s*hump;stage=3;}
+  else if(h<3.4){tcp=mix(he,end,phase(h,2.75,3.4));stage=4;}
+  else if(h<3.75){tcp=end.slice();stage=5;}
+  else if(h<4.45){tcp=mix(end,he,phase(h,3.75,4.45));stage=6;}
+  else{tcp=he.slice();stage=7;}
+  const cfg=p.controller,opened=cfg.jaw_open_half_gap_m,closed=cfg.jaw_closed_target_half_gap_m;
+  const gap=h>=.40&&h<3.4?closed:opened;
+  let direction=[.15*hump,-1,dir*.34*hump];direction=scale(direction,1/norm(direction));
+  const wrist=sub(tcp,scale(direction,p.tool_length_m)),delta=sub(wrist,[0,p.shoulder_height_m,0]);
+  const radial=Math.hypot(delta[0],delta[2]),q1=Math.atan2(delta[2],delta[0]),base=ry(-q1);
+  const l1=p.upper_length_m,l2=p.fore_length_m;
+  const q3=Math.acos(clip((dot(delta,delta)-l1*l1-l2*l2)/(2*l1*l2),-1,1));
+  const elevation=Math.atan2(delta[1],radial)+Math.atan2(l2*Math.sin(q3),l1+l2*Math.cos(q3));
+  const q2=Math.PI/2-elevation,fore=mm(mm(base,rz(-q2)),rz(-q3)),local=transposeMul(fore,direction);
+  const q4=Math.atan2(-local[2],local[0]),q5=Math.acos(clip(local[1],-1,1)),bend=mm(mm(fore,ry(q4)),rz(-q5));
+  let refx=sub([1,0,0],scale(direction,direction[0]));refx=scale(refx,1/norm(refx));
+  const refLocal=transposeMul(bend,refx);
+  let q6=Math.atan2(-refLocal[2],refLocal[0]);if(q6<0)q6+=2*Math.PI;q6+=dir*.5*hump;
+  return {q:[q1,q2,q3,q4,q5,q6],gap,stage};
+}
+export function referenceDerivatives(t,p){
+  const e=.00025,r=reference(t,p),a=reference(t-e,p).q,b=reference(t+e,p).q;
+  r.qd=r.q.map((_,i)=>(b[i]-a[i])/(2*e));r.qdd=r.q.map((x,i)=>(b[i]-2*x+a[i])/(e*e));return r;
+}
+
+export class ArmSimulation{
+  constructor(mj,xml,p,api,options={}){
+    this.mj=mj;this.p=p;this.api=api;this.options={frictionScale:1,gripScale:1,torqueScale:1,payloadScale:1,power:true,springScale:1,brakeScale:1,brakeDelayScale:1,brakes:true,enforceLimits:true,heartbeat:true,...options};
+    this.spec=p.integration;this.safety=new SafetyState(this.spec);
+    mj.FS.writeFile('/arx6.xml',xml);
+    this.model=mj.MjModel.mj_loadXML('/arx6.xml');
+    if(!this.model)throw new Error('MuJoCo rejected the arm model.');
+    const m=this.model;this.data=new mj.MjData(m);
+    // IDs are resolved by name from this exact regenerated model, never stale P1 indices.
+    api={...api,body_ids:{},geom_ids:{}};
+    for(const n of ['turret','upper','fore','roll','bend','tool','jaw_left','jaw_right','puck','fixed_hardware'])api.body_ids[n]=mj.mj_name2id(m,1,n);
+    for(const n of ['pad_left','pad_right','puck','floor','nest_A_seat','nest_B_seat'])api.geom_ids[n]=mj.mj_name2id(m,5,n);
+    api.tcp_site_id=mj.mj_name2id(m,6,'tcp');this.api=api;
+    if(m.nq!==15||m.nv!==14||m.nu!==7)throw new Error('Unexpected P2 model topology');
+    this.baseFriction=Array.from(m.dof_frictionloss).slice(0,6);
+    this.brakeTorque=new Float64Array(6);this.brakeCapacity=new Float64Array(6);this.brakeEnergy=new Float64Array(6);
+    this.peakCredit=this.spec.gripper_driver.peak_budget_s;this.gripperCurrentCeiling=this.spec.gripper_driver.peak_current_A;
+    this.spring=springState(0,this.spec,this.options.springScale);this.elbowSpring=springState(1.5,this.spec,this.options.springScale,2);this._heldGap=.038;
+    this.motorPower=true;this.gripperPower=true;this.monitor={rmsIntegral:new Float64Array(6),overContinuousSeconds:new Float64Array(6),overGearContinuousSeconds:new Float64Array(6),maxCurrent:new Float64Array(6),maxTorque:new Float64Array(6),maxSpeed:new Float64Array(6),maxVoltage:new Float64Array(6),voltageSaturationSeconds:new Float64Array(6),beltDemandLimitSeconds:new Float64Array(6),gearDemandLimitSeconds:new Float64Array(6)};
+    if(this.options.payloadScale!==1){
+      const id=api.body_ids.puck;m.body_mass[id]*=this.options.payloadScale;
+      for(let i=0;i<3;i++)m.body_inertia[3*id+i]*=this.options.payloadScale;
+      mj.mj_setConst(m,this.data);
+    }
+    this.massBuffer=new mj.DoubleBuffer(m.nv*m.nv);this.forceBuffer=new mj.DoubleBuffer(6);
+    this.nominalPairFriction=Array.from(m.pair_friction);
+    this.steps=0;this.integral=new Float64Array(6);this.current=new Float64Array(6);
+    this.temperature=new Float64Array(6).fill(25);this.voltage=new Float64Array(6);this.torque=new Float64Array(6);
+    this.desiredTorque=new Float64Array(6);this.desiredQ=new Float64Array(6);this.gripperCurrent=0;
+    this.gripperVoltage=0;this.gripperTorque=0;this.gripperTemperature=25;this.gripperI2Integral=0;
+    this.electricalEnergy=new Float64Array(6);this.copperHeat=new Float64Array(6);this.mechanicalEnergy=new Float64Array(6);this.gearHeat=new Float64Array(6);
+    mj.mj_resetDataKeyframe(m,this.data,0);mj.mj_forward(m,this.data);
+    const mot=p.motors;this.spring=springState(this.data.qpos[1],this.spec,this.options.springScale);this.elbowSpring=springState(this.data.qpos[2],this.spec,this.options.elbowSpringScale??this.options.springScale,2);this.springEstimate=springState(this.data.qpos[1],this.spec);this.elbowEstimate=springState(this.data.qpos[2],this.spec,1,2);
+    for(let i=0;i<6;i++)this.current[i]=clip((this.data.qfrc_bias[i]-(i===1?this.springEstimate.torque_Nm:i===2?this.elbowEstimate.torque_Nm:0))/(mot.gear_ratio[i]*mot.torque_constant_Nm_A[i]),-mot.peak_current_A[i]*this.options.torqueScale,mot.peak_current_A[i]*this.options.torqueScale);
+    this.applyFriction();
+  }
+  applyFriction(){
+    const f=this.model.pair_friction;
+    for(let i=0;i<f.length;i++)f[i]=this.nominalPairFriction[i]*this.options.frictionScale;
+  }
+  setOptions(options){const prior=this.options.frictionScale;Object.assign(this.options,options);if(prior!==this.options.frictionScale)this.applyFriction();}
+  step(){
+    const {mj,model:m,data:d,p,options:o}=this,dt=m.opt.timestep,t=this.steps*dt;
+    if(o.frictionChangeTime!=null&&!this.frictionChanged&&t>=o.frictionChangeTime){
+      this.setOptions({frictionScale:o.frictionAfterScale??.01});this.frictionChanged=true;
+    }
+    if(o.motorOffTime!=null&&t>=o.motorOffTime)o.power=false;
+    const normal=referenceDerivatives(t,p);
+    if(o.heartbeat&&(o.heartbeatUntil==null||t<=o.heartbeatUntil))this.safety.command(t);
+    if(o.normalStopTime!=null&&t>=o.normalStopTime)this.safety.normalStop(t,Array.from(d.qpos.slice(0,6)),Array.from(d.qvel.slice(0,6)),normal.gap);
+    this.safety.update(t,Array.from(d.qpos.slice(0,6)),Array.from(d.qvel.slice(0,6)),{estop:o.estopTime!=null&&t>=o.estopTime,power:o.power,feedbackValid:!(o.invalidFeedbackTime!=null&&t>=o.invalidFeedbackTime),limits:o.enforceLimits});
+    this.motorPower=o.power&&this.safety.mode!=='EMERGENCY';this.gripperPower=this.motorPower;
+    const r=this.safety.reference(t,normal),cfg=p.controller,par=p.motors,nv=m.nv;
+    this.spring=springState(d.qpos[1],this.spec,o.springScale);this.elbowSpring=springState(d.qpos[2],this.spec,o.elbowSpringScale??o.springScale,2);
+    this.springEstimate=springState(d.qpos[1],this.spec);this.elbowEstimate=springState(d.qpos[2],this.spec,1,2);
+    d.qfrc_applied.fill(0);d.qfrc_applied[1]=this.spring.torque_Nm;d.qfrc_applied[2]=this.elbowSpring.torque_Nm;
+    this.preStepVelocity=Array.from(d.qvel.slice(0,6));
+    for(let i=0;i<6;i++){
+      const b=this.spec.brakes[i<3?'large':'small'];
+      const f=o.brakes?brakeFraction(t,this.safety.faultTime,b,o.brakeDelayScale):0;
+      const speed=Math.abs(d.qvel[i]),mu=speed>.01?b.screening_dynamic_torque_Nm:b.holding_torque_Nm;
+      this.brakeCapacity[i]=f*mu*o.brakeScale;
+      m.dof_frictionloss[i]=this.baseFriction[i]+this.brakeCapacity[i];
+    }
+    this.stage=r.stage;this.desiredQ.set(r.q);
+    if(cfg.inertial_feedforward)mj.mj_fullM(m,d,this.massBuffer);
+    const mass=this.massBuffer.GetView(),q=d.qpos,qd=d.qvel,bias=d.qfrc_bias,ctrl=d.ctrl;
+    for(let i=0;i<6;i++){
+      const error=r.q[i]-q[i],lim=cfg.integrator_limit_rad_s;
+      this.integral[i]=clip(this.integral[i]+error*dt,-lim,lim);
+      let tau=cfg.kp_Nm_rad[i]*error+cfg.kd_Nm_s_rad[i]*(r.qd[i]-qd[i])+cfg.ki_Nm_rad_s[i]*this.integral[i];
+      if(cfg.gravity_and_coriolis_feedforward)tau+=bias[i]-(i===1?this.springEstimate.torque_Nm:i===2?this.elbowEstimate.torque_Nm:0);
+      if(cfg.inertial_feedforward)for(let j=0;j<6;j++)tau+=mass[i*nv+j]*r.qdd[j];
+      this.desiredTorque[i]=tau;
+      const N=par.gear_ratio[i],eta=par.gear_efficiency[i],kt=par.torque_constant_Nm_A[i],R=par.resistance_ohm[i],L=par.inductance_H[i],V=par.bus_voltage_V[i]*par.max_pwm_duty[i];
+      const limit=par.peak_current_A[i]*o.torqueScale,speed=N*qd[i],gearLimit=par.gear_output_torque_limit_Nm[i]*o.torqueScale;
+      const transition=Math.tanh(speed/par.gear_efficiency_transition_motor_rad_s[i]);
+      const beltLimit=par.belt_allowable_output_torque_Nm?.[i]??Infinity;
+      const transmittedLimit=Math.min(gearLimit,beltLimit);
+      if(Math.abs(tau)>beltLimit)this.monitor.beltDemandLimitSeconds[i]+=dt;
+      if(Math.abs(tau)>gearLimit)this.monitor.gearDemandLimitSeconds[i]+=dt;
+      const demand=clip(tau,-transmittedLimit,transmittedLimit),eff=Math.exp(Math.log(eta)*transition*Math.sign(demand));
+      const requested=clip(demand/(N*eff*kt),-limit,limit),emf=kt*speed;
+      this.voltage[i]=clip(R*requested+emf,-V,V);
+      if(!this.motorPower){this.voltage[i]=0;this.current[i]=0;}
+      else{const equilibrium=(this.voltage[i]-emf)/R;this.current[i]=equilibrium+(this.current[i]-equilibrium)*Math.exp(-R*dt/L);}
+      const rotor=kt*this.current[i],effActual=Math.exp(Math.log(eta)*transition*Math.sign(rotor));
+      this.torque[i]=N*rotor*effActual;ctrl[i]=this.torque[i];
+      const copper=this.current[i]*this.current[i]*R,loss=rotor*speed-this.torque[i]*qd[i];
+      this.temperature[i]+=(copper-(this.temperature[i]-25)/par.thermal_resistance_K_W[i])*dt/par.thermal_capacity_J_K[i];
+      this.electricalEnergy[i]+=this.voltage[i]*this.current[i]*dt;this.copperHeat[i]+=copper*dt;
+      this.mechanicalEnergy[i]+=this.torque[i]*qd[i]*dt;this.gearHeat[i]+=loss*dt;
+    }
+    // One electrical motor drives both synchronized racks through the pinion.
+    // The native tendon converts this single torque into tau/(2*r) per jaw.
+    const gr=p.gripper,radius=gr.pinion_pitch_radius_m,gapActual=(q[6]+q[7])/2,gapSpeed=(qd[6]+qd[7])/2;
+    const vRequest=clip(gr.position_to_velocity_gain_per_s*(r.gap-gapActual),-gr.max_jaw_velocity_m_s,gr.max_jaw_velocity_m_s);
+    const forceEach=gr.velocity_force_gain_N_s_m*(vRequest-gapSpeed),torqueLimit=gr.output_torque_limit_Nm*o.gripScale;
+    const outputRequest=clip(2*radius*forceEach,-torqueLimit,torqueLimit);
+    const rotorSpeed=gr.gear_ratio*gapSpeed/radius,grossRequest=outputRequest+gr.output_torque_per_current_Nm_A*gr.no_load_current_A*Math.sign(outputRequest);
+    const gripTransition=Math.tanh(rotorSpeed/gr.gear_efficiency_transition_motor_rad_s);
+    const etaRequest=Math.exp(Math.log(gr.gear_efficiency)*gripTransition*Math.sign(grossRequest));
+    // Independent DRV8876 hardware ceiling: sustained holding falls back to continuous current.
+    if(Math.abs(this.gripperCurrent)>.1875+1e-5)this.peakCredit=Math.max(0,this.peakCredit-dt);
+    else if(Math.abs(this.gripperCurrent)<.8*.1875)this.peakCredit=Math.min(this.spec.gripper_driver.peak_budget_s,this.peakCredit+dt);
+    this.gripperCurrentCeiling=this.peakCredit>0?this.spec.gripper_driver.peak_current_A:this.spec.gripper_driver.continuous_current_A;
+    const requestI=clip(grossRequest/(gr.gear_ratio*gr.torque_constant_Nm_A*etaRequest),-this.gripperCurrentCeiling*o.gripScale,this.gripperCurrentCeiling*o.gripScale);
+    const emf=gr.back_emf_V_s_rad*rotorSpeed;
+    this.gripperVoltage=clip(gr.resistance_ohm*requestI+emf,-gr.bus_voltage_V,gr.bus_voltage_V);
+    if(!this.gripperPower){this.gripperCurrent=0;this.gripperVoltage=0;}
+    else{const eq=(this.gripperVoltage-emf)/gr.resistance_ohm;this.gripperCurrent=eq+(this.gripperCurrent-eq)*Math.exp(-gr.resistance_ohm*dt/gr.inductance_H);}
+    this.gripperCurrent=clip(this.gripperCurrent,-this.gripperCurrentCeiling*o.gripScale,this.gripperCurrentCeiling*o.gripScale);
+    const etaActual=Math.exp(Math.log(gr.gear_efficiency)*gripTransition*Math.sign(this.gripperCurrent));
+    this.gripperTorque=gr.gear_ratio*gr.torque_constant_Nm_A*this.gripperCurrent*etaActual;ctrl[6]=this.gripperTorque;
+    const gripHeat=this.gripperCurrent*this.gripperCurrent*gr.resistance_ohm;
+    this.gripperTemperature+=(gripHeat-(this.gripperTemperature-25)/gr.thermal_resistance_K_W)*dt/gr.thermal_capacity_J_K;
+    this.gripperI2Integral+=this.gripperCurrent*this.gripperCurrent*dt;
+    mj.mj_step(m,d);this.steps++;
+    // The brake is a force-limited native friction constraint, not a weld.
+    // Native joint friction shares that constraint; energy allocation is proportional
+    // to the two friction capacities and is explicitly an attribution approximation.
+    this.brakeTorque.fill(0);
+    for(let k=0;k<d.nefc;k++)if(d.efc_type[k]===1){const i=d.efc_id[k];if(i<6&&this.brakeCapacity[i]>0){
+      const frac=this.brakeCapacity[i]/(this.brakeCapacity[i]+this.baseFriction[i]);
+      this.brakeTorque[i]=d.efc_force[k]*frac;
+      this.brakeEnergy[i]+=Math.max(0,-this.brakeTorque[i]*(this.preStepVelocity[i]+d.qvel[i])*.5*dt);
+    }}
+    const mon=this.monitor;
+    for(let i=0;i<6;i++){
+      const ai=Math.abs(this.current[i]),at=Math.abs(this.torque[i]),as=Math.abs(d.qvel[i]*par.gear_ratio[i]),av=Math.abs(this.voltage[i]);
+      mon.rmsIntegral[i]+=ai*ai*dt;mon.maxCurrent[i]=Math.max(mon.maxCurrent[i],ai);mon.maxTorque[i]=Math.max(mon.maxTorque[i],at);mon.maxSpeed[i]=Math.max(mon.maxSpeed[i],as);mon.maxVoltage[i]=Math.max(mon.maxVoltage[i],av);
+      if(ai>par.continuous_current_A[i])mon.overContinuousSeconds[i]+=dt;
+      if(at>par.gear_continuous_torque_Nm[i])mon.overGearContinuousSeconds[i]+=dt;
+      if(av>=.999*par.bus_voltage_V[i]*par.max_pwm_duty[i])mon.voltageSaturationSeconds[i]+=dt;
+    }
+    if(!Number.isFinite(d.qpos[1])||!Number.isFinite(d.qpos[8]))throw new Error('Nonfinite simulation state; reset required.');
+  }
+  contacts(){
+    const {mj,model:m,data:d,api}=this,normal=[0,0],tangent=[0,0],pads=[api.geom_ids.pad_left,api.geom_ids.pad_right],puck=api.geom_ids.puck;
+    let penetration=0,count=0;const cs=d.contact;
+    try{for(let i=0;i<cs.size();i++){const c=cs.get(i);try{
+      penetration=Math.max(penetration,-c.dist);
+      if(c.geom1===puck||c.geom2===puck)for(let j=0;j<2;j++)if(c.geom1===pads[j]||c.geom2===pads[j]){
+        mj.mj_contactForce(m,d,i,this.forceBuffer);const f=this.forceBuffer.GetView();normal[j]+=Math.max(0,f[0]);tangent[j]+=Math.hypot(f[1],f[2]);count++;
+      }
+    }finally{c.delete();}}}finally{cs.delete();}
+    return {normal,tangent,penetration,count};
+  }
+  frame(){
+    const d=this.data,c=this.contacts(),tcp=d.site_xpos.slice(3*this.api.tcp_site_id,3*this.api.tcp_site_id+3);
+    return [this.steps*this.model.opt.timestep,...d.qpos.slice(0,6),...d.qvel.slice(0,6),...d.qpos.slice(6,8),...d.qpos.slice(8,15),...this.current,...this.torque,...c.normal,...c.tangent,...this.temperature,...tcp];
+  }
+  transforms(){
+    const out={};for(const [n,id] of Object.entries(this.api.body_ids)){out[n]={position_m:Array.from(this.data.xpos.slice(id*3,id*3+3)),rotation_row_major:Array.from(this.data.xmat.slice(id*9,id*9+9))};}
+    return out;
+  }
+  telemetry(){
+    return {time:this.steps*this.model.opt.timestep,mode:this.safety.mode,reason:this.safety.reason,spring:this.spring,elbow_spring:this.elbowSpring,brake_capacity_Nm:Array.from(this.brakeCapacity),brake_torque_Nm:Array.from(this.brakeTorque),brake_energy_J:Array.from(this.brakeEnergy),motor_voltage_V:Array.from(this.voltage),gripper_current_A:this.gripperCurrent,gripper_ceiling_A:this.gripperCurrentCeiling,gripper_voltage_V:this.gripperVoltage,gripper_temperature_C:this.gripperTemperature,gripper_torque_Nm:this.gripperTorque,peak_credit_s:this.peakCredit};
+  }
+  destroy(){this.forceBuffer.delete();this.massBuffer.delete();this.data.delete();this.model.delete();}
+}

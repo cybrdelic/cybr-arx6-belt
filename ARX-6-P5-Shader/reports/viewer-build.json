@@ -1,0 +1,55 @@
+{
+  "revision": "P5",
+  "shader_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+  "physics_sha256": {
+    "ARX-6-P5.xml": "b5d8a969db3742f01afae169039358b18182e57605f3f39382b9dfb20ad68ac5",
+    "parameters.json": "7127b02dc62029a39f58b5e69e97aa932867d560282f98e5aa62b05f0d558c70",
+    "controller.mjs": "e8fbe68be5a83f02f6e0b194c573b69bcf34f098de31358fd0e236ad4795107d",
+    "safety.mjs": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+    "mass_properties.json": "98f98c0a6dd1b39dac65f967fb0ebe682beb003aa29052f2924337fb07f8e024",
+    "p5_collision_proxies.json": "f351530da734766721dfd95582d764552d0f92f291a62ad07080dcbd888b528f"
+  },
+  "film_embedded": true,
+  "poster_sha256": "d7fee5f76cfac6f5fa1d9ca7bc499129fdabc46ed60503f26b7f69f07dee925f",
+  "html_bytes": 39315759,
+  "trajectory_sha256": "14b8dcd0e13c6baa7fd9236c23bf9712ad763afcad370f489c08f907a56e5a66",
+  "recorded_states": 1201,
+  "rigid_records": 385,
+  "inspection_groups": 11,
+  "offline": true,
+  "numeric_table_transport": {
+    "method": "Exact float32/int32 literal bit patterns in standard WebGL2 uniform buffers. Geometry and materials remain evaluated by the fragment shader. No meshes or geometry/material textures.",
+    "variants": [
+      {
+        "maximum_block_bytes": 65536,
+        "block_count": 4,
+        "table_count": 36,
+        "table_bytes": 244896,
+        "literal_tables_remaining": 0,
+        "shader_sha256": "053d05bdf747ca9719f0c4cd15b2a5c6cfa3ea0ec51940f2548209cf965a1f2f",
+        "literal_source_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+        "data_sha256": "714797b47f6e7718ca1c9798a240ceb3bdcc41cef2dcd11f0bb9ab751990c10b"
+      },
+      {
+        "maximum_block_bytes": 32768,
+        "block_count": 8,
+        "table_count": 36,
+        "table_bytes": 244896,
+        "literal_tables_remaining": 0,
+        "shader_sha256": "3649cea5a31ac7fe6ef457a30eabbe05939b8df82849584d1eb6778c11cca524",
+        "literal_source_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+        "data_sha256": "714797b47f6e7718ca1c9798a240ceb3bdcc41cef2dcd11f0bb9ab751990c10b"
+      },
+      {
+        "maximum_block_bytes": 16384,
+        "block_count": 12,
+        "table_count": 26,
+        "table_bytes": 196608,
+        "literal_tables_remaining": 10,
+        "shader_sha256": "7d3eb965bc4720f98d43db479b950078aa12735dd17cb5a051cc407204bef64f",
+        "literal_source_sha256": "1af43fd29a719fca74317e9f2bf63b47707e46117a994f2b477517c3df1908f5",
+        "data_sha256": "0f96c83ca57b49e75ffa407c1bb709e8126c3a14e0d508809b00990970aab8d2"
+      }
+    ]
+  }
+}

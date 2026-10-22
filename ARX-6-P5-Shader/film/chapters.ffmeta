@@ -1,0 +1,73 @@
+;FFMETADATA1
+title=ARX-6 P5 — Compact Drive Inspection
+artist=Procedural CAD renderer
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=10000
+title=ARX / 6
+[CHAPTER]
+TIMEBASE=1/1000
+START=10000
+END=16000
+title=Every assembly, revealed
+[CHAPTER]
+TIMEBASE=1/1000
+START=16000
+END=21000
+title=01 / Base rotation
+[CHAPTER]
+TIMEBASE=1/1000
+START=21000
+END=27000
+title=02 / Shoulder drive
+[CHAPTER]
+TIMEBASE=1/1000
+START=27000
+END=33000
+title=03 / Elbow drive
+[CHAPTER]
+TIMEBASE=1/1000
+START=33000
+END=37000
+title=Shoulder counterbalance
+[CHAPTER]
+TIMEBASE=1/1000
+START=37000
+END=41000
+title=Elbow counterbalance
+[CHAPTER]
+TIMEBASE=1/1000
+START=41000
+END=45000
+title=04 / Wrist roll
+[CHAPTER]
+TIMEBASE=1/1000
+START=45000
+END=49000
+title=05 / Wrist bend
+[CHAPTER]
+TIMEBASE=1/1000
+START=49000
+END=53000
+title=06 / Tool roll
+[CHAPTER]
+TIMEBASE=1/1000
+START=53000
+END=59000
+title=Rack-and-pinion gripper
+[CHAPTER]
+TIMEBASE=1/1000
+START=59000
+END=63000
+title=Payload and receiving nests
+[CHAPTER]
+TIMEBASE=1/1000
+START=63000
+END=67000
+title=Links and load path
+[CHAPTER]
+TIMEBASE=1/1000
+START=67000
+END=72000
+title=ARX / 6 · P5

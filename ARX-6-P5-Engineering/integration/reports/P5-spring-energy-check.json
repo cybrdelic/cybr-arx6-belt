@@ -1,0 +1,2004 @@
+{
+  "revision": "P5",
+  "date_utc": "2026-10-22T03:40:33.411Z",
+  "spec_sha256": "606e09b482d4c5f838ee49daced4b574f8260450dd350735e95422c2d666a8ac",
+  "safety_sha256": "a71184c3b9e296ddc367218396027b621371d1e5ef17aec32dbcd3e5e9a41a63",
+  "method": "Independent central derivative of tension-spring potential energy across the actual joint travel. The controller applies minus its gradient.",
+  "joints": [
+    {
+      "joint": 2,
+      "anchors": {
+        "parent_m": [
+          -0.065,
+          -0.04,
+          0.06
+        ],
+        "child_m": [
+          0,
+          0.07,
+          0.06
+        ]
+      },
+      "max_potential_gradient_residual_Nm": 8.372211368623539e-9,
+      "passes_conservative_force_check": true,
+      "reference_torque_Nm": -11,
+      "reference_target_magnitude_Nm": 11,
+      "reference_calibration_error_Nm": 0,
+      "passes_reference_calibration": true,
+      "force_peak_each_N": 230.7702707672418,
+      "min_length_m": 0.11789628294549177,
+      "max_length_m": 0.14623442274164125,
+      "max_coil_body_shear_MPa": 594.5272926965804,
+      "spring_index": 6.428571428571429,
+      "qualification": "Calculated wire-body stress only; no assumed yield/fatigue acceptance, hook strength or supplier material qualification.",
+      "samples": [
+        {
+          "q_rad": -0.25,
+          "length_m": 0.11789628294549177,
+          "force_each_N": 132.45934221865772,
+          "torque_Nm": -11.462830233620434,
+          "potential_energy_J": 3.0114575726376778,
+          "energy_torque_residual_Nm": 2.788347330806573e-10
+        },
+        {
+          "q_rad": -0.24,
+          "length_m": 0.11832750634862733,
+          "force_each_N": 133.95534631346067,
+          "torque_Nm": -11.513531194888383,
+          "potential_energy_J": 3.1263418212717986,
+          "energy_torque_residual_Nm": -1.1141985112317343e-9
+        },
+        {
+          "q_rad": -0.23,
+          "length_m": 0.11875578448168278,
+          "force_each_N": 135.441132650906,
+          "torque_Nm": -11.561305907231098,
+          "potential_energy_J": 3.241718442334369,
+          "energy_torque_residual_Nm": 5.057536611730029e-10
+        },
+        {
+          "q_rad": -0.22,
+          "length_m": 0.1191811064985364,
+          "force_each_N": 136.9166636035311,
+          "torque_Nm": -11.60616166894273,
+          "potential_energy_J": 3.3575582095431136,
+          "energy_torque_residual_Nm": -1.2106351476859345e-9
+        },
+        {
+          "q_rad": -0.21,
+          "length_m": 0.11960346162990322,
+          "force_each_N": 138.38190181043603,
+          "torque_Nm": -11.648106119092965,
+          "potential_energy_J": 3.4738319713036265,
+          "energy_torque_residual_Nm": 5.508766776074481e-10
+        },
+        {
+          "q_rad": -0.2,
+          "length_m": 0.12002283918353164,
+          "force_each_N": 139.83681017796573,
+          "torque_Nm": -11.687147236318648,
+          "potential_energy_J": 3.5905106541109726,
+          "energy_torque_residual_Nm": -4.109775630922741e-9
+        },
+        {
+          "q_rad": -0.19,
+          "length_m": 0.12043922854440144,
+          "force_each_N": 141.28135188039684,
+          "torque_Nm": -11.723293337585275,
+          "potential_energy_J": 3.7075652659393454,
+          "energy_torque_residual_Nm": -2.5988242668972816e-9
+        },
+        {
+          "q_rad": -0.18,
+          "length_m": 0.12085261917492099,
+          "force_each_N": 142.71549036062214,
+          "torque_Nm": -11.756553076917978,
+          "potential_energy_J": 3.8249668996189223,
+          "energy_torque_residual_Nm": 2.3604975751823076e-9
+        },
+        {
+          "q_rad": -0.16999999999999998,
+          "length_m": 0.1212630006151253,
+          "force_each_N": 144.13918933083727,
+          "torque_Nm": -11.786935444102085,
+          "potential_energy_J": 3.9426867362000477,
+          "energy_torque_residual_Nm": -1.3096723705530167e-9
+        },
+        {
+          "q_rad": -0.16,
+          "length_m": 0.12167036248287368,
+          "force_each_N": 145.55241277322676,
+          "torque_Nm": -11.814449763353258,
+          "potential_energy_J": 4.06069604830418,
+          "energy_torque_residual_Nm": -3.5138949527890873e-9
+        },
+        {
+          "q_rad": -0.15,
+          "length_m": 0.12207469447404767,
+          "force_each_N": 146.9551249406505,
+          "torque_Nm": -11.839105691957117,
+          "potential_energy_J": 4.178966203461435,
+          "energy_torque_residual_Nm": -1.5498535788083245e-10
+        },
+        {
+          "q_rad": -0.14,
+          "length_m": 0.12247598636274876,
+          "force_each_N": 148.34729035732965,
+          "torque_Nm": -11.860913218878341,
+          "potential_energy_J": 4.297468667434353,
+          "energy_torque_residual_Nm": -2.401254306505507e-9
+        },
+        {
+          "q_rad": -0.13,
+          "length_m": 0.12287422800149587,
+          "force_each_N": 149.72887381953203,
+          "torque_Nm": -11.879882663339288,
+          "potential_energy_J": 4.4161750075276025,
+          "energy_torque_residual_Nm": 2.7044961825595237e-9
+        },
+        {
+          "q_rad": -0.12,
+          "length_m": 0.12326940932142283,
+          "force_each_N": 151.09984039625675,
+          "torque_Nm": -11.896024673368087,
+          "potential_energy_J": 4.535056895883326,
+          "energy_torque_residual_Nm": 1.738444055376931e-9
+        },
+        {
+          "q_rad": -0.10999999999999999,
+          "length_m": 0.12366152033247536,
+          "force_each_N": 152.46015542991807,
+          "torque_Nm": -11.909350224316269,
+          "potential_energy_J": 4.6540861127618305,
+          "energy_torque_residual_Nm": 3.89566601199931e-9
+        },
+        {
+          "q_rad": -0.1,
+          "length_m": 0.1240505511236077,
+          "force_each_N": 153.8097845370272,
+          "torque_Nm": -11.919870617345858,
+          "potential_energy_J": 4.773234549807225,
+          "energy_torque_residual_Nm": -1.4617924648518965e-9
+        },
+        {
+          "q_rad": -0.09,
+          "length_m": 0.12443649186297912,
+          "force_each_N": 155.1486936088741,
+          "torque_Nm": -11.927597477886145,
+          "potential_energy_J": 4.8924742132979215,
+          "energy_torque_residual_Nm": -4.181835322469851e-9
+        },
+        {
+          "q_rad": -0.08000000000000002,
+          "length_m": 0.12481933279814951,
+          "force_each_N": 156.47684881220627,
+          "torque_Nm": -11.932542754059956,
+          "potential_energy_J": 5.011777227381389,
+          "energy_torque_residual_Nm": 2.938332244184494e-9
+        },
+        {
+          "q_rad": -0.07,
+          "length_m": 0.12519906425627478,
+          "force_each_N": 157.79421658990617,
+          "torque_Nm": -11.934718715079628,
+          "potential_energy_J": 5.131115837293114,
+          "energy_torque_residual_Nm": 4.431353062273047e-10
+        },
+        {
+          "q_rad": -0.06,
+          "length_m": 0.12557567664430164,
+          "force_each_N": 159.10076366166743,
+          "torque_Nm": -11.934137949612719,
+          "potential_energy_J": 5.250462412559384,
+          "energy_torque_residual_Nm": -2.412278377050825e-9
+        },
+        {
+          "q_rad": -0.04999999999999999,
+          "length_m": 0.12594916044916155,
+          "force_each_N": 160.3964570246674,
+          "torque_Nm": -11.930813364117434,
+          "potential_energy_J": 5.369789450183482,
+          "energy_torque_residual_Nm": -4.633228911643528e-9
+        },
+        {
+          "q_rad": -0.04000000000000001,
+          "length_m": 0.1263195062379643,
+          "force_each_N": 161.6812639542389,
+          "torque_Nm": -11.924758181147979,
+          "potential_energy_J": 5.489069577815213,
+          "energy_torque_residual_Nm": 5.9727085499616805e-9
+        },
+        {
+          "q_rad": -0.03,
+          "length_m": 0.12668670465819065,
+          "force_each_N": 162.95515200453812,
+          "torque_Nm": -11.915985937629783,
+          "potential_energy_J": 5.608275556903217,
+          "energy_torque_residual_Nm": 3.4502267709513035e-9
+        },
+        {
+          "q_rad": -0.020000000000000018,
+          "length_m": 0.12705074643788405,
+          "force_each_N": 164.21808900921053,
+          "torque_Nm": -11.904510483104747,
+          "potential_energy_J": 5.72738028582992,
+          "energy_torque_residual_Nm": -8.301590526116343e-10
+        },
+        {
+          "q_rad": -0.010000000000000037,
+          "length_m": 0.12741162238584205,
+          "force_each_N": 165.4700430820542,
+          "torque_Nm": -11.890345977946666,
+          "potential_energy_J": 5.846356803028858,
+          "energy_torque_residual_Nm": 9.173106718662893e-11
+        },
+        {
+          "q_rad": 0,
+          "length_m": 0.12776932339180638,
+          "force_each_N": 166.71098261767938,
+          "torque_Nm": -11.873506891546782,
+          "potential_energy_J": 5.965178290083915,
+          "energy_torque_residual_Nm": 2.5865745101327775e-9
+        },
+        {
+          "q_rad": 0.010000000000000009,
+          "length_m": 0.12812384042665226,
+          "force_each_N": 167.94087629216554,
+          "torque_Nm": -11.85400800046971,
+          "potential_energy_J": 6.083818074810293,
+          "energy_torque_residual_Nm": -3.944014892454106e-9
+        },
+        {
+          "q_rad": 0.019999999999999962,
+          "length_m": 0.12847516454257674,
+          "force_each_N": 169.15969306371449,
+          "torque_Nm": -11.831864386579761,
+          "potential_energy_J": 6.202249634316885,
+          "energy_torque_residual_Nm": -9.989467031346067e-10
+        },
+        {
+          "q_rad": 0.030000000000000027,
+          "length_m": 0.1288232868732864,
+          "force_each_N": 170.36740217330163,
+          "torque_Nm": -11.807091435137892,
+          "potential_energy_J": 6.320446598049877,
+          "energy_torque_residual_Nm": -6.132069074737956e-9
+        },
+        {
+          "q_rad": 0.03999999999999998,
+          "length_m": 0.12916819863418336,
+          "force_each_N": 171.5639731453213,
+          "torque_Nm": -11.779704832869232,
+          "potential_energy_J": 6.438382750816942,
+          "energy_torque_residual_Nm": -1.7417853825918428e-9
+        },
+        {
+          "q_rad": 0.04999999999999999,
+          "length_m": 0.12950989112255087,
+          "force_each_N": 172.74937578823054,
+          "torque_Nm": -11.749720566001495,
+          "potential_energy_J": 6.556032035792201,
+          "energy_torque_residual_Nm": -5.940089309319774e-9
+        },
+        {
+          "q_rad": 0.05999999999999994,
+          "length_m": 0.1298483557177375,
+          "force_each_N": 173.9235801951881,
+          "torque_Nm": -11.717154918274321,
+          "potential_energy_J": 6.673368557501282,
+          "energy_torque_residual_Nm": 1.3805383503040503e-9
+        },
+        {
+          "q_rad": 0.07,
+          "length_m": 0.13018358388134013,
+          "force_each_N": 175.08655674468937,
+          "torque_Nm": -11.682024468919694,
+          "potential_energy_J": 6.790366584786337,
+          "energy_torque_residual_Nm": 2.4070185844493608e-9
+        },
+        {
+          "q_rad": 0.08000000000000002,
+          "length_m": 0.13051556715738605,
+          "force_each_N": 176.2382761011981,
+          "torque_Nm": -11.644346090613643,
+          "potential_energy_J": 6.9070005537508,
+          "energy_torque_residual_Nm": -4.587596080796175e-9
+        },
+        {
+          "q_rad": 0.08999999999999997,
+          "length_m": 0.13084429717251367,
+          "force_each_N": 177.37870921577314,
+          "torque_Nm": -11.604136947399267,
+          "potential_energy_J": 7.023245070683431,
+          "energy_torque_residual_Nm": -5.851852336036245e-11
+        },
+        {
+          "q_rad": 0.09999999999999998,
+          "length_m": 0.13116976563615215,
+          "force_each_N": 178.50782732669194,
+          "torque_Nm": -11.561414492581413,
+          "potential_energy_J": 7.139074914961528,
+          "energy_torque_residual_Nm": 5.625388155294786e-9
+        },
+        {
+          "q_rad": 0.10999999999999999,
+          "length_m": 0.13149196434069954,
+          "force_each_N": 179.62560196006814,
+          "torque_Nm": -11.516196466592957,
+          "potential_energy_J": 7.254465041932836,
+          "energy_torque_residual_Nm": -1.2597620724363878e-9
+        },
+        {
+          "q_rad": 0.12,
+          "length_m": 0.1318108851616998,
+          "force_each_N": 180.73200493046613,
+          "torque_Nm": -11.468500894833056,
+          "potential_energy_J": 7.369390585776057,
+          "energy_torque_residual_Nm": 1.6723618045944022e-9
+        },
+        {
+          "q_rad": 0.13,
+          "length_m": 0.1321265200580188,
+          "force_each_N": 181.82700834151123,
+          "torque_Nm": -11.418346085477463,
+          "potential_energy_J": 7.483826862339677,
+          "energy_torque_residual_Nm": -1.275349603702125e-9
+        },
+        {
+          "q_rad": 0.13999999999999996,
+          "length_m": 0.13243886107201816,
+          "force_each_N": 182.9105845864931,
+          "torque_Nm": -11.365750627260987,
+          "potential_energy_J": 7.597749371958492,
+          "energy_torque_residual_Nm": 4.503384332110727e-9
+        },
+        {
+          "q_rad": 0.15000000000000002,
+          "length_m": 0.13274790032972872,
+          "force_each_N": 183.98270634896738,
+          "torque_Nm": -11.310733387232515,
+          "potential_energy_J": 7.71113380224817,
+          "energy_torque_residual_Nm": -6.080469461267057e-12
+        },
+        {
+          "q_rad": 0.15999999999999998,
+          "length_m": 0.133053630041022,
+          "force_each_N": 185.0433466033505,
+          "torque_Nm": -11.25331350848254,
+          "potential_energy_J": 7.823956030876982,
+          "energy_torque_residual_Nm": 2.3347244137994494e-9
+        },
+        {
+          "q_rad": 0.16999999999999998,
+          "length_m": 0.1333560424997803,
+          "force_each_N": 186.09247861550995,
+          "torque_Nm": -11.193510407843535,
+          "potential_energy_J": 7.936192128314712,
+          "energy_torque_residual_Nm": 5.036167038952044e-10
+        },
+        {
+          "q_rad": 0.18,
+          "length_m": 0.13365513008406557,
+          "force_each_N": 187.1300759433498,
+          "torque_Nm": -11.131343773563309,
+          "potential_energy_J": 8.047818360558495,
+          "energy_torque_residual_Nm": 2.7697666382664465e-10
+        },
+        {
+          "q_rad": 0.19,
+          "length_m": 0.13395088525628665,
+          "force_each_N": 188.15611243739136,
+          "torque_Nm": -11.066833562951576,
+          "potential_energy_J": 8.158811191835234,
+          "energy_torque_residual_Nm": -5.8353357701435016e-9
+        },
+        {
+          "q_rad": 0.2,
+          "length_m": 0.13424330056336523,
+          "force_each_N": 189.1705622413485,
+          "torque_Nm": -11,
+          "potential_energy_J": 8.269147287280354,
+          "energy_torque_residual_Nm": -1.1269776223343797e-9
+        },
+        {
+          "q_rad": 0.20999999999999996,
+          "length_m": 0.13453236863689993,
+          "force_each_N": 190.1733997926972,
+          "torque_Nm": -10.930863572975674,
+          "potential_energy_J": 8.378803515592562,
+          "energy_torque_residual_Nm": -5.793360458028474e-9
+        },
+        {
+          "q_rad": 0.21999999999999997,
+          "length_m": 0.13481808219332933,
+          "force_each_N": 191.1645998232408,
+          "torque_Nm": -10.85944503198864,
+          "potential_energy_J": 8.487756951664503,
+          "energy_torque_residual_Nm": 1.07819531081077e-10
+        },
+        {
+          "q_rad": 0.22999999999999993,
+          "length_m": 0.13510043403409303,
+          "force_each_N": 192.14413735966912,
+          "torque_Nm": -10.785765386533335,
+          "potential_energy_J": 8.595984879188904,
+          "energy_torque_residual_Nm": 2.731788129040069e-9
+        },
+        {
+          "q_rad": 0.24,
+          "length_m": 0.13537941704579132,
+          "force_each_N": 193.11198772411208,
+          "torque_Nm": -10.7098459030043,
+          "potential_energy_J": 8.703464793239991,
+          "energy_torque_residual_Nm": 4.517275442594837e-10
+        },
+        {
+          "q_rad": 0.25,
+          "length_m": 0.13565502420034348,
+          "force_each_N": 194.0681265346891,
+          "torque_Nm": -10.631708102186487,
+          "potential_energy_J": 8.81017440283004,
+          "energy_torque_residual_Nm": -3.401488868348679e-9
+        },
+        {
+          "q_rad": 0.26,
+          "length_m": 0.13592724855514396,
+          "force_each_N": 195.01252970605083,
+          "torque_Nm": -10.551373756720158,
+          "potential_energy_J": 8.916091633440523,
+          "energy_torque_residual_Nm": -3.3332749893588698e-9
+        },
+        {
+          "q_rad": 0.27,
+          "length_m": 0.1361960832532175,
+          "force_each_N": 195.94517344991712,
+          "torque_Nm": -10.468864888540825,
+          "potential_energy_J": 9.021194629527983,
+          "energy_torque_residual_Nm": 1.1047767145555554e-9
+        },
+        {
+          "q_rad": 0.2799999999999999,
+          "length_m": 0.13646152152337213,
+          "force_each_N": 196.8660342756082,
+          "torque_Nm": -10.384203766294394,
+          "potential_energy_J": 9.125461757003995,
+          "energy_torque_residual_Nm": 5.235204270093163e-9
+        },
+        {
+          "q_rad": 0.2899999999999999,
+          "length_m": 0.13672355668035086,
+          "force_each_N": 197.77508899057057,
+          "torque_Nm": -10.297412902727629,
+          "potential_energy_J": 9.22887160568931,
+          "energy_torque_residual_Nm": 1.8642225541043445e-9
+        },
+        {
+          "q_rad": 0.30000000000000004,
+          "length_m": 0.13698218212498145,
+          "force_each_N": 198.6723147008968,
+          "torque_Nm": -10.208515052054441,
+          "potential_energy_J": 9.331402991741662,
+          "energy_torque_residual_Nm": 7.908163013325975e-10
+        },
+        {
+          "q_rad": 0.31000000000000005,
+          "length_m": 0.13723739134432472,
+          "force_each_N": 199.55768881183988,
+          "torque_Nm": -10.117533207298,
+          "potential_energy_J": 9.433034960057215,
+          "energy_torque_residual_Nm": -2.28614815966921e-9
+        },
+        {
+          "q_rad": 0.31999999999999995,
+          "length_m": 0.1374891779118209,
+          "force_each_N": 200.431189028321,
+          "torque_Nm": -10.02449059760904,
+          "potential_energy_J": 9.533746786645231,
+          "energy_torque_residual_Nm": -1.7699424148531762e-9
+        },
+        {
+          "q_rad": 0.32999999999999996,
+          "length_m": 0.13773753548743445,
+          "force_each_N": 201.2927933554322,
+          "torque_Nm": -9.929410685560594,
+          "potential_energy_J": 9.633517980975887,
+          "energy_torque_residual_Nm": 2.7757103282510798e-9
+        },
+        {
+          "q_rad": 0.33999999999999997,
+          "length_m": 0.13798245781779708,
+          "force_each_N": 202.14248009893203,
+          "torque_Nm": -9.832317164419415,
+          "potential_energy_J": 9.732328288300817,
+          "energy_torque_residual_Nm": 5.802512248465064e-9
+        },
+        {
+          "q_rad": 0.35,
+          "length_m": 0.1382239387363489,
+          "force_each_N": 202.98022786573569,
+          "torque_Nm": -9.733233955394315,
+          "potential_energy_J": 9.830157691946319,
+          "energy_torque_residual_Nm": 3.056008779367403e-10
+        },
+        {
+          "q_rad": 0.36,
+          "length_m": 0.138461972163478,
+          "force_each_N": 203.80601556439908,
+          "torque_Nm": -9.632185204861742,
+          "potential_energy_J": 9.92698641557897,
+          "energy_torque_residual_Nm": -6.079346803744556e-9
+        },
+        {
+          "q_rad": 0.3699999999999999,
+          "length_m": 0.13869655210665818,
+          "force_each_N": 204.6198224055966,
+          "torque_Nm": -9.52919528156879,
+          "potential_energy_J": 10.022794925443291,
+          "energy_torque_residual_Nm": -5.154518589733925e-9
+        },
+        {
+          "q_rad": 0.38,
+          "length_m": 0.1389276726605848,
+          "force_each_N": 205.42162790259246,
+          "torque_Nm": -9.424288773813972,
+          "potential_energy_J": 10.117563932571397,
+          "energy_torque_residual_Nm": 1.3365859530267699e-9
+        },
+        {
+          "q_rad": 0.39,
+          "length_m": 0.1391553280073089,
+          "force_each_N": 206.21141187170593,
+          "torque_Nm": -9.317490486605971,
+          "potential_energy_J": 10.211274394964306,
+          "energy_torque_residual_Nm": -6.107734762395012e-9
+        },
+        {
+          "q_rad": 0.4,
+          "length_m": 0.13937951241636942,
+          "force_each_N": 206.98915443277025,
+          "torque_Nm": -9.208825438800712,
+          "potential_energy_J": 10.30390751974475,
+          "energy_torque_residual_Nm": 2.0643859954816435e-9
+        },
+        {
+          "q_rad": 0.41000000000000003,
+          "length_m": 0.13960022024492383,
+          "force_each_N": 207.75483600958543,
+          "torque_Nm": -9.098318860216958,
+          "potential_energy_J": 10.39544476528127,
+          "energy_torque_residual_Nm": -1.0149765472533545e-9
+        },
+        {
+          "q_rad": 0.41999999999999993,
+          "length_m": 0.1398174459378765,
+          "force_each_N": 208.50843733036407,
+          "torque_Nm": -8.98599618873077,
+          "potential_energy_J": 10.485867843283293,
+          "energy_torque_residual_Nm": -3.357445876872589e-9
+        },
+        {
+          "q_rad": 0.42999999999999994,
+          "length_m": 0.14003118402800563,
+          "force_each_N": 209.24993942817113,
+          "torque_Nm": -8.871883067349064,
+          "potential_energy_J": 10.575158720867103,
+          "energy_torque_residual_Nm": -9.298908310029219e-10
+        },
+        {
+          "q_rad": 0.43999999999999995,
+          "length_m": 0.140241429136088,
+          "force_each_N": 209.97932364135733,
+          "torque_Nm": -8.756005341262613,
+          "potential_energy_J": 10.663299622592449,
+          "energy_torque_residual_Nm": -5.365569322179908e-9
+        },
+        {
+          "q_rad": 0.44999999999999996,
+          "length_m": 0.14044817597102208,
+          "force_each_N": 210.69657161398578,
+          "torque_Nm": -8.638389054878706,
+          "potential_energy_J": 10.75027303246955,
+          "energy_torque_residual_Nm": 1.635777735486954e-9
+        },
+        {
+          "q_rad": 0.4600000000000001,
+          "length_m": 0.1406514193299491,
+          "force_each_N": 211.40166529625225,
+          "torque_Nm": -8.519060448833809,
+          "potential_energy_J": 10.836061695936358,
+          "energy_torque_residual_Nm": -2.4235440321263013e-9
+        },
+        {
+          "q_rad": 0.47,
+          "length_m": 0.1408511540983721,
+          "force_each_N": 212.09458694489797,
+          "torque_Nm": -8.398045956986495,
+          "potential_energy_J": 10.920648621805753,
+          "energy_torque_residual_Nm": 5.6566573647387486e-9
+        },
+        {
+          "q_rad": 0.48,
+          "length_m": 0.14104737525027358,
+          "force_each_N": 212.7753191236181,
+          "torque_Nm": -8.275372203390974,
+          "potential_energy_J": 11.004017084182795,
+          "energy_torque_residual_Nm": -1.6750494324924148e-9
+        },
+        {
+          "q_rad": 0.49,
+          "length_m": 0.14124007784823053,
+          "force_each_N": 213.4438447034604,
+          "torque_Nm": -8.151065999251465,
+          "potential_energy_J": 11.086150624351312,
+          "energy_torque_residual_Nm": 4.240781947828509e-9
+        },
+        {
+          "q_rad": 0.5,
+          "length_m": 0.1414292570435281,
+          "force_each_N": 214.10014686321983,
+          "torque_Nm": -8.025154339857739,
+          "potential_energy_J": 11.167033052630206,
+          "energy_torque_residual_Nm": -1.4597283382045134e-9
+        },
+        {
+          "q_rad": 0.51,
+          "length_m": 0.14161490807627095,
+          "force_each_N": 214.74420908982484,
+          "torque_Nm": -7.897664401502158,
+          "potential_energy_J": 11.24664845019883,
+          "energy_torque_residual_Nm": 6.609113256672572e-11
+        },
+        {
+          "q_rad": 0.5199999999999999,
+          "length_m": 0.14179702627549298,
+          "force_each_N": 215.37601517871803,
+          "torque_Nm": -7.7686235383784865,
+          "potential_energy_J": 11.324981170891594,
+          "energy_torque_residual_Nm": -3.6910510203824742e-9
+        },
+        {
+          "q_rad": 0.5299999999999999,
+          "length_m": 0.14197560705926485,
+          "force_each_N": 215.99554923422903,
+          "torque_Nm": -7.638059279462761,
+          "potential_energy_J": 11.402015842961355,
+          "energy_torque_residual_Nm": 7.056026873897281e-10
+        },
+        {
+          "q_rad": 0.5399999999999999,
+          "length_m": 0.14215064593479956,
+          "force_each_N": 216.60279566994097,
+          "torque_Nm": -7.505999325376612,
+          "potential_energy_J": 11.47773737081156,
+          "energy_torque_residual_Nm": 2.484833672156128e-9
+        },
+        {
+          "q_rad": 0.55,
+          "length_m": 0.14232213849855627,
+          "force_each_N": 217.19773920905038,
+          "torque_Nm": -7.372471545233207,
+          "potential_energy_J": 11.552130936696987,
+          "energy_torque_residual_Nm": -1.7567849397437385e-9
+        },
+        {
+          "q_rad": 0.56,
+          "length_m": 0.14249008043634184,
+          "force_each_N": 217.78036488471992,
+          "torque_Nm": -7.237503973466312,
+          "potential_energy_J": 11.62518200239279,
+          "energy_torque_residual_Nm": 6.662366658360952e-9
+        },
+        {
+          "q_rad": 0.57,
+          "length_m": 0.14265446752341068,
+          "force_each_N": 218.35065804042415,
+          "torque_Nm": -7.101124806642586,
+          "potential_energy_J": 11.696876310831808,
+          "energy_torque_residual_Nm": -5.574859684998046e-9
+        },
+        {
+          "q_rad": 0.58,
+          "length_m": 0.14281529562456222,
+          "force_each_N": 218.9086043302883,
+          "torque_Nm": -6.963362400257619,
+          "potential_energy_J": 11.76719988770981,
+          "energy_torque_residual_Nm": 5.5409152821539465e-9
+        },
+        {
+          "q_rad": 0.59,
+          "length_m": 0.1429725606942369,
+          "force_each_N": 219.45418971942087,
+          "torque_Nm": -6.824245265515875,
+          "potential_energy_J": 11.836139043058822,
+          "energy_torque_residual_Nm": -2.4118858021893175e-9
+        },
+        {
+          "q_rad": 0.6,
+          "length_m": 0.14312625877660964,
+          "force_each_N": 219.9874004842381,
+          "torque_Nm": -6.683802066094966,
+          "potential_energy_J": 11.903680372787958,
+          "energy_torque_residual_Nm": -3.171560791770389e-9
+        },
+        {
+          "q_rad": 0.61,
+          "length_m": 0.14327638600568157,
+          "force_each_N": 220.5082232127819,
+          "torque_Nm": -6.542061614894507,
+          "potential_energy_J": 11.969810760191901,
+          "energy_torque_residual_Nm": -5.123396817907633e-9
+        },
+        {
+          "q_rad": 0.6199999999999999,
+          "length_m": 0.14342293860536978,
+          "force_each_N": 221.01664480503177,
+          "torque_Nm": -6.399052870769964,
+          "potential_energy_J": 12.034517377426909,
+          "energy_torque_residual_Nm": 8.162999165506335e-10
+        },
+        {
+          "q_rad": 0.63,
+          "length_m": 0.14356591288959472,
+          "force_each_N": 221.51265247320737,
+          "torque_Nm": -6.254804935251684,
+          "potential_energy_J": 12.09778768695383,
+          "energy_torque_residual_Nm": -2.5922872737282887e-9
+        },
+        {
+          "q_rad": 0.64,
+          "length_m": 0.14370530526236605,
+          "force_each_N": 221.99623374206686,
+          "torque_Nm": -6.109347049249639,
+          "potential_energy_J": 12.159609442948545,
+          "energy_torque_residual_Nm": 3.3801583754211606e-10
+        },
+        {
+          "q_rad": 0.65,
+          "length_m": 0.14384111221786586,
+          "force_each_N": 222.46737644919534,
+          "torque_Nm": -5.962708589743951,
+          "potential_energy_J": 12.219970692679073,
+          "energy_torque_residual_Nm": -2.4180017987873725e-9
+        },
+        {
+          "q_rad": 0.66,
+          "length_m": 0.14397333034053042,
+          "force_each_N": 222.92606874528843,
+          "torque_Nm": -5.81491906646181,
+          "potential_energy_J": 12.27885977784979,
+          "energy_torque_residual_Nm": 2.4631408024333723e-9
+        },
+        {
+          "q_rad": 0.6699999999999999,
+          "length_m": 0.1441019563051295,
+          "force_each_N": 223.37229909442772,
+          "torque_Nm": -5.666008118540892,
+          "potential_energy_J": 12.336265335912172,
+          "energy_torque_residual_Nm": 3.6994922680833042e-9
+        },
+        {
+          "q_rad": 0.6799999999999999,
+          "length_m": 0.1442269868768438,
+          "force_each_N": 223.80605627434898,
+          "torque_Nm": -5.516005511179753,
+          "potential_energy_J": 12.392176301342186,
+          "energy_torque_residual_Nm": -7.265906987186099e-9
+        },
+        {
+          "q_rad": 0.69,
+          "length_m": 0.14434841891134,
+          "force_each_N": 224.22732937670304,
+          "torque_Nm": -5.364941132275447,
+          "potential_energy_J": 12.446581906884019,
+          "energy_torque_residual_Nm": 3.5126674902130617e-9
+        },
+        {
+          "q_rad": 0.7,
+          "length_m": 0.14446624935484456,
+          "force_each_N": 224.6361078073112,
+          "torque_Nm": -5.212844989048758,
+          "potential_energy_J": 12.49947168476039,
+          "energy_torque_residual_Nm": 3.9479211011439475e-9
+        },
+        {
+          "q_rad": 0.7099999999999999,
+          "length_m": 0.1445804752442142,
+          "force_each_N": 225.0323812864102,
+          "torque_Nm": -5.05974720465737,
+          "potential_energy_J": 12.550835467848616,
+          "energy_torque_residual_Nm": 2.3350565925284172e-9
+        },
+        {
+          "q_rad": 0.72,
+          "length_m": 0.1446910937070054,
+          "force_each_N": 225.41613984889352,
+          "torque_Nm": -4.9056780147973384,
+          "potential_energy_J": 12.600663390823176,
+          "energy_torque_residual_Nm": 1.9004957607648976e-9
+        },
+        {
+          "q_rad": 0.73,
+          "length_m": 0.14479810196154136,
+          "force_each_N": 225.78737384454286,
+          "torque_Nm": -4.750667764293148,
+          "potential_energy_J": 12.648945891264004,
+          "energy_torque_residual_Nm": 2.435463386518677e-9
+        },
+        {
+          "q_rad": 0.74,
+          "length_m": 0.14490149731697674,
+          "force_each_N": 226.14607393825344,
+          "torque_Nm": -4.594746903676745,
+          "potential_energy_J": 12.695673710730643,
+          "energy_torque_residual_Nm": 2.8287754361144835e-9
+        },
+        {
+          "q_rad": 0.75,
+          "length_m": 0.1450012771733606,
+          "force_each_N": 226.4922311102522,
+          "torque_Nm": -4.4379459857558885,
+          "potential_energy_J": 12.740837895802212,
+          "energy_torque_residual_Nm": -8.305818255394115e-10
+        },
+        {
+          "q_rad": 0.76,
+          "length_m": 0.14509743902169703,
+          "force_each_N": 226.82583665630813,
+          "torque_Nm": -4.280295662172161,
+          "potential_energy_J": 12.784429799082947,
+          "energy_torque_residual_Nm": 1.5112142648376903e-9
+        },
+        {
+          "q_rad": 0.77,
+          "length_m": 0.14518998044400389,
+          "force_each_N": 227.14688218793577,
+          "torque_Nm": -4.121826679948942,
+          "potential_energy_J": 12.826441080173305,
+          "energy_torque_residual_Nm": 9.09533781623395e-10
+        },
+        {
+          "q_rad": 0.78,
+          "length_m": 0.14527889911336914,
+          "force_each_N": 227.45535963259113,
+          "torque_Nm": -3.962569878029793,
+          "potential_energy_J": 12.866863706606447,
+          "energy_torque_residual_Nm": -4.717399804121669e-10
+        },
+        {
+          "q_rad": 0.79,
+          "length_m": 0.14536419279400536,
+          "force_each_N": 227.75126123386048,
+          "torque_Nm": -3.8025561838074964,
+          "potential_energy_J": 12.905689954750127,
+          "energy_torque_residual_Nm": -1.0010126061388291e-10
+        },
+        {
+          "q_rad": 0.8,
+          "length_m": 0.14544585934130191,
+          "force_each_N": 228.03457955164117,
+          "torque_Nm": -3.641816609644133,
+          "potential_energy_J": 12.942912410673733,
+          "energy_torque_residual_Nm": -1.3644640972643174e-9
+        },
+        {
+          "q_rad": 0.8099999999999998,
+          "length_m": 0.14552389670187535,
+          "force_each_N": 228.30530746231716,
+          "torque_Nm": -3.4803822493826413,
+          "potential_energy_J": 12.978523970980682,
+          "energy_torque_residual_Nm": -3.1675817524501326e-10
+        },
+        {
+          "q_rad": 0.8200000000000001,
+          "length_m": 0.14559830291361708,
+          "force_each_N": 228.56343815892365,
+          "torque_Nm": -3.3182842748500008,
+          "potential_energy_J": 13.012517843605558,
+          "energy_torque_residual_Nm": -8.268585816040286e-10
+        },
+        {
+          "q_rad": 0.8299999999999998,
+          "length_m": 0.14566907610573962,
+          "force_each_N": 228.80896515130792,
+          "torque_Nm": -3.1555539323526673,
+          "potential_energy_J": 13.044887548576577,
+          "energy_torque_residual_Nm": -4.19881018842716e-10
+        },
+        {
+          "q_rad": 0.8399999999999999,
+          "length_m": 0.14573621449882024,
+          "force_each_N": 229.04188226628077,
+          "torque_Nm": -2.9922225391643327,
+          "potential_energy_J": 13.075626918742794,
+          "energy_torque_residual_Nm": 5.242453582354756e-9
+        },
+        {
+          "q_rad": 0.8500000000000001,
+          "length_m": 0.14579971640484274,
+          "force_each_N": 229.26218364776116,
+          "torque_Nm": -2.82832148000659,
+          "potential_energy_J": 13.104730100466197,
+          "energy_torque_residual_Nm": -2.5405562098512746e-9
+        },
+        {
+          "q_rad": 0.8599999999999999,
+          "length_m": 0.14585958022723675,
+          "force_each_N": 229.46986375691296,
+          "torque_Nm": -2.663882203522764,
+          "potential_energy_J": 13.13219155427847,
+          "energy_torque_residual_Nm": 3.742780307902649e-9
+        },
+        {
+          "q_rad": 0.8700000000000001,
+          "length_m": 0.1459158044609154,
+          "force_each_N": 229.66491737227523,
+          "torque_Nm": -2.498936218745195,
+          "potential_energy_J": 13.158006055502675,
+          "energy_torque_residual_Nm": 9.692335822819587e-11
+        },
+        {
+          "q_rad": 0.8799999999999999,
+          "length_m": 0.14596838769231055,
+          "force_each_N": 229.84733958988477,
+          "torque_Nm": -2.3335150915565155,
+          "potential_energy_J": 13.182168694839422,
+          "energy_torque_residual_Nm": 3.3756659689743174e-9
+        },
+        {
+          "q_rad": 0.8899999999999999,
+          "length_m": 0.14601732859940564,
+          "force_each_N": 230.01712582338985,
+          "torque_Nm": -2.167650441145067,
+          "potential_energy_J": 13.204674878917547,
+          "energy_torque_residual_Nm": -5.109338729880619e-9
+        },
+        {
+          "q_rad": 0.8999999999999999,
+          "length_m": 0.14606262595176708,
+          "force_each_N": 230.17427180415922,
+          "torque_Nm": -2.001373936455014,
+          "potential_energy_J": 13.225520330809587,
+          "energy_torque_residual_Nm": -5.435261130060098e-10
+        },
+        {
+          "q_rad": 0.9099999999999999,
+          "length_m": 0.14610427861057285,
+          "force_each_N": 230.31877358138132,
+          "torque_Nm": -1.834717292631332,
+          "potential_energy_J": 13.244701090511459,
+          "energy_torque_residual_Nm": 6.344997416363185e-9
+        },
+        {
+          "q_rad": 0.9200000000000002,
+          "length_m": 0.14614228552863925,
+          "force_each_N": 230.45062752215716,
+          "torque_Nm": -1.667712267460189,
+          "potential_energy_J": 13.262213515386708,
+          "energy_torque_residual_Nm": 8.372211368623539e-9
+        },
+        {
+          "q_rad": 0.9299999999999999,
+          "length_m": 0.14617664575044553,
+          "force_each_N": 230.56983031158546,
+          "torque_Nm": -1.500390657804946,
+          "potential_energy_J": 13.278054280575109,
+          "energy_torque_residual_Nm": 3.6858232022041193e-9
+        },
+        {
+          "q_rad": 0.94,
+          "length_m": 0.14620735841215615,
+          "force_each_N": 230.6763789528403,
+          "torque_Nm": -1.3327842960382608,
+          "potential_energy_J": 13.292220379365553,
+          "energy_torque_residual_Nm": 2.213429439734682e-10
+        },
+        {
+          "q_rad": 0.95,
+          "length_m": 0.14623442274164125,
+          "force_each_N": 230.7702707672418,
+          "torque_Nm": -1.164925046470504,
+          "potential_energy_J": 13.304709123533371,
+          "energy_torque_residual_Nm": 4.174633971842923e-9
+        }
+      ]
+    },
+    {
+      "joint": 3,
+      "anchors": {
+        "parent_m": [
+          -0.03,
+          -0.09,
+          -0.055
+        ],
+        "child_m": [
+          0,
+          -0.045,
+          -0.055
+        ]
+      },
+      "max_potential_gradient_residual_Nm": 2.7469191365980805e-9,
+      "passes_conservative_force_check": true,
+      "reference_torque_Nm": -6.000000000000001,
+      "reference_target_magnitude_Nm": 6,
+      "reference_calibration_error_Nm": 8.881784197001252e-16,
+      "passes_reference_calibration": true,
+      "force_peak_each_N": 88.17746887670657,
+      "min_length_m": 0.06416498353783967,
+      "max_length_m": 0.10325617633461567,
+      "max_coil_body_shear_MPa": 679.2124927616159,
+      "spring_index": 8.333333333333334,
+      "qualification": "Calculated wire-body stress only; no assumed yield/fatigue acceptance, hook strength or supplier material qualification.",
+      "samples": [
+        {
+          "q_rad": 0.95,
+          "length_m": 0.06416498353783967,
+          "force_each_N": 33.600477740727726,
+          "torque_Nm": -2.6277770517742707,
+          "potential_energy_J": 0.13894501398474693,
+          "energy_torque_residual_Nm": -8.234435355802816e-11
+        },
+        {
+          "q_rad": 0.9574999999999999,
+          "length_m": 0.0644590951801055,
+          "force_each_N": 34.011100373206055,
+          "torque_Nm": -2.6750156265089733,
+          "potential_energy_J": 0.15883036626002003,
+          "energy_torque_residual_Nm": -3.4829161776883666e-10
+        },
+        {
+          "q_rad": 0.965,
+          "length_m": 0.06475485485708476,
+          "force_each_N": 34.4240239018585,
+          "torque_Nm": -2.72244145225637,
+          "potential_energy_J": 0.17907071650964937,
+          "energy_torque_residual_Nm": -5.157652083198627e-11
+        },
+        {
+          "q_rad": 0.9724999999999999,
+          "length_m": 0.06505222356790297,
+          "force_each_N": 34.83919387579137,
+          "torque_Nm": -2.77004417570076,
+          "potential_energy_J": 0.19966743028730952,
+          "energy_torque_residual_Nm": -2.74392952803737e-10
+        },
+        {
+          "q_rad": 0.98,
+          "length_m": 0.06535116273537386,
+          "force_each_N": 35.256556435641464,
+          "torque_Nm": -2.817813453066718,
+          "potential_energy_J": 0.22062179552865704,
+          "energy_torque_residual_Nm": -5.924909451948679e-10
+        },
+        {
+          "q_rad": 0.9874999999999999,
+          "length_m": 0.06565163420667704,
+          "force_each_N": 35.676058314521974,
+          "torque_Nm": -2.8657389562327658,
+          "potential_energy_J": 0.24193502264601985,
+          "energy_torque_residual_Nm": 3.2063285360095506e-10
+        },
+        {
+          "q_rad": 0.995,
+          "length_m": 0.06595360025365107,
+          "force_each_N": 36.097646838431835,
+          "torque_Nm": -2.913810378533556,
+          "potential_energy_J": 0.26360824466773736,
+          "energy_torque_residual_Nm": -2.480251559688895e-10
+        },
+        {
+          "q_rad": 1.0025,
+          "length_m": 0.06625702357272363,
+          "force_each_N": 36.521269926158084,
+          "torque_Nm": -2.962017440259425,
+          "potential_energy_J": 0.285642517419903,
+          "energy_torque_residual_Nm": -1.3150724953447934e-10
+        },
+        {
+          "q_rad": 1.01,
+          "length_m": 0.06656186728449766,
+          "force_each_N": 36.946876088698154,
+          "torque_Nm": -3.0103498938622084,
+          "potential_energy_J": 0.308038819748228,
+          "energy_torque_residual_Nm": 3.6023317662170484e-10
+        },
+        {
+          "q_rad": 1.0175,
+          "length_m": 0.06686809493301343,
+          "force_each_N": 37.3744144282296,
+          "torque_Nm": -3.058797528876393,
+          "potential_energy_J": 0.33079805377788457,
+          "energy_torque_residual_Nm": -8.315970134731288e-11
+        },
+        {
+          "q_rad": 1.025,
+          "length_m": 0.06717567048470491,
+          "force_each_N": 37.803834636652965,
+          "torque_Nm": -3.1073501765647262,
+          "potential_energy_J": 0.3539210452092149,
+          "energy_torque_residual_Nm": -3.587041774721911e-11
+        },
+        {
+          "q_rad": 1.0325,
+          "length_m": 0.06748455832706848,
+          "force_each_N": 38.23508699373322,
+          "torque_Nm": -3.155997714297444,
+          "potential_energy_J": 0.3774085436472779,
+          "energy_torque_residual_Nm": -3.812741233844008e-10
+        },
+        {
+          "q_rad": 1.04,
+          "length_m": 0.06779472326706172,
+          "force_each_N": 38.668122364864146,
+          "torque_Nm": -3.204730069674277,
+          "potential_energy_J": 0.40126122296327466,
+          "energy_torque_residual_Nm": -1.0509588754814558e-9
+        },
+        {
+          "q_rad": 1.0474999999999999,
+          "length_m": 0.06810613052924867,
+          "force_each_N": 39.1028921984789,
+          "torque_Nm": -3.253537224398371,
+          "potential_energy_J": 0.4254796816859469,
+          "energy_torque_residual_Nm": -5.132654301576167e-10
+        },
+        {
+          "q_rad": 1.055,
+          "length_m": 0.0684187457537081,
+          "force_each_N": 39.53934852312963,
+          "torque_Nm": -3.3024092179111966,
+          "potential_energy_J": 0.4500644434211247,
+          "energy_torque_residual_Nm": -1.8535306622879943e-10
+        },
+        {
+          "q_rad": 1.0625,
+          "length_m": 0.06873253499372045,
+          "force_each_N": 39.977443944258155,
+          "torque_Nm": -3.3513361507974517,
+          "potential_energy_J": 0.47501595729768625,
+          "energy_torque_residual_Nm": -2.88586043950545e-10
+        },
+        {
+          "q_rad": 1.07,
+          "length_m": 0.06904746471324803,
+          "force_each_N": 40.417131640677866,
+          "torque_Nm": -3.400308187968832,
+          "potential_energy_J": 0.5003345984381892,
+          "energy_torque_residual_Nm": 4.371440986972175e-10
+        },
+        {
+          "q_rad": 1.0775,
+          "length_m": 0.06936350178422358,
+          "force_each_N": 40.858365360788234,
+          "torque_Nm": -3.449315561635492,
+          "potential_energy_J": 0.5260206684526145,
+          "energy_torque_residual_Nm": 7.072444851985438e-10
+        },
+        {
+          "q_rad": 1.085,
+          "length_m": 0.06968061348366027,
+          "force_each_N": 41.30109941853995,
+          "torque_Nm": -3.498348574073768,
+          "potential_energy_J": 0.5520743959535958,
+          "energy_torque_residual_Nm": 3.092459621711896e-11
+        },
+        {
+          "q_rad": 1.0925,
+          "length_m": 0.06999876749059697,
+          "force_each_N": 41.745288689170046,
+          "torque_Nm": -3.5473976001986744,
+          "potential_energy_J": 0.5784959370916841,
+          "energy_torque_residual_Nm": 3.5754910143737106e-10
+        },
+        {
+          "q_rad": 1.1,
+          "length_m": 0.07031793188289136,
+          "force_each_N": 42.19088860472462,
+          "torque_Nm": -3.596453089949507,
+          "potential_energy_J": 0.6052853761092041,
+          "energy_torque_residual_Nm": -1.1661933640993993e-9
+        },
+        {
+          "q_rad": 1.1075,
+          "length_m": 0.07063807513387273,
+          "force_each_N": 42.63785514938566,
+          "torque_Nm": -3.6455055704966286,
+          "potential_energy_J": 0.6324427259113105,
+          "energy_torque_residual_Nm": 2.9824143155110505e-11
+        },
+        {
+          "q_rad": 1.115,
+          "length_m": 0.07095916610886663,
+          "force_each_N": 43.086144854618965,
+          "torque_Nm": -3.6945456482774603,
+          "potential_energy_J": 0.6599679286529735,
+          "energy_torque_residual_Nm": -3.01221270149199e-11
+        },
+        {
+          "q_rad": 1.1225,
+          "length_m": 0.07128117406160185,
+          "force_each_N": 43.535714794157734,
+          "torque_Nm": -3.743564010869323,
+          "potential_energy_J": 0.687860856340594,
+          "energy_torque_residual_Nm": 8.022871256230246e-11
+        },
+        {
+          "q_rad": 1.13,
+          "length_m": 0.07160406863051076,
+          "force_each_N": 43.986522578837324,
+          "torque_Nm": -3.7925514287067807,
+          "potential_energy_J": 0.7161213114470906,
+          "energy_torque_residual_Nm": -7.933653733971369e-11
+        },
+        {
+          "q_rad": 1.1375,
+          "length_m": 0.07192781983493289,
+          "force_each_N": 44.4385263512949,
+          "torque_Nm": -3.841498756650744,
+          "potential_energy_J": 0.7447490275393065,
+          "energy_torque_residual_Nm": -6.653597672823253e-10
+        },
+        {
+          "q_rad": 1.145,
+          "length_m": 0.0722523980712313,
+          "force_each_N": 44.891684780547294,
+          "torque_Nm": -3.890396935416481,
+          "potential_energy_J": 0.7737436699166438,
+          "energy_torque_residual_Nm": -4.2521186571775615e-10
+        },
+        {
+          "q_rad": 1.1525,
+          "length_m": 0.07257777410883096,
+          "force_each_N": 45.34595705646007,
+          "torque_Nm": -3.939236992867454,
+          "potential_energy_J": 0.8031048362599067,
+          "energy_torque_residual_Nm": -5.999511998311391e-10
+        },
+        {
+          "q_rad": 1.16,
+          "length_m": 0.07290391908618778,
+          "force_each_N": 45.80130288411963,
+          "torque_Nm": -3.988010045181651,
+          "potential_energy_J": 0.8328320572893635,
+          "energy_torque_residual_Nm": -3.7300784683225174e-10
+        },
+        {
+          "q_rad": 1.1675,
+          "length_m": 0.07323080450669653,
+          "force_each_N": 46.2576824781201,
+          "torque_Nm": -4.036707297896902,
+          "potential_energy_J": 0.8629247974311082,
+          "energy_torque_residual_Nm": 3.636539958051799e-10
+        },
+        {
+          "q_rad": 1.175,
+          "length_m": 0.0735584022345451,
+          "force_each_N": 46.7150565567753,
+          "torque_Nm": -4.085320046841389,
+          "potential_energy_J": 0.8933824554907981,
+          "energy_torque_residual_Nm": -1.4301804185379297e-10
+        },
+        {
+          "q_rad": 1.1825,
+          "length_m": 0.07388668449052323,
+          "force_each_N": 47.17338633626709,
+          "torque_Nm": -4.133839678955468,
+          "potential_energy_J": 0.9242043653339996,
+          "energy_torque_residual_Nm": -1.7215597836184315e-9
+        },
+        {
+          "q_rad": 1.19,
+          "length_m": 0.07421562384779187,
+          "force_each_N": 47.632633524738814,
+          "torque_Nm": -4.182257673010517,
+          "potential_energy_J": 0.9553897965722773,
+          "energy_torque_residual_Nm": 1.6929480040062117e-10
+        },
+        {
+          "q_rad": 1.1975,
+          "length_m": 0.07454519322762035,
+          "force_each_N": 48.09276031634371,
+          "torque_Nm": -4.23056560023051,
+          "potential_energy_J": 0.9869379552543196,
+          "energy_torque_residual_Nm": -1.5020349408700895e-9
+        },
+        {
+          "q_rad": 1.205,
+          "length_m": 0.07487536589509726,
+          "force_each_N": 48.553729385256744,
+          "torque_Nm": -4.278755124821619,
+          "potential_energy_J": 1.0188479845613767,
+          "energy_torque_residual_Nm": 1.6514700718062159e-10
+        },
+        {
+          "q_rad": 1.2125,
+          "length_m": 0.07520611545482103,
+          "force_each_N": 49.015503879658,
+          "torque_Nm": -4.326818004415117,
+          "potential_energy_J": 1.0511189655063333,
+          "energy_torque_residual_Nm": -1.9625989722271697e-10
+        },
+        {
+          "q_rad": 1.22,
+          "length_m": 0.0755374158465759,
+          "force_each_N": 49.478047415695684,
+          "torque_Nm": -4.374746090428491,
+          "potential_energy_J": 1.0837499176358125,
+          "energy_torque_residual_Nm": -1.486430534214378e-9
+        },
+        {
+          "q_rad": 1.2275,
+          "length_m": 0.07586924134099808,
+          "force_each_N": 49.94132407143551,
+          "torque_Nm": -4.422531328349559,
+          "potential_energy_J": 1.116739799734672,
+          "energy_torque_residual_Nm": 2.4553692412609962e-11
+        },
+        {
+          "q_rad": 1.2349999999999999,
+          "length_m": 0.07620156653523748,
+          "force_each_N": 50.405298380803785,
+          "torque_Nm": -4.470165757948199,
+          "potential_energy_J": 1.1500875105323798,
+          "energy_torque_residual_Nm": -7.282752179094132e-10
+        },
+        {
+          "q_rad": 1.2425000000000002,
+          "length_m": 0.0765343663486192,
+          "force_each_N": 50.86993532753024,
+          "torque_Nm": -4.51764151342003,
+          "potential_energy_J": 1.1837918894107031,
+          "energy_torque_residual_Nm": 2.3715873709306834e-10
+        },
+        {
+          "q_rad": 1.25,
+          "length_m": 0.0768676160183093,
+          "force_each_N": 51.33520033909685,
+          "torque_Nm": -4.5649508234662814,
+          "potential_energy_J": 1.217851717112239,
+          "energy_torque_residual_Nm": -3.39147376848814e-10
+        },
+        {
+          "q_rad": 1.2575,
+          "length_m": 0.07720129109498895,
+          "force_each_N": 51.801059280698254,
+          "torque_Nm": -4.612086011313847,
+          "potential_energy_J": 1.2522657164493267,
+          "energy_torque_residual_Nm": -3.227906830716165e-10
+        },
+        {
+          "q_rad": 1.2650000000000001,
+          "length_m": 0.07753536743854032,
+          "force_each_N": 52.26747844921867,
+          "torque_Nm": -4.659039494679339,
+          "potential_energy_J": 1.287032553012875,
+          "energy_torque_residual_Nm": -3.646629664899592e-10
+        },
+        {
+          "q_rad": 1.2725,
+          "length_m": 0.07786982121374832,
+          "force_each_N": 52.734424567230874,
+          "torque_Nm": -4.705803785680853,
+          "potential_energy_J": 1.3221508358807503,
+          "energy_torque_residual_Nm": -2.6000535058301466e-10
+        },
+        {
+          "q_rad": 1.28,
+          "length_m": 0.0782046288860209,
+          "force_each_N": 53.20186477702118,
+          "torque_Nm": -4.7523714907008925,
+          "potential_energy_J": 1.3576191183252937,
+          "energy_torque_residual_Nm": 3.0049118748820547e-10
+        },
+        {
+          "q_rad": 1.2875,
+          "length_m": 0.07853976721713132,
+          "force_each_N": 53.66976663464496,
+          "torque_Nm": -4.798735310203791,
+          "potential_energy_J": 1.3934358985196484,
+          "energy_torque_residual_Nm": -6.402514074466126e-10
+        },
+        {
+          "q_rad": 1.295,
+          "length_m": 0.07887521326098514,
+          "force_each_N": 54.138098104016706,
+          "torque_Nm": -4.844888038510824,
+          "potential_energy_J": 1.4295996202425592,
+          "energy_torque_residual_Nm": 1.3564260825660313e-10
+        },
+        {
+          "q_rad": 1.3025,
+          "length_m": 0.07921094435941432,
+          "force_each_N": 54.60682755103817,
+          "torque_Nm": -4.890822563536007,
+          "potential_energy_J": 1.4661086735813313,
+          "energy_torque_residual_Nm": -1.1492975460214438e-9
+        },
+        {
+          "q_rad": 1.31,
+          "length_m": 0.07954693813800122,
+          "force_each_N": 55.07592373776782,
+          "torque_Nm": -4.936531866485441,
+          "potential_energy_J": 1.5029613956326637,
+          "energy_torque_residual_Nm": -9.78420011676917e-10
+        },
+        {
+          "q_rad": 1.3175,
+          "length_m": 0.07988317250193443,
+          "force_each_N": 55.54535581663515,
+          "torque_Nm": -4.982009021522986,
+          "potential_energy_J": 1.5401560712011162,
+          "energy_torque_residual_Nm": 2.5009327941916126e-11
+        },
+        {
+          "q_rad": 1.325,
+          "length_m": 0.08021962563189868,
+          "force_each_N": 56.01509332470233,
+          "torque_Nm": -5.0272471954047715,
+          "potential_energy_J": 1.5776909334949365,
+          "energy_torque_residual_Nm": -1.4264811554198786e-9
+        },
+        {
+          "q_rad": 1.3325,
+          "length_m": 0.0805562759800005,
+          "force_each_N": 56.48510617797582,
+          "torque_Nm": -5.072239647085082,
+          "potential_energy_J": 1.615564164819037,
+          "energy_torque_residual_Nm": 1.0075673628762161e-10
+        },
+        {
+          "q_rad": 1.3399999999999999,
+          "length_m": 0.08089310226573163,
+          "force_each_N": 56.95536466577077,
+          "torque_Nm": -5.116979727295885,
+          "potential_energy_J": 1.653773897264927,
+          "energy_torque_residual_Nm": -1.1351204420861905e-9
+        },
+        {
+          "q_rad": 1.3475000000000001,
+          "length_m": 0.08123008347197154,
+          "force_each_N": 57.425839445129874,
+          "torque_Nm": -5.1614608781022495,
+          "potential_energy_J": 1.6923182133973924,
+          "energy_torque_residual_Nm": -6.236531291392566e-10
+        },
+        {
+          "q_rad": 1.355,
+          "length_m": 0.08156719884103045,
+          "force_each_N": 57.89650153529888,
+          "torque_Nm": -5.205676632435727,
+          "potential_energy_J": 1.7311951469377465,
+          "energy_torque_residual_Nm": -8.990230782046638e-10
+        },
+        {
+          "q_rad": 1.3625,
+          "length_m": 0.08190442787073442,
+          "force_each_N": 58.36732231226085,
+          "torque_Nm": -5.2496206136076795,
+          "potential_energy_J": 1.7704026834435322,
+          "energy_torque_residual_Nm": -7.283107450462012e-10
+        },
+        {
+          "q_rad": 1.37,
+          "length_m": 0.08224175031055335,
+          "force_each_N": 58.83827350333024,
+          "torque_Nm": -5.293286534804409,
+          "potential_energy_J": 1.8099387609844793,
+          "energy_torque_residual_Nm": -1.9340973267389927e-9
+        },
+        {
+          "q_rad": 1.3775,
+          "length_m": 0.082579146157773,
+          "force_each_N": 59.309327181808456,
+          "torque_Nm": -5.336668198565873,
+          "potential_energy_J": 1.84980127081461,
+          "energy_torque_residual_Nm": -9.905942732757467e-10
+        },
+        {
+          "q_rad": 1.385,
+          "length_m": 0.08291659565371229,
+          "force_each_N": 59.780455761702754,
+          "torque_Nm": -5.379759496249645,
+          "potential_energy_J": 1.8899880580404178,
+          "energy_torque_residual_Nm": -2.2543718003475988e-9
+        },
+        {
+          "q_rad": 1.3925,
+          "length_m": 0.08325407927998603,
+          "force_each_N": 60.25163199250836,
+          "torque_Nm": -5.422554407481678,
+          "potential_energy_J": 1.9304969222849166,
+          "energy_torque_residual_Nm": -2.0666224287424484e-10
+        },
+        {
+          "q_rad": 1.4,
+          "length_m": 0.08359157775481456,
+          "force_each_N": 60.72282895405623,
+          "torque_Nm": -5.465046999595362,
+          "potential_energy_J": 1.9713256183475858,
+          "energy_torque_residual_Nm": -2.0870416506113543e-10
+        },
+        {
+          "q_rad": 1.4075,
+          "length_m": 0.08392907202938014,
+          "force_each_N": 61.194020051426094,
+          "torque_Nm": -5.5072314270602725,
+          "potential_energy_J": 2.012471856860013,
+          "energy_torque_residual_Nm": -6.110063566211466e-10
+        },
+        {
+          "q_rad": 1.415,
+          "length_m": 0.0842665432842314,
+          "force_each_N": 61.665179009926426,
+          "torque_Nm": -5.549101930901898,
+          "potential_energy_J": 2.053933304937268,
+          "energy_torque_residual_Nm": 3.8842529193061637e-10
+        },
+        {
+          "q_rad": 1.4225,
+          "length_m": 0.0846039729257355,
+          "force_each_N": 62.13627987014128,
+          "torque_Nm": -5.590652838113609,
+          "potential_energy_J": 2.095707586824854,
+          "energy_torque_residual_Nm": 3.361186884376366e-10
+        },
+        {
+          "q_rad": 1.4300000000000002,
+          "length_m": 0.08494134258257904,
+          "force_each_N": 62.60729698304495,
+          "torque_Nm": -5.63187856106198,
+          "potential_energy_J": 2.1377922845412494,
+          "energy_torque_residual_Nm": 1.3334622295246845e-9
+        },
+        {
+          "q_rad": 1.4375,
+          "length_m": 0.08527863410231755,
+          "force_each_N": 63.07820500518459,
+          "torque_Nm": -5.67277359688659,
+          "potential_energy_J": 2.180184938515956,
+          "energy_torque_residual_Nm": -2.1235457836610294e-11
+        },
+        {
+          "q_rad": 1.445,
+          "length_m": 0.08561582954797403,
+          "force_each_N": 63.54897889393132,
+          "torque_Nm": -5.713332526895296,
+          "potential_energy_J": 2.222883048223044,
+          "energy_torque_residual_Nm": -3.76116915390412e-11
+        },
+        {
+          "q_rad": 1.4525000000000001,
+          "length_m": 0.08595291119468633,
+          "force_each_N": 64.01959390279939,
+          "torque_Nm": -5.753550015955893,
+          "potential_energy_J": 2.2658840728101035,
+          "energy_torque_residual_Nm": 4.6263615161024063e-10
+        },
+        {
+          "q_rad": 1.46,
+          "length_m": 0.08628986152640411,
+          "force_each_N": 64.49002557683475,
+          "torque_Nm": -5.7934208118851345,
+          "potential_energy_J": 2.3091854317226925,
+          "energy_torque_residual_Nm": 8.740386192584992e-11
+        },
+        {
+          "q_rad": 1.4675,
+          "length_m": 0.08662666323263457,
+          "force_each_N": 64.96024974807156,
+          "torque_Nm": -5.832939744835831,
+          "potential_energy_J": 2.3527845053241236,
+          "energy_torque_residual_Nm": -5.145226467107022e-10
+        },
+        {
+          "q_rad": 1.475,
+          "length_m": 0.08696329920523772,
+          "force_each_N": 65.43024253105794,
+          "torque_Nm": -5.8721017266829,
+          "potential_energy_J": 2.396678635510712,
+          "energy_torque_residual_Nm": -9.260938682587039e-10
+        },
+        {
+          "q_rad": 1.4825,
+          "length_m": 0.08729975253527036,
+          "force_each_N": 65.89998031844969,
+          "torque_Nm": -5.910901750408986,
+          "potential_energy_J": 2.4408651263223575,
+          "energy_torque_residual_Nm": -5.696598748272663e-10
+        },
+        {
+          "q_rad": 1.4900000000000002,
+          "length_m": 0.08763600650987943,
+          "force_each_N": 66.36943977667299,
+          "torque_Nm": -5.949334889490417,
+          "potential_energy_J": 2.4853412445485796,
+          "energy_torque_residual_Nm": 7.968443682671023e-10
+        },
+        {
+          "q_rad": 1.4975,
+          "length_m": 0.08797204460924371,
+          "force_each_N": 66.83859784165452,
+          "torque_Nm": -5.987396297284017,
+          "potential_energy_J": 2.5301042203298874,
+          "energy_torque_residual_Nm": -7.477991559312613e-10
+        },
+        {
+          "q_rad": 1.505,
+          "length_m": 0.08830785050356459,
+          "force_each_N": 67.30743171462018,
+          "torque_Nm": -6.025081206415453,
+          "potential_energy_J": 2.575151247754627,
+          "energy_torque_residual_Nm": -1.9897861136541906e-11
+        },
+        {
+          "q_rad": 1.5125000000000002,
+          "length_m": 0.08864340805010465,
+          "force_each_N": 67.7759188579605,
+          "torque_Nm": -6.062384928169516,
+          "potential_energy_J": 2.620479485451173,
+          "energy_torque_residual_Nm": -3.2879121647511056e-10
+        },
+        {
+          "q_rad": 1.52,
+          "length_m": 0.08897870129027471,
+          "force_each_N": 68.24403699116377,
+          "torque_Nm": -6.099302851882958,
+          "potential_energy_J": 2.6660860571756153,
+          "energy_torque_residual_Nm": -4.3518344483572946e-10
+        },
+        {
+          "q_rad": 1.5275,
+          "length_m": 0.08931371444676843,
+          "force_each_N": 68.71176408681539,
+          "torque_Nm": -6.135830444340254,
+          "potential_energy_J": 2.711968052394875,
+          "energy_torque_residual_Nm": 7.240181787437905e-10
+        },
+        {
+          "q_rad": 1.5350000000000001,
+          "length_m": 0.08964843192074426,
+          "force_each_N": 69.17907836666369,
+          "torque_Nm": -6.171963249172712,
+          "potential_energy_J": 2.758122526865302,
+          "energy_torque_residual_Nm": -1.1365619556613638e-9
+        },
+        {
+          "q_rad": 1.5425,
+          "length_m": 0.0899828382890546,
+          "force_each_N": 69.6459582977512,
+          "torque_Nm": -6.207696886261324,
+          "potential_energy_J": 2.804546503206798,
+          "energy_torque_residual_Nm": -6.207230285326659e-10
+        },
+        {
+          "q_rad": 1.55,
+          "length_m": 0.09031691830152137,
+          "force_each_N": 70.1123825886112,
+          "torque_Nm": -6.243027051143719,
+          "potential_energy_J": 2.8512369714724506,
+          "energy_torque_residual_Nm": -1.5975620826225168e-9
+        },
+        {
+          "q_rad": 1.5575,
+          "length_m": 0.09065065687825798,
+          "force_each_N": 70.57833018552847,
+          "torque_Nm": -6.277949514425475,
+          "potential_energy_J": 2.8981908897137503,
+          "energy_torque_residual_Nm": 1.3728227443721153e-9
+        },
+        {
+          "q_rad": 1.565,
+          "length_m": 0.09098403910703678,
+          "force_each_N": 71.04378026886424,
+          "torque_Nm": -6.3124601211961435,
+          "potential_energy_J": 2.9454051845413938,
+          "energy_torque_residual_Nm": -1.6897745425126232e-9
+        },
+        {
+          "q_rad": 1.5725000000000002,
+          "length_m": 0.09131705024070248,
+          "force_each_N": 71.50871224944464,
+          "torque_Nm": -6.346554790450233,
+          "potential_energy_J": 2.992876751681787,
+          "energy_torque_residual_Nm": -9.676934809021986e-10
+        },
+        {
+          "q_rad": 1.58,
+          "length_m": 0.09164967569462942,
+          "force_each_N": 71.97310576501084,
+          "torque_Nm": -6.380229514513296,
+          "potential_energy_J": 3.040602456529108,
+          "energy_torque_residual_Nm": 6.438583000090148e-10
+        },
+        {
+          "q_rad": 1.5875,
+          "length_m": 0.09198190104422418,
+          "force_each_N": 72.43694067673235,
+          "torque_Nm": -6.413480358473484,
+          "potential_energy_J": 3.0885791346932114,
+          "energy_torque_residual_Nm": -2.568873114228154e-9
+        },
+        {
+          "q_rad": 1.595,
+          "length_m": 0.09231371202247138,
+          "force_each_N": 72.90019706578045,
+          "torque_Nm": -6.446303459618606,
+          "potential_energy_J": 3.136803592543202,
+          "energy_torque_residual_Nm": -1.4554846217151862e-10
+        },
+        {
+          "q_rad": 1.6025,
+          "length_m": 0.09264509451752316,
+          "force_each_N": 73.36285522996292,
+          "torque_Nm": -6.478695026878958,
+          "potential_energy_J": 3.185272607746855,
+          "energy_torque_residual_Nm": -1.3098766515895477e-9
+        },
+        {
+          "q_rad": 1.61,
+          "length_m": 0.09297603457033132,
+          "force_each_N": 73.82489568041808,
+          "torque_Nm": -6.510651340275997,
+          "potential_energy_J": 3.233982929805851,
+          "energy_torque_residual_Nm": -6.675104913256291e-10
+        },
+        {
+          "q_rad": 1.6175000000000002,
+          "length_m": 0.09330651837232184,
+          "force_each_N": 74.28629913836804,
+          "torque_Nm": -6.542168750377031,
+          "potential_energy_J": 3.282931280586922,
+          "energy_torque_residual_Nm": -9.7541974497517e-10
+        },
+        {
+          "q_rad": 1.625,
+          "length_m": 0.09363653226311107,
+          "force_each_N": 74.74704653193028,
+          "torque_Nm": -6.573243677756014,
+          "potential_energy_J": 3.332114354848913,
+          "energy_torque_residual_Nm": 4.979456846854191e-10
+        },
+        {
+          "q_rad": 1.6324999999999998,
+          "length_m": 0.09396606272826313,
+          "force_each_N": 75.20711899298658,
+          "torque_Nm": -6.603872612460528,
+          "potential_energy_J": 3.381528820765828,
+          "energy_torque_residual_Nm": -3.729141440089734e-10
+        },
+        {
+          "q_rad": 1.6400000000000001,
+          "length_m": 0.09429509639708808,
+          "force_each_N": 75.66649785410894,
+          "torque_Nm": -6.634052113485039,
+          "potential_energy_J": 3.4311713204459173,
+          "energy_torque_residual_Nm": -2.053395675716274e-9
+        },
+        {
+          "q_rad": 1.6475,
+          "length_m": 0.09462362004047986,
+          "force_each_N": 76.12516464554109,
+          "torque_Nm": -6.663778808250478,
+          "potential_energy_J": 3.481038470446798,
+          "energy_torque_residual_Nm": 6.300293620142838e-11
+        },
+        {
+          "q_rad": 1.655,
+          "length_m": 0.09495162056879411,
+          "force_each_N": 76.58310109223554,
+          "torque_Nm": -6.693049392090197,
+          "potential_energy_J": 3.5311268622867416,
+          "energy_torque_residual_Nm": -4.862190650101184e-10
+        },
+        {
+          "q_rad": 1.6625,
+          "length_m": 0.09527908502976475,
+          "force_each_N": 77.04028911094487,
+          "torque_Nm": -6.721860627742338,
+          "potential_energy_J": 3.5814330629521076,
+          "energy_torque_residual_Nm": -2.7393198820391262e-9
+        },
+        {
+          "q_rad": 1.67,
+          "length_m": 0.09560600060645887,
+          "force_each_N": 77.49671080736647,
+          "torque_Nm": -6.750209344848614,
+          "potential_energy_J": 3.6319536154009815,
+          "energy_torque_residual_Nm": -1.3618119965030928e-9
+        },
+        {
+          "q_rad": 1.6775000000000002,
+          "length_m": 0.09593235461526964,
+          "force_each_N": 77.95234847334032,
+          "torque_Nm": -6.778092439459547,
+          "potential_energy_J": 3.682685039063104,
+          "energy_torque_residual_Nm": -5.84597259489783e-10
+        },
+        {
+          "q_rad": 1.685,
+          "length_m": 0.09625813450394642,
+          "force_each_N": 78.40718458409873,
+          "torque_Nm": -6.805506873546132,
+          "potential_energy_J": 3.7336238303361102,
+          "energy_torque_residual_Nm": -8.370433235427299e-10
+        },
+        {
+          "q_rad": 1.6925,
+          "length_m": 0.09658332784966131,
+          "force_each_N": 78.86120179556701,
+          "torque_Nm": -6.832449674517932,
+          "potential_energy_J": 3.7847664630780953,
+          "energy_torque_residual_Nm": 6.246949624255649e-10
+        },
+        {
+          "q_rad": 1.7000000000000002,
+          "length_m": 0.0969079223571122,
+          "force_each_N": 79.31438294171497,
+          "torque_Nm": -6.858917934747568,
+          "potential_energy_J": 3.836109389096649,
+          "energy_torque_residual_Nm": -1.575175545553975e-9
+        },
+        {
+          "q_rad": 1.7075,
+          "length_m": 0.09723190585666096,
+          "force_each_N": 79.76671103195771,
+          "torque_Nm": -6.8849088111016306,
+          "potential_energy_J": 3.887649038634285,
+          "energy_torque_residual_Nm": 4.091953442753038e-10
+        },
+        {
+          "q_rad": 1.715,
+          "length_m": 0.09755526630250698,
+          "force_each_N": 80.21816924860542,
+          "torque_Nm": -6.910419524477871,
+          "potential_energy_J": 3.9393818208504303,
+          "energy_torque_residual_Nm": 3.525313374552752e-10
+        },
+        {
+          "q_rad": 1.7225000000000001,
+          "length_m": 0.09787799177089483,
+          "force_each_N": 80.66874094436119,
+          "torque_Nm": -6.935447359348765,
+          "potential_energy_J": 3.9913041242999303,
+          "energy_torque_residual_Nm": -9.349827578830627e-10
+        },
+        {
+          "q_rad": 1.73,
+          "length_m": 0.09820007045835592,
+          "force_each_N": 81.11840963986594,
+          "torque_Nm": -6.959989663311287,
+          "potential_energy_J": 4.043412317408167,
+          "energy_torque_residual_Nm": -4.2458481175344787e-11
+        },
+        {
+          "q_rad": 1.7375,
+          "length_m": 0.09852149067998345,
+          "force_each_N": 81.56715902129021,
+          "torque_Nm": -6.984043846642909,
+          "potential_energy_J": 4.095702748942837,
+          "energy_torque_residual_Nm": -2.842641677602842e-10
+        },
+        {
+          "q_rad": 1.745,
+          "length_m": 0.09884224086773999,
+          "force_each_N": 82.01497293797111,
+          "torque_Nm": -7.007607381863729,
+          "potential_energy_J": 4.148171748482385,
+          "energy_torque_residual_Nm": 1.3943894927592737e-9
+        },
+        {
+          "q_rad": 1.7525,
+          "length_m": 0.09916230956879744,
+          "force_each_N": 82.46183540009474,
+          "torque_Nm": -7.030677803304675,
+          "potential_energy_J": 4.200815626881226,
+          "energy_torque_residual_Nm": -6.938787322496864e-10
+        },
+        {
+          "q_rad": 1.7600000000000002,
+          "length_m": 0.09948168544390852,
+          "force_each_N": 82.90773057642255,
+          "torque_Nm": -7.053252706681735,
+          "potential_energy_J": 4.2536306767317145,
+          "energy_torque_residual_Nm": -7.908793620003962e-10
+        },
+        {
+          "q_rad": 1.7675,
+          "length_m": 0.0998003572658093,
+          "force_each_N": 83.35264279206103,
+          "torque_Nm": -7.075329748676091,
+          "potential_energy_J": 4.306613172822953,
+          "energy_torque_residual_Nm": 5.193561136707103e-10
+        },
+        {
+          "q_rad": 1.775,
+          "length_m": 0.1001183139176524,
+          "force_each_N": 83.79655652627427,
+          "torque_Nm": -7.096906646520134,
+          "potential_energy_J": 4.359759372596466,
+          "energy_torque_residual_Nm": -1.499083523981426e-9
+        },
+        {
+          "q_rad": 1.7825000000000002,
+          "length_m": 0.10043554439147041,
+          "force_each_N": 84.23945641033859,
+          "torque_Nm": -7.11798117758925,
+          "potential_energy_J": 4.413065516598838,
+          "energy_torque_residual_Nm": 2.1734791744165705e-10
+        },
+        {
+          "q_rad": 1.79,
+          "length_m": 0.10075203778666829,
+          "force_each_N": 84.68132722543777,
+          "torque_Nm": -7.1385511789992755,
+          "potential_energy_J": 4.46652782893121,
+          "energy_torque_residual_Nm": -3.78886255703037e-10
+        },
+        {
+          "q_rad": 1.7975,
+          "length_m": 0.10106778330854546,
+          "force_each_N": 85.12215390059967,
+          "torque_Nm": -7.158614547209594,
+          "potential_energy_J": 4.520142517695912,
+          "energy_torque_residual_Nm": 1.5495604799298235e-10
+        },
+        {
+          "q_rad": 1.8050000000000002,
+          "length_m": 0.10138277026684576,
+          "force_each_N": 85.56192151067174,
+          "torque_Nm": -7.1781692376317086,
+          "potential_energy_J": 4.573905775440007,
+          "energy_torque_residual_Nm": -1.7320633816098052e-9
+        },
+        {
+          "q_rad": 1.8125,
+          "length_m": 0.10169698807433575,
+          "force_each_N": 86.00061527433611,
+          "torque_Nm": -7.1972132642432705,
+          "potential_energy_J": 4.627813779596012,
+          "energy_torque_residual_Nm": -2.11382911174951e-10
+        },
+        {
+          "q_rad": 1.8200000000000003,
+          "length_m": 0.10201042624541044,
+          "force_each_N": 86.43822055216309,
+          "torque_Nm": -7.215744699207426,
+          "potential_energy_J": 4.68186269291972,
+          "energy_torque_residual_Nm": -1.898746937456508e-9
+        },
+        {
+          "q_rad": 1.8275000000000001,
+          "length_m": 0.10232307439472585,
+          "force_each_N": 86.87472284470184,
+          "torque_Nm": -7.233761672497394,
+          "potential_energy_J": 4.736048663925155,
+          "energy_torque_residual_Nm": -6.09787775829318e-10
+        },
+        {
+          "q_rad": 1.835,
+          "length_m": 0.10263492223585813,
+          "force_each_N": 87.31010779060848,
+          "torque_Nm": -7.251262371526185,
+          "potential_energy_J": 4.790367827316768,
+          "energy_torque_residual_Nm": -2.7469191365980805e-9
+        },
+        {
+          "q_rad": 1.8425000000000002,
+          "length_m": 0.10294595957998891,
+          "force_each_N": 87.74436116481056,
+          "torque_Nm": -7.268245040781382,
+          "potential_energy_J": 4.844816304418886,
+          "energy_torque_residual_Nm": -7.328555540198067e-10
+        },
+        {
+          "q_rad": 1.85,
+          "length_m": 0.10325617633461567,
+          "force_each_N": 88.17746887670657,
+          "torque_Nm": -7.284707981464825,
+          "potential_energy_J": 4.899390203602367,
+          "energy_torque_residual_Nm": -1.516090364361844e-9
+        }
+      ]
+    }
+  ],
+  "all_pass": true
+}
