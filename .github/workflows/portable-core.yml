@@ -32,6 +32,7 @@ jobs:
         run: |
           python tools/portable.py viewer-build
           python ARX-6-P5-Shader/tools/check_webgl_accessor_contract.py
+          node ARX-6-P5-Shader/tools/test_renderer_cleanup.cjs
       - name: Install browser test runtime
         working-directory: ARX-6-P5-Shader
         run: |

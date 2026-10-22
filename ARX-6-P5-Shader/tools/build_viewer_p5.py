@@ -84,23 +84,23 @@ function selectNumericShader(){
  selectedNumericTables=A.webglNumeric.variants.find(v=>v.maximum_block_bytes<=blockSize&&v.block_count<=blockCount)||null;
  return selectedNumericTables?selectedNumericTables.source:A.shader;
 }
-function uploadNumericTables(){
- numericTableBuffers=[];numericTableReadbackVerified=false;
+function uploadNumericTables(resources){
+ numericTableBuffers=resources.buffers;numericTableReadbackVerified=false;
  if(!selectedNumericTables)return;
  for(const block of selectedNumericTables.blocks){
   const index=gl.getUniformBlockIndex(program,block.name);if(index===gl.INVALID_INDEX)continue;
   const bytes=bytes64(block.base64),required=gl.getActiveUniformBlockParameter(program,index,gl.UNIFORM_BLOCK_DATA_SIZE);
   if(required!==bytes.byteLength)throw Error('Numeric table layout differs: '+block.name+' '+required+' / '+bytes.byteLength);
-  const buffer=gl.createBuffer();gl.bindBuffer(gl.UNIFORM_BUFFER,buffer);gl.bufferData(gl.UNIFORM_BUFFER,bytes,gl.STATIC_DRAW);gl.uniformBlockBinding(program,index,block.binding);gl.bindBufferBase(gl.UNIFORM_BUFFER,block.binding,buffer);
+  const buffer=gl.createBuffer();if(!buffer)throw Error('Could not allocate numeric table buffer.');resources.buffers.push(buffer);gl.bindBuffer(gl.UNIFORM_BUFFER,buffer);gl.bufferData(gl.UNIFORM_BUFFER,bytes,gl.STATIC_DRAW);gl.uniformBlockBinding(program,index,block.binding);gl.bindBufferBase(gl.UNIFORM_BUFFER,block.binding,buffer);
   const copy=new Uint8Array(bytes.length);gl.getBufferSubData(gl.UNIFORM_BUFFER,0,copy);for(let i=0;i<bytes.length;i++)if(copy[i]!==bytes[i])throw Error('Numeric table upload differs: '+block.name);
-  numericTableBuffers.push(buffer);
  }
  numericTableReadbackVerified=true;
 }
 '''
  h=replace(h,'async function compile(){',numeric_js+'\nasync function compile(){')
+ h=replace(h,'function resetRendererMetadata(){}','function resetRendererMetadata(){selectedNumericTables=null;numericTableBuffers=[];numericTableReadbackVerified=false;}')
  h=replace(h,"'+A.shader;","'+selectNumericShader();")
- h=replace(h,'program=p;gl.useProgram(program);buildCount++;','program=p;gl.useProgram(program);uploadNumericTables();buildCount++;')
+ h=replace(h,'program=p;gl.useProgram(program);buildCount++;','program=p;gl.useProgram(program);uploadNumericTables(resources);buildCount++;')
  h=replace(h,'sceneTriangles:0,sceneTextures:0,','sceneTriangles:0,sceneTextures:0,numericTables:selectedNumericTables?{blocks:numericTableBuffers.length,bytes:selectedNumericTables.table_bytes,literalTablesRemaining:selectedNumericTables.literal_tables_remaining,shaderSHA:selectedNumericTables.shader_sha256,dataSHA:selectedNumericTables.data_sha256,readbackVerified:numericTableReadbackVerified}:null,')
  h=h.replace('The unchanged P2 MuJoCo model and controller','The P5 model with rebuilt CAD mass properties and folded-drive parameters')
  h=h.replace('MuJoCo integrates the original P2 mechanics.','MuJoCo integrates the revised P5 mechanics.')
